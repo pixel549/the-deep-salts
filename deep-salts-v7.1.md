@@ -41,7 +41,21 @@ Any d20-style base: d20 + modifier vs a difficulty number. The custom systems be
 - **Called shots** on limbs with a multiplier above 1.0 → the Precision stopwatch (§10), unless a parry already opened the target (§9).
 - **Parries** and the enemy heavies that invite them → the Visceral stopwatch (§9).
 - **Insanity and Influence saves** (a "fear save" is just an Insanity roll triggered by witnessing something dreadful) → d20 vs the Save Roll formula (§5).
-- **Anything else genuinely uncertain** — stealth, forcing a door, reading something that shouldn't parse — straight d20 vs a DM-set DC, modified by whichever attribute applies. Light-touch.
+- **Anything else genuinely uncertain** — stealth, forcing a door, reading something that shouldn't parse — straight d20 vs a DM-set DC, modified by the **Attribute Modifier** table below for whichever attribute applies. Light-touch.
+
+**Attribute Modifier table** (for the generic uncertain-action clause only — does *not* apply to the Save Roll formula in §5, which has its own scaling):
+
+| Attribute score | Modifier |
+|---|---|
+| 0–1 | −3 |
+| 2–4 | −2 |
+| 5–9 | −1 |
+| 10–19 | +0 |
+| 20–39 | +1 |
+| 40–79 | +2 |
+| 80–99 | +3 |
+
+Keeps a flat, high stat (e.g. Skill 17+) from trivializing every DC in the 8–99 attribute range; investment still matters, but the d20 stays the dominant swing at every tier. Passive perks may grant additional situational bonuses on top of this table under specific conditions — those stack normally.
 
 Same logic for enemies: a basic enemy attack lands automatically unless the player contests it — parries (§9) or is out of its move range (§7). No enemy to-hit roll; defense is entirely the player's, through timing and positioning.
 
