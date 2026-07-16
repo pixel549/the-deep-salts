@@ -300,7 +300,7 @@ A staggered leg takes kiting off the table — the triangle narrows by one optio
 
 **Quick Items** (Fast Action — weak, frequent):
 - **Wrap** — clears 2 Blood Loss stacks
-- **Salts** — clears 1 Insanity tick
+- **Camphor** — clears 2 Insanity stacks (a vial of sharp resin; one hard breath and the walls stop moving — grounding, not curing). *(Renamed from "Salts," session 2 — killed the currency name-clash and defined the effect properly; Insanity is a build-only track, so items are its main downward pressure alongside Resolve 60's once-per-encounter clear.)*
 - **Tonic** — small flat heal (~10% max HP)
 - **Scour** — clears 1 Corrosion stack without costing your turn
 
@@ -492,6 +492,7 @@ Death doesn't change your Insight number — no farming it by dying, no dumping 
 The only stable thing — and even it should be slightly wrong.
 
 - **Full restoration, always.** Whatever was torn off, home fixes it (regrowth per §10 — possibly changed).
+- **Hub Kit (Session 2 ruling).** On every hub arrival, the consumable kit refills to its standard loadout, free — same logic as HP and signature-weapon ammo. Default kit: **2× Wrap, 2× Tonic, 1× Camphor, 1× Scour.** Unused items don't stack past the kit cap. Anything beyond the kit (Source-water flasks, thrown vials, cautery irons, found items) is acquired in runs or bought at the hub with White Salts — the item economy sits on top of a guaranteed floor, so a run is never lost to bad shopping.
 - **Banking.** Purse moves fully into Vault on arrival. Spend Vault White Salts on attribute levels (§4), mutation revert/reroll (§10), and other hub services.
 - Same room every visit, **one detail changed each time** — a clock never showing the same time twice, an NPC recalling a conversation you haven't had yet. Safe and faintly unnerving.
 - **The recurring antagonist:** one NPC reappearing across warped locations — always slightly different, always unhelpful or hostile, never explained. (In the starter location: the reception clerk.)
@@ -618,7 +619,7 @@ Stillwell Hydro holds ~6 salts rooms — sauna chambers where measured doses tri
 |---|---|---|
 | Blood Loss | Each new stack: +damage = new stack total. No passive drain. Cap 10 → Rupture | Bandage / cautery / pressure |
 | Rupture (triggered @ 10) | 25% Max HP damage + stagger + Blood Loss resets | Resolves once |
-| Insanity | Fail Save Roll → DM controls you 1 turn. ↑ with Insight | Time / calm / items |
+| Insanity | Fail Save Roll → DM controls you 1 turn. ↑ with Insight | Camphor (−2) / calm / Resolve 60 perk |
 | Burning | Damage/turn, spreads to flammables | Smother (action) |
 | Discombobulation (Tick, 1–3) | Bad exits, reversed move, lost reactions | −1/turn, automatic |
 | Influence | Fail Save Roll → obey/compelled effect next turn, severity scales with stacks (DM discretion), uncapped past 10. ↑ Insanity & Insight | Full source elimination (ALL active sources if multiple) |

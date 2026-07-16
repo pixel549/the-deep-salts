@@ -54,12 +54,11 @@ Standard, no mutations, no damage.
 ### Inventory
 - Metal Knuckles ×2 (equipped)
 - Powder capsules ×4/4
-- Wrap ×1 (Quick Item — clears 2 Blood Loss)
+- **Hub Kit (refills free every hub arrival, §14):** Wrap ×2 (clears 2 Blood Loss each) · Tonic ×2 (~10% max HP heal each, 11 HP) · Camphor ×1 (clears 2 Insanity) · Scour ×1 (clears 1 Corrosion, free action)
 - Charm ×1 (Action Item — Insight-gated, needs Insight 6+ — **now usable, Insight sits exactly at 6**)
 - **The Beckoner** (idol, Action Item, 2m) — point at one creature in line of sight, speak an invitation: target takes 1 Influence stack (mirrors Lloyd's own Influence rules onto them). Cost: each use puts 1 Influence stack on Lloyd, sourced from the idol itself — doesn't clear via the standard source-elimination rule while he's carrying it; only clears by dropping/Vaulting it.
 - Wooden Token (keepsake, no mechanical effect — belonged to "R.")
-- Source-water flask (clean variant) — big heal, no Influence stack (gift, unlike the standard flask)
-- (starter gear pending — hub intake)
+- Source-water flask (clean variant) — big heal, no Influence stack (gift, outside the kit — doesn't refill)
 
 ### Known Recipes
 - The Choir Deep — identified via Maud, unexplored, still unbrewed, left in his room
