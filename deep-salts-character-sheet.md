@@ -7,7 +7,7 @@
 
 **Concept:** Young, athletic fighter. Blonde, blue-eyed, weary. Self-made twin knuckledusters rigged with detonating powder capsules.
 
-**Level:** 2 · **Insight:** 4
+**Level:** 2 · **Insight:** 6 *(Tier 3 — up from 4: first sighting of a new archetype + reading substantive lore, session 2)*
 
 ### Attributes
 | VIG | END | STR | SKI | RES |
@@ -15,21 +15,23 @@
 | 8 | 10 | 4 | 17 | 3 |
 
 ### Derived Stats
-- **Max HP:** 108 (current: 88)
-- **Movement budget:** 5m
+- **Max HP:** 108 (current: 108 — full restoration at hub)
+- **Movement budget:** 8m *(base raised 5→8, session 2 movement rework — formula now 8 + ⌊End÷15⌋)*
+- **Attribute Modifier (generic uncertain-action checks only, session 2):** Skill 17 → **+0** · Strength 4 → **−2** · Resolve 3 → **−2**
 - **Insanity/Influence save mod:** ⌊Resolve÷10⌋ = +0 (Resolve 3 — still below the 10 threshold, no change yet)
 - *(Visceral charges removed as a resource — house ruling, session zero: parries gated by timing + real opening only, not a charge pool)*
+- *(Standard enemies cannot parry/visceral Lloyd as of session 2 — that loop is boss/elite-tier only)*
 
 ### Weapon — Metal Knuckles (paired)
 - Type: Quick · Stat/Grade: Skill / D · One-handed, paired
 - Base Damage: 22
 - Light = 22 + ESV×0.5 · Heavy = 44 + ESV×0.75
-- **Current (ESV 17):** Light 30 · Heavy 57
-- **Passive Gimmick — Powder Charge:** Load a capsule into a knuckle (Fast Action). Landing a Heavy with one loaded triggers a detonation stopwatch check:
+- **Current (ESV 17):** Light 30 (costs 1m) · Heavy 57 (costs 3m, session 2 movement rework)
+- **Passive Gimmick — Powder Charge:** Load a capsule into a knuckle (Fast Action, 0m). Landing a Heavy with one loaded triggers a detonation stopwatch check:
   - **Hit window:** +50% of that heavy's raw damage; target takes 1 Discombobulation (Tick).
   - **Miss window:** capsule vents wrong; Lloyd takes 1 self-inflicted Blood Loss stack.
   - Capsule consumed either way.
-- **Capsules carried:** 4/4 (unused so far) · restocked at hub
+- **Capsules carried:** 4/4 · restocked at hub (spent 3, all successful hits, session 2)
 
 ### Status Tracks
 | Track | Value |
@@ -47,20 +49,23 @@ Standard, no mutations, no damage.
 
 ### White Salts
 - Purse: 0
-- Vault: 9
+- Vault: 15 *(9 + 6 banked from session 2 run)*
 
 ### Inventory
 - Metal Knuckles ×2 (equipped)
-- Powder capsules ×4
+- Powder capsules ×4/4
 - Wrap ×1 (Quick Item — clears 2 Blood Loss)
-- Charm ×1 (Action Item — Insight-gated, needs Tier 3/Insight 6+, currently unusable at Insight 4)
+- Charm ×1 (Action Item — Insight-gated, needs Insight 6+ — **now usable, Insight sits exactly at 6**)
+- **The Beckoner** (idol, Action Item, 2m) — point at one creature in line of sight, speak an invitation: target takes 1 Influence stack (mirrors Lloyd's own Influence rules onto them). Cost: each use puts 1 Influence stack on Lloyd, sourced from the idol itself — doesn't clear via the standard source-elimination rule while he's carrying it; only clears by dropping/Vaulting it.
+- Wooden Token (keepsake, no mechanical effect — belonged to "R.")
+- Source-water flask (clean variant) — big heal, no Influence stack (gift, unlike the standard flask)
 - (starter gear pending — hub intake)
 
 ### Known Recipes
-- The Choir Deep — identified via Maud, unexplored
+- The Choir Deep — identified via Maud, unexplored, still unbrewed, left in his room
 
 ### Mutations
 None.
 
 ---
-*Last updated: end of first run — banked at hub, leveled 0→2 (Skill 16→17, Resolve 2→3), Vault ID'd the Choir Deep recipe.*
+*Last updated: end of session 2 — full run banked (Purse 6 → Vault), Insight 4→6 (Charm now usable), capsules restocked to 4/4, HP restored to full. Idol identified as "The Beckoner" via NPC lore, not Maud/Insight. Gained a recurring NPC contact (the old man, location unconfirmed persistence across rerolls) and an open request from him (bring clean source-water). New gear: Beckoner idol, Wooden Token, clean Source-water flask.*
