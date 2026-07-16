@@ -52,13 +52,17 @@ Standard, no mutations, no damage.
 - Vault: 15 *(9 + 6 banked from session 2 run)*
 
 ### Inventory
-- Metal Knuckles ×2 (equipped)
-- Powder capsules ×4/4
-- **Hub Kit (refills free every hub arrival, §14):** Wrap ×2 (clears 2 Blood Loss each) · Tonic ×2 (~10% max HP heal each, 11 HP) · Camphor ×1 (clears 2 Insanity) · Scour ×1 (clears 1 Corrosion, free action)
-- Charm ×1 (Action Item — Insight-gated, needs Insight 6+ — **now usable, Insight sits exactly at 6**)
-- **The Beckoner** (idol, Action Item, 2m) — point at one creature in line of sight, speak an invitation: target takes 1 Influence stack (mirrors Lloyd's own Influence rules onto them). Cost: each use puts 1 Influence stack on Lloyd, sourced from the idol itself — doesn't clear via the standard source-elimination rule while he's carrying it; only clears by dropping/Vaulting it.
-- Wooden Token (keepsake, no mechanical effect — belonged to "R.")
-- Source-water flask (clean variant) — big heal, no Influence stack (gift, outside the kit — doesn't refill)
+*(Durability tags per §8: Constant / Hub Kit / Uses: N / Instance-specific)*
+- Metal Knuckles ×2 (equipped) — **Constant**
+- Powder capsules ×4/4 — **Hub Kit** (resets to 4 on hub return)
+- Wrap ×2 (clears 2 Blood Loss each) — **Hub Kit**
+- Tonic ×2 (~10% max HP heal each, 11 HP) — **Hub Kit**
+- Camphor ×1 (clears 2 Insanity) — **Hub Kit**
+- Scour ×1 (clears 1 Corrosion, free action) — **Hub Kit**
+- Charm ×1 (Action Item — Insight-gated 6+, **now usable**; extra die or widened parry window) — **Uses: 1**, destroyed on use, not hub-refilled
+- **The Beckoner** (idol, Action Item, 2m) — **Constant**. Point at one creature in line of sight, speak an invitation: target takes 1 Influence stack. Cost per use: 1 Influence stack on Lloyd, sourced from the idol — doesn't clear while carried; only by dropping/Vaulting it.
+- Wooden Token (keepsake, no mechanical effect — belonged to "R.") — **Constant**
+- Source-water flask, clean variant (big heal, no Influence stack) — **Uses: 1**, gift, not hub-refilled
 
 ### Known Recipes
 - The Choir Deep — identified via Maud, unexplored, still unbrewed, left in his room

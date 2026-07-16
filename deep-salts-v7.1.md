@@ -298,6 +298,15 @@ A staggered leg takes kiting off the table — the triangle narrows by one optio
 
 ### Items
 
+**Durability tags (Session 2 ruling).** Every item carries exactly one tag answering "what happens to this over time":
+
+- **Constant** — persists indefinitely, unlimited uses. Equipment, keepsakes, the Beckoner. Any per-use *cost* (like the Beckoner's Influence stack) still applies; the tag only means the item itself never runs out.
+- **Hub Kit** — recharges/resets free on every return to the hub. The standard consumable kit (§14) and signature-weapon ammo (e.g. powder capsules).
+- **Uses: [N]** — works N times, then it's spent. NOT refilled by the hub; may be rechargeable by other in-world means if one is ever found. The Charm is Uses: 1 — destroyed on use.
+- **Instance-specific** — cannot leave the layout it was found in; expires with the instance (see §18). Journals, keys, environmental tools that only mean something where they lie.
+
+When an item enters play, the DM assigns its tag on the spot.
+
 **Quick Items** (Fast Action — weak, frequent):
 - **Wrap** — clears 2 Blood Loss stacks
 - **Camphor** — clears 2 Insanity stacks (a vial of sharp resin; one hard breath and the walls stop moving — grounding, not curing). *(Renamed from "Salts," session 2 — killed the currency name-clash and defined the effect properly; Insanity is a build-only track, so items are its main downward pressure alongside Resolve 60's once-per-encounter clear.)*
@@ -305,10 +314,10 @@ A staggered leg takes kiting off the table — the triangle narrows by one optio
 - **Scour** — clears 1 Corrosion stack without costing your turn
 
 **Action Items** (full Action — strong, situational):
-- **Source-water flask** — big heal, but adds an Influence stack. Power for vulnerability.
-- **Cautery iron** — fully clears Blood Loss; stationary and exposed while using (costs your full remaining movement budget on use, not the standard 2m).
-- **Thrown vial** — applies Corrosion/Burning at range.
-- **Charm** — one-shot buff (extra die, widened parry window); Insight-gated to use (§11).
+- **Source-water flask** — big heal, but adds an Influence stack. Power for vulnerability. *(Uses: 1 per flask — found or bought, never hub-refilled.)*
+- **Cautery iron** — fully clears Blood Loss; stationary and exposed while using (costs your full remaining movement budget on use, not the standard 2m). *(Constant — it's a tool, not a consumable.)*
+- **Thrown vial** — applies Corrosion/Burning at range. *(Uses: 1 per vial.)*
+- **Charm** — one-shot buff (extra die, widened parry window); Insight-gated to use (§11). *(Uses: 1 — destroyed on use, session 2 ruling.)*
 
 **Reactive / Instant** (usable anytime, even mid-enemy-turn, no slot):
 - **Abandon-All** — the panic word, the psychic tether home. Spoken or thought — needs only a working mind and voice, no limbs. Mechanically: Retreat (§12) — forfeit the Purse, keep character/limbs, instant, free, usable between any two actions including mid-resolution of an attack. The only counter — a gag/silence effect or an enemy that severed your voice — is rare, boss-tier, always telegraphed.
