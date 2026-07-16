@@ -62,13 +62,10 @@ Five books. Filled entity pages from bible §1–7 feed the relevant book. Statu
 
 | Gap | Description | Lives in |
 |---|---|---|
-| Influence → Insanity threshold | Stack number at which failed Influence saves also tick Insanity is undefined. Inconsistent in play (2+) vs manual (3+). **Note (session zero):** a related but distinct question — the stack at which Influence's own save is first *triggered at all* — was resolved this session at stack 2 (Ruleset §5). Flagging that this may or may not be the same axis as the Insanity-tick question below; not silently merged. | Status effect page |
 | Chanter HP vs archetype text | Archetype note says low HP; Hummer entry has 900 HP. Contradiction caused a 13-turn fight. | Monster page |
-| Assess on unparryable enemies | Assess is written only around parry tells. Undefined for Chanters. | Mechanic page |
 | Double-swing reduction | No fixed percentage. Proposed: 50%. | Weapon page |
-| White Salts drop rates | No base drops per archetype defined (Waterlogged Guest's 5 is the proposed floor). | Currency page |
+| White Salts drop rates | No base drops per archetype defined (Waterlogged Guest's 5 is the proposed floor; Chapel Penitent 8, Marble Effigy 20, The Singer 60 now also logged). | Currency page |
 | Insight not awarded Session 01 | Two new archetypes met, no Insight granted. Trigger threshold unclear. | Mechanic page |
-| Turn order bypassed in play | d20 roll-off was skipped; DM narrated initiative instead. | Mechanic page |
 | Charged Heavy tier | Weapon Template asks for three damage tiers; ruleset §4 defines two (light, heavy/charged combined). Placeholder in use: Charged Heavy = same maths as Heavy, until a real third tier is defined — if one's wanted at all. | Ruleset §4 / weapon page |
 | Salt drop rates | Salts are single-use recipe fuel (Ruleset §18) but no per-biome or per-archetype drop guidance exists. DM discretion until playtested. | Item/Currency page |
 | Recipe discovery triggers | How new recipes are learned — lore finds, experimentation, NPC purchase, Insight reveals — has no written procedure. | Ruleset §18 |
@@ -84,6 +81,13 @@ Five books. Filled entity pages from bible §1–7 feed the relevant book. Statu
 | Item prices | Scour 5 · Wrap 10 · Salts 10 · Tonic 15 (anchored to the floor mook's 5 White Salts drop). Action Items: rotating stock, 1–2 per hub visit, 3–5× Quick prices. |
 | Recruit cap & Gallery | 10 recruits max (Gallery rooms 2–11); found/resolved/willing gate; one function + one drift behaviour each; recruits can be lost. |
 | Maud's salt-ID pricing | 5 White Salts for a first identification, doubling per subsequent ID (5 → 10 → 20 → 40...). Confirmed by design intent this session — scales with progression rather than staying flat. |
+| Influence → Insanity threshold | **Session 3 — confirmed 3+.** A failed Influence save ticks Insanity only once the stack is 3 or higher; the 2-stack mark is where the save itself first triggers, a deliberately separate number. Now in Ruleset §5. |
+| Turn order | **Session 3 — replaced entirely.** The old d20 roll-off is gone. Player Character always acts first, every round; enemies act as a block after. Fixes the failure mode where a low roll stranded a freshly-set Hold on the wrong side of the enemy's action. Corollary: enemy tell + payoff attack can now resolve in a single enemy turn (no more forced multi-round telegraph splits). Now in Ruleset §17. |
+| Assess on unparryable/non-attacking enemies | **Session 3 — confirmed by example.** Assess isn't limited to reading parry tells; it reads whatever's mechanically relevant to the specific threat — auras, passive tracks building, weak points, behavioural patterns. Demonstrated live on The Singer, a boss with no melee attack at all. |
+| Powder Charge detonation timing (Lloyd's knuckledusters) | Character-specific, not general ruleset — **target 1.00s, ±0.15s** (base), widened by the Insight window bonus like any other DM-set timing window. Logged on the character sheet. |
+| Insight window bonus across tiers | **Session 3 — ruled flat-per-tier, not additive.** A tier that doesn't list its own window number inherits the last one stated rather than adding nothing on top — Tier 3 carries Tier 2's +0.10s forward until Tier 4's +0.15s. Applies to any DM-set timing window, not just parries. Now in Ruleset §11. |
+| Ambush called shots on fully unaware targets | **Session 3 — ruled Tier-1-parry-equivalent.** Free called shot, no precision stopwatch, AND stacks with the standard visceral 1.5× the same way a real Tier 1 parry's free weak point does — the two multipliers compound rather than substitute. This is what let a Skill-build ambush headshot clear a standard humanoid's sever threshold in one hit. Now in Ruleset §10. |
+| Abandon-All vs. Retreat | **Session 3 — split into two distinct fail-states.** Previously identical (one mechanic, two names, Purse-only cost). Now: **Abandon-All** is instant/free/mid-combat but forfeits gear too (recoverable later off a guaranteed enemy in a fresh instance, no expiry); **Retreat** is meditative, cannot be used in active combat, Purse-only cost, gear-safe. Now in Ruleset §12. |
 
 ## Resolved — now canon in the ruleset (log only)
 

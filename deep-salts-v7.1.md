@@ -116,7 +116,7 @@ Brass, same motif as the reception token. Earned from kills, exploration, discov
 - **Purse** — earned this run. At risk.
 - **Vault** — banked at the hub. Permanently safe.
 
-Reaching the hub moves the full Purse into the Vault. Retreat and Death (§12) only ever forfeit the Purse. Spend Vault White Salts on attribute levels.
+Reaching the hub moves the full Purse into the Vault. Abandon-All, Retreat, and Death (§12) only ever touch the Purse — the Vault is never at risk, no matter which fail-state ends the run. Spend Vault White Salts on attribute levels.
 
 ### Leveling
 
@@ -209,6 +209,7 @@ Most conditions are tracks — counters that build (0–10) rather than switches
 
 - **First save trigger:** a source's stacks don't force a save until the 2nd stack lands. *(Session zero ruling.)*
 - **Clear conditions:** a successful resist alone does not clear the stack while the source remains active — it only avoids that turn's compulsion. Full clear happens once the source is eliminated (line of sight fully broken). **With multiple simultaneous sources, full clear requires ALL active sources gone** — killing one of several just stops that one from adding further stacks. *(Session zero ruling.)*
+- **Insanity tick threshold:** a failed Influence save also ticks Insanity, but only once the stack is at **3 or higher** — not at the 2-stack mark where the save itself first triggers. The save-trigger stack (2) and the Insanity-tick stack (3) are deliberately different numbers, not a copy-paste of each other. *(Session 3 ruling — resolves prior inconsistency between 2+ and 3+ seen in play.)*
 
 **CORROSION** — stacking decay. Damage at start of your turn = stacks × 2. Cap 5 (10/turn). Stacks tick down 1 at end of turn ONLY IF you spent an action managing them (douse, scrape, neutralise); otherwise they hold. Sources: acid, spores, fouled water, coatings. Stacks viciously with Burning.
 
@@ -283,7 +284,7 @@ Costs above are the defaults — specific weapons and actions may price differen
 
 Heal-and-attack is real: Quick Items are Fast Actions, so vial-and-swing works. The lever is potency — Quick Items are deliberately weak; anything strong costs a full Action, competing with attacking. Big heal OR attack; small heal AND attack.
 
-**Reactions** sit outside all pools — things that happen on someone else's turn. Retreat (§12) and Abandon-All (below) live here.
+**Reactions** sit outside all pools — things that happen on someone else's turn. Abandon-All (below) lives here; Retreat (§12) does not — it can't be invoked in active combat at all, only between fights.
 
 ### Limb-gating
 
@@ -320,7 +321,7 @@ When an item enters play, the DM assigns its tag on the spot.
 - **Charm** — one-shot buff (extra die, widened parry window); Insight-gated to use (§11). *(Uses: 1 — destroyed on use, session 2 ruling.)*
 
 **Reactive / Instant** (usable anytime, even mid-enemy-turn, no slot):
-- **Abandon-All** — the panic word, the psychic tether home. Spoken or thought — needs only a working mind and voice, no limbs. Mechanically: Retreat (§12) — forfeit the Purse, keep character/limbs, instant, free, usable between any two actions including mid-resolution of an attack. The only counter — a gag/silence effect or an enemy that severed your voice — is rare, boss-tier, always telegraphed.
+- **Abandon-All** — the panic word, the psychic tether home. Spoken or thought — needs only a working mind and voice, no limbs. Mechanically (§12): instant, free, usable between any two actions including mid-resolution of an attack — but forfeits everything carried in that instance, gear included, not just the Purse. Left-behind gear is recoverable later from a guaranteed enemy in a future instance of the same biome. The only counter — a gag/silence effect or an enemy that severed your voice — is rare, boss-tier, always telegraphed. **Retreat (§12) is the cheaper, slower cousin — Purse-only cost, but can't be used mid-combat.**
 - **Distress flare / ally beacon** — same category; multiplayer hook for later.
 
 **Passive / Equip** (no slot, always active) — trinkets and build-around gear. Modifies numbers only; often Insight-tier-gated to equip.
@@ -411,6 +412,8 @@ Target time set by the DM per opening (default ~1.50s, range ~1.0–2.0s). Miss 
 
 **Self-initiated called shots (no enemy tell to anchor timing on).** Some called shots aren't reacting to a telegraphed enemy heavy at all — going for the head or weak point of something that never winds up (an unparryable grasp, a stationary target). There's nothing external to time against, so the DM tightens the tolerance **one band beyond what the multiplier alone would indicate**, reflecting the added difficulty of a blind attempt. Critically: **a miss on a self-initiated called shot ends the turn outright** — no remaining movement can be spent repositioning or kiting away. A **hit** lets the remaining movement budget be used normally. This asymmetry, not an invented visual/audio cue, is what makes a blind shot a real risk. *(Session zero ruling.)*
 
+**Ambush called shots (full unawareness).** A target that is genuinely unaware — a successful stealth approach, not just a stationary/unparryable one — counts as at least a **Tier 1 parry-grade opening**: the called shot lands free, no precision stopwatch at all, same as a real parry. And because the ambush itself is the "opening," it stacks with the standard **visceral 1.5×** the way a Tier 1 parry's free weak point always has — the two multipliers were never meant to be interchangeable substitutes for each other, they compound (raw × visceral 1.5× × limb multiplier). *(Session 3 ruling — this is what let a Skill-build ambush headshot clear a standard humanoid's sever threshold in one hit.)*
+
 ### Corrupted Regrowth — the build engine
 
 A lost limb regrows at the hub with a chance of coming back changed. A wrong-grown limb carries a trade — clear upside, clear downside:
@@ -451,6 +454,8 @@ The spine of progression, separate from the five buyable attributes. Never purch
 | 4 | 8–9 | Window +0.15s. Untranslatable lore becomes comprehensible. |
 | 5 | 10 | Full sight. Deepest hub content unlocked. |
 
+**Window bonus is a flat total per tier, not additive across tiers crossed.** A tier that doesn't list its own number (Tier 3 above) simply inherits the last stated value rather than adding nothing — Tier 3 carries Tier 2's +0.10s forward until Tier 4 explicitly raises it to +0.15s. Applies to any DM-set timing window (parry, precision, or otherwise), not just parries specifically. *(Session 3 ruling.)*
+
 **Tier trade-offs cut both ways** (DM's discretion on crossing a tier):
 - New enemy tells and attacks visible on an Assess that a dimmer character wouldn't perceive.
 - Occasionally an enemy gains something it didn't have — your Insight woke it up.
@@ -474,9 +479,13 @@ Spendable on:
 
 ---
 
-## 12. Retreat & Death — the Two Fail-States
+## 12. Abandon-All, Retreat & Death — the Fail-States
 
-**RETREAT (you chose to bail).** No-cost panic escape, usable between any two actions (yours or the enemy's). Declare → yanked to the hub. Keep character, levels, limbs/mutations; forfeit the run's Purse. A deliberate withdrawal, not a death-saver — an unwinnable fight becomes a retreat, not a loss.
+Two ways out under your own power — one instant and costly, one slow and cheap — plus the one you don't get to choose.
+
+**ABANDON-ALL (the panic button).** Instant, free, usable mid-combat — between any two actions, including mid-resolution of an attack. Spoken or thought — needs only a working mind and voice, no limbs. Declare → yanked to the hub. Keep character, levels, limbs/mutations; **forfeit everything carried in that instance — Purse and gear both.** Left-behind gear isn't destroyed: it settles on/with a guaranteed enemy of that instance's archetype, recoverable by finding and beating that archetype in a future instance of the same biome — same logic as a killer holding a dead character's gear (below), no expiry, doesn't compound. Can be a same-session errand or a long-burn goal, player's call. The only counter — a gag/silence effect or an enemy that's severed your voice — is rare, boss-tier, always telegraphed. *(Session 3 ruling — previously this WAS "Retreat," Purse-only; split out as the expensive, any-time option once actual play showed a mid-fight escape needed a real cost.)*
+
+**RETREAT (the calm way out).** Takes a few real minutes of deliberate meditation — **cannot be invoked in active combat**, only between fights or in a genuinely safe moment. Declare → yanked to the hub. Keep character, levels, limbs/mutations, **and all carried gear**; forfeit only the run's Purse. The controlled version of walking away: disengage first, then leave clean, rather than panic-wording out mid-swing. *(Session 3 ruling — split from Abandon-All.)*
 
 **DEATH (you didn't make it).** Respawn in the salt room you entered from (§18). Keep character, levels, mutations. But:
 
@@ -556,7 +565,7 @@ Archetypes, not fixed creatures — reskin per location. Plain attacks to 0 HP a
 
 ## 17. Running Notes — Turn Order, Recovery & Scaling
 
-**Turn order.** Roll-off per encounter: d20, highest first, ties broken by Skill. No standing initiative.
+**Turn order.** The Player Character always acts first, every round — no roll-off, no standing initiative. Enemies act as a block afterward. *(Session 3 ruling — replaces the old d20 roll-off.)* This exists specifically so Assess/Hold decisions always happen before the enemies that turn's tell would apply to; the old roll-off could strand a freshly-set Hold on the wrong side of the enemy's action if the player rolled low, which isn't a real choice, it's a coin-flip nullifying a deliberate one. Practical effect on monster design: a tell and its payoff attack no longer need to be split across two separate rounds to give the player a fair reactive window — since the player's own turn always lands before the enemy block, a single enemy turn can narrate a full tell-then-strike (bow, then lunge) as one continuous beat, timed via the normal stopwatch, without requiring an artificial recovery-round structure just to make room for a parry.
 
 **Out-of-combat recovery.** A quiet moment between fights (not the hub) allows a short rest: clear one track by a single stack, OR recover a small flat chunk of HP (~Quick Item tier). Free, no item spent. Does not restore visceral charges, limbs, or mutations — hub-exclusive.
 
@@ -601,7 +610,7 @@ Stillwell Hydro holds ~6 salts rooms — sauna chambers where measured doses tri
 - You always wake at an **anchor** — a biome-flavoured fixture (a brazier in the streets, a font in the church). Its location rerolls each trip; it always exists.
 - Return to it and choose to leave → **clean exit.** Wake in the salt room, Purse banks. The push-your-luck engine: deeper loot vs a longer walk back.
 - Assess or high Insight can orient you toward the anchor — direction and rough distance, clarity scaling per §9.
-- Retreat (§12) and Abandon-All (§8) work as written. The anchor is the free exit; the panic word is the expensive one.
+- Retreat and Abandon-All (§12) both work as written. The anchor is the free, clean exit; Retreat is the cheap-but-slow one (Purse only, no mid-combat); Abandon-All is the expensive, any-time panic word (Purse and gear both).
 
 **Death, gear recovery & persistence**
 - Death respawns you in the salt room you entered from. Purse forfeit; re-entry free while the room is active.
@@ -639,7 +648,7 @@ Stillwell Hydro holds ~6 salts rooms — sauna chambers where measured doses tri
 
 **MOVEMENT** — Budget 8–14m (Endurance), the single per-turn currency: repositioning AND actions draw from it. Splittable around your action. Can't pay an action's cost = can't take it. Trade / Parry / Kite triangle. Out-speed slow enemies; dance burst-movers (in on recovery, out before surge). Hit-and-run = strike + retreat, no parry, no opening.
 
-**ACTION ECONOMY** — Action (one/turn, costs movement: Light 1m · Heavy 3m · Hold 2m · manage track 1m · Action Item 2m · Assess 1m) + Fast Action (one/turn, always 0m: Quick Item, load a capsule) + Movement. Quick Items weak but free alongside an attack; Action Items strong but cost the turn. Limb-gating table in §8. Abandon-All = Retreat, voice/mind only, exempt from the economy — stoppable only by rare, telegraphed boss-tier silence.
+**ACTION ECONOMY** — Action (one/turn, costs movement: Light 1m · Heavy 3m · Hold 2m · manage track 1m · Action Item 2m · Assess 1m) + Fast Action (one/turn, always 0m: Quick Item, load a capsule) + Movement. Quick Items weak but free alongside an attack; Action Items strong but cost the turn. Limb-gating table in §8. Abandon-All = instant panic escape, voice/mind only, exempt from the economy, forfeits Purse + gear — stoppable only by rare, telegraphed boss-tier silence. Retreat = meditative, Purse-only, cannot be used mid-combat (§12).
 
 **PARRY/VISCERAL** — Assess (1m) reads tell + timing (clarity scales with Insight). Hold (2m) → stopwatch in window, no charge cost, no cap on attempts. In = visceral (1.5× + knockdown + enemy loses move) ± mods. Out = eat heavy + punish. Don't reuse a tell. Only bosses and hand-flagged elites can parry/visceral YOU — standard enemies never do (§16).
 
@@ -651,7 +660,9 @@ Stillwell Hydro holds ~6 salts rooms — sauna chambers where measured doses tri
 
 **MUTATION** — Lost limbs regrow at hub, chance of coming back changed (+power / −something). Read trades only at high Insight. Revert or reroll at hub, Vault White Salts.
 
-**RETREAT** — Between any actions → hub. Keep character/limbs, forfeit Purse. Free.
+**ABANDON-ALL** — Instant, free, mid-combat, any time. Keep character/limbs, forfeit Purse AND gear (recoverable off a guaranteed enemy in a future instance, no expiry). §12.
+
+**RETREAT** — A few minutes' meditation, cannot be used in active combat. Keep character/limbs/gear, forfeit Purse only. Free. §12.
 
 **DEATH** — Respawn in the salt room you entered from. Keep character/levels/mutations. Gear forfeit to killer (a guaranteed spawn until killed; doesn't compound). Purse lost, Vault safe. Fugue applied.
 

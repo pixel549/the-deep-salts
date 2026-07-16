@@ -473,6 +473,74 @@ Retreat Always Reachable? (Y/N): Y
 
 
 
+Monster 8 — The Singer *(boss, Choir Deep)*
+
+
+
+Archetype: Choir (boss)
+
+Level Range: 1–20 (first Choir Deep boss; hand-set, exempt from the scaling table per Ruleset §17)
+
+HP (base): 900 (hand-set)
+
+Move Budget / Pattern: 0m — fully rooted, never advances, never retreats.
+
+Scale Band: N/A — bosses hand-set per §17.
+
+Flavour (1–2 sentences): A pilgrim shape whose face gave way to a vertical opening that doesn't sing so much as simply *is* the sound. It sustains an unbroken, layered note that draws the faithful into an unmoving ring around it and never once approaches the source of its own devotion.
+
+
+
+Limbs — standard humanoid defaults apply, plus one non-standard entry:
+
+Limb	Multiplier	Stagger Threshold	Stagger Duration	Sever Threshold	Sever Immune?
+The Open Throat (weak point)	×2.0	N/A	N/A	400	No
+
+
+
+Attacks
+
+Attack	Type	Tell (exact narration)	Window (target/±)	Tier	Hit Effect + Stacks	Status Type (Imm/Track/Tick)	Retaliation on Visceral?	Miss/Whiff Punish
+Choir Pulse	Ranged/Aura	"The layered note sharpens, aims itself."	N/A — unparryable, no attack roll, always lands	N/A	2 Influence stacks per pulse	Track (Influence)	N/A	N/A
+
+
+
+Behaviour:
+
+Ballistic Trigger: None.
+
+Ballistic Chain Sequence: None.
+
+Kitable (Y/N): N/A — it never moves at all. Breaking line of sight (distance, a wall, leaving the room) is the counter, not outrunning it.
+
+
+
+Assess Result — Insight 0–1: "It's not hunting. Whatever it's doing, it's not going to chase."
+
+Assess Result — Insight 2+: "The note itself is the attack — every beat near it costs you, whether or not it ever lays a hand on you. The opening where its face should be is a real weak point, but it's set boss-high, not mook-high."
+
+
+
+White Salts Drop (base): 60
+
+Insight Granted (first sighting/defeat): +1 / +1
+
+
+
+Boss Gimmick (bosses only, else N/A): The Open Throat is the only way to end this fight quickly — sever it (400 raw-equivalent in one hit) and it's over regardless of remaining HP. Otherwise this is a pure attrition fight: the Singer itself never physically attacks, all direct danger comes from the Penitent congregation it's gathered, while Influence quietly climbs the whole time you're in the room, save DC rising with the stack count until a flat d20 can no longer clear it.
+
+
+
+Habit Punished: Standing in the open tanking pulses to save time, or fighting through the Penitent ring instead of around it.
+
+What Happens if the Player Falls For It: Influence climbs past the point saves can reasonably clear; compelled effects escalate in severity and there's no walking it back except breaking line of sight entirely.
+
+Dismember/Bisect Threat: Low (no melee attack of its own — all physical danger is secondhand, via the Penitents).
+
+Retreat Always Reachable? (Y/N): Y — it never chases, so distance is always available as an out.
+
+---
+
 ## Monster Template (blank)
 
 * **Archetype:** · **Level Range:** · **HP (base):** · **Move Budget / Pattern:** · **Scale Band:** · **Flavour (1–2 sentences):**
