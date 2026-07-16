@@ -566,6 +566,14 @@ Archetypes, not fixed creatures — reskin per location. Plain attacks to 0 HP a
 
 ## 18. Salts Rooms & Biomes — Exploration Structure
 
+**Instance Quests vs Quests (Session 2 ruling).** Narrative content in a run splits cleanly in two:
+
+- **Instance Quests** — threads that live inside one layout: environmental stories, corpses, journals, one-off creatures, unexplored doors. They expire the moment the player exits (anchor, retreat, or death → reroll). Unfinished instance content is lost to the shifting reality — permanently, no tracking, no guilt. Completing one during the run can convert its reward into something persistent (an item carried out, lore learned, Insight gained) — that's the only way instance content escapes the reroll.
+- **Quests** — threads anchored to persistent entities: recurring NPCs, the hub and its people, known recipes, carried items. These survive rerolls and are the only narrative threads worth tracking between sessions.
+- **Corollary:** enemies do not persist across instances. A new run may contain the same *kind* of creature, but it's a fresh instance at full pool — no carrying over damage dealt in a previous layout.
+
+**DM triage rule:** if a thread is anchored to the layout, it dies with the layout. Only log what's anchored to something persistent.
+
 Stillwell Hydro holds ~6 salts rooms — sauna chambers where measured doses trigger the out-of-body crossings. The structural spine of the world outside the hub.
 
 **Recipes & biomes**
