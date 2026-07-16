@@ -90,7 +90,7 @@ All start at 8. Cap 99. Starting Insight = 1.
 **Derived stats** (linear, from raw score):
 
 - Max HP = 60 + (Vigor × 6) → Vigor 8 = 108, Vigor 99 = 654
-- Movement budget = 5 + ⌊Endurance ÷ 15⌋ metres → End 8 = 5m, End 99 = 11m
+- Movement budget = 8 + ⌊Endurance ÷ 15⌋ metres → End 8 = 8m, End 99 = 14m
 - Insanity/Influence save bonus = ⌊Resolve ÷ 10⌋ → Resolve 8 = +0, Resolve 99 = +9
 
 *(Visceral charges removed as a derived stat — session zero ruling. Parries are now gated entirely by timing accuracy and a genuine telegraphed opening, not a resource pool; see §9.)*
@@ -240,7 +240,9 @@ Damage taken becomes recoverable grey health for a short window. Land a hit befo
 
 Movement is combat's third axis.
 
-**Budget** set by Endurance (5–11m). Spend before and after your action — in, strike, out — up to the total.
+**Budget** set by Endurance (8–14m). Movement is the single per-turn currency: repositioning *and* actions both draw from it. Spend before and after your action — in, strike, out — up to the total, minus whatever your action itself costs (§8).
+
+**The hard rule:** if you can't pay an action's movement cost, you can't take it. Sprint the full budget and you've got no attack left in you this turn. Every metre run is a metre you can't fight with.
 
 **Hit-and-run.** Attack and retreat beyond the enemy's reach in one turn. No parry = no visceral opening — chipping, not opening. Safe, slow, low-reward. Good when hurt, out of charges, or whittling something you can't yet open.
 
@@ -261,16 +263,23 @@ Good play flows between all three as health, charges, and tempo shift.
 
 Three pools per turn, plus one category outside them all.
 
-**Movement** — your budget, splittable around your Action. Assess costs 1m from this pool.
+**Movement** — your budget, splittable around your Action. Actions cost movement (below); Fast Actions never do.
 
-**Action** (one per turn):
-- Attack (light or heavy)
-- Hold (commit to parry on the enemy's turn)
-- Use an Action Item
-- Manage a track (smother, scrape, pressure)
+**Action** (one per turn — each costs movement from the budget, paid on use):
 
-**Fast Action** (one per turn):
-- Use a Quick Item
+| Action | Movement cost | Fiction |
+|---|---|---|
+| Light attack | 1m | Plant feet, jab, keep moving |
+| Heavy attack | 3m | Full stop, wind-up, commit |
+| Hold (parry stance) | 2m | Set stance, weight down, wait |
+| Manage a track (smother, scrape, pressure) | 1m | A pause, not a production |
+| Use an Action Item | 2m | Hands busy, attention split |
+| Assess | 1m | Reading, not acting |
+
+Costs above are the defaults — specific weapons and actions may price differently, and perks may refund movement after an action, grant bonus movement before one, or zero a cost under conditions. (Perk design space, not yet populated.)
+
+**Fast Action** (one per turn, always 0m):
+- Use a Quick Item, load a capsule — anything done on the move. That's the whole point of the category.
 
 Heal-and-attack is real: Quick Items are Fast Actions, so vial-and-swing works. The lever is potency — Quick Items are deliberately weak; anything strong costs a full Action, competing with attacking. Big heal OR attack; small heal AND attack.
 
@@ -297,7 +306,7 @@ A staggered leg takes kiting off the table — the triangle narrows by one optio
 
 **Action Items** (full Action — strong, situational):
 - **Source-water flask** — big heal, but adds an Influence stack. Power for vulnerability.
-- **Cautery iron** — fully clears Blood Loss; stationary and exposed while using (no movement this turn).
+- **Cautery iron** — fully clears Blood Loss; stationary and exposed while using (costs your full remaining movement budget on use, not the standard 2m).
 - **Thrown vial** — applies Corrosion/Burning at range.
 - **Charm** — one-shot buff (extra die, widened parry window); Insight-gated to use (§11).
 
@@ -524,12 +533,14 @@ Archetypes, not fixed creatures — reskin per location. Plain attacks to 0 HP a
 5. **SPITTER** (controller) — HP ~400–600 · Move medium (4m), keeps distance. Ranged Corrosion, stacks fast. Tell: swells, draws back (~1.6s — dodge or interrupt). Tier 1. The track-clock — close fast or get cornered and ticked to death. Pairs evilly with a Burster or Brute.
 6. **BRUTE** (heavy) — HP ~1500–2500 · Move slow (4m). Huge, slow heavies. Can amputate or bisect an under-levelled player on a fully-landed combo — telegraphed catastrophe, never random. Tell: overhead wind-up (~2.0s). Tier 2. Retreat is a valid answer. Sever a leg to neutralise its approach.
 7. **FLAILER** (chaotic) — HP ~600–900 · Move medium, erratic. Multiple whipping limbs, multi-track (Corrosion + Blood Loss). Tell: limbs draw back in unison — multiple windows in sequence (a ballistic chain). Tier 3. The precision-strike showcase; hardest non-boss to open.
-8. **EFFIGY** (duellist/mirror) — HP ~500–800 · Move fast (7m). Uses your toolkit: parries you, viscerals you, hit-and-runs, can out-move you. Fast, tight windows; reads your tells too. Tier 2–3. The fight that tests whether you've learned the system or just bullied mooks.
+**Enemy parry restriction (Session 2 ruling):** standard archetypes CANNOT parry or visceral the player — the visceral loop belongs to the player. Standard enemies still punish whiffs and telegraph their own heavies, but the parry-you-back mirror match is reserved for bosses and hand-flagged bespoke elites. Keeps ordinary fights readable; anything that can turn your own system against you announces itself by being a boss.
 
 **Bosses** are bespoke, built on three pillars:
 1. A gimmick punishing a default habit. (The Conjoined Twins punish centre-mass viscerals: low-HP trunk, and severing it splits them into two faster enemies.)
 2. A multi-parry ballistic chain (Tier 3) as the route to a real opening.
 3. A dismember/bisect threat for the under-levelled — with a retreat threshold always reachable, so a lost fight is an escape, not a feel-bad death.
+
+**EFFIGY** (boss archetype — duellist/mirror) — HP hand-set · Move fast (7m+). Uses your toolkit: parries you, viscerals you, hit-and-runs, can out-move you. Fast, tight windows; reads your tells too. The fight that tests whether you've learned the system or just bullied mooks. *(Reclassified from standard archetype, Session 2 — it's the sole legitimate wielder of player-style parries, which makes it boss-tier by definition under the parry restriction above.)*
 
 ---
 
@@ -608,11 +619,11 @@ Stillwell Hydro holds ~6 salts rooms — sauna chambers where measured doses tri
 
 **SAVE ROLL** — d20 ≥ 10 + track value − ⌊Resolve ÷ 10⌋ + ⌊Insight ÷ 2⌋ (+ mods). One formula, both saves (§5).
 
-**MOVEMENT** — Budget 5–11m (Endurance), splittable around your action. Trade / Parry / Kite triangle. Out-speed slow enemies; dance burst-movers (in on recovery, out before surge). Hit-and-run = strike + retreat, no parry, no opening.
+**MOVEMENT** — Budget 8–14m (Endurance), the single per-turn currency: repositioning AND actions draw from it. Splittable around your action. Can't pay an action's cost = can't take it. Trade / Parry / Kite triangle. Out-speed slow enemies; dance burst-movers (in on recovery, out before surge). Hit-and-run = strike + retreat, no parry, no opening.
 
-**ACTION ECONOMY** — Action (attack / hold / Action Item / manage track) + Fast Action (Quick Item) + Movement. Quick Items weak but free alongside an attack; Action Items strong but cost the turn. Limb-gating table in §8. Abandon-All = Retreat, voice/mind only, exempt from the economy — stoppable only by rare, telegraphed boss-tier silence.
+**ACTION ECONOMY** — Action (one/turn, costs movement: Light 1m · Heavy 3m · Hold 2m · manage track 1m · Action Item 2m · Assess 1m) + Fast Action (one/turn, always 0m: Quick Item, load a capsule) + Movement. Quick Items weak but free alongside an attack; Action Items strong but cost the turn. Limb-gating table in §8. Abandon-All = Retreat, voice/mind only, exempt from the economy — stoppable only by rare, telegraphed boss-tier silence.
 
-**PARRY/VISCERAL** — Assess (1m) reads tell + timing (clarity scales with Insight). Hold → stopwatch in window, no charge cost, no cap on attempts. In = visceral (1.5× + knockdown + enemy loses move) ± mods. Out = eat heavy + punish. Don't reuse a tell. Some enemies retaliate.
+**PARRY/VISCERAL** — Assess (1m) reads tell + timing (clarity scales with Insight). Hold (2m) → stopwatch in window, no charge cost, no cap on attempts. In = visceral (1.5× + knockdown + enemy loses move) ± mods. Out = eat heavy + punish. Don't reuse a tell. Only bosses and hand-flagged elites can parry/visceral YOU — standard enemies never do (§16).
 
 **POST-PARRY TIERS** — T1: free weak point, no watch. T2: widened precision watch. T3: parry watch + full precision watch.
 
