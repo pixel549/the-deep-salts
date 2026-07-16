@@ -1,16 +1,23 @@
 # THE DEEP SALTS — DM Session Plan (ephemeral)
-*Wiped and rewritten at the end of every session. This is direction and pacing only — no narrative or mechanical state lives here. For that, see the campaign log and character sheet. Read this at session start for a sense of where the session is headed; rewrite it fresh at session end for next time.*
+*Wiped and rewritten at the end of every session. Direction and pacing only — no narrative or mechanical state lives here (see campaign log / character sheet). Framed around what got achieved, what didn't, and what didn't even come close, to keep momentum session to session.*
 
 ---
 
-## Session 3 — planned shape
+## LAST SESSION (2)
 
-- **Hub beats first, keep them light:** Charm test (low stakes, just resolve it), Beckoner Influence-cost decision, old man's clean-water request still pending.
-- **Main fork:** brew the Choir Deep (new depth, tests whether the old man persists outside his home recipe) vs. re-run the rerolled first recipe (wall smear + open door still unexplored, more old-man screen time guaranteed).
-- **If Choir Deep:** introduce one new enemy archetype fresh, built to actually exercise the session 2 scaled Attribute Modifier table rather than the old flat-Skill math — watch for friction, this is its first live test.
-- **If re-run:** modest HP-scaling bump on repeat encounters, lean into the two unexplored environmental hooks as the session's spine.
-- **Don't force it, but if a natural opening appears:** nudge the reception clerk's "brother" thread forward — it's a long burn, one line is enough.
-- **Watch/flag:** any DC or math inconsistency live, same as always — canonize corrections at session end, don't patch silently.
+- **Fought, did not defeat:** the rooted/leashed floor-creature — bypassed live, not killed.
+- **New items:** Beckoner idol (constant, Influence-cost tradeoff), clean source-water flask (1-use), Wooden Token (keepsake, no mechanical effect).
+- **No level up** — still Level 2. Next attribute point costs 50 Salts; Vault sits at 15.
+- **Progress that did land:** Insight jumped 4→6 (Tier 3), Charm now usable.
+- **Didn't come close to:** brewing the Choir Deep, testing whether the old man persists outside his home recipe, the clerk's "brother" thread.
+
+## THIS SESSION (3)
+
+- **Guide toward a real dent in the level-up gap:** push Salt-earning opportunities so the 15→50 gap actually closes some, even if it doesn't clear tonight.
+- **One permanent item/upgrade on the table** if Jake explores thoroughly (wall smear/open door if re-running; equivalent hooks if Choir Deep).
+- **Mini-boss beat:** either a reattempt against the rooted creature (now known, leashed, arguably worth finishing) or a fresh mini-boss if Choir Deep is brewed instead. Either way, build it to be genuinely close — willing to fudge a roll or two to keep it tense rather than a clean win or a stomp.
+- **Low-stakes first:** Charm test, Beckoner decision, resolved early before the main fork.
+- **Opportunistic:** clerk "brother" nudge if a natural opening shows up — no forcing it.
 
 ---
 *Last updated: start of session 3.*
