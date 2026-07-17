@@ -180,6 +180,7 @@ Granted per points invested in that stat specifically, not character level.
 | Birthing Hook | Reach | Skill / C | Optional | Wide sweeps; strong vs multiple limbs or grouped adds |
 | Funicular Spike | Reach/thrust | Strength / B | Yes | Bonus damage vs already-staggered targets |
 | Brass Token Press | Trick | Skill ↔ Strength | Switches | Folds between Quick and Heavy mid-fight; full transform gated behind Insight Tier 1 |
+| Fists (unarmed) | Quick | Skill / E | N/A | No gimmick, no ammo. **Base 10** — fits the standard grade formula cleanly (Grade E ×0.3). Roughly half a comparable Grade-D weapon's output at the same ESV. *(Session 4 ruling — Lloyd fought an entire session weaponless.)* |
 
 *Worked example — Cautery Saw heavy attack, base 30 (anchored so the sever claim holds): Str 8 → ESV 8 → 2×30 + (8×0.9×1.5) ≈ 71. Str 40 → ESV 33 → ≈ 105. Str 99 → ESV ~47 → ≈ 123 — just past the head's 120-raw sever line (§10). Other bases in the table are placeholders.*
 
@@ -199,13 +200,13 @@ Most conditions are tracks — counters that build (0–10) rather than switches
 
 **RUPTURE** (triggered only, at Blood Loss 10) — 25% of Max HP direct damage, staggers you a beat, resets Blood Loss to 0. Low Rally recovery — ten unmanaged stacks are meant to stick. **(untested)**
 
-**INSANITY** — the "character acts without you" meter. On taking damage, witnessing something wrong, or failing a fear save: Save Roll (below). Fail → DM controls you one turn (freeze, flee, strike the nearest body, speak to something that isn't there). High Insight raises this. *Not the same as Insight.*
+**INSANITY** — the "character acts without you" meter. On taking damage, witnessing something wrong, or failing a fear save: Save Roll (below). Fail → DM controls you one turn (freeze, flee, strike the nearest body, speak to something that isn't there). High Insight raises this. *Not the same as Insight.* **(Flagged gap, session 4: unlike Blood Loss (Rupture at 10) and Influence (explicitly uncapped past 10), Insanity has no stated behaviour once it reaches its own 10 cap. Reached 9 in play without testing the ceiling — needs a ruling before a character actually hits 10.)**
 
 **BURNING** — ticking damage each turn. Spreads to oil, cloth, steam-soaked surfaces. Action to smother. Heat sources can re-ignite you.
 
 **DISCOMBOBULATION** — a Tick, not a track. Applied at 1–3 (DM's call by severity: scrambled sign = 1, the source-spring stair = 3), counts down 1 at end of each of your turns automatically. While active the DM may misdescribe exits, reverse movement, strip reactions, or scramble attack directions — pick what fits. A fresh application refreshes to the new value if higher. Cap 3. (Long-term cousin: Fugue, §13 — a Track, not a Tick.)
 
-**INFLUENCE** — some enemies suggest rather than strike, verbally or otherwise — a spoken command, or just a pull, an ache, a wordless want. Builds as a Track like Blood Loss, but **uncapped past 10** — no fixed overflow trigger, no Rupture-equivalent. Instead, **the severity of compelled effects available to the DM scales with stack count**: low stacks might mean lingering near a source or a minor compulsion; higher stacks can escalate to dropping a weapon, fleeing, self-harm, or striking an ally. This is deliberately open-ended DM discretion, not a fixed table — calibrate severity to stack count and use judgment so it doesn't wreck pacing. On a failed save, obey the effect (or the enemy's spoken command, if it has one) on your next turn. Susceptibility rises with Insanity and Insight.
+**INFLUENCE** — some enemies suggest rather than strike, verbally or otherwise — a spoken command, or just a pull, an ache, a wordless want. Builds as a Track like Blood Loss, but **uncapped past 10** — no fixed overflow trigger, no Rupture-equivalent. Instead, **the severity of compelled effects available to the DM scales with stack count**: low stacks might mean lingering near a source or a minor compulsion; higher stacks can escalate to dropping a weapon, fleeing, self-harm, or striking an ally. This is deliberately open-ended DM discretion, not a fixed table — calibrate severity to stack count and use judgment so it doesn't wreck pacing. On a failed save, obey the effect (or the enemy's spoken command, if it has one) on your next turn. Susceptibility rises with Insanity and Insight. **(Flagged gap, session 4: the Save Roll formula below has no Insanity term at all — only Insight. Unresolved whether this line is aspirational-only or the formula needs a real Insanity variable added. See dev log §10.)**
 
 - **First save trigger:** a source's stacks don't force a save until the 2nd stack lands. *(Session zero ruling.)*
 - **Clear conditions:** a successful resist alone does not clear the stack while the source remains active — it only avoids that turn's compulsion. Full clear happens once the source is eliminated (line of sight fully broken). **With multiple simultaneous sources, full clear requires ALL active sources gone** — killing one of several just stops that one from adding further stacks. *(Session zero ruling.)*
@@ -442,6 +443,8 @@ The spine of progression, separate from the five buyable attributes. Never purch
 - **Reading your own mutations** (§10).
 
 **The cost (passive):** each tier raises your Insanity/Influence susceptibility — formalised as the +⌊Insight ÷ 2⌋ term in the Save Roll (§5). More powerful and more fragile, simultaneously.
+
+**First-sighting trigger (session 4 standing rule):** a complete Monster Manual entry existing for an archetype means the character has already encountered it, full stop — no first-sighting Insight bump fires for it regardless of whether this is the first time that specific fight has come up in actual play. The bump is reserved for genuinely new archetypes with no existing page yet.
 
 ### Insight Tiers
 

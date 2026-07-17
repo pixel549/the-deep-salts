@@ -45,6 +45,7 @@ One page per monster. A completed page is everything a DM needs to run that figh
 * **Kitable:** Y — slowest move budget in the game; any Endurance investment outpaces it outright
 * **Assess (Insight 0–1):** "It's slow. It won't hit hard. Watch the others behind it."
 * **Assess (Insight 2+):** "No damage on the grab, just Influence. No tell because there's no windup — no parry exists here, so just hit it till it drops. Want it faster? Stagger a leg to ground it; the head's an open called shot after."
+* **Influence effect, capped (session 4 ruling):** on a failed save, the compelled effect is a pull one step toward the source — a movement cost only, never a lost action, regardless of stack height. This creature never escalates further no matter how long a fight against it runs.
 * **White Salts Drop (base):** 5 — the floor value for the White Salts economy; nothing drops less without a specific reason **(untested)**
 * **Insight Granted:** +1 on first sighting only (Ruleset §17 trigger list); +0 thereafter
 * **Boss Gimmick:** N/A
