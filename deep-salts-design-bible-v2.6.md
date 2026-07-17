@@ -644,6 +644,32 @@ Zero mechanical function, zero dialogue, zero lore thread — the least an NPC c
 
 **Lore thread:** connects to nothing. Player can piece together: nothing. Never revealed: whether it's a person at all.
 
+## NPC 2 — The Memory Vendor
+
+* **Role:** deep-recess entity, not a hub fixture. Trades power for Insight, then collects on it like a loan shark.
+* **Level Range:** N/A — never fought directly · **Location(s):** unconfirmed, not hub-accessible. Per the reception clerk: "not a room... a depth. You don't get pointed there. You get deep enough that it stops being able to avoid you." · **Fightable:** N — leverage is entirely through debt/toll/invasion, never a direct encounter
+
+**Appearance & Behaviour:**
+
+* **Fixed appearance:** undefined — genuinely unmet in play as of session 4, deliberately left open rather than pre-authored
+* **What changes between appearances:** unknown, first meeting hasn't happened yet
+* **On player arrival:** offers trades — permanent buffs or Scar removal (Ruleset §5), Insight only
+* **Never does:** accept Salts, items, or favors as payment for a deal — Insight is the only currency it deals in, ever
+* **Never says directly:** confirms a fixed name or location — "a depth," never a place
+
+**Dialogue seeds:** measured, transactional, unbothered by a refusal · treats a missed payment as a fact, not a threat, which is somehow worse · speaks of Insight the way a person speaks of a debt already on the books · never raises its voice about the invasion option — it's just what happens next.
+
+**Mechanical Function:**
+- **Buy-in trades.** Player spends Insight (standard Insight-spend rule, Ruleset §11 — score/tier/floor all drop immediately) for a permanent effect: a damage buff or similar, negotiated case-by-case, no fixed menu.
+- **Scar removal.** The only route to remove a Break-triggered Scar (Ruleset §5). Cost escalates per Scar: **Scar 1 — 6 Insight · Scar 2 — 10 Insight · Scar 3+ — higher still**, deliberately unpayable in a single sitting past the first.
+- **The debt/toll system.** Larger trades can be structured as a payment plan instead of paid up front — an agreed total Insight owed across a negotiated number of runs or a deadline (e.g. "13 Insight across the next 2 runs," or "2 Insight per run for 6 runs"). Tracked as a persistent, cross-run thread (character sheet or standing quest) — no Status Track, no save rolls, no DM-discretion severity scaling. It's bookkeeping, not a mechanic with its own roll.
+  - **Falling behind schedule:** the Vendor takes a flat **10% of that run's Vault banking** instead of invading. Flat, no escalation — Vault's own growth already scales the bite over a campaign.
+  - **Refusing the toll too** (not just missing the schedule) is what actually triggers invasion: the next reroll of whatever recipe the player enters comes back quietly worse — HP bump, an extra body, a seeded hazard — invisible until encountered.
+  - **Full repayment of the agreed Insight closes the deal clean.** No lingering toll, no residual invasion risk, regardless of how many payments were missed along the way.
+  - **No interest accrues in Insight specifically** — deliberate: Insight is a scarce, potentially non-renewable resource (a finite pool of genuinely-new archetypes), so a compounding Insight debt risks a real softlock. The Vendor's leverage lives entirely in the Salt toll and reroll manipulation, never in the underlying Insight figure itself.
+
+**Lore thread:** tangled with the reception clerk's "brother" hook — she's referenced him asking "about ways" near the end, unconfirmed whether that means this Vendor specifically. Player can piece together over time: how far the Vendor's reach into instance rerolls actually goes, whether the brother carried the same kind of debt. Never revealed (yet): true name, true appearance, true location.
+
 ## NPC Template (blank)
 
 * **Role:** · **Level Range:** · **Location(s):** · **Fightable? (Y/N — if Y, attach Monster Template):**
@@ -741,5 +767,5 @@ Not White Salts (fully defined in Ruleset §4/§19) — the weakest possible Key
 
 \---
 
-*Sections 8–10 (Mechanic Index, Book Plan, Known Gaps) live in the dev log — `deep-salts-dev-log-v1.md`. Section numbering is preserved across both files so ruleset cross-references (e.g. "design bible §10") remain valid.*
+*Sections 8–10 (Mechanic Index, Book Plan, Known Gaps) live in the dev log — `deep-salts-dev-log-v1.4.md`. Section numbering is preserved across both files so ruleset cross-references (e.g. "design bible §10") remain valid.*
 

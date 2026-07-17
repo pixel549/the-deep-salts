@@ -200,7 +200,12 @@ Most conditions are tracks — counters that build (0–10) rather than switches
 
 **RUPTURE** (triggered only, at Blood Loss 10) — 25% of Max HP direct damage, staggers you a beat, resets Blood Loss to 0. Low Rally recovery — ten unmanaged stacks are meant to stick. **(untested)**
 
-**INSANITY** — the "character acts without you" meter. On taking damage, witnessing something wrong, or failing a fear save: Save Roll (below). Fail → DM controls you one turn (freeze, flee, strike the nearest body, speak to something that isn't there). High Insight raises this. *Not the same as Insight.* **(Flagged gap, session 4: unlike Blood Loss (Rupture at 10) and Influence (explicitly uncapped past 10), Insanity has no stated behaviour once it reaches its own 10 cap. Reached 9 in play without testing the ceiling — needs a ruling before a character actually hits 10.)**
+**INSANITY** — the "character acts without you" meter. On taking damage, witnessing something wrong, or failing a fear save: Save Roll (below). Fail → DM controls you one turn (freeze, flee, strike the nearest body, speak to something that isn't there). High Insight raises this. *Not the same as Insight.*
+
+**BREAK** (triggered only, at Insanity 10 — session 4 ruling): automatic, no roll. Insanity resets to **0** immediately. In exchange:
+- **The Blackout.** DM takes full narrative control for **3 turns (untested)**. This is a Broken World scene, not a normal lost-turn: reuse Fugue's flavour (false tells, fake Influence commands, subtly wrong layouts) but as a timed effect rather than Fugue's existing death-only trigger, plus a hallucinated threat that can actually connect — generate its damage live same as any enemy, floor 20 (§2/§4/§16). This is meant to be disorienting and genuinely dangerous, not a narrated freebie.
+- **The Scar.** When the blackout ends, a permanent trait attaches — same shape as a Corrupted Regrowth mutation (§10): a clear upside paired with a clear downside, contextually tied to whatever was happening when Insanity capped out (a fire enemy breaks you → a fire-flavoured trade; a near-death spiral → a health-threshold-flavoured trade). Read the full trade at sufficient Insight, same gating as mutations; below the threshold it's vibes only. Scars stack without a fixed limit — nothing stops a long campaign from collecting several.
+- **Removal.** Scars do not revert at the Hydrotherapist — that's a body fix, this isn't. The only route is the Memory Vendor (design bible §4), paid in Insight specifically, escalating per Scar removed: **Scar 1 — 6 Insight · Scar 2 — 10 Insight · Scar 3+ — higher still**, deliberately unpayable in one sitting past the first, forcing a real multi-hub-cycle grind (Insight caps at 10) or a choice of which Scars to keep. *Very hard to remove. Not impossible.*
 
 **BURNING** — ticking damage each turn. Spreads to oil, cloth, steam-soaked surfaces. Action to smother. Heat sources can re-ignite you.
 
@@ -473,6 +478,7 @@ Spendable on:
 - Forcing a gated door/path where the location calls for a spend rather than a threshold (DM states which, per location).
 - Weapons/equipment priced in Insight (noted on the item's template).
 - **Summoning a support ally** — spend Insight (default 2) to call something to your side for the current encounter: a fellow patient, something that owes you, a piece of the Hydro that likes you today. Temporary, unreliable, never explained. **(untested — cost, duration, and capability are DM calls until run.)**
+- **The Memory Vendor's trades** (session 4) — permanent buffs, or Scar removal (§5), bought with Insight and negotiated case-by-case, no fixed menu. Can be structured as a payment plan across future runs rather than paid in full up front — full mechanic on the Vendor's design bible page (§4), since the debt/toll/invasion system is NPC-specific, not a general ruleset mechanic.
 
 ### Visceral Mods **(untested numbers)**
 
@@ -640,7 +646,7 @@ Stillwell Hydro holds ~6 salts rooms — sauna chambers where measured doses tri
 |---|---|---|
 | Blood Loss | Each new stack: +damage = new stack total. No passive drain. Cap 10 → Rupture | Bandage / cautery / pressure |
 | Rupture (triggered @ 10) | 25% Max HP damage + stagger + Blood Loss resets | Resolves once |
-| Insanity | Fail Save Roll → DM controls you 1 turn. ↑ with Insight | Camphor (−2) / calm / Resolve 60 perk |
+| Insanity | Fail Save Roll → DM controls you 1 turn. ↑ with Insight. **Cap 10 → Break: auto, no roll — 3-turn Broken World blackout, resets to 0, permanent Scar attaches (Memory Vendor removal only, Insight-priced, escalating)** | Camphor (−2) / calm / Resolve 60 perk |
 | Burning | Damage/turn, spreads to flammables | Smother (action) |
 | Discombobulation (Tick, 1–3) | Bad exits, reversed move, lost reactions | −1/turn, automatic |
 | Influence | Fail Save Roll → obey/compelled effect next turn, severity scales with stacks (DM discretion), uncapped past 10. ↑ Insanity & Insight | Full source elimination (ALL active sources if multiple) |
@@ -661,7 +667,7 @@ Stillwell Hydro holds ~6 salts rooms — sauna chambers where measured doses tri
 
 **PRECISION** (limbs >1.0 only) — tighter window for higher multiplier (head ±0.13s). Miss → progressively worse (chip / off-balance / wide + reactive / exposed). Removed by T1 parry, widened by T2.
 
-**MUTATION** — Lost limbs regrow at hub, chance of coming back changed (+power / −something). Read trades only at high Insight. Revert or reroll at hub, Vault White Salts.
+**MUTATION** — Lost limbs regrow at hub, chance of coming back changed (+power / −something). Read trades only at high Insight. Revert or reroll at hub, Vault White Salts. *(Mental parallel: Scars, from Insanity's Break — see Insanity row above.)*
 
 **ABANDON-ALL** — Instant, free, mid-combat, any time. Keep character/limbs, forfeit Purse AND gear (recoverable off a guaranteed enemy in a future instance, no expiry). §12.
 
@@ -671,7 +677,7 @@ Stillwell Hydro holds ~6 salts rooms — sauna chambers where measured doses tri
 
 **SALTS ROOMS** — ~6 rooms. Recipe = biome (permanent constant); layout/loot/spawns reroll per entry. Salts single-use on activation; active room free to reuse until deliberately cleared (no refund). Clean exit via anchor (rerolls position, always exists) → Purse banks. Some recipes Insight-gated. Boss kills permanent; one landmark settles.
 
-**INSIGHT** — Earned, 0–10, five tiers. Sight + visceral mods + mutation-reading. ↑ power, ↑ Insanity/Influence floor. Spendable (doors, Insight-priced gear, ally summon at default 2) — spending drops score, tier, and floor together.
+**INSIGHT** — Earned, 0–10, five tiers. Sight + visceral mods + mutation-reading. ↑ power, ↑ Insanity/Influence floor. Spendable (doors, Insight-priced gear, ally summon at default 2, Memory Vendor trades) — spending drops score, tier, and floor together.
 
 ---
 
