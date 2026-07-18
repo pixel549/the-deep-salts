@@ -4,7 +4,7 @@
 
 Companion to the core ruleset and monster manual. **Load this document (plus the ruleset and the character sheet) when running the game.** Project-management material — mechanic index, book plan, known gaps (§8–10) — lives in the separate dev log and should NOT be in context during play.
 
-*Version 2.7 — pre-session-5 design pass: NPC Template gains a Persistent Companion variant (§4); Monster Template intro notes the enemy-variety generation discipline (Ruleset §18). Version 2.6 session zero updates: Monster Template limb table gains a Stagger Duration column; standard humanoid stagger durations proposed; small high-value called-shot targets documented as non-standard limb entries (Sever mechanic, no new category); Drowned Bellkeeper's bell documented as a worked example. Rules flagged **(untested)** are proposed rulings awaiting playtest.*
+*Version 2.8 — session 5: Weapon 2 (The Salvage Launcher) added, built around range/ammo/guaranteed-hit identity after a first-draft reskin of Metal Knuckles was caught in play; Chapel Penitent's Penitent Rush timing window filled in (was a placeholder); NPC 3 (Maud) given a full entry, including her session-5 lore thread. Version 2.7 pre-session-5 design pass: NPC Template gains a Persistent Companion variant (§4); Monster Template intro notes the enemy-variety generation discipline (Ruleset §18). Version 2.6 session zero updates: Monster Template limb table gains a Stagger Duration column; standard humanoid stagger durations proposed; small high-value called-shot targets documented as non-standard limb entries (Sever mechanic, no new category); Drowned Bellkeeper's bell documented as a worked example. Rules flagged **(untested)** are proposed rulings awaiting playtest.*
 
 Every monster, weapon, item, NPC, status effect, and currency gets ONE complete page here — every field about that one thing, in one place. Copy the blank template to add an instance. Nothing about a single entity should require flipping to another page; if you're cross-referencing three tables to know how one weapon works, the template has failed — flag it.
 
@@ -88,7 +88,7 @@ Attacks
 
 Attack	Type	Tell (exact narration)	Window (target/±)	Tier	Hit Effect + Stacks	Status Type (Imm/Track/Tick)	Retaliation on Visceral?	Miss/Whiff Punish
 
-Penitent Rush	Heavy	"It bows deeply, then drives forward in a desperate sprint."	Target	Heavy	40 raw damage	None	Standard	Long recovery while regaining footing
+Penitent Rush	Heavy	"It bows deeply, then drives forward in a desperate sprint."	Target 1.2s, ±0.20s base (session 5 ruling — was placeholder)	Heavy	40 raw damage	None	Standard	Long recovery while regaining footing (session 5 read: covers roughly two of the player's follow-up actions before it fully re-engages — a guideline, not a hard turn count)
 
 
 
@@ -597,6 +597,24 @@ One page per weapon — identity, damage, passive, sever maths together.
 
 **Sever viability:** not viable against any limb at any ESV (best case Heavy at ESV 47 = 61 raw, under half the head's 120). Correct and intended — a floor weapon never severs, at any Strength (Ruleset §10).
 
+## Weapon 2 — The Salvage Launcher
+
+* **Type:** Reach · **Stat/Grade:** Skill / D · **Hands:** Two
+* **Acquisition:** commissioned, not found — built by the hub's boiler-wing engineer specifically to fire Lloyd's existing Powder Charge capsules after Metal Knuckles was lost. Character-specific for now; not a generic recipe drop.
+* **Base Damage:** 30 (single committed shot, no Light/Heavy split — see below)
+* **Shot formula:** 30 + ESV×0.5 (Grade D). No Heavy variant; this weapon has one attack type.
+* **Worked rows:** ESV 8 → 34 · ESV 17 → 38 · ESV 47 (maxed) → 53
+* **Two-Handed Modifier:** N/A (inherently two-handed, no one-handed mode)
+* **Passive — Powder Charge (ranged variant):** fires loaded only — no capsule chambered means no shot at all, unlike a melee weapon that always swings. Loading a capsule is the universal Fast Action (0m, Ruleset §7). No timing check on the detonation (unlike Metal Knuckles' Powder Charge, which needs a stopwatch hit) — this version trades the skill-timing requirement away in exchange for finite ammo. On a landed hit: 1 Discombobulation, automatic, no roll.
+* **Range:** 8m — the actual reason to use it over melee options; lets Lloyd engage before an enemy's own reach becomes relevant.
+* **Movement cost to fire:** 1m (Light-tier — session 5 ruling, since there's no Heavy variant to price separately).
+* **Ammo:** drawn from Lloyd's Powder capsule stock (Hub Kit, standard 4). Empty launcher = treat as base unarmed (Fists) until reloaded at hub.
+* **Insight Gate:** none
+
+**Sever viability:** not viable against any limb at any ESV (max Heavy-equivalent output ~53 raw at ESV 47, well under even the head's 120). Consistent with a Grade D, non-bladed, concussive weapon — this was never meant to be Lloyd's sever tool.
+
+*(Session 5 — first draft of this weapon was a near-identical reskin of Metal Knuckles at a lower base; rebuilt from scratch around range/ammo/guaranteed-hit identity once the redundancy was caught in play. Logged in the dev log as a design-process note.)*
+
 ## Weapon Template (blank)
 
 * **Type (Quick/Heavy/Reach/Trick):** · **Governing Stat / Grade (E–S):** · **One or Two-Handed:** · **Acquisition:**
@@ -680,6 +698,29 @@ Same fields as the standard NPC Template, plus these once recruited (Ruleset §1
 * **Accompanies into:** which recipes/biomes it will enter (not necessarily all — some companions may refuse specific places)
 * **Stat block:** HP band, 1–2 actions, any gimmick — generated live on first accompanied run same as a monster (Ruleset §16/§17), then recorded here as canon
 * **Status:** Active / Held at hub (didn't come this run) / **Dead (permanent — no respawn, no undo)**
+
+## NPC 3 — Maud
+
+* **Role:** hub salt/item identifier and appraiser. Names her price, does the work, doesn't pry — except when something on her own personal list crosses the counter.
+* **Level Range:** N/A — not a combat entity · **Location(s):** hub only (her stall/counter) · **Fightable:** N
+
+**Appearance & Behaviour:**
+
+* **Fixed appearance:** undefined beyond function — never physically described in play yet.
+* **What changes between appearances:** unestablished so far; hasn't shown a "one detail changes" pattern the way the hub's ambient NPCs do (Ruleset §14).
+* **On player arrival:** IDs salts (5 White Salts first ID, doubling per subsequent — Ruleset reference) or off-catalog items (session 5 ruling: 8 White Salts for a non-salt item ID, separate scale from her salt pricing). Has three standing, long-unfulfilled salvage requests: sealed items, source-water, packing cloth.
+* **Never does:** ask where an item came from, or whose it was, as part of a standard ID — that's not the job. Session 5 confirmed this isn't indifference; she has her own reasons to not ask.
+* **Never says directly:** why the three salvage categories matter to her personally, what the symbol on Lloyd's ring means, or who she's buried.
+
+**Dialogue seeds:** professional and unhurried on anything routine · goes still and flat the moment something personal surfaces, no performance in it · direct refusals rather than deflection — "that's not mine to want," "I'm not carrying it near me twice" · will ask to revisit a topic later rather than pretend it doesn't matter, once it's clear it does.
+
+**Mechanical Function:**
+- **Salt identification:** 5 White Salts first ID, doubling per subsequent ID (5 → 10 → 20 → 40...).
+- **Off-catalog item identification:** 8 White Salts (session 5 ruling — separate scale, since her stated pricing was always salt-specific).
+- **Buys sealed/found items outright**, case-by-case pricing (session 5: paid 20 for a sealed vessel, unprompted offer once she saw what it was).
+- **Salvage requests** (sealed items, source-water, packing cloth) — no mechanical reward defined yet for fulfilling them; treat as a relationship/lore thread rather than a transaction until something says otherwise.
+
+**Lore thread:** recognized the scratched symbol on a ring Lloyd found (session 5) on sight. Confirmed: she's buried someone who wore that mark, exactly once. Refused to confirm or deny whether it connects to "Mirel" (a name found the same session) or to the reception clerk's "brother" thread. Asked Lloyd to raise it again another time rather than pushed further tonight — a live, deliberately unresolved thread, not a dead end.
 
 ## NPC Template (blank)
 
