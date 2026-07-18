@@ -24,6 +24,18 @@
 - **New open gap, unresolved:** Insanity/Influence formula text-vs-math mismatch (susceptibility "rises with Insanity" but no such term exists in the Save Roll formula). Insanity's own cap-at-10 behavior got fully designed in a post-session pass (see below) — no longer open.
 - **Didn't come close to:** recovering any lost gear, finding or naming the Memory Vendor, delivering the old man's clean water, hitting the 50-Salt level threshold.
 
+## PRE-SESSION 5 DESIGN PASS — apply starting this session
+
+Player feedback, folded into Ruleset v7.2 / design bible v2.7 / dev log v1.5 before session 5 begins. Apply all of these live, not just note them:
+
+- **Insight Re-Read** — anything Lloyd's already seen (Waterlogged Guests, the flooded street's dark water, hub fixtures) gets re-described through his *current* Insight tier (7 → Tier 3, band "reframe," trending toward "full truth" at Tier 4/8) whenever it comes up again, not just its original text.
+- **Sub-locale variation** — if he reruns the flooded-street recipe again, do NOT reuse "street level" a fourth time running; pick a different sub-locale (interior, sewer, rooftop) than last visit.
+- **Enemy variety** — do not default to Waterlogged Guests again this session just because they're the known farm target, unless he explicitly chooses to farm them again.
+- **Instance flavour tagging** — tag this session's reroll(s) privately before narrating the wake-in; skew away from pure combat if the recipe's been run a lot already (this one has — 3 visits).
+- **Discovery escalation** — not every find this session needs to be a new debt or threat. Let some land as flavor/reward only.
+- **Companions** — if a recruitment or in-instance ally moment comes up organically, use the new two-track system (Ruleset §18); don't force one in artificially.
+- **Live character sheet artifact** — stand up a chat-canvas artifact mirroring `deep-salts-character-sheet.md` at session start, keep it current through play.
+
 ## THIS SESSION (5)
 
 - **Capsule launcher should be ready** — a day's turnaround was promised. Good hook to open on.

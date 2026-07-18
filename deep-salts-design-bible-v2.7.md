@@ -4,7 +4,7 @@
 
 Companion to the core ruleset and monster manual. **Load this document (plus the ruleset and the character sheet) when running the game.** Project-management material — mechanic index, book plan, known gaps (§8–10) — lives in the separate dev log and should NOT be in context during play.
 
-*Version 2.6 — session zero updates: Monster Template limb table gains a Stagger Duration column; standard humanoid stagger durations proposed; small high-value called-shot targets documented as non-standard limb entries (Sever mechanic, no new category); Drowned Bellkeeper's bell documented as a worked example. Rules flagged **(untested)** are proposed rulings awaiting playtest.*
+*Version 2.7 — pre-session-5 design pass: NPC Template gains a Persistent Companion variant (§4); Monster Template intro notes the enemy-variety generation discipline (Ruleset §18). Version 2.6 session zero updates: Monster Template limb table gains a Stagger Duration column; standard humanoid stagger durations proposed; small high-value called-shot targets documented as non-standard limb entries (Sever mechanic, no new category); Drowned Bellkeeper's bell documented as a worked example. Rules flagged **(untested)** are proposed rulings awaiting playtest.*
 
 Every monster, weapon, item, NPC, status effect, and currency gets ONE complete page here — every field about that one thing, in one place. Copy the blank template to add an instance. Nothing about a single entity should require flipping to another page; if you're cross-referencing three tables to know how one weapon works, the template has failed — flag it.
 
@@ -17,6 +17,8 @@ Each section leads with its **floor entry** — the weakest legal instance of th
 # 1\. Monster Template
 
 One page per monster. A completed page is everything a DM needs to run that fight without looking anywhere else.
+
+**Enemy-variety discipline (Ruleset §18, session 4.5):** when populating a reroll, don't default to the archetype that's easiest to write or was just fought last time. No archetype spawns three rerolls running for the same recipe unless the player is deliberately farming it by choice. Reskin the same archetype for a different biome freely — that's not a repeat — but within one recipe's rotation, reach for something the player hasn't seen in the last visit or two before reaching for the familiar one.
 
 ## Monster 1 — Waterlogged Guest *(floor entry)*
 
@@ -669,6 +671,15 @@ Zero mechanical function, zero dialogue, zero lore thread — the least an NPC c
   - **No interest accrues in Insight specifically** — deliberate: Insight is a scarce, potentially non-renewable resource (a finite pool of genuinely-new archetypes), so a compounding Insight debt risks a real softlock. The Vendor's leverage lives entirely in the Salt toll and reroll manipulation, never in the underlying Insight figure itself.
 
 **Lore thread:** tangled with the reception clerk's "brother" hook — she's referenced him asking "about ways" near the end, unconfirmed whether that means this Vendor specifically. Player can piece together over time: how far the Vendor's reach into instance rerolls actually goes, whether the brother carried the same kind of debt. Never revealed (yet): true name, true appearance, true location.
+
+## NPC Template — Persistent Companion variant
+
+Same fields as the standard NPC Template, plus these once recruited (Ruleset §18):
+
+* **Recruited:** session/run recruited, and the fictional hook that closed the deal
+* **Accompanies into:** which recipes/biomes it will enter (not necessarily all — some companions may refuse specific places)
+* **Stat block:** HP band, 1–2 actions, any gimmick — generated live on first accompanied run same as a monster (Ruleset §16/§17), then recorded here as canon
+* **Status:** Active / Held at hub (didn't come this run) / **Dead (permanent — no respawn, no undo)**
 
 ## NPC Template (blank)
 

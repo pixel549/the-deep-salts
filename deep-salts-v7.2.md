@@ -3,7 +3,7 @@
 
 System-agnostic ruleset (d20 base) for solo play with an AI DM or a small table. One idea: you trade your humanity for power, and you can only see the trade once you've gone mad enough to look.
 
-*Version 7.1 — session zero rulings folded in: visceral charges removed as a resource, enemy limb stagger duration + free-shot-on-trigger, Influence uncapped with DM-discretion severity scaling, self-initiated called-shot tightening. Rules flagged **(untested)** are proposed rulings awaiting playtest.*
+*Version 7.2 — pre-session-5 design pass folded in: Insight Re-Read (return visits reveal more at higher Insight tiers), sub-locale variation (rerolls can relocate within a biome's identity, not just reshuffle one floor plan), instance flavour tagging (Combat/Mystery-Lore/Puzzle/Social/Escape-Survival) with a non-combat-primary ratio floor, enemy-variety generation discipline, Instance vs Persistent Companions, and a discovery-escalation ratio guideline. Session zero rulings still folded in below: visceral charges removed as a resource, enemy limb stagger duration + free-shot-on-trigger, Influence uncapped with DM-discretion severity scaling, self-initiated called-shot tightening. Rules flagged **(untested)** are proposed rulings awaiting playtest.*
 
 ---
 
@@ -470,6 +470,14 @@ The spine of progression, separate from the five buyable attributes. Never purch
 - Extra parry-window widening on specific high-tier enemies or locations, stacking with the flat bonus.
 - Free, no-roll perception reveals — a shape in the fog, a word under the humming, a door that wasn't a door a floor ago.
 
+**Insight Re-Read (session 4.5 ruling).** Insight isn't only spent forward on new sightings — it recolors old ones. Any recurring, already-encountered thing (a mook archetype, a hub fixture, a recipe's signature environmental detail — the dark water, the Guests, the fog itself) gets re-described through the character's *current* Insight tier every time it comes up again, not just its original first-sighting text. Three practical bands, DM's call on content within them:
+
+- **Tier 0–1 (score 0–1):** surface read only — what anyone would assume.
+- **Tier 2–3 (score 2–5):** a reframing detail — enough to know the surface read was incomplete.
+- **Tier 4–5 (score 6–10):** the truth, plainly legible — what it actually is or was.
+
+This costs nothing and grants nothing — it's not a new Insight-gain trigger, just the existing score doing narrative work on repeat contact. Concretely: the same Waterlogged Guest that was "a vaguely humanoid shape in the water" at Insight 1 gets named — occupation, a face, how it ended up here — once Lloyd is sitting at Insight 6+. Applies to locations and NPCs the same way it applies to monsters.
+
 ### Spending Insight
 
 Spending immediately reduces your current score. Drop into a lower tier and you lose its benefits — mods, window bonuses, sight — until you earn back up. The upside: your Insanity/Influence floor drops with it.
@@ -609,6 +617,14 @@ Stillwell Hydro holds ~6 salts rooms — sauna chambers where measured doses tri
 - **Everything inside rerolls.** Layout, wake-in point, loot placement, enemy spawns regenerate every entry. The DM holds a biome overview per recipe — palette, archetype reskins, hazards, loot tier, anchor flavour — never a map.
 - **Recipe discovery happens in the world:** salts as loot, proportions from lore, NPC hints. Some recipes are Insight-gated — below the tier, the combination doesn't take; the room fills with ordinary steam. A threshold check, not a spend.
 
+**Sub-locale variation (session 4.5 ruling).** A reroll changes more than furniture inside one fixed floor plan — it can change *which part* of the biome's identity you wake into. A flooded-street recipe's constant is the mould, the water line, the drowned-city palette — not literally "street level" every time. A reroll might wake Lloyd on a building's second floor looking down at the flood, in a sewer main beneath it, on a rooftop bridge between tenements, or in the street itself. Hard rule: **the same sub-locale never repeats two rerolls in a row** for a given recipe — DM picks or rolls a different one each entry, and the biome overview (above) should carry a running list of which sub-locales exist for that recipe so there's a real pool to draw from, not an invented-on-the-spot guess every time.
+
+**Instance flavour tagging (session 4.5 ruling).** Before or as the player wakes into a reroll, the DM privately tags that instance's dominant emphasis — one of **Combat / Mystery-Lore / Puzzle / Social Encounter / Escape-Survival** — and leans the generated content that direction rather than defaulting to combat-with-flavour-text every time. A recipe already run several times (the Choir Deep, a farmed recipe) should not read the same way twice running: guideline floor is **at least 1 in 3 rerolls of an already-explored recipe skews non-combat-primary** (light or no enemies, emphasis on lore, a puzzle, an NPC encounter, or a pure survival/escape scramble instead). This is a generation guideline, not a player-visible mechanic — the player finds out what a run is by playing it.
+
+**Enemy variety (session 4.5 ruling).** Companion rule to the above: **no monster archetype spawns in more than two consecutive rerolls of the same recipe** unless the player is deliberately farming that specific archetype by choice (as with a known grind). Reskins across different recipes don't count as repeats of each other. This is a DM-side generation discipline, tracked informally per recipe, not a hard player-facing table.
+
+**Discovery escalation ratio (session 4.5 ruling).** Not every Instance Quest resolution should convert into a permanent worsening — a new debt, a Scar, a standing threat. Most instance-anchored discoveries (per the Instance Quests rule above) should resolve as flavor, lore, or a one-time reward with no lasting cost. Reserve genuine permanent escalation for a deliberate minority of discoveries — the Break/Scar system, the Memory Vendor's toll, and similar hooks are meant to be occasional teeth, not the default shape of "you found something."
+
 **Salts & the room economy**
 - Salts are **single-use, consumed on activation** — not per trip. Burning a recipe opens that biome and holds it open.
 - An active room is **reusable indefinitely until deliberately cleared** at the hub. Clearing frees the slot, refunds nothing. With ~6 rooms, every active recipe is a standing commitment.
@@ -627,6 +643,11 @@ Stillwell Hydro holds ~6 salts rooms — sauna chambers where measured doses tri
 - **Boss kills are permanent per biome.** A slain boss never respawns; the biome "settles" — one fixed landmark appears where it died and persists across rerolls. The one mark you leave on a world that otherwise forgets you.
 
 **Open questions (untested):** salt drop rates per biome/archetype; exact recipe-discovery triggers (lore vs experimentation vs NPC purchase). DM discretion until playtested.
+
+**Companions (session 4.5 ruling).** Two distinct tracks — do not conflate them:
+
+- **Instance Companions.** The existing Insight-summon (§11, default cost 2) or a found ally within a run. Instance Quest by nature (above): fights alongside for that run only, expires with the layout, no tracking between sessions. Stats generated live the same way a monster is (§16/§17) — a rough HP band and one or two actions, scaled to encounter level, never below the Damage Floor.
+- **Persistent Companions.** Recruited at Stillwell Hydro — a hub NPC who agrees to accompany Lloyd into a recipe. This is a Quest, not an Instance Quest: the companion survives rerolls and persists across sessions once recruited, same as the old man or the engineer. Recruitment is a relationship thread, not a menu purchase — negotiated in fiction same as recipe discovery. Once recruited: generate a real stat block on first accompanied run (HP band, an attack or two, any gimmick) and record it as a Monster-Template-style page so it's consistent thereafter. **Real stakes:** a Persistent Companion can die in-instance like anything else, and death is permanent — no respawn-with-you, no free undo. Losing one is a genuine story beat, not a reload.
 
 ---
 
