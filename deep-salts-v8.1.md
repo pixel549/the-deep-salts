@@ -154,7 +154,7 @@ Granted per points invested in that specific stat.
 
 ### Weapons
 
-**Damage = Base + (ESV × grade).** Heavy ≈ 2×Base + ESV×grade×1.5. Grades: E ×0.3 · D ×0.5 · C ×0.7 · B ×0.9 · A ×1.1 · S ×1.3.
+**Damage = Base + (ESV × grade).** Heavy ≈ 2×Base + ESV×grade×1.5. Grades: E ×0.3 · D ×0.5 · C ×0.7 · B ×0.9 · A ×1.1 · S ×1.3. **Fractional results round up** (session 6 ruling — applies to this formula throughout, not just Fists).
 
 | Weapon | Type | Stat/Grade | Two-handed? | Gimmick |
 |---|---|---|---|---|
@@ -163,7 +163,7 @@ Granted per points invested in that specific stat.
 | Birthing Hook | Reach | Skill/C | Optional | Wide sweeps; strong vs multiple limbs |
 | Funicular Spike | Reach/thrust | Strength/B | Yes | Bonus dmg vs staggered targets |
 | Brass Token Press | Trick | Skill↔Strength | Switches | Folds Quick/Heavy; full transform gated Insight Tier 1 |
-| Fists (unarmed) | Quick | Skill/E | N/A | No gimmick, no ammo. Base 10. |
+| Fists (unarmed) | Quick | Skill/E | N/A | No gimmick, no ammo. Base 10 — deliberate sub-floor exception (session 6 ruling); never sever-capable, full stop, as the tradeoff. |
 
 *Worked example — Cautery Saw heavy, base 30: Str 8→ESV 8→~71 dmg. Str 40→ESV 33→~105. Str 99→ESV ~47→~123, past the head's 120-raw sever line (§10).*
 
@@ -198,6 +198,18 @@ Most conditions are tracks, 0–10, building rather than switching.
 - First save triggers at stack 2.
 - A successful resist doesn't clear the stack while the source stays active — only full source elimination clears it (line of sight fully broken). Multiple simultaneous sources: ALL must be eliminated.
 - A failed Influence save ticks Insanity only once the Influence stack is 3+.
+- **Enemy-side Influence (session 6 ruling, v2 — revised same session):** enemies don't have a compel/save loop, so severity scales behaviorally instead of via a save, shaped like Blood Loss/Rupture (reuse, not a new system):
+
+| Stack | Effect |
+|---|---|
+| 1–2 | Flavor only — restless, muttering, no mechanical change |
+| 3–4 | 50% chance/turn: attacks the nearest creature (ally or Lloyd) instead of its declared target |
+| 5–7 | Always redirects to the nearest creature instead — real damage, using its own normal attack numbers |
+| 8–9 | As above, +50% damage on the redirected attack — fury bonus |
+| 10 (cap) | **Overload Rupture:** 25% of that creature's Max HP as direct damage, staggers a beat, resets stack to 0. Can repeat as it re-climbs. |
+
+Applies to bosses too — a boss with no attack to redirect (The Singer) skips the 3–9 tiers functionally but still hits Overload Rupture at cap, same 25%-Max-HP math, repeatable. This is what actually turns a congregation on itself and can wear a boss down passively, not the old flat-20/turn version (superseded, same session).
+- **The Beckoner's residual Influence (session 6 clarification):** unlike normal Influence sources, stacks Lloyd picks up from the Beckoner become a **sticky baseline** — wrapping it or breaking distance stops *new* accumulation but does NOT clear what's already stuck (overrides the normal "source eliminated" clear for this item specifically). Clears only via a full rest/sleep cycle, or fully divesting the item (leaving it behind entirely, not just wrapped and carried). While a baseline is active, any new Influence-inducing encounter starts Lloyd's stack at that baseline instead of 0.
 
 **CORROSION** — damage at start of your turn = stacks × 2. Cap 5 (10/turn). Ticks down 1 at end of turn only if you spent an action managing it; otherwise holds. Stacks viciously with Burning.
 
@@ -549,7 +561,7 @@ Archetypes, reskin per location. Attack damage generated live (§2), scaled to l
 
 **Anchors.** Wake at a biome-flavoured fixture; location rerolls, always exists. Return + leave = clean exit (Purse banks). Assess/high Insight orients toward it.
 
-**Death & gear recovery.** Respawn in the entry salt room, Purse forfeit. **Killer is a guaranteed spawn** until beaten. **Boss kills are permanent per biome** — one fixed landmark settles where it died, persists across rerolls.
+**Death & gear recovery.** Respawn in the entry salt room, Purse forfeit. **Killer is a guaranteed spawn** until beaten. **Boss kills are permanent per biome** — one fixed landmark settles where it died, persists across rerolls. *(Session 6 clarification: this means a completed kill is permanent for that instance — a retreat or Abandon-All mid-fight doesn't carry damage forward, so the next reroll's boss of that archetype starts fresh at full HP. It's not a contradiction with "fresh full-HP boss per reroll"; a finished kill leaves its landmark and closes that thread, but the recipe can still generate a new instance of the same boss archetype in a future reroll — that's simply a different fight.)*
 
 **Companions.** Two tracks:
 - **Instance Companions** — Insight-summon (§11) or a found in-run ally. Instance Quest by nature: expires with the layout. Stats generated live like a monster.

@@ -1,5 +1,5 @@
 # THE DEEP SALTS
-**Dev Log — Mechanic Index, Book Plan & Known Gaps — v2.0**
+**Dev Log — Mechanic Index, Book Plan & Known Gaps — v2.1**
 
 Project management. **Do NOT load when running the game.** Section numbers (§8–10) match ruleset/bible cross-references.
 
@@ -37,7 +37,6 @@ Five books, filled from bible entries. **(✓)** = floor entry filled.
 
 | Gap | Note | Lives in |
 |---|---|---|
-| Fists vs. Damage Floor | Fists ruled Base 10, half the stated 20-base floor. Needs a call: bump to 20, or canonize sub-floor unarmed (never severes) as deliberate. | Ruleset §4 |
 | Endurance 40/99 perks | *Overcharge*/*Endless* orphaned by charge removal — provisional text, needs sign-off. | Ruleset §4 |
 | Break blackout duration | 3 turns, genuine placeholder, untested against an actual Break. | Ruleset §5 |
 | Scar/mutation read threshold | "Sufficient Insight" never pinned to a number. | Ruleset §5/§10 |
@@ -60,7 +59,11 @@ Five books, filled from bible entries. **(✓)** = floor entry filled.
 | Recruit cap & Gallery | 10 max (rooms 2–11); found/resolved/willing gate; one function + one drift each; can be lost. |
 | Maud's salt-ID pricing | 5, doubling per ID (5→10→20→40). |
 | Powder Charge detonation (Metal Knuckles) | Target 1.00s ±0.15s base, widened by Insight window bonus. |
-| Bare-handed combat | Base 10 · Light 10+ESV×0.3 · Heavy 20+ESV×0.45. |
+| Bare-handed combat | Base 10 · Light 10+ESV×0.3 · Heavy 20+ESV×0.45. **Session 6 ruling:** stays Base 10 as a deliberate sub-floor exception (never bumped to the 20 floor) — tradeoff is Fists can never sever, full stop. |
+| Damage formula rounding | **Session 6 ruling:** fractional results from Base + (ESV × grade) round up, not to nearest or down. Applies to the formula throughout, not just Fists. |
+| The Beckoner — passive redefinition | **Session 6 ruling.** Was activated/targeted (full Action, 2m, 1 stack to one enemy + 1 to Lloyd). Now: always-on in lore, mechanically inert while wrapped; uncovered, ticks 1 Influence/turn to Lloyd + every enemy in an 8m radius, no Action cost to sustain. Wrap/step outside radius = stops instantly. Now in Bible §4 (Item 2). |
+| Enemy-side Influence overload | **Session 6 ruling — resolves the old "no rule for enemy Influence" gap. Revised same session (v2) after feedback that flat DoT was flavorless.** Shaped like Blood Loss/Rupture instead of a save loop: stacks 1–2 flavor only, 3–4 a coin-flip redirect to nearest creature, 5–7 always redirects (real damage, own attack numbers — this is what turns a congregation on itself), 8–9 same +50% dmg, cap 10 = Overload Rupture (25% Max HP direct, resets to 0, repeatable). Bosses skip the redirect tiers if they have no attack to hijack (The Singer) but still hit Overload Rupture at cap. Now in Ruleset §5. |
+| The Beckoner's residual Influence on Lloyd | **Session 6 clarification.** Stacks Lloyd picks up from the Beckoner are sticky — wrap/distance stops new gain but doesn't clear the existing baseline (overrides the normal source-eliminated clear, item-specific). Only clears via a full rest/sleep cycle or fully divesting the item. While active, any new Influence encounter starts him at that baseline instead of 0. Now in Ruleset §5. |
 | Waterlogged Guest Influence | Capped at movement-only pull, never an action loss, any stack height. |
 | Chapel Penitent Rush timing | Target 1.2s ±0.20s base. |
 | The Salvage Launcher | Full stats now in Bible §2 — built around range/ammo/guaranteed-hit after a first draft that was a near-identical Metal Knuckles reskin was caught and rebuilt live. |

@@ -274,11 +274,13 @@ Same fields as standard, plus once recruited:
 
 Lloyd's, currently lost with the Singer. First item to ever push Influence onto an enemy — no prior mechanic covered this.
 
-- **Type:** Action Item (activated) · **Action Cost:** full Action, 2m
-- **Effect:** applies 1 Influence stack to a targeted enemy AND 1 Influence stack to Lloyd, simultaneously, on use. *(1/1 is a proposed default — tune if it plays wrong.)*
-- **Status Type:** Track (Influence), both sides · **Consumable:** N (Constant, unlimited uses)
-- **Mechanical gap, still open:** no universal rule exists yet for what an *enemy's* Influence stack actually does once it builds — player-side Influence has a defined save/compel loop (Ruleset §5), enemies don't. DM discretion, case-by-case, until this comes up enough to warrant a real rule.
-- **Narrative hook:** every use, the idol presses Lloyd to speak his name to it. He's been warned not to. Consequences unspecified — deliberately unresolved, do not invent an answer ahead of the table.
+- **Type:** Passive-while-uncovered (session 6 redefinition — supersedes the old "Action Item, targeted" version below) · **Consumable:** N (Constant, unlimited uses)
+- **Effect:** always active in lore; mechanically inert while wrapped. **Uncovered, it applies 1 Influence stack/turn to Lloyd and every enemy within an 8m radius**, no targeting needed, no Action cost to sustain — just to physically wrap or unwrap it (Fast Action, in hand). Re-wrapping stops it dead, immediately, for everyone in range.
+- **Intended play pattern:** carry it uncovered near an enemy to weaken them, then re-cover it to stop affecting the area — including stepping outside the 8m radius, which has the same effect as re-wrapping for anyone who leaves it.
+- **Status Type:** Track (Influence), both sides, per turn while uncovered and in range
+- **Mechanical gap, now resolved (session 6):** enemy Influence overload rule now exists — see Ruleset §5. **Residual Influence on Lloyd is sticky** — see Ruleset §5, doesn't clear on wrap/distance like normal sources, only on rest or fully divesting the item.
+- **Narrative hook:** while anyone (Lloyd included) is within its uncovered radius, the idol presses for a name spoken to it. He's been warned not to. Consequences unspecified — deliberately unresolved, do not invent an answer ahead of the table.
+- **Superseded original text (kept for reference, no longer active):** ~~Type: Action Item (activated), full Action, 2m. Effect: applies 1 Influence stack to a targeted enemy AND 1 to Lloyd, simultaneously, on use.~~
 
 ## Item 3 — The Charm
 
