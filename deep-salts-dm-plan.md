@@ -1,33 +1,31 @@
 THE DEEP SALTS — DM Session Plan (ephemeral)
-Wiped and rewritten each session end. Direction/pacing only — state lives in campaign log/character sheet.
+Wiped and rewritten each session end/checkpoint. Direction/pacing only — state lives in campaign log/character sheet.
 Note from Jake - use this to premeditate story, loot, combat, character elements that the player might pursue. Ideas can be specific, but will need to be flexible to respond to player choice.
 ---
 Rotation tracker (sessions since a thread last moved)
-Old man by the fire: 2 · Reception clerk "brother": 2 · Memory Vendor: 2
-Maud's ring connection: 1 (unmoved this session) · Mirel (flooded gallery): 1
-Maud's salvage requests: 1 (unmoved) · Engineer: 1 (delivered, dormant)
-The Choir Deep / lost gear / Beckoner-knows-his-name: 0 (all new/resolved this session)
-Last session (6)
-Spent the Skill point (17→18), Level 2→3.
-Went back into the Choir Deep unarmed-by-choice (only Fists, everything else left at hub) specifically to retrieve gear without risking more of it.
-Used the Beckoner as a weapon for the first time — passive-while-uncovered redefinition, turned a boss + 4 mooks into a self-destructing mess with zero direct combat from Lloyd. Full permanent kill on the Singer. Choir Deep's boss is retired for good.
-Recovered everything: Metal Knuckles, Charm, Wooden Token, clean flask. Lloyd's fully re-armed for the first time since session 3.
-Picked up a real cost for the win: Insanity 4, and a sticky Influence baseline of 3 from the Beckoner that does NOT auto-clear at hub — only a real rest cycle or fully divesting the item clears it. Both still on the books, unresolved.
-New open thread: the Beckoner knows Lloyd's name now. Genuinely unresolved — don't invent what that means until something in play actually surfaces it.
-Maud reacted to the (wrapped) Beckoner — recognized it as deliberate non-mundane craft, wouldn't guess further, looked like she placed it against something she already knows. New minor thread, not explained.
-Multiple rulings landed and are logged in the ruleset/bible/dev log (v8.1/v3.1/v2.1): rounding-up convention, Fists sub-floor exception (no sever, ever), Beckoner passive-radius redefinition (8m, 1 Influence/turn), enemy-side Influence overload table (redirect/self-harm escalation → Overload Rupture), Beckoner's sticky residual Influence.
-Important process note from Jake, repeated multiple times this session: don't narrate Lloyd's own chosen actions for him. Set the scene, resolve consequences, but let him declare what Lloyd does every time.
-This session (7)
-Influence baseline (3) and Insanity (4) are still active — real costs to manage. Doesn't have to be urgent, but don't let it silently vanish; surface a real chance to actually rest/clear if the story offers one.
-The Beckoner knows his name now. [Initial AI DM notes: Don't pre-invent a consequence. Let it surface organically if/when it's going to matter — a reaction from someone else, something following him, anything — but only if it's earned, not injected for drama's sake. User notes: the goal of this document is to pre-plan so that stories feel more developed and continuous.] A better version: It will immediately boost Insanity as well as Influence when used now. The player is not to know this until they attempt to use it.
-Maud + the Beckoner is a live minor thread — she recognized something and didn't say what. She doesn't know fully what it is.
-Lloyd's fully armed again — Metal Knuckles back in play for the first time since session 3. Worth letting him actually use them in a real fight this session rather than immediately shelving them.
-Cross-instance discipline reminder: don't assume recurring names/details across different recipes or instances are connected without an earned reason (this bit us once this session with "Mirel" — corrected, but worth remembering going in).
-Dormant multi-session threads (old man, clerk's brother, Memory Vendor) haven't moved in a while — fine to keep dormant, but don't forget they exist if a natural opening shows up.
-Introduce a permanent companion that will join Lloyd in Stillwell Hydro this session as a support class - Maria is a well-meaning nun, but a member of a church with a sinister background. She has high arcane stats, can use a number of arcane abilities, but is relatively physically weak. She is naive, young, and feels somewhat conflicted about her relationship as she develops it with Lloyd, as she does not like his charming-yet-stoic nature. She carries a knife in her boot, is quiet and sometimes inquisitive, and is resistant to some of the effects Lloyd is more susceptible to. She will need a proper character sheet before the start of session 7.
-Salt requirements are growing exponentially. Keep this in mind.
-The player has not had many direct combat encounters that have cost them HP - aim to implement some encounters that hurt, but don't kill.
-Reminder: new monsters can be drafted at any time. No need to recycle the few in the manual already - start to expand.
-Reminder: salts instances should fit the same "biome" (flooded catacombs, misty chapel) per recipe, but should not be the same actual environments each time. Aim for diversity in locations.
+Old man by the fire: 3 · Reception clerk "brother": 3 · Memory Vendor: 3
+Maud's ring connection: 2 (unmoved) · Mirel (flooded gallery): 2
+Maud's salvage requests: 2 (unmoved) · Engineer: 2 (delivered, dormant)
+The Choir Deep / lost gear / Beckoner-knows-his-name: 1 (resolved/opened last session, unmoved since)
+Maria recruited: 0 (new this session)
 ---
-Last updated: end of session 6.
+Picking up mid-session 7
+Maria (Sister Maria, Church of St Narrikon's Redemption of Mankind) approached Lloyd unprompted at the hub baths and asked to join. Recruited, 0 cost — ruled session 7: story-initiated recruitment is free; a future hub-bargained companion may carry a real price, decided per-instance when it comes up.
+Full stat block generated and locked in (design bible NPC 4): HP 55, RES 24 (ESV 23), Insight 0. Kit: Purging Flame (AOE 32, hits Lloyd too if he's in the radius), Judgment Spark (single-target 27, no called shots ever), Imbue Weapon (+12 flat to Lloyd's next hit, stacks with the Charm, not with itself), Steadying Grace (recovers 50% of pending Rally HP, only usable the turn after Lloyd whiffs a follow-up), Steady Faith (passive, -1 to Lloyd's own Insanity/Influence DC within 5m), Boot Knife (backup only, not her preference).
+Party is two characters for the first time — genuinely new territory for action economy and enemy target-selection in a fight. Watch how the first real encounter plays and flag anything that doesn't hold up (e.g. does an enemy split attention between Lloyd and Maria, does Purging Flame's "hits Lloyd too" actually come up and land the way it's supposed to).
+Both Lloyd and Maria are standing at the Stillwell Hydro hub, about to head into a recipe together for the first time. Nothing chosen yet.
+Carried over from session 6, untouched so far this session:
+Insanity 4 and sticky Influence baseline 3 (Beckoner) — real costs, not urgent, but don't let them silently vanish. Surface a genuine rest/clear opportunity if the story offers one.
+The Beckoner knows Lloyd's name. Don't pre-invent the consequence — let it surface earned, not for drama's sake. Mechanically: it will push Insanity as well as Influence next time it's actually used — player doesn't know this yet.
+Maud + the Beckoner — she recognized something, didn't say what.
+Cross-instance discipline: don't assume recurring names across different recipes are connected without an earned reason (bit us with "Mirel" in session 6).
+Dormant multi-session threads (old man, clerk's brother, Memory Vendor) — fine dormant, don't force it, but don't forget they exist if a natural opening shows up.
+Other reminders
+Salt requirements are growing exponentially — keep in mind for pricing/rewards.
+Player hasn't had many encounters that actually cost real HP — look for a chance to make one hurt without threatening a kill. Now doubly interesting with Maria's Steadying Grace in the mix — a fight that tests whether that mechanic actually matters would be a good one.
+New monsters can be drafted freely — no obligation to reuse the existing manual.
+Recipe instances should stay within the same biome per recipe but vary the actual sub-locale — diversity in locations, not repeats.
+Reminder from Jake, still standing: don't narrate Lloyd's own chosen actions for him. Set the scene, resolve consequences, let him declare what Lloyd does every time.
+Open question, genuinely unresolved: is Maria player-directed in combat (Jake calls her actions each turn like a second PC) or DM-run (the AI DM plays her autonomously, reacting in character)? Don't assume either way — ask Jake once it actually comes up in a fight, first turn she'd act.
+---
+Last updated: mid-session 7 (Maria recruited, party about to enter first joint recipe). Continuing in a fresh chat.

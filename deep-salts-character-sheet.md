@@ -65,6 +65,8 @@ Standard, no mutations, no damage.
 
 **Open thread:** the Beckoner now knows Lloyd's name — the compulsion won this time. Consequence deliberately unresolved; do not pre-invent one.
 
+**Party:** two characters as of session 7 — Lloyd + Maria (below), recruited at the hub this session.
+
 ### Known Recipes
 - The Choir Deep — Singer permanently defeated, landmark settles; no longer spawns a fresh Singer on reroll
 - First recipe ("flooded gallery") — 4 visits. Known sub-locales: colonnade/pews (sessions 1,2,4); undercroft/crypt + ritual chamber (session 5).
@@ -73,4 +75,28 @@ Standard, no mutations, no damage.
 None.
 
 ---
-*Last updated: end of session 6.*
+
+## Maria — Persistent Companion
+
+**Concept:** Sister Maria, of the Church of St Narrikon's Redemption of Mankind. Recruited unprompted at the hub baths, session 7 — 0 cost (story-initiated recruitment, ruled session 7). Full stat block canon in the design bible, NPC 4.
+
+**RES:** 24 (ESV 23) · **Insight:** 0 · **Max HP:** 55/55 · **Move:** 8m
+
+### Kit
+- **Purging Flame** — AOE, RES/D, Heavy (3m), ranged 8m, 4m radius. 32 dmg/enemy in radius — hits Lloyd too if he's in it.
+- **Judgment Spark** — single-target, RES/E, Light (1m), ranged. 27 dmg. No called shots, ever.
+- **Imbue Weapon** — Full Action (2m). +12 flat to Lloyd's next attack. One charge at a time; stacks with the Charm, not with itself.
+- **Steadying Grace** — Full Action (2m). Only usable the turn right after Lloyd takes a hit and doesn't land a follow-up. Restores 50% of his pending Rally HP; the rest is lost.
+- **Steady Faith** *(passive)* — within 5m of Lloyd, −1 to his Insanity/Influence save DC.
+- **Boot Knife** — Skill/E, Base 12, backup melee only, not sever-viable.
+
+One Action per turn, same economy as the player.
+
+### Status Tracks
+All zero — no combat encountered yet this session.
+
+### Status
+Active. Currently with Lloyd at the Stillwell Hydro hub, about to enter a recipe together for the first time.
+
+---
+*Last updated: mid-session 7 — Maria recruited, party about to head into a recipe together. Continuing in a new chat.*

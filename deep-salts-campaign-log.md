@@ -18,6 +18,8 @@ Session 6 opened at the hub — Lloyd spent his first attribute point (Skill 17�
 - Banked clean via the anchor: **92 White Salts** (4× Chapel Penitent + The Singer). Vault 2 → 94.
 - Showed the wrapped Beckoner to Maud at the hub. She wouldn't ID it or touch it twice — recognized it as deliberate, non-mundane craft, but drew a hard line at guessing further. Visibly placed it against something she already knows internally; didn't say what.
 
+Session 7 opened at the hub, morning after — Lloyd resting alone in one of the non-Salts baths, eyes closed, first real quiet since the Choir Deep. A young woman in nun's robes and sturdy trekking boots approached and watched him without a word until he opened his eyes. **Sister Maria**, of the Church of St Narrikon's Redemption of Mankind. Visibly nervous, over-explained herself twice, then asked outright to be taken with him — not for the Salts everyone else wants, something else unstated. Lloyd let the silence sit, sized her up, said "okay." Half an hour later she was back, geared and ready. **Recruited — 0 cost**, ruled on the spot: a companion who seeks the player out through pure story beat costs nothing; a hub-bargained one might cost real Salts/Insight later. Full stat block built and locked in the same sitting (design bible NPC 4) — RES-based arcane kit: an AOE flame attack that doesn't spare Lloyd if he's caught in it, a precise but weaker single-target bolt, a weapon-buff, and a once-per-opening Rally-assist. Party now stands at two for the first time. Both at the Stillwell Hydro hub, about to head into a recipe together — nothing chosen yet.
+
 ## Quests (persistent)
 
 *Only threads anchored to persistent entities (NPCs, hub, recipes, carried items) survive rerolls — everything else dies with its layout, untracked.*
@@ -34,6 +36,7 @@ Session 6 opened at the hub — Lloyd spent his first attribute point (Skill 17�
 - **Mirel.** Flooded-gallery/crypt thread only — explicitly NOT the same as this session's unrelated "Nell" rota in the Choir Deep. Still unconfirmed link to Maud's ring.
 - **Engineer.** Commission delivered and fielded. No outstanding ask.
 - **Maud's salvage requests** (source-water, packing cloth). Two remain, unchanged this session.
+- **Maria, recruited.** Active companion, session 7, 0 cost. Church of St Narrikon's Redemption of Mankind — flagged pre-session as having a "sinister background," not yet surfaced in play. Wants something other than the Deep Salts; unstated. Open thread.
 
 ## Standing notes
 
@@ -46,4 +49,4 @@ Session 6 opened at the hub — Lloyd spent his first attribute point (Skill 17�
 - Cross-instance continuity discipline: instances are unrelated by default (different peoples' memories of a similar kind of place) — don't assume a recurring name/detail across different recipes means the same underlying thing without an earned reason.
 
 ---
-*Last updated: end of session 6.*
+*Last updated: mid-session 7 — Maria recruited, party of two about to enter a recipe together. Continuing in a new chat.*
