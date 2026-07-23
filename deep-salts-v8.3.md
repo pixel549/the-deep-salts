@@ -553,6 +553,8 @@ Archetypes, reskin per location. Attack damage generated live (§2), scaled to l
 
 **Instance flavour tagging.** Each reroll gets a private dominant tag — **Combat / Mystery-Lore / Puzzle / Social Encounter / Escape-Survival** — leaning generated content that direction. Floor: **at least 1 in 3 rerolls of an already-explored recipe skews non-combat-primary.**
 
+**Instance depth & pacing.** *(Post-session 7 direction.)* Instances should run longer and carry more content than a single fight-and-out. Concrete floor: **aim for 2–3 distinct beats per instance** (combat, exploration, dialogue, discovery — pulling from the flavour tag above, not a separate list) and **at least one Instance Quest per instance** as a baseline rather than leaving it to chance. **Rare Instance NPC:** a found in-run ally (see Companions below) should show up roughly **1 in 4 rerolls** — genuinely rare, not guaranteed, and skippable; the player can walk past one entirely. Character beats — dialogue, backstory, quiet reflection, especially with a companion along — belong inside instances now, not only at the hub; they're exactly the content the Discovery Escalation Ratio protects as lore/reward-only rather than forcing every beat toward permanent escalation.
+
 **Enemy variety.** No archetype spawns 3 rerolls running for the same recipe unless deliberately farmed by choice. Reskins across different recipes don't count as repeats.
 
 **Discovery escalation ratio.** Most Instance Quest resolutions should stay lore/reward-only. Reserve genuine permanent escalation (new debts, Scars, standing threats) for a deliberate minority.
@@ -564,7 +566,7 @@ Archetypes, reskin per location. Attack damage generated live (§2), scaled to l
 **Death & gear recovery.** Respawn in the entry salt room, Purse forfeit. **Killer is a guaranteed spawn** until beaten. **Boss kills are permanent per biome** — one fixed landmark settles where it died, persists across rerolls. *(Session 6 clarification: this means a completed kill is permanent for that instance — a retreat or Abandon-All mid-fight doesn't carry damage forward, so the next reroll's boss of that archetype starts fresh at full HP. It's not a contradiction with "fresh full-HP boss per reroll"; a finished kill leaves its landmark and closes that thread, but the recipe can still generate a new instance of the same boss archetype in a future reroll — that's simply a different fight.)*
 
 **Companions.** Two tracks:
-- **Instance Companions** — Insight-summon (§11) or a found in-run ally. Instance Quest by nature: expires with the layout. Stats generated live like a monster.
+- **Instance Companions** — Insight-summon (§11) or a found in-run ally (rarity guidance: Instance Depth & Pacing, above). Instance Quest by nature: expires with the layout. Stats generated live like a monster.
 - **Persistent Companions** — recruited at the hub, survive rerolls as a Quest. Recruitment is a relationship thread, not a purchase. Real stat block generated on first accompanied run, recorded as canon. Can die in-instance — permanent, no respawn-with-you.
 
 ---

@@ -26,6 +26,7 @@ Player hasn't had many encounters that actually cost real HP — look for a chan
 New monsters can be drafted freely — no obligation to reuse the existing manual.
 Recipe instances should stay within the same biome per recipe but vary the actual sub-locale — diversity in locations, not repeats.
 Ruling (post-session 7): biomes don't have to be water/wet/blood-themed — that's just been this campaign's pattern so far (Stillwell Hydro's whole hook is a bathhouse). A new recipe can lean on any throughline instead — a golden-hour, bright, ethereal church recipe with no water or blood anywhere in it is a good candidate whenever a new recipe gets introduced.
+Ruling (post-session 7): instances should run longer and denser — 2-3 real beats minimum (not just walk-in-fight-out), at least one Instance Quest per instance as a baseline, a real (not guaranteed) chance of a rare in-run NPC roughly 1 in 4 rerolls, and room for actual character beats/dialogue inside the instance itself, not saved for the hub. Next instance is a good place to actually lean into this rather than just noting it.
 Reminder from Jake, still standing: don't narrate Lloyd's own chosen actions for him. Set the scene, resolve consequences, let him declare what Lloyd does every time.
 Open question, genuinely unresolved: is Maria player-directed in combat (Jake calls her actions each turn like a second PC) or DM-run (the AI DM plays her autonomously, reacting in character)? Don't assume either way — ask Jake once it actually comes up in a fight, first turn she'd act.
 ---
