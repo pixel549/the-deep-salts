@@ -25,6 +25,7 @@ Salt requirements are growing exponentially — keep in mind for pricing/rewards
 Player hasn't had many encounters that actually cost real HP — look for a chance to make one hurt without threatening a kill. Now doubly interesting with Maria's Steadying Grace in the mix — a fight that tests whether that mechanic actually matters would be a good one.
 New monsters can be drafted freely — no obligation to reuse the existing manual.
 Recipe instances should stay within the same biome per recipe but vary the actual sub-locale — diversity in locations, not repeats.
+Ruling (post-session 7): biomes don't have to be water/wet/blood-themed — that's just been this campaign's pattern so far (Stillwell Hydro's whole hook is a bathhouse). A new recipe can lean on any throughline instead — a golden-hour, bright, ethereal church recipe with no water or blood anywhere in it is a good candidate whenever a new recipe gets introduced.
 Reminder from Jake, still standing: don't narrate Lloyd's own chosen actions for him. Set the scene, resolve consequences, let him declare what Lloyd does every time.
 Open question, genuinely unresolved: is Maria player-directed in combat (Jake calls her actions each turn like a second PC) or DM-run (the AI DM plays her autonomously, reacting in character)? Don't assume either way — ask Jake once it actually comes up in a fight, first turn she'd act.
 ---
