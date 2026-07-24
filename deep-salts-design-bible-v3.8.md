@@ -3,7 +3,7 @@
 
 Companion to the ruleset. **Load this plus the ruleset and character sheet when running the game.** Mechanic index/book plan/known gaps live in the dev log — do NOT load that during play.
 
-*Version 3.7. Session attribution and change history live in the dev log, not here.*
+*Version 3.8. Session attribution and change history live in the dev log, not here.*
 
 Every monster/weapon/item/NPC/status/currency gets one complete page. Copy the blank template to add an instance.
 
@@ -991,6 +991,280 @@ Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of 
 - **Effect:** none yet — deliberately unresolved.
 - **Lore:** carries a stitched vow along the collar, legible only via Tier 4+ Insight: *"I take the note up so no other throat has to open."* Lloyd reads it as belonging to the Singer he killed (or a prior wearer of that role) — unconfirmed in-fiction. Maria (Insight 0) could not perceive any script on it at all.
 - **Open design question:** is this genuine Insight-gated perception of something real, or something else entirely. Do not pre-resolve — this is meant to stay live.
+
+## Item 6 — Wrap
+
+*Fills the default Quick Item row (Ruleset §8) — first standalone Bible entry, values already canon via the character sheet/Hub Kit.*
+
+- **Type:** Quick · **Action Cost:** Fast Action
+- **Effect:** clears 2 Blood Loss stacks.
+- **Status Applied:** none (removal only). **Duration:** instant. **Consumable:** Y. **Carry Limit:** 5.
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** Hub Kit (2× on every arrival, free) · bought at 10 Salts beyond the kit default.
+
+## Item 7 — Camphor
+
+*Fills the default Quick Item row (Ruleset §8) — first standalone Bible entry.*
+
+- **Type:** Quick · **Action Cost:** Fast Action
+- **Effect:** clears 2 Insanity.
+- **Status Applied:** none (removal only). **Duration:** instant. **Consumable:** Y. **Carry Limit:** 5.
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** Hub Kit (1× on every arrival, free) · bought at 10 Salts beyond the kit default.
+
+## Item 8 — Tonic
+
+*Fills the default Quick Item row (Ruleset §8) — first standalone Bible entry.*
+
+- **Type:** Quick · **Action Cost:** Fast Action
+- **Effect:** heals a small flat amount — ~10% Max HP.
+- **Status Applied:** none. **Duration:** instant. **Consumable:** Y. **Carry Limit:** 6.
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** Hub Kit (2× on every arrival, free) · bought at 15 Salts beyond the kit default.
+
+## Item 9 — Source-Water Flask *(standard)*
+
+*Fills the default Action Item row (Ruleset §8) — the untreated variant the Clean Source-Water Flask (Item 4) is explicitly a rarer alternative to.*
+
+- **Type:** Action Item · **Action Cost:** full Action, 2m
+- **Effect:** heals a large amount — 50% Max HP.
+- **Status Applied:** 1 Influence stack, unavoidable — drinking straight from the source always costs something.
+- **Duration:** instant. **Consumable:** Y, Uses: 1 per flask. **Carry Limit:** 3.
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** found — general instance loot, most recipes. Bought at 40 Salts where a vendor stocks it.
+
+## Item 10 — Cautery Iron
+
+*Fills the default Action Item row (Ruleset §8) — first standalone Bible entry.*
+
+- **Type:** Action Item · **Action Cost:** full Action, costs the entire remaining movement budget for the turn
+- **Effect:** fully clears Blood Loss to 0, regardless of current stack count.
+- **Status Applied:** none (removal only). **Duration:** instant. **Consumable:** N (Constant — reusable indefinitely, the cost is the movement tax, not the item).
+- **Insight Gate:** none. **Limb Requirement:** a working hand and arm.
+- **Acquisition:** commissioned (hub apothecary) · not found in instances. Backstory-eligible.
+
+## Item 11 — Thrown Vial
+
+*Fills the default Action Item row (Ruleset §8) — first standalone Bible entry.*
+
+- **Type:** Action Item · **Action Cost:** full Action, 2m · **Range:** 6m
+- **Effect:** applies 2 Corrosion stacks or 2 Burning stacks to the target (thrower's choice at time of use, fixed at throw).
+- **Duration:** instant application, effect persists per the status track's own rules. **Consumable:** Y, Uses: 1 per vial. **Carry Limit:** 4.
+- **Insight Gate:** none. **Limb Requirement:** a working throwing arm.
+- **Acquisition:** found — general instance loot. Bought at 30 Salts where stocked.
+
+## Item 12 — The Steadying Coin
+
+- **Type:** Quick · **Action Cost:** Fast Action
+- **Effect:** clears 1 Influence stack.
+- **Status Applied:** none (removal only). **Duration:** instant. **Consumable:** Y. **Carry Limit:** 5.
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** found — general instance loot. Bought at 10 Salts. **Design note:** the first dedicated Influence-clear Quick Item — closes the last gap in track-clear parity (Blood Loss/Wrap, Insanity/Camphor, Corrosion/Scour, now Influence/this).
+- **Flavour:** an old coin, filed smooth on one face. Pressed to the tongue, it gives the mouth something to taste that isn't the compulsion.
+
+## Item 13 — Cold Press
+
+- **Type:** Quick · **Action Cost:** Fast Action
+- **Effect:** clears 1 Burning stack.
+- **Status Applied:** none (removal only). **Duration:** instant. **Consumable:** Y. **Carry Limit:** 5.
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** found — general instance loot, common near the Ember Wards/Cold Forge recipes. Bought at 10 Salts.
+- **Flavour:** a chilled cloth pouch, packed with something that never quite thaws.
+
+## Item 14 — Sour Candy
+
+- **Type:** Quick · **Action Cost:** Fast Action
+- **Effect:** heals a small flat amount — ~5% Max HP. Deliberately weaker than Tonic.
+- **Duration:** instant. **Consumable:** Y. **Carry Limit:** 8 (cheap and common, carried in bulk).
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** found — general instance loot, very common. Bought at 5 Salts. **Design note:** the budget healing option — strictly weaker and cheaper than Tonic, not a sidegrade.
+
+## Item 15 — Loose Thread
+
+- **Type:** Quick · **Action Cost:** Fast Action
+- **Effect:** grants +1m of movement, usable immediately as part of the same turn.
+- **Duration:** instant. **Consumable:** Y. **Carry Limit:** 4.
+- **Insight Gate:** none. **Limb Requirement:** a working hand and legs.
+- **Acquisition:** found — general instance loot. Bought at 8 Salts.
+- **Flavour:** pull it and something gives, just enough to get an extra step.
+
+## Item 16 — Bitter Draught
+
+- **Type:** Quick · **Action Cost:** Fast Action
+- **Effect:** the wielder's next Insanity or Influence save this turn gets +1.
+- **Duration:** instant, applies to the very next save only. **Consumable:** Y. **Carry Limit:** 4.
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** found — general instance loot. Bought at 15 Salts.
+- **Flavour:** foul enough that the compulsion briefly has competition for your attention.
+
+## Item 17 — Chalk Dust
+
+- **Type:** Quick · **Action Cost:** Fast Action
+- **Effect:** immediately ends the wielder's own current Off-Balance status, if active. No effect if not currently Off-Balance.
+- **Duration:** instant. **Consumable:** Y. **Carry Limit:** 3.
+- **Insight Gate:** none. **Limb Requirement:** a working hand and legs.
+- **Acquisition:** found — general instance loot. Bought at 5 Salts (cheap — genuinely narrow use case).
+
+## Item 18 — Hollow Reed
+
+- **Type:** Quick · **Action Cost:** Fast Action
+- **Effect:** clears 1 stack from any single status track of the wielder's choice (Blood Loss, Insanity, Influence, Corrosion, or Burning).
+- **Duration:** instant. **Consumable:** Y, Uses: 1, **not Hub Kit** — doesn't refill on hub return, must be found or bought fresh each time.
+- **Carry Limit:** 3.
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** found — general instance loot, uncommon. Bought at 20 Salts. **Design note:** the flexible wildcard — priced and gated (no Hub Kit refill) to sit above the single-track clears without replacing them outright.
+
+## Item 19 — Thread-Count Bandage
+
+- **Type:** Quick · **Action Cost:** Fast Action
+- **Effect:** clears 1 Blood Loss stack **and** ends the wielder's current Off-Balance status, if active, in the same use.
+- **Duration:** instant. **Consumable:** Y. **Carry Limit:** 2 (a combo item, deliberately rarer than plain Wrap).
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** found — general instance loot, uncommon. Bought at 15 Salts.
+
+## Item 20 — Bone-Set Splint
+
+- **Type:** Action Item · **Action Cost:** full Action, costs the entire remaining movement budget for the turn (same tax as Cautery Iron)
+- **Effect:** fully clears Blood Loss to 0, regardless of current stack count.
+- **Duration:** instant. **Consumable:** Y, Uses: 1. **Carry Limit:** 2.
+- **Insight Gate:** none. **Limb Requirement:** a working hand and arm.
+- **Acquisition:** found — general instance loot, uncommon. Bought at 35 Salts. **Design note:** the disposable, found/bought counterpart to Cautery Iron's Constant hub-commissioned version — same effect, different durability tag, different economy.
+
+## Item 21 — Distilled Calm
+
+- **Type:** Action Item · **Action Cost:** full Action, 2m
+- **Effect:** fully clears Insanity to 0, regardless of current value.
+- **Duration:** instant. **Consumable:** Y, Uses: 1. **Carry Limit:** 1 (deliberately rare).
+- **Insight Gate:** Tier 2. **Limb Requirement:** a working hand.
+- **Acquisition:** found only — does not appear in any standard shop stock. **Design note:** an item-based version of the Resolve 60 perk *Clear Mind*, giving non-Resolve builds occasional access to the same reset — Insight-gated and capacity-capped at 1 specifically so it doesn't trivialize the Insanity Break/Scar stakes.
+
+## Item 22 — Salt-Cured Twine
+
+- **Type:** Action Item · **Action Cost:** full Action, 2m
+- **Effect:** fully clears both Corrosion and Burning to 0 in the same use.
+- **Duration:** instant. **Consumable:** Y, Uses: 1. **Carry Limit:** 2.
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** found — general instance loot, uncommon. Bought at 40 Salts.
+
+## Item 23 — Warding Chalk Circle
+
+- **Type:** Action Item · **Action Cost:** full Action, 2m to draw
+- **Effect:** while the wielder remains standing inside the drawn circle, incoming Influence stack applications to them are halved (round down, minimum 1).
+- **Duration:** until the wielder leaves the marked spot, or the encounter ends — whichever comes first. **Consumable:** N (Constant — the chalk itself doesn't run out, only the drawn circle is temporary).
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** found only — not sold at any stall. **Design note:** the only defensive item in the game that trades all mobility for a standing ward, rather than a one-shot consumable effect.
+
+## Item 24 — Signal Chime
+
+- **Type:** Action Item · **Action Cost:** full Action, 2m · **Range:** 6m
+- **Effect:** applies 1 Discombobulation to a single target at range.
+- **Duration:** instant application, effect persists per Discombobulation's own rules (Ruleset §5). **Consumable:** Y, Uses: 1. **Carry Limit:** 3.
+- **Insight Gate:** none. **Limb Requirement:** a working hand and arm.
+- **Acquisition:** found — general instance loot. Bought at 35 Salts. **Design note:** gives non-Toller-implement, non-weapon-gimmick builds a way to apply Discombobulation at range.
+
+## Item 25 — Bled Ledger Page
+
+- **Type:** Action Item · **Action Cost:** full Action, 2m
+- **Effect:** heals a target **other than the user** for 25% of that target's own Max HP (cross-target heal, per the standing ruling that targeted Quick/Action Item heals scale off the target's Max HP, not the user's).
+- **Duration:** instant. **Consumable:** Y, Uses: 1. **Carry Limit:** 2.
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** found — general instance loot, uncommon. Bought at 40 Salts. **Design note:** the dedicated ally-support Action Item — can never target the user, by design, so it's a genuine support pickup rather than a second self-heal.
+
+## Item 26 — Hooked Anchor Line
+
+- **Type:** Action Item · **Action Cost:** full Action, 2m · **Range:** 5m
+- **Effect:** pulls the user 5m toward a fixed surface (wall, pillar, railing) — never toward an enemy or a hazard. Pure repositioning, no damage, no called shot.
+- **Duration:** instant. **Consumable:** Y, Uses: 1. **Carry Limit:** 2.
+- **Insight Gate:** none. **Limb Requirement:** a working hand and arm.
+- **Acquisition:** found — general instance loot. Bought at 30 Salts.
+
+## Item 27 — Weighted Coin Stack
+
+- **Type:** Action Item · **Action Cost:** full Action, 2m
+- **Effect:** immediately banks 10% of the user's current Purse (rounded down) directly to Vault, ignoring the normal "reach the hub" requirement. If Purse is currently 0, this item does nothing and isn't consumed.
+- **Duration:** instant. **Consumable:** Y, Uses: 1. **Carry Limit:** 1.
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** found only — never sold, for obvious reasons. **Design note:** the game's only pure-economy item; a real pickup for a build that wants to bank early against a run going bad, at the cost of an Action better spent elsewhere.
+
+## Item 28 — Cracked Opera Glasses
+
+- **Type:** Passive/Equip · **Action Cost:** none, worn
+- **Effect:** at Assess 2+, adds one extra sentence of detail specifically about a ranged/thrown attack's actual travel path (arc, deflection points, blind spots) — informational only, no numeric bonus.
+- **Consumable:** N.
+- **Insight Gate:** none. **Limb Requirement:** none, worn.
+- **Acquisition:** found — general instance loot, uncommon. **Design note:** deliberately fluff-first — safe to stack with anything else worn, since it changes narration, not numbers.
+
+## Item 29 — Tarnished Cufflink
+
+- **Type:** Passive/Equip · **Action Cost:** none, worn
+- **Effect:** +1 flat to saves against Influence specifically (not Insanity).
+- **Consumable:** N.
+- **Insight Gate:** Tier 1. **Limb Requirement:** none, worn.
+- **Acquisition:** found — general instance loot, uncommon.
+
+## Item 30 — Chipped Molar
+
+- **Type:** Passive/Equip · **Action Cost:** none, carried
+- **Effect:** once per hub cycle, the first Blood Loss stack taken during a run is negated entirely (as if it never happened) — same cadence convention as the Vigor 40 perk *Second Wind*.
+- **Consumable:** N.
+- **Insight Gate:** none. **Limb Requirement:** none, carried.
+- **Acquisition:** found — general instance loot, uncommon.
+
+## Item 31 — Wax-Sealed Locket
+
+- **Type:** Passive/Equip · **Action Cost:** none, worn
+- **Effect:** the wielder's own Corrosion cap is reduced from 5 to 4 — a narrow defensive nudge against one specific track.
+- **Consumable:** N.
+- **Insight Gate:** none. **Limb Requirement:** none, worn.
+- **Acquisition:** found — general instance loot, uncommon.
+
+## Item 32 — Frayed Prayer Cord
+
+- **Type:** Passive/Equip · **Action Cost:** none, carried
+- **Effect:** once per instance, the first time Insanity would hit its cap of 10 and trigger a Break, it instead holds at 9 for that single trigger — a one-time buffer, not immunity. Resets available again on the next instance.
+- **Consumable:** N.
+- **Insight Gate:** Tier 2. **Limb Requirement:** none, carried.
+- **Acquisition:** found only — genuinely rare. **Design note:** deliberately narrow — buys one more turn against a Break, once per instance, never cancels the risk outright.
+
+## Item 33 — Bent Tuning Key
+
+- **Type:** Passive/Equip · **Action Cost:** none, carried
+- **Effect:** for Precision Strike stopwatch tolerances specifically (Ruleset §10), treat the wielder's Insight window bonus as one tier higher than actual. Does not affect parry or detonation windows.
+- **Consumable:** N.
+- **Insight Gate:** none. **Limb Requirement:** none, carried.
+- **Acquisition:** found — general instance loot, uncommon.
+
+## Item 34 — Threadbare Glove
+
+- **Type:** Passive/Equip · **Action Cost:** none, worn
+- **Effect:** self-initiated called shots (Ruleset §10) have their tightened tolerance eased back half a band instead of the full band.
+- **Consumable:** N.
+- **Insight Gate:** none. **Limb Requirement:** a working hand, worn on it.
+- **Acquisition:** found — general instance loot, uncommon.
+
+## Item 35 — Salt-Stained Ribbon
+
+- **Type:** Passive/Equip · **Action Cost:** none, worn
+- **Effect:** once per hub cycle, the next Rupture the wielder takes deals 25% less damage. Stacks additively with the Vigor 20 perk *Resist Rupture* if both are active — **combined reduction from any source caps at 50% total**, stated explicitly to prevent runaway stacking.
+- **Consumable:** N.
+- **Insight Gate:** none. **Limb Requirement:** none, worn.
+- **Acquisition:** found — general instance loot, uncommon.
+
+## Item 36 — Shatter-Glass Ampoule
+
+- **Type:** Reactive/Instant (no slot, usable anytime, including outside the wielder's turn)
+- **Effect:** thrown at the wielder's own feet, immediately ends their current Discombobulation early. **Deliberate, explicit exception** to Discombobulation's standing rule (Ruleset §5) that it only ever counts down automatically — framed here as a rare emergency item, not a new standing mechanic. Flagging this explicitly rather than folding it in quietly.
+- **Duration:** instant. **Consumable:** Y, Uses: 1. **Carry Limit:** 1.
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** found only — genuinely rare, never sold. **Design note:** priced in scarcity rather than Salts specifically so it can't become routine Discombobulation-clearing.
+
+## Item 37 — Widow's Veil
+
+- **Type:** Reactive/Instant (no slot, usable anytime, including outside the wielder's turn)
+- **Effect:** for the remainder of the current encounter, the wielder can no longer be selected as the target of an enemy-side Influence Overload redirect (Ruleset §5). Doesn't reduce the wielder's own Influence stacks — purely removes them from the redirect pool.
+- **Duration:** rest of the current encounter. **Consumable:** Y, Uses: 1. **Carry Limit:** 1.
+- **Insight Gate:** none. **Limb Requirement:** a working hand.
+- **Acquisition:** found only — genuinely rare, never sold. **Design note:** narrow by design — only relevant in Influence-heavy congregation-style fights (the Choir Deep and similar), not a general-purpose defensive tool.
 
 ## Item Template (blank)
 
