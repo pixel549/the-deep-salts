@@ -3,7 +3,7 @@
 
 Companion to the ruleset. **Load this plus the ruleset and character sheet when running the game.** Mechanic index/book plan/known gaps live in the dev log — do NOT load that during play.
 
-*Version 3.9. Session attribution and change history live in the dev log, not here.*
+*Version 4.0. Session attribution and change history live in the dev log, not here.*
 
 Every monster/weapon/item/NPC/status/currency gets one complete page. Copy the blank template to add an instance.
 
@@ -1302,6 +1302,7 @@ Not White Salts — the weakest possible Key Item, seeded and currently doing no
 - **Acquisition:** one-time only, found in the robe pocket entering the deep cure. No known second copy or way to lose the first.
 - **Spend options:** none yet — fits no slot, opens nothing, deliberately.
 - **Flavour:** worn brass, warm to the touch even when nothing else is. Doesn't match the clerk's own token; nobody at the hub will take it back.
+- **Identity, confirmed:** Lloyd carries this **and, separately, the Wooden Token that belonged to "R."** (character sheet) — two distinct physical items, not one whose material drifted. This one came from the reception clerk; the wooden one didn't. Closes the old open gap on this point.
 
 **Template fields:** Category · Risk Status · Lost on Death?/Retreat? · Acquisition (base drop / bonus conditions) · Spend Options · Flavour.
 

@@ -1,5 +1,5 @@
 # THE DEEP SALTS
-**Dev Log — Mechanic Index, Book Plan & Known Gaps — v2.9**
+**Dev Log — Mechanic Index, Book Plan & Known Gaps — v3.0**
 
 Project management. **Do NOT load when running the game.** Section numbers (§8–10) match ruleset/bible cross-references.
 
@@ -11,7 +11,7 @@ Project management. **Do NOT load when running the game.** Section numbers (§8�
 
 Rule of use: mechanic pages exist only for rulings the ruleset doesn't cover — never duplicate ruleset content.
 
-**Fully defined in the ruleset/bible (pointers only):** Limb Targeting/Stagger/Sever (§10) · Blood Loss (§5) · Insanity/Influence saves (§5) · Discombobulation (§5) · Attack Resolution (§3) · Damage Floor (§4) · Backstory Creation (§4) · Salts Rooms & Biomes (§18) · Parry/Visceral/Precision (§9–10) · Action Economy/Movement (§7–8) · Corrupted Regrowth (§10) · Turn Order (§17) · Abandon-All/Retreat/Death (§12).
+**Fully defined in the ruleset/bible (pointers only):** Limb Targeting/Stagger/Sever (§10) · Blood Loss (§5) · Insanity/Influence saves (§5) · Discombobulation (§5) · Attack Resolution (§3) · Damage Floor (§4) · Backstory Creation (§4) · Salts Rooms & Biomes (§18) · Parry/Visceral/Precision (§9–10) · Action Economy/Movement (§7–8) · Corrupted Regrowth (§10) · Turn Order (§17) · Abandon-All/Retreat/Death (§12) · Skill Checks (§19) · Timing Checks beyond the parry (§20).
 
 **Partially defined:** Rally (§6 — per-attack overrides need numbers as content gets built) · Insight (§11 — per-encounter award sizing still DM discretion).
 
@@ -35,11 +35,7 @@ Five books, filled from bible entries. **(✓)** = floor entry filled.
 
 ## Open
 
-| Gap | Note | Lives in |
-|---|---|---|
-| Token identity | Ruleset §15 seeds a **brass** token "that isn't yours"; Bible §7 describes worn brass; character sheet and campaign log call it the **Wooden Token**, keepsake of "R." Unclear whether these are one item whose material drifted, or two distinct tokens (the clerk issues one at reception, and the brass one explicitly doesn't match it). Needs a fiction call, not a mechanical one — deliberately left for Jake, not resolved in the session-off pass below. | Bible §7 / Ruleset §15 |
-
-*Everything else that was sitting in this table got resolved in the session-off ruling pass below (dated entry, right after this section) — see there for the actual numbers/procedures rather than re-deriving them here.*
+*Nothing currently open.* Token identity (the last item) was resolved directly by Jake — see the dated entry below rather than the "Resolved — now canon" summary paragraph, since it's a fiction call rather than a mechanical ruling.
 
 ## Resolved — proposed numbers, still untested in practice
 
@@ -99,6 +95,16 @@ Save Roll formula · Blood Loss/Rupture split · sever thresholds as fixed const
 - **Insight Tier 5 content** — resolved as: reaching Insight 10 is the threshold-gate that makes the Memory Vendor reachable at all (using the existing "free to pass once there" rule, so it stays reachable even after Insight next drops from spending). Alongside this, a full **Insight Perception** subsection was added (Ruleset §11) giving concrete, tier-banded guidance for how environments/monsters/compulsions get narrated as Insight climbs — explicitly *surreal, never spatially broken*: the geometry of a space never lies, only what Lloyd notices and how vividly does. Covers all three Re-Read bands with concrete examples (watching walls, a voice tied to a real Influence source, Lloyd reading monster intent at Tier 4+ without literal translation) and states plainly this is escalation for beats that matter, not a new default for every scene.
 
 **Left open, deliberately:** Token identity (brass vs. Wooden Token) — a fiction call about Lloyd's own backstory thread, not a mechanical ruling, so it stays with Jake rather than getting resolved in a documentation pass.
+
+---
+
+**Token identity — resolved by Jake directly.** Lloyd carries **both**: the Wooden Token from "R." (personal keepsake, character sheet) and the brass Token That Isn't Yours from the reception clerk (Bible §7) — two distinct physical items, not one whose material drifted. Character sheet and Bible §7 both updated to state this plainly and cross-reference each other. Last item in the Known Gaps table, now closed.
+
+**Skill Checks & Timing Checks — new ruleset sections (Ruleset → v8.7), per Jake's ask for more dice-roll and stopwatch variety "incorporated into the systems," not one-off content.**
+
+- **§19, Skill Checks.** The game already had exactly one line covering all non-combat uncertainty ("stealth, forcing a door, reading the unreadable → d20 vs DC"), with no DC guidance and no attribute mapping — every such check was a fresh improvisation. Now has: a six-rung DC ladder (Trivial 8 → Extreme 22+), a flavour-to-attribute mapping table (Strength/Skill/Endurance/Vigor/Resolve, each with concrete examples) so different fictional situations land on different stats consistently, a natural-20/natural-1 texture rule (flavour-only, no new mechanical resource), a flat +2 Assist for one actively-helping second character, and a rare Insight-substitutes-for-Attribute override for genuinely depth-of-sight reads. Explicitly separated from Insight Re-Read (§11) — novel things get a Skill check, recurring things get a Re-Read, never both on the same fact.
+- **§20, Timing Checks.** Every stopwatch check in the game up to now was combat-only (parry, Precision Strike, weapon-gimmick detonations). Five new named shapes, all reusing the exact same target-time-±-tolerance math and the existing Insight window bonus, none inventing a new resolution system: **Environmental Hazard** (single window, terrain), **Mechanism/Ritual Sync** (2–3 sequential windows, puzzle-flavoured, reuses the ballistic-chain shape from §16), **Escape/Chase Sequence** (2–4 sequential windows, pursuit-flavoured, keeps the existing chain's harsh miss-cascades rather than softening them for a "friendlier" context), **Stealth Hold-Still** (a genuinely different shape — success is inaction for a duration, not hitting a window), and **Startle Timing** (a tighter-tolerance parry variant for a near-instant but still real tell, boss/Insight-gated only, never a standard-archetype default). The standing "honour tells" rule (§2/§9) was explicitly carried over to all five — nothing here is a tell-less surprise check.
+- Cross-referenced from §3 (the old catch-all line now points at §19) and §9 (Visceral now points at §20), and both new sections added to the dev log's Mechanic Index. No existing numbers changed — this is pure addition, not a rebalance.
 
 ---
 

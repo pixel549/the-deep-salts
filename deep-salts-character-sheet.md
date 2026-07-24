@@ -58,6 +58,7 @@ Standard, no mutations, no damage.
 - **The Beckoner** — currently left behind in Lloyd's room at the hub (full divestment, not carried). Influence baseline cleared as a result. Still knows Lloyd's name — unresolved.
 - **Charm** ×1 — Uses: 1, Insight Tier 3 gate (met).
 - **Wooden Token** — keepsake, belonged to "R."
+- **The Token That Isn't Yours** *(brass)* — from the reception clerk, entering the deep cure. Confirmed distinct from the Wooden Token above, not the same item drifting material — Lloyd carries both (Bible §7).
 - **Clean source-water flask** — 75% heal, no Influence stack, Uses: 1.
 - **The Note-Keeper's Robe** — NEW, worn. Found in the Choir Deep's vestry, hung apart from the rest. Stitched vow read via Tier 4 Insight: *"I take the note up so no other throat has to open."* Lloyd believes it belonged to the Singer he killed, or a prior wearer of that role — unconfirmed. **Maria could not see any script on it at all.** No mechanical effect — deliberately unresolved open thread.
 

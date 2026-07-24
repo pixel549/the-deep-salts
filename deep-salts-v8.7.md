@@ -3,7 +3,7 @@
 
 System-agnostic ruleset (d20 base) for solo play with an AI DM. You trade humanity for power, and only see the trade once you've gone mad enough to look.
 
-*Version 8.6. Session-attribution history and rationale prose live in the dev log, not here.*
+*Version 8.7. Session-attribution history and rationale prose live in the dev log, not here.*
 
 ---
 
@@ -36,7 +36,7 @@ d20 + modifier vs a DC. **Default attacks land** — no attack roll, either side
 - **Called shots** on limbs with multiplier >1.0 → Precision stopwatch (§10), unless already parry-opened (§9).
 - **Parries** and the heavies that invite them → Visceral stopwatch (§9).
 - **Insanity/Influence saves** → d20 vs the Save Roll formula (§5).
-- **Anything genuinely uncertain** (stealth, forcing a door, reading the unreadable) → d20 vs DC, modified by the Attribute Modifier table:
+- **Anything genuinely uncertain** (stealth, forcing a door, reading the unreadable) → d20 vs DC, modified by the Attribute Modifier table (full framework, DC ladder, and attribute mapping: §19):
 
 | Attribute score | Modifier |
 |---|---|
@@ -340,6 +340,8 @@ Insight widens windows and unlocks visceral mods (§11): Bloody, Sustaining, Qui
 
 **Table fallback:** replace any stopwatch with d20 + Insight-as-modifier, same outcomes.
 
+*Stopwatch checks outside combat (hazards, mechanisms, chases, stealth) now have their own named shapes — §20, not improvised fresh each time.*
+
 ---
 
 ## 10. Limbs, Precision & Mutation
@@ -608,6 +610,74 @@ Every other recipe (the Ember Wards, Cold Forge, Reliquary, and the rest seeded 
 **Companions.** Two tracks:
 - **Instance Companions** — Insight-summon (§11) or a found in-run ally (rarity guidance: Instance Depth & Pacing, above). Instance Quest by nature: expires with the layout. **Stat generation procedure** *(session-off ruling — closes the "untested" gap)*: build it exactly like generating a monster live (§16/§17) — pick the mook or elite HP band appropriate to party level, scale it the same way, give it 1 Action per turn (same economy as the player), and one signature gimmick reusing an existing subsystem (a status application, a heal, a buff) rather than inventing new mechanics. It never gets called-shot/visceral capability against the player's own side. Record the generated block in Bible §4 (NPC Template — Instance Companion) the first time it's actually summoned, same "canon after first contact" rule as everything else.
 - **Persistent Companions** — recruited at the hub, survive rerolls as a Quest. Recruitment is a relationship thread, not a purchase. Real stat block generated on first accompanied run, recorded as canon. Can die in-instance — permanent, no respawn-with-you. **Hub-bargained pricing** *(session-off ruling; story-initiated recruitment stays 0 cost, unchanged)*: a companion bargained for rather than earned through a story beat costs a flat **40 Vault Salts, or 4 Insight, player's choice at the moment of recruitment** — priced below a single Memory Vendor Scar-removal trade deliberately, since a companion isn't permanent power the way a buff is; it's a fragile ally that can die for good.
+
+---
+
+## 19. Skill Checks — Beyond Combat
+
+*(Session-off addition. Fleshes out §3's existing "anything genuinely uncertain" line into a real framework — same underlying math throughout, now with actual named shape instead of one flat catch-all a DM has to improvise fresh every time.)*
+
+**Base structure, unchanged:** d20 + Attribute Modifier (§3 table) vs a DC. No new resolution system — more defined shape around the one that already exists.
+
+### DC ladder
+
+| Difficulty | DC |
+|---|---|
+| Trivial | 8 |
+| Easy | 10 |
+| Moderate | 13 |
+| Hard | 16 |
+| Very Hard | 19 |
+| Extreme | 22+ |
+
+DM states the DC before the roll, not after seeing it — matches the game's own "concrete numbers immediately" standard, no retroactive goalpost-moving.
+
+### Which attribute governs which check
+
+| Check flavour | Attribute | Examples |
+|---|---|---|
+| Force, break, physically overpower | Strength | kick a door in, bend a grate, hold a collapsing beam |
+| Subtlety, fine manual work, precision with no stopwatch involved | Skill | pick a lock, palm an item, disarm a snare by hand |
+| Outlasting physical strain | Endurance | hold your breath, push through smoke/heat, outlast a grind |
+| Stability, resisting being moved or impaired | Vigor | keep footing on unstable ground, shrug off a non-attack impact |
+| Nerve, presence, reading or being read by someone | Resolve | talk someone down, hold eye contact with something wrong, keep composure |
+
+Noticing something **novel** (never encountered before) defaults to a Skill check. Noticing something **recurring** (a known archetype, a revisited location, an already-met NPC) is Insight Re-Read (§11) instead, not a roll — don't double up the two systems on the same fact.
+
+### Texture, not a new system
+
+- **Natural 20:** succeeds regardless of DC, plus a small narrated bonus — flavour only, never a new mechanical resource.
+- **Natural 1:** fails regardless of modifier, plus a small narrated complication — same, flavour only.
+- **Assist:** one other character actively helping (not just present) grants the roller a flat +2. Doesn't stack past one assistant, doesn't grant a second roll.
+- **Insight override (rare):** where the read is genuinely about depth of sight rather than raw capability, the DM may let the player use Insight score in place of the Attribute Modifier band for that one check. Uncommon — most checks stay attribute-driven.
+
+---
+
+## 20. Timing Checks — Beyond the Parry
+
+*(Session-off addition. Same stopwatch tool the Visceral (§9), Precision Strike (§10), and weapon-gimmick systems already use — target time ± tolerance, Insight window bonus applies exactly as it already does (§11) — now with named shapes for non-attack contexts instead of reinventing the wheel each time one comes up.)*
+
+**Standing rule, unchanged from §2/§9: a stopwatch only ever follows a genuine, readable tell.** Nothing below is a tell-less "gotcha" — no fair cue, no stopwatch, just narration.
+
+### Environmental Hazard Timing
+
+Single window, same shape as a parry: a closing gate, a swinging fixture, a venting mechanism. DM sets target time + tolerance off the hazard's own visible/audible rhythm, stated before the attempt. **Inside →** clear it clean. **Outside →** the hazard's stated hit lands — floor-20 raw, or a status application, DM's call per hazard, but named before the attempt, never after.
+
+### Mechanism/Ritual Sync Timing
+
+Multi-window, same shape as a boss's ballistic chain (§16): 2–3 sequential stopwatches for a puzzle or mechanism needing more than one correctly-timed input — aligning gears, matching a resonant beat, a multi-stage ward. **All windows hit →** the mechanism resolves clean. **Miss one →** that stage fails; DM decides in advance of the attempt whether a miss is a hard stop (redo the full sequence) or a partial/costly success (proceeds, but at a stated cost — a track stack, lost time, a changed sub-locale).
+
+### Escape/Chase Sequence Timing
+
+Multi-window, same shape as Mechanism Sync above, reframed as pursuit rather than puzzle: 2–4 sequential beats (a leap, a dodge, a slammed door) fleeing a hazard or pursuer. **Miss a beat →** that beat's stated consequence lands (floor-raw damage, a status stack, dropped gear) **and the chain continues regardless** — same harshness already standing for Frenzied-Whirl-style chains (§16), not a softer variant just because the player's fleeing instead of attacking.
+
+### Stealth Hold-Still Timing
+
+A different shape entirely: not "hit the window," but "don't act until it elapses." Start the stopwatch; the stated duration is how long the player must hold position/stay silent (a patrol's pass, a searchlight's sweep). **Success** = the full duration passes with no action taken. **Failure** = triggered early, either by player choice or by a status effect forcing an action (Discombobulation, an Influence compulsion, a Rupture) — detection is then automatic, nothing to roll against it.
+
+### Startle Timing
+
+A genuinely tighter parry variant for a **near-instant but still real** tell — a half-second flicker, not nothing. Reserved for boss-tier or Insight-gated threats whose own Monster Manual entry specifically calls for it; never applied to a standard archetype by default. Same Inside/Outside outcomes as a normal parry (§9) — the tolerance is simply narrower than the standard bands. Doesn't override "honour tells" — the tell is just brutally short, not absent.
 
 ---
 
