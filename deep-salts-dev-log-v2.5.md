@@ -1,5 +1,5 @@
 # THE DEEP SALTS
-**Dev Log — Mechanic Index, Book Plan & Known Gaps — v2.4**
+**Dev Log — Mechanic Index, Book Plan & Known Gaps — v2.5**
 
 Project management. **Do NOT load when running the game.** Section numbers (§8–10) match ruleset/bible cross-references.
 
@@ -91,3 +91,7 @@ Save Roll formula · Blood Loss/Rupture split · sever thresholds as fixed const
 ---
 
 *Change history compressed above. Ask if you want the full narrative version of any specific past ruling restored.*
+
+---
+
+**Off-session design pass — Monster Manual expansion (Bible → v3.5).** Ten new entries added (Bible §1, Monsters 9–18), no play involved — pure bench-building against the standing enemy-variety gap. Deliberately covers every archetype in Ruleset §16 at least once, including the three that had never gotten a real instance yet (**BURSTER, CHANTER, BRUTE**) and the **EFFIGY** boss slot freed up when Marble Attendant was reclassified away from it (session 7). All ten sit in freshly named, non-hydro biomes per the biome-throughline ruling (Ruleset §18) — no water/wet/blood anywhere in them. Level ranges spread from 1 up through 60, so the Brute entry specifically is long-campaign content, not a next-session encounter. Full names/flavour intentionally not itemized here beyond archetype/tier — Jake asked to be surprised at the table, not spoiled in the log. Damage Floor and Tier-column conventions (both corrected in the session 7 sweep above) were followed throughout; nothing new flagged to Known Gaps.
