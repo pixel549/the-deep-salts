@@ -3,7 +3,7 @@
 
 Companion to the ruleset. **Load this plus the ruleset and character sheet when running the game.** Mechanic index/book plan/known gaps live in the dev log — do NOT load that during play.
 
-*Version 4.0. Session attribution and change history live in the dev log, not here.*
+*Version 4.1. Session attribution and change history live in the dev log, not here.*
 
 Every monster/weapon/item/NPC/status/currency gets one complete page. Copy the blank template to add an instance.
 
@@ -98,7 +98,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 | Frenzied Whirl | Heavy (chain) | "All four towels draw back in unison, then unwind one after another." | **3 sequential windows: 0.80s · 1.30s · 1.80s, each ±0.20s base** | 3 | 30 raw per unparried window (90 if all three land) | Standard | Chain continues from the missed beat |
 
 **Frenzied Whirl — the ballistic chain** *(set session 7, gives the Flailer archetype its defining Tier 3 opening):* three windows resolved back to back, one stopwatch each, restarting from 0 at each beat.
-- **All three parried →** Tier 1 Open. It collapses out of the spin, weak point free, no second stopwatch.
+- **All three parried →** Tier 1 Open. It collapses out of the spin, the weak point is Lloyd's to attempt via the eased ±0.25s Tier 1 stopwatch (Ruleset §9) — not automatic.
 - **Miss any window →** take that beat's 30 raw and every remaining beat in the chain automatically. No partial credit, no opening.
 - Parried beats deal no damage and don't open it on their own — only the full three do. This is the hardest non-boss opening in the game by design.
 
@@ -252,7 +252,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 | Triple Unspool | Heavy (chain) | "All three reels draw taut at once, then whip out in sequence." | **3 sequential windows: 0.80s · 1.30s · 1.80s, each ±0.20s base** | 3 | 30 raw per unparried window (90 if all three land) | Standard | Chain continues from the missed beat |
 
 **Triple Unspool — the ballistic chain** *(same archetype rule as the Bathhouse Flailer's Frenzied Whirl, reskinned)*: three windows resolved back to back, one stopwatch each, restarting from 0 at each beat.
-- **All three parried →** Tier 1 Open. It collapses out of the whip, weak point free, no second stopwatch.
+- **All three parried →** Tier 1 Open. It collapses out of the whip, the weak point is Lloyd's to attempt via the eased ±0.25s Tier 1 stopwatch (Ruleset §9) — not automatic.
 - **Miss any window →** take that beat's 30 raw and every remaining beat automatically. No partial credit, no opening.
 - Parried beats deal no damage and don't open it on their own — only the full three do.
 
@@ -499,7 +499,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 | Full Weave | Heavy (chain) | "All four shuttles draw back in unison, then fire in sequence." | **3 sequential windows: 0.80s · 1.30s · 1.80s, each ±0.20s base** | 3 | 30 raw per unparried window (90 if all three land) | Standard | Chain continues from the missed beat |
 
 **Full Weave — the ballistic chain** *(same archetype rule as the Bathhouse Flailer's Frenzied Whirl, reskinned)*: three windows resolved back to back, one stopwatch each, restarting from 0 at each beat.
-- **All three parried →** Tier 1 Open, weak point free, no second stopwatch.
+- **All three parried →** Tier 1 Open, the weak point is Lloyd's to attempt via the eased ±0.25s Tier 1 stopwatch (Ruleset §9) — not automatic.
 - **Miss any window →** take that beat's 30 raw and every remaining beat automatically. No partial credit, no opening.
 - Parried beats deal no damage and don't open it on their own — only the full three do.
 
@@ -518,7 +518,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 | Ream Cascade | Heavy (chain) | "Both arms draw the reams taut, then release in sequence." | **3 sequential windows: 0.80s · 1.30s · 1.80s, each ±0.20s base** | 3 | 30 raw per unparried window (90 if all three land) | Standard | Chain continues from the missed beat |
 
 **Ream Cascade — the ballistic chain** *(same archetype rule, reskinned)*: three windows resolved back to back, one stopwatch each, restarting from 0 at each beat.
-- **All three parried →** Tier 1 Open, weak point free, no second stopwatch.
+- **All three parried →** Tier 1 Open, the weak point is Lloyd's to attempt via the eased ±0.25s Tier 1 stopwatch (Ruleset §9) — not automatic.
 - **Miss any window →** take that beat's 30 raw and every remaining beat automatically. No partial credit, no opening.
 - Parried beats deal no damage and don't open it on their own — only the full three do.
 
@@ -539,7 +539,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 - **Kitable:** Partial — its footwork is slow, but the swing radius reaches further than instinct suggests; keep distance wider than it looks like you need to.
 - **Assess 0–1:** "It's not fast. Its reach is the trick." · **Assess 2+:** "The chest cracks before the real attack. Read the vents, not the arms — Marshal's Cross alone never opens it."
 - **White Salts drop:** 50. **Insight:** +1/+1.
-- **Boss Gimmick:** Foundry Reckoning is the Marshal's real opening, same chain rule as any Flailer: **all three windows parried → Tier 1 Open on the Furnace Door**, no second stopwatch. **Miss any window → take that beat's 40 raw + Burning and every remaining beat automatically.** Sever the Furnace Door — **300 at ×1.75 ≈ 171 raw in one hit** (per Ruleset §10's threshold ÷ multiplier) — and the fight ends regardless of remaining HP. Reachable, not trivial, at current gear. Sever never required (Ruleset §3).
+- **Boss Gimmick:** Foundry Reckoning is the Marshal's real opening, same chain rule as any Flailer: **all three windows parried → Tier 1 Open on the Furnace Door**, Lloyd's to attempt via the eased ±0.25s Tier 1 stopwatch (Ruleset §9), not automatic. **Miss any window → take that beat's 40 raw + Burning and every remaining beat automatically.** Sever the Furnace Door — **300 at ×1.75 ≈ 171 raw in one hit** (per Ruleset §10's threshold ÷ multiplier) — and the fight ends regardless of remaining HP. Reachable, not trivial, at current gear. Sever never required (Ruleset §3).
 - **Habit punished:** judging distance by its feet instead of its reach. **Dismember threat:** High (Burning stacks compound fast off a clean chain). **Retreat always reachable:** Y.
 
 ## Monster 38 — The Bellfounder *(boss, Bellfounder's Pit)*
@@ -556,7 +556,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 - **Kitable:** N/A — never moves. Breaking line of sight is the counter, same as the Singer.
 - **Assess 0–1:** "It's not hunting. It's still pouring." · **Assess 2+:** "The toll's just pressure. The pour is the real fight, and it comes in three."
 - **White Salts drop:** 50. **Insight:** +1/+1.
-- **Boss Gimmick:** Molten Pour follows the standard chain rule — **all three parried → Tier 1 Open on The Crack**, no second stopwatch; **miss any window → take that beat's damage/Burning and the rest automatically.** Sever The Crack (base 350 at ×2.0 = 175 raw in one hit) to end the fight regardless of remaining HP. **Distinct twist:** every time all three Molten Pour windows land uncontested, the pour itself widens The Crack — its sever threshold **permanently drops by 50** for the rest of the fight (350 → 300 → 250 → …), an escalating vulnerability rather than a static number. Otherwise pure attrition — Founding Toll never stops, Influence climbs the whole fight, save DC rising with stack count. Sever never required (Ruleset §3).
+- **Boss Gimmick:** Molten Pour follows the standard chain rule — **all three parried → Tier 1 Open on The Crack**, Lloyd's to attempt via the eased ±0.25s Tier 1 stopwatch (Ruleset §9), not automatic; **miss any window → take that beat's damage/Burning and the rest automatically.** Sever The Crack (base 350 at ×2.0 = 175 raw in one hit) to end the fight regardless of remaining HP. **Distinct twist:** every time all three Molten Pour windows land uncontested, the pour itself widens The Crack — its sever threshold **permanently drops by 50** for the rest of the fight (350 → 300 → 250 → …), an escalating vulnerability rather than a static number. Otherwise pure attrition — Founding Toll never stops, Influence climbs the whole fight, save DC rising with stack count. Sever never required (Ruleset §3).
 - **Habit punished:** tanking the pour in the open instead of reading all three windows. **Dismember threat:** Moderate (no melee of its own, but Burning stacks compound if the chain lands clean). **Retreat always reachable:** Y.
 
 ## Monster Template (blank)

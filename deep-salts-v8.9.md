@@ -3,7 +3,7 @@
 
 System-agnostic ruleset (d20 base) for solo play with an AI DM. You trade humanity for power, and only see the trade once you've gone mad enough to look.
 
-*Version 8.8. Session-attribution history and rationale prose live in the dev log, not here.*
+*Version 8.9. Session-attribution history and rationale prose live in the dev log, not here.*
 
 ---
 
@@ -327,18 +327,24 @@ Needs a stopwatch.
 3. Pause inside the window.
 
 **Outcomes:**
-- **Inside → PARRY.** The telegraphed heavy is interrupted — it never lands. Enemy is knocked down, losing its **very next turn only** — no action, no movement, that one turn. The turn after that, it's back to acting normally; this isn't an open-ended lockout. Lloyd's own next action against it is a guaranteed weak-point strike at 1.5× (plus Insight mods) — Tier 1 default, no second stopwatch needed.
+- **Inside → PARRY.** The telegraphed heavy is interrupted — it never lands. Enemy is knocked down, losing its **very next turn only** — no action, no movement, that one turn. The turn after that, it's back to acting normally; this isn't an open-ended lockout. Lloyd's own next action against it is a weak-point strike **attempt** at 1.5× (plus Insight mods) — Tier 1 default, via an **eased precision stopwatch** rather than an automatic hit (see below).
 - **Outside → WHIFF.** Eat the heavy in full plus a punish (DM's pick). Don't reuse a tell.
 
-**Bounding the payoff** *(session-off ruling — Jake flagged the parry loop as feeling broken: managing several consecutive unanswered turns off a single successful stopwatch, to the point it had crowded out every other strategy).* "Ends its turn" previously had no stated limit, and stacked with the guaranteed weak-point hit to snowball into 2–3 clean player turns per successful read. The fix isn't to make parries harder to land or less rewarding to land well — it's bounding what one success actually buys: **exactly one interrupted attack, one skipped enemy turn, one guaranteed big hit.** That's it. Lloyd still gets a genuinely strong turn out of it (the guaranteed weak-point strike, plus a second hit against the still-down enemy on his following turn, since it lost that turn entirely) — but the enemy is back to acting, and back to being a threat, the turn after. Keeping the loop going requires landing another parry, with the same real whiff risk as the first, rather than one success buying indefinite safety. Plain attacks (§3, ≤1.0 multiplier) always land with zero roll either way — that's the standing, legitimate no-timer alternative this was always meant to sit alongside, not lose to by default.
+**Bounding the payoff** *(session-off ruling — Jake flagged the parry loop as feeling broken: managing several consecutive unanswered turns off a single successful stopwatch, to the point it had crowded out every other strategy).* "Ends its turn" previously had no stated limit, and stacked with an automatic weak-point hit to snowball into 2–3 clean player turns per successful read. First fix: bound what a parry alone buys to **exactly one interrupted attack, one skipped enemy turn** — the enemy is back to acting, and back to being a threat, the turn after. Second fix, one round later, same complaint from a different angle *(follow-up ruling)*: even bounded to one turn, an *automatic* weak-point hit removed the follow-up strike's own risk entirely. **The follow-up is no longer automatic — it's an eased stopwatch check (§10):**
+
+- **Tolerance:** flat **±0.25s**, regardless of the target's actual multiplier band — the loosest tolerance anywhere in the game (§10's own 1.01–1.25 band, normally reserved for the weakest called shots). Target time is the same DM-set convention as any Precision Strike (~1.50s default, 1.0–2.0s range) — only the tolerance gets flattened, not the timing itself.
+- **Hit →** the weak-point strike lands as normal, 1.5× plus Insight mods.
+- **Miss →** falls back to a plain torso hit — full raw, no bonus multiplier, no sever. **No further penalty stacks on top** — the target's already down and defenseless; missing the placement doesn't cost anything beyond not getting the bonus.
+
+Landing the parry itself remains the hard, real skill check; the follow-up is now a second, much easier one rather than a freebie — still heavily favoring the player, no longer risk-free. Keeping a chain going requires landing the parry with the same whiff risk as ever, and now *also* clearing the eased follow-up for full value. Plain attacks (§3, ≤1.0 multiplier) always land with zero roll either way — that's the standing, legitimate no-timer alternative this was always meant to sit alongside, not lose to by default.
 
 Insight widens windows and unlocks visceral mods (§11): Bloody, Sustaining, Quickening.
 
 ### Post-parry weak points — three tiers
 
-- **Tier 1 — Open** (default, mooks/elites). Parry knocks it down for its one lost turn (above); weak point's yours on Lloyd's next action, no second stopwatch.
-- **Tier 2 — Widened** (some bosses). Opened but not floored — no lost turn, this tier never grants one. Precision window (§10), widened one tier.
-- **Tier 3 — Full double** (bosses, chaotic limbs). Parry stopwatch, then a full second precision stopwatch. No lost turn either.
+- **Tier 1 — Open** (default, mooks/elites). Parry knocks it down for its one lost turn (above); the weak point is Lloyd's to *attempt* on his next action via the eased ±0.25s stopwatch above — favored, not automatic.
+- **Tier 2 — Widened** (some bosses). Opened but not floored — no lost turn, this tier never grants one. Precision window (§10), widened one tier from the target's actual band (tighter than Tier 1's flat ease, looser than the target's normal difficulty).
+- **Tier 3 — Full double** (bosses, chaotic limbs). Parry stopwatch, then a full second precision stopwatch, target's actual band, no easing at all. No lost turn either.
 
 **Table fallback:** replace any stopwatch with d20 + Insight-as-modifier, same outcomes.
 
@@ -394,7 +400,7 @@ Target time DM-set per opening (default ~1.50s, range 1.0–2.0s). Miss punishme
 | 1.51–1.75 | Wide — no dmg, enemy free reactive strike |
 | 1.76+ | Whiff + exposed — enemy free heavy, or a track |
 
-**Tier 1 parry removes the precision watch entirely** (free placed shot); Tier 2 widens it one tier; Tier 3 keeps it full.
+**Tier 1 parry flattens the precision watch to the loosest tolerance band, ±0.25s, regardless of the target's own multiplier** — eased, not removed (session-off ruling, see §9 for the full outcome/miss handling). Tier 2 widens it one tier from the target's actual band. Tier 3 keeps it full, target's actual band, no easing.
 
 **Self-initiated called shots** (no enemy tell — an unparryable grasp, a stationary target): tolerance tightens one band beyond the multiplier's own. A **miss ends the turn outright**, no repositioning; a **hit** lets remaining movement be used normally. **Limb multiplier only — no visceral ×1.5 stacking** (visceral is reserved for genuine parry/ambush openings).
 
