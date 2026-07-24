@@ -3,7 +3,7 @@
 
 System-agnostic ruleset (d20 base) for solo play with an AI DM. You trade humanity for power, and only see the trade once you've gone mad enough to look.
 
-*Version 8.7. Session-attribution history and rationale prose live in the dev log, not here.*
+*Version 8.8. Session-attribution history and rationale prose live in the dev log, not here.*
 
 ---
 
@@ -327,16 +327,18 @@ Needs a stopwatch.
 3. Pause inside the window.
 
 **Outcomes:**
-- **Inside → PARRY.** Enemy opened; next strike deals 1.5× (plus Insight mods), knocks it down, ends its turn, costs it movement.
+- **Inside → PARRY.** The telegraphed heavy is interrupted — it never lands. Enemy is knocked down, losing its **very next turn only** — no action, no movement, that one turn. The turn after that, it's back to acting normally; this isn't an open-ended lockout. Lloyd's own next action against it is a guaranteed weak-point strike at 1.5× (plus Insight mods) — Tier 1 default, no second stopwatch needed.
 - **Outside → WHIFF.** Eat the heavy in full plus a punish (DM's pick). Don't reuse a tell.
+
+**Bounding the payoff** *(session-off ruling — Jake flagged the parry loop as feeling broken: managing several consecutive unanswered turns off a single successful stopwatch, to the point it had crowded out every other strategy).* "Ends its turn" previously had no stated limit, and stacked with the guaranteed weak-point hit to snowball into 2–3 clean player turns per successful read. The fix isn't to make parries harder to land or less rewarding to land well — it's bounding what one success actually buys: **exactly one interrupted attack, one skipped enemy turn, one guaranteed big hit.** That's it. Lloyd still gets a genuinely strong turn out of it (the guaranteed weak-point strike, plus a second hit against the still-down enemy on his following turn, since it lost that turn entirely) — but the enemy is back to acting, and back to being a threat, the turn after. Keeping the loop going requires landing another parry, with the same real whiff risk as the first, rather than one success buying indefinite safety. Plain attacks (§3, ≤1.0 multiplier) always land with zero roll either way — that's the standing, legitimate no-timer alternative this was always meant to sit alongside, not lose to by default.
 
 Insight widens windows and unlocks visceral mods (§11): Bloody, Sustaining, Quickening.
 
 ### Post-parry weak points — three tiers
 
-- **Tier 1 — Open** (default, mooks/elites). Parry floors them; weak point's yours, no second stopwatch.
-- **Tier 2 — Widened** (some bosses). Opened but not floored. Precision window (§10), widened one tier.
-- **Tier 3 — Full double** (bosses, chaotic limbs). Parry stopwatch, then a full second precision stopwatch.
+- **Tier 1 — Open** (default, mooks/elites). Parry knocks it down for its one lost turn (above); weak point's yours on Lloyd's next action, no second stopwatch.
+- **Tier 2 — Widened** (some bosses). Opened but not floored — no lost turn, this tier never grants one. Precision window (§10), widened one tier.
+- **Tier 3 — Full double** (bosses, chaotic limbs). Parry stopwatch, then a full second precision stopwatch. No lost turn either.
 
 **Table fallback:** replace any stopwatch with d20 + Insight-as-modifier, same outcomes.
 
