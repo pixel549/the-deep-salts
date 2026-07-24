@@ -3,7 +3,7 @@
 
 System-agnostic ruleset (d20 base) for solo play with an AI DM. You trade humanity for power, and only see the trade once you've gone mad enough to look.
 
-*Version 8.0 — full lean rewrite. All mechanics from v7.3 preserved; session-attribution history, rationale prose, and the redundant Quick Reference section (superseded by making the whole document reference-density) have been cut. Full change history lives in the dev log.*
+*Version 8.5. Session-attribution history and rationale prose live in the dev log, not here.*
 
 ---
 
@@ -352,7 +352,7 @@ Standard humanoid:
 - Threshold over several hits → **STAGGER** (limb goes limp). The hit that crosses it grants an immediate free called shot, same action. Player stagger duration: fixed 1 turn. Enemy stagger duration: variable, set per Monster Template.
 - Threshold in one hit → **SEVER** (permanent). Severing torso/head kills regardless of remaining HP.
 - No free called shots on a standing, alert, unstaggered enemy — needs an opening (stagger/knockdown/off-balance/parry) or takes a penalty. Default swings land torso.
-- Small high-value targets (bell, crack, eye) are just non-standard limb entries with a high multiplier, using Sever only (no partial "stagger" state for an object).
+- **Implements and objects** (a carried bell, a shield, a crack in a shell, an eye) are non-standard entries with a high multiplier. They are not limbs — they're extensions of the enemy, targeted the same way a weapon is. **They deal full HP damage like any other hit** (raw × multiplier), and use **Sever only** — destroyed or intact, no partial stagger state.
 
 *Worked example: leg (×0.75, 300) needs 400 raw in one hit to sever. Head (×1.5, 180) needs 120 raw.*
 
@@ -511,6 +511,8 @@ Archetypes, reskin per location. Attack damage generated live (§2), scaled to l
 5. **SPITTER** (controller) — HP ~400–600 · Move medium (4m), keeps distance. Ranged Corrosion, stacks fast. Tell: swells, draws back (~1.6s). Tier 1.
 6. **BRUTE** (heavy) — HP ~1500–2500 · Move slow (4m). Huge slow heavies, can amputate/bisect an under-levelled player on a fully-landed combo. Tell: overhead wind-up (~2.0s). Tier 2. Sever a leg to neutralise its approach.
 7. **FLAILER** (chaotic) — HP ~600–900 · Move medium, erratic. Multi-track (Corrosion + Blood Loss). Tell: limbs draw back in unison, multiple windows in sequence. Tier 3. Hardest non-boss to open.
+8. **DRUDGE** (elite) — HP ~600–900 · Move slow (2–3m), relentless, **never bursts or lunges**. One heavy on a steady cadence, always telegraphed, always parryable, long recovery after. Tier 1–2 (heavier instances use Tier 2). The counterpoint to Shambler: same slow walk, but its attack is fully readable and punishable instead of tell-less. Kitable forever in principle; it simply never stops coming.
+9. **TOLLER** (mook) — HP ~250–400 · Move slow (2m), hangs back, rarely closes. Applies track pressure through a **destructible implement** (bell, censer, horn) — telegraphed and parryable, unlike a Chanter's bare voice. **Destroy the implement and it has no attack left at all.** Tier 1. The counterpoint to Chanter: kill the tool, not the creature.
 
 **Standard archetypes cannot parry/visceral the player** — that loop is boss/hand-flagged-elite only.
 
@@ -563,7 +565,12 @@ Archetypes, reskin per location. Attack damage generated live (§2), scaled to l
 
 **Anchors.** Exists somewhere in the biome, always — but you wake in blind (§1/§2), not at it. Location rerolls each run; must be found through exploration. Assess/high Insight orients toward it faster. Return + leave = clean exit (Purse banks).
 
-**Death & gear recovery.** Respawn in the entry salt room, Purse forfeit. **Killer is a guaranteed spawn** until beaten. **Boss kills are permanent per biome** — one fixed landmark settles where it died, persists across rerolls. *(Session 6 clarification: this means a completed kill is permanent for that instance — a retreat or Abandon-All mid-fight doesn't carry damage forward, so the next reroll's boss of that archetype starts fresh at full HP. It's not a contradiction with "fresh full-HP boss per reroll"; a finished kill leaves its landmark and closes that thread, but the recipe can still generate a new instance of the same boss archetype in a future reroll — that's simply a different fight.)*
+**Death & gear recovery.** Respawn in the entry salt room, Purse forfeit. **Killer is a guaranteed spawn** until beaten.
+
+**Boss spawn rate.** *(Session 7 ruling.)*
+- **Undefeated:** the recipe's boss is a **guaranteed spawn every reroll** until it's been killed once.
+- **Defeated:** a landmark settles permanently where it died, and the boss drops to a **rare spawn — roughly 1 reroll in 4**, same rarity band as a found in-run NPC. It can still appear; it usually doesn't.
+- A boss that respawns after the first kill is a **fresh, full-HP instance**, never a damaged one. Retreat or Abandon-All mid-fight carries no damage forward either.
 
 **Companions.** Two tracks:
 - **Instance Companions** — Insight-summon (§11) or a found in-run ally (rarity guidance: Instance Depth & Pacing, above). Instance Quest by nature: expires with the layout. Stats generated live like a monster.

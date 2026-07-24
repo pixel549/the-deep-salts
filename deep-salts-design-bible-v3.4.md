@@ -3,7 +3,7 @@
 
 Companion to the ruleset. **Load this plus the ruleset and character sheet when running the game.** Mechanic index/book plan/known gaps live in the dev log — do NOT load that during play.
 
-*Version 3.0 — full lean rewrite. All entities and numbers from v2.8 preserved; session attribution and redundant flavor prose cut. Full history in the dev log.*
+*Version 3.4. Session attribution and change history live in the dev log, not here.*
 
 Every monster/weapon/item/NPC/status/currency gets one complete page. Copy the blank template to add an instance.
 
@@ -16,8 +16,6 @@ Each section leads with its **floor entry** — the weakest legal instance of th
 # 1. Monster Template
 
 One page per monster — everything a DM needs to run that fight, nowhere else to look.
-
-**Enemy-variety discipline:** no archetype spawns 3 rerolls running for the same recipe unless deliberately farmed. Reskins across different recipes aren't repeats.
 
 **Standard humanoid stagger durations (default, applies wherever "standard humanoid defaults" is referenced):** Head 1 turn · Arm 2 turns · Leg 2 turns · Torso n/a. Elites/bosses set bespoke durations.
 
@@ -44,33 +42,33 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Penitent Rush | Heavy | "It bows deeply, then drives forward in a desperate sprint." | Target 1.2s, ±0.20s | Heavy | 40 raw | Standard | Long recovery (~2 player actions before it fully re-engages, guideline not a hard count) |
+| Penitent Rush | Heavy | "It bows deeply, then drives forward in a desperate sprint." | Target 1.2s, ±0.20s | 1 | 40 raw | Standard | Long recovery (~2 player actions before it fully re-engages, guideline not a hard count) |
 
 - **Kitable:** Y. **Assess 0–1:** "It only becomes dangerous once it commits." · **Assess 2+:** "Wait for the bow. Dodge the charge, punish the recovery."
 - **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** panic-dodging too early. **Dismember threat:** Moderate. **Retreat always reachable:** Y.
 
 ## Monster 3 — Drowned Bellkeeper
 
-- **Archetype:** Chanter (mook) · **Level Range:** 1–20 · **HP:** 280 · **Move:** 2m slow walk, rarely closes · **Scale Band:** 1–20 (×1.0)
+- **Archetype:** Toller (mook) · **Level Range:** 1–20 · **HP:** 280 · **Move:** 2m slow walk, rarely closes · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** A ruined attendant dragging a cracked handbell beneath the waterline. Every ring reaches inside the skull.
-- **Limbs:** standard defaults, plus non-standard: **Bell** — multiplier ~2.0, sever ~40 raw (placeholder anchor, resolved historically as a pure timing check rather than a computed figure). Breaking it permanently disables Hollow Bell for the encounter (Sever, no partial state).
+- **Limbs:** standard defaults, plus non-standard: **Bell** — implement, not a limb (Ruleset §10): multiplier ~2.0, sever ~40 raw (placeholder anchor). Deals full HP damage on the hit like any other strike. Breaking it permanently disables Hollow Bell for the encounter — and the Bellkeeper has no other attack, so a destroyed bell leaves it harmless.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Hollow Bell | Aura | "It slowly raises the bell before a dull, submerged toll." | Target 1.60s, ±0.35s total (±0.20s base + Insight window bonus) — set live session 7 | Light | 20 raw; 1 Influence stack | Standard | Long delay before next toll |
+| Hollow Bell | Aura | "It slowly raises the bell before a dull, submerged toll." | Target 1.60s, ±0.35s total (±0.20s base + Insight window bonus) — set live session 7 | 1 | 20 raw; 1 Influence stack | Standard | Long delay before next toll |
 
 - **Kitable:** Y. **Assess 0–1:** "That bell feels worse than it sounds." · **Assess 2+:** "Interrupt the toll by staying aggressive. Left alone it keeps building Influence."
 - **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** ignoring support enemies. **Dismember threat:** Low.
 
 ## Monster 4 — Salt-Eaten Custodian
 
-- **Archetype:** Shambler (elite) · **Level Range:** 5–20 · **HP:** 650 · **Move:** 3m relentless walk, never sprints · **Scale Band:** 1–20 (×1.0)
+- **Archetype:** Drudge (elite) · **Level Range:** 5–20 · **HP:** 650 · **Move:** 3m relentless walk, never sprints · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** Once tasked with cleaning the baths, now drags an iron scraper large enough to serve as a coffin lid.
 - **Limbs:** standard defaults, no deviations.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Iron Scrape | Heavy | "The scraper screeches across the floor before a wide sweep." | Target 1.20s, ±0.40s total (±0.25s base + Insight window bonus) — set live session 7 | Heavy | 60 raw | Standard | Long recovery dragging weapon free |
+| Iron Scrape | Heavy | "The scraper screeches across the floor before a wide sweep." | Target 1.20s, ±0.40s total (±0.25s base + Insight window bonus) — set live session 7 | 1 | 60 raw | Standard | Long recovery dragging weapon free |
 
 - **Kitable:** Y. **Assess 0–1:** "That thing is slow, but don't stand in front of it." · **Assess 2+:** "The scrape announces everything. Dodge late, punish hard."
 - **White Salts drop:** 15. **Insight:** +1/+0. **Habit punished:** greedy attacks after the tell begins. **Dismember threat:** High.
@@ -83,7 +81,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Brine Jet | Ranged | "Its throat swells until the skin stretches taut." | Target | Light | 30 raw | Standard | Stands exposed while coughing seawater |
+| Brine Jet | Ranged | "Its throat swells until the skin stretches taut." | Target 1.60s, ±0.20s | 1 | 30 raw | Standard | Stands exposed while coughing seawater |
 
 - **Kitable:** N. **Assess 0–1:** "It's safer up close than far away." · **Assess 2+:** "Rush it during the inhale. The spit leaves it wide open."
 - **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** backpedalling constantly. **Dismember threat:** Low.
@@ -96,21 +94,26 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Towel Lash | Light | "The dripping cloth suddenly snaps tight." | Target | Light | 25 raw | Standard | Brief stumble |
-| Frenzied Whirl | Heavy | "It throws both arms wide before spinning violently." | Target | Heavy | 70 raw | Standard | Extended dizzy recovery |
+| Towel Lash | Light | "The dripping cloth suddenly snaps tight." | None — unparryable chip | N/A | 25 raw | Standard | N/A |
+| Frenzied Whirl | Heavy (chain) | "All four towels draw back in unison, then unwind one after another." | **3 sequential windows: 0.80s · 1.30s · 1.80s, each ±0.20s base** | 3 | 30 raw per unparried window (90 if all three land) | Standard | Chain continues from the missed beat |
 
-- **Kitable:** N. **Assess 0–1:** "Stay calm. It isn't." · **Assess 2+:** "The spin has the real threat. Let it commit, then strike."
+**Frenzied Whirl — the ballistic chain** *(set session 7, gives the Flailer archetype its defining Tier 3 opening):* three windows resolved back to back, one stopwatch each, restarting from 0 at each beat.
+- **All three parried →** Tier 1 Open. It collapses out of the spin, weak point free, no second stopwatch.
+- **Miss any window →** take that beat's 30 raw and every remaining beat in the chain automatically. No partial credit, no opening.
+- Parried beats deal no damage and don't open it on their own — only the full three do. This is the hardest non-boss opening in the game by design.
+
+- **Kitable:** N. **Assess 0–1:** "Stay calm. It isn't." · **Assess 2+:** "The spin isn't one attack, it's three. Read all of them or none."
 - **White Salts drop:** 18. **Insight:** +1/+0. **Habit punished:** staying glued to its sides. **Dismember threat:** High.
 
-## Monster 7 — Marble Effigy
+## Monster 7 — Marble Attendant
 
-- **Archetype:** Effigy (elite) · **Level Range:** 10–20 · **HP:** 800 · **Move:** 2m deliberate advance, pauses after every attack · **Scale Band:** 1–20 (×1.0)
+- **Archetype:** Drudge (elite) · **Level Range:** 10–20 · **HP:** 800 · **Move:** 2m deliberate advance, pauses after every attack · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** A carved attendant statue animated by centuries of absorbed prayers. Marble chips fall with every step.
 - **Limbs:** standard defaults, no deviations.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Marble Fist | Heavy | "Stone cracks loudly through its arm before the punch." | Target | Heavy | 80 raw | Standard | Long stationary recovery |
+| Marble Fist | Heavy | "Stone cracks loudly through its arm before the punch." | Target 1.80s, ±0.20s | 2 | 80 raw | Standard | Long stationary recovery |
 
 - **Kitable:** Y. **Assess 0–1:** "Every hit hurts. Every swing is slow." · **Assess 2+:** "Its recovery is longer than its attack. Survive one blow, answer with several."
 - **White Salts drop:** 20. **Insight:** +1/+0. **Habit punished:** trading hits. **Dismember threat:** Very High.
@@ -121,26 +124,26 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 - **Flavour:** A pilgrim shape whose face gave way to a vertical opening that doesn't sing so much as *is* the sound. Sustains an unbroken note that draws the faithful into a ring around it, never approaching its own devotion.
 - **Limbs:** standard defaults + **The Open Throat** (weak point) — multiplier ×2.0, sever 400.
 
-| Attack | Type | Tell | Window | Hit Effect |
-|---|---|---|---|---|
-| Choir Pulse | Ranged/Aura | "The layered note sharpens, aims itself." | Unparryable, always lands | 2 Influence stacks/pulse |
+| Attack | Type | Tell | Window | Tier | Hit Effect |
+|---|---|---|---|---|---|
+| Choir Pulse | Ranged/Aura | "The layered note sharpens, aims itself." | Unparryable, always lands | N/A | 2 Influence stacks/pulse |
 
 - **Kitable:** N/A — never moves. Breaking line of sight is the counter.
 - **Assess 0–1:** "It's not hunting. Whatever it's doing, it's not going to chase." · **Assess 2+:** "The note itself is the attack. The opening where its face should be is real, but boss-high, not mook-high."
 - **White Salts drop:** 60. **Insight:** +1/+1.
-- **Boss Gimmick:** Sever the Open Throat (400 raw-equivalent, one hit) and the fight ends regardless of remaining HP. Otherwise pure attrition — the Singer never physically attacks; danger comes secondhand from its Penitent congregation, while Influence climbs the whole time, save DC rising with stack count.
+- **Boss Gimmick:** Sever the Open Throat and the fight ends regardless of remaining HP. **Threshold 400 at ×2.0 = 200 raw in one hit** (per Ruleset §10's threshold ÷ multiplier). Deliberately above what any current weapon reaches — the Singer is an attrition fight first, and sever is never required (Ruleset §3). Otherwise pure attrition — the Singer never physically attacks; danger comes secondhand from its Penitent congregation, while Influence climbs the whole time, save DC rising with stack count.
 - **Habit punished:** tanking pulses in the open, or fighting through the ring instead of around it. **Dismember threat:** Low (no melee of its own). **Retreat always reachable:** Y.
 
 ## Monster Template (blank)
 
 - **Archetype:** · **Level Range:** · **HP:** · **Move Budget/Pattern:** · **Scale Band:** · **Flavour:**
-- **Limbs** (standard defaults: Head ×1.5/180 · Torso ×1.0/800 · Arm ×0.65/200 · Leg ×0.75/300 — list only deviations/non-standard):
+- **Limbs** (standard humanoid defaults per Ruleset §10 — list only deviations/non-standard here):
 
 |Limb|Multiplier|Stagger Threshold|Stagger Duration|Sever Threshold|Sever Immune?|
 |-|-|-|-|-|-|
 |||||||
 
-Small high-value targets (bell, crack, eye) go in this table as non-standard limb entries with a high multiplier — Sever only, no partial stagger state.
+Implements/objects (bell, shield, eye) go in this table too — see Ruleset §10 for how they resolve.
 
 **Attacks:**
 
@@ -157,11 +160,9 @@ Small high-value targets (bell, crack, eye) go in this table as non-standard lim
 
 One page per weapon — identity, damage, passive, sever maths together.
 
-**Formula:** Damage = Base + (ESV × grade). E ×0.3 · D ×0.5 · C ×0.7 · B ×0.9 · A ×1.1 · S ×1.3. Heavy = 2×Base + (ESV × grade × 1.5).
+*Damage formula, grade table and sever maths: Ruleset §4 and §10. Not restated here.*
 
-**Sever reference:** min raw = threshold ÷ multiplier. Head 180→120 raw · Arm 200→~308 raw · Leg 300→400 raw.
-
-**ESV touchpoints:** raw 8→ESV 8 · raw 20→ESV 20 · raw 40→ESV 33 · raw 99→ESV ~47.
+**ESV touchpoints** (bible-only working aid): raw 8→ESV 8 · raw 20→ESV 20 · raw 40→ESV 33 · raw 99→ESV ~47.
 
 ## Weapon 1 — Paring Knife *(floor entry)*
 
@@ -299,7 +300,7 @@ Same fields as standard, plus once recruited:
 
 ## Item 2 — The Beckoner
 
-Lloyd's, currently lost with the Singer. First item to ever push Influence onto an enemy — no prior mechanic covered this.
+Lloyd's, recovered session 6. First item to ever push Influence onto an enemy — no prior mechanic covered this.
 
 - **Type:** Passive-while-uncovered (session 6 redefinition — supersedes the old "Action Item, targeted" version below) · **Consumable:** N (Constant, unlimited uses)
 - **Effect:** always active in lore; mechanically inert while wrapped. **Uncovered, it applies 1 Influence stack/turn to Lloyd and every enemy within an 8m radius**, no targeting needed, no Action cost to sustain — just to physically wrap or unwrap it (Fast Action, in hand). Re-wrapping stops it dead, immediately, for everyone in range.
@@ -307,11 +308,10 @@ Lloyd's, currently lost with the Singer. First item to ever push Influence onto 
 - **Status Type:** Track (Influence), both sides, per turn while uncovered and in range
 - **Mechanical gap, now resolved (session 6):** enemy Influence overload rule now exists — see Ruleset §5. **Residual Influence on Lloyd is sticky** — see Ruleset §5, doesn't clear on wrap/distance like normal sources, only on rest or fully divesting the item.
 - **Narrative hook:** while anyone (Lloyd included) is within its uncovered radius, the idol presses for a name spoken to it. He's been warned not to. Consequences unspecified — deliberately unresolved, do not invent an answer ahead of the table.
-- **Superseded original text (kept for reference, no longer active):** ~~Type: Action Item (activated), full Action, 2m. Effect: applies 1 Influence stack to a targeted enemy AND 1 to Lloyd, simultaneously, on use.~~
 
 ## Item 3 — The Charm
 
-Lloyd's, currently lost with the Singer.
+Lloyd's, recovered session 6.
 
 - **Type:** Action Item · **Consumable:** Y, Uses: 1, destroyed on use · **Insight Gate:** Tier 3 (Insight 6+)
 - **Effect (player's choice at moment of use):** either +1 bonus damage die on the next attack (sized ~base÷4, same convention as the Bloody visceral mod), or widen the next parry/precision window by +0.10s.
@@ -346,17 +346,7 @@ Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of 
 - **Effect:** −1m movement, next turn only. **Duration:** 1 turn, expires automatically.
 - **Combos:** compounds tactically with a staggered leg or Discombobulation's movement scrambling.
 
-## Status Effect 2 — Blood Loss *(Track)*
-
-- **Type:** Track (0–10) · **Affects:** Both.
-- **Stacks:** +1 per qualifying slashing/piercing hit or hazard. **Effect per stack:** new stack deals immediate bonus damage = stack total (5th cut = +5, no per-turn drain).
-- **Cap:** 10 → triggers Rupture, resets to 0.
-- **Clear:** bandage/cautery/pressure; Wrap clears 2.
-
-## Status Effect 3 — Rupture *(Immediate, triggered)*
-
-- **Type:** Immediate, triggered at Blood Loss 10 · **Effect:** 25% Max HP direct damage + staggered a beat. **Duration:** instant, resolves once.
-- **Sources:** currently only the player's own Blood Loss cap.
+*Blood Loss and Rupture are fully defined in Ruleset §5 — not restated here. This section holds only effects the ruleset doesn't cover.*
 
 ## Status Effect Template (blank)
 

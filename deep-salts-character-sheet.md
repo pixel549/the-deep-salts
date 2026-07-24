@@ -7,7 +7,7 @@
 
 **Concept:** Young, athletic Skill-build fighter. Self-made twin knuckledusters rigged with detonating powder capsules — recovered session 6, back in active use.
 
-**Level:** 3 · **Insight:** 10 (Tier 5 — "Full sight. Deepest hub content unlocked." No content defined anywhere yet; genuine open design work, not improvised.)
+**Level:** 3 (next attribute point costs 25 × 3 = **75** — affordable now) · **Insight:** 10 (Tier 5 — "Full sight. Deepest hub content unlocked." No content defined anywhere yet; genuine open design work, not improvised.)
 
 ### Attributes
 | VIG | END | STR | SKI | RES |
@@ -66,7 +66,7 @@ Standard, no mutations, no damage.
 **Party:** two characters — Lloyd + Maria (below).
 
 ### Known Recipes
-- **The Choir Deep** — Singer permanently defeated, landmark settled, no longer spawns a fresh Singer. Known sub-locales so far: rotunda (session 3), drained plunge-bath + sunken chapel (session 6), vestry + robing gallery + side chantry (session 7).
+- **The Choir Deep** — Singer defeated, landmark settled; now a rare spawn (~1 reroll in 4) rather than guaranteed, and always fresh/full-HP if it appears. Known sub-locales so far: rotunda (session 3), drained plunge-bath + sunken chapel (session 6), vestry + robing gallery + side chantry (session 7).
 - First recipe ("flooded gallery") — 4 visits. Known sub-locales: colonnade/pews (sessions 1,2,4); undercroft/crypt + ritual chamber (session 5).
 
 ### Mutations
