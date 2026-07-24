@@ -561,7 +561,7 @@ Archetypes, reskin per location. Attack damage generated live (§2), scaled to l
 
 **Salts economy.** Single-use, consumed on activation (not per trip) — opens the biome and holds it open. Active room reusable indefinitely until cleared at hub (no refund). Older biomes stay relevant as salt farms.
 
-**Anchors.** Wake at a biome-flavoured fixture; location rerolls, always exists. Return + leave = clean exit (Purse banks). Assess/high Insight orients toward it.
+**Anchors.** Exists somewhere in the biome, always — but you wake in blind (§1/§2), not at it. Location rerolls each run; must be found through exploration. Assess/high Insight orients toward it faster. Return + leave = clean exit (Purse banks).
 
 **Death & gear recovery.** Respawn in the entry salt room, Purse forfeit. **Killer is a guaranteed spawn** until beaten. **Boss kills are permanent per biome** — one fixed landmark settles where it died, persists across rerolls. *(Session 6 clarification: this means a completed kill is permanent for that instance — a retreat or Abandon-All mid-fight doesn't carry damage forward, so the next reroll's boss of that archetype starts fresh at full HP. It's not a contradiction with "fresh full-HP boss per reroll"; a finished kill leaves its landmark and closes that thread, but the recipe can still generate a new instance of the same boss archetype in a future reroll — that's simply a different fight.)*
 

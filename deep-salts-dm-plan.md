@@ -3,31 +3,29 @@ Wiped and rewritten each session end/checkpoint. Direction/pacing only — state
 Note from Jake - use this to premeditate story, loot, combat, character elements that the player might pursue. Ideas can be specific, but will need to be flexible to respond to player choice.
 ---
 Rotation tracker (sessions since a thread last moved)
-Old man by the fire: 3 · Reception clerk "brother": 3 · Memory Vendor: 3
-Maud's ring connection: 2 (unmoved) · Mirel (flooded gallery): 2
-Maud's salvage requests: 2 (unmoved) · Engineer: 2 (delivered, dormant)
-The Choir Deep / lost gear / Beckoner-knows-his-name: 1 (resolved/opened last session, unmoved since)
-Maria recruited: 0 (new this session)
+Old man by the fire: 4 · Reception clerk "brother": 4 · Memory Vendor: 4
+Maud's ring connection: 3 (unmoved) · Mirel (flooded gallery): 3
+Maud's salvage requests: 3 (unmoved) · Engineer: 3 (delivered, dormant)
+Beckoner-knows-his-name (the actual consequence, not the Influence mechanic): 2 (unmoved — the Influence baseline cleared this session, but the "it knows his name" thread itself hasn't surfaced anything yet)
+Maria's actual want (unstated since recruitment): 1
+The Note-Keeper's Robe / script only Lloyd can read: 0 (new this session)
 ---
-Picking up mid-session 7
-Maria (Sister Maria, Church of St Narrikon's Redemption of Mankind) approached Lloyd unprompted at the hub baths and asked to join. Recruited, 0 cost — ruled session 7: story-initiated recruitment is free; a future hub-bargained companion may carry a real price, decided per-instance when it comes up.
-Full stat block generated and locked in (design bible NPC 4): HP 55, RES 24 (ESV 23), Insight 0. Kit: Purging Flame (AOE 32, hits Lloyd too if he's in the radius), Judgment Spark (single-target 27, no called shots ever), Imbue Weapon (+12 flat to Lloyd's next hit, stacks with the Charm, not with itself), Steadying Grace (recovers 50% of pending Rally HP, only usable the turn after Lloyd whiffs a follow-up), Steady Faith (passive, -1 to Lloyd's own Insanity/Influence DC within 5m), Boot Knife (backup only, not her preference).
-Party is two characters for the first time — genuinely new territory for action economy and enemy target-selection in a fight. Watch how the first real encounter plays and flag anything that doesn't hold up (e.g. does an enemy split attention between Lloyd and Maria, does Purging Flame's "hits Lloyd too" actually come up and land the way it's supposed to).
-Both Lloyd and Maria are standing at the Stillwell Hydro hub, about to head into a recipe together for the first time. Nothing chosen yet.
-Carried over from session 6, untouched so far this session:
-Insanity 4 and sticky Influence baseline 3 (Beckoner) — real costs, not urgent, but don't let them silently vanish. Surface a genuine rest/clear opportunity if the story offers one.
-The Beckoner knows Lloyd's name. Don't pre-invent the consequence — let it surface earned, not for drama's sake. Mechanically: it will push Insanity as well as Influence next time it's actually used — player doesn't know this yet.
-Maud + the Beckoner — she recognized something, didn't say what.
-Cross-instance discipline: don't assume recurring names across different recipes are connected without an earned reason (bit us with "Mirel" in session 6).
-Dormant multi-session threads (old man, clerk's brother, Memory Vendor) — fine dormant, don't force it, but don't forget they exist if a natural opening shows up.
+Picking up start of session 8
+Lloyd and Maria banked clean at 131 Vault, fully restored at the hub. Party of two, holding steady.
+Lloyd crossed Insight Tier 5 this session (10 Insight) — ruleset only says "Full sight. Deepest hub content unlocked," completely undefined otherwise. Good hook for next session: does the hub itself read differently to him now? Genuinely open — don't force an answer before it's earned, but it's fair game to let Lloyd notice something at the hub he never has before if the moment's right.
+The Note-Keeper's Robe is worn, no mechanical effect yet. Real open question: Maria (Insight 0) could not see any script on it at all, though Lloyd read a full stitched vow off the collar. Don't pre-resolve whether this is genuine Insight sight of something real or something else — let it stay live and possibly resurface, maybe through Maud or another Insight-having NPC who could either corroborate or contradict what Lloyd saw.
+The Beckoner is currently left behind in Lloyd's room at the hub (full divestment — Influence baseline cleared 3→0 this session). Still knows his name. Whether he brings it again, leaves it behind permanently, or something forces the issue is open.
+Insanity sits at 4, untouched all session — still real, still not urgent, but a genuine rest/clear opportunity (Camphor, or a proper night's sleep if that's ever fleshed out) is worth surfacing eventually rather than letting it just sit forever.
+Companion-in-combat learnings from session 7's first real test: works cleanly with Jake calling Maria's general intent loosely and the DM resolving her rolls/timers. Still untested: Purging Flame's "hits Lloyd too" has never actually come up in a fight — worth engineering a scenario (enemies clustered near Lloyd) where casting it is a real tradeoff, not just theoretical. Also untested: an enemy deliberately splitting attention between the two of them rather than fixating on one.
+"Make Lloyd hurt" landed hard this session — Iron Scrape took him 108→48 in one hit off a Trade choice. Good, don't need to force that again immediately; if anything, next real threat could test the opposite muscle — a fight scary enough that kiting or a clean parry actually matters more than trading.
+Maria still hasn't said what she actually wants out of this, distinct from the Salts everyone else is after. Don't force it, but it's been a full session now — a natural opening (a quiet moment at the hub, something at Choir Deep resonating with her clergy background) would be a good place to let a piece of it slip.
 Other reminders
 Salt requirements are growing exponentially — keep in mind for pricing/rewards.
-Player hasn't had many encounters that actually cost real HP — look for a chance to make one hurt without threatening a kill. Now doubly interesting with Maria's Steadying Grace in the mix — a fight that tests whether that mechanic actually matters would be a good one.
 New monsters can be drafted freely — no obligation to reuse the existing manual.
-Recipe instances should stay within the same biome per recipe but vary the actual sub-locale — diversity in locations, not repeats.
-Ruling (post-session 7): biomes don't have to be water/wet/blood-themed — that's just been this campaign's pattern so far (Stillwell Hydro's whole hook is a bathhouse). A new recipe can lean on any throughline instead — a golden-hour, bright, ethereal church recipe with no water or blood anywhere in it is a good candidate whenever a new recipe gets introduced.
-Ruling (post-session 7): instances should run longer and denser — 2-3 real beats minimum (not just walk-in-fight-out), at least one Instance Quest per instance as a baseline, a real (not guaranteed) chance of a rare in-run NPC roughly 1 in 4 rerolls, and room for actual character beats/dialogue inside the instance itself, not saved for the hub. Next instance is a good place to actually lean into this rather than just noting it.
+Recipe instances should stay within the same biome per recipe but vary the actual sub-locale — diversity in locations, not repeats. Choir Deep now has six known sub-locales (rotunda, plunge-bath, sunken chapel, vestry, robing gallery, side chantry) — plenty of room left before repeats become an issue.
+Instance Depth & Pacing (session 7 ruling): instances run longer and denser — 2-3 real beats minimum, at least one Instance Quest per instance, a real (not guaranteed) ~1-in-4 chance of a rare in-run NPC, and room for actual character beats inside the instance itself. This worked well this session (robe/dialogue beat, combat beat, exploration beat) — keep doing it.
+A new recipe doesn't have to be water/wet/blood-themed — that's just been this campaign's pattern so far. Any sensory throughline works. Worth introducing whenever a fresh recipe actually comes up.
 Reminder from Jake, still standing: don't narrate Lloyd's own chosen actions for him. Set the scene, resolve consequences, let him declare what Lloyd does every time.
-Open question, genuinely unresolved: is Maria player-directed in combat (Jake calls her actions each turn like a second PC) or DM-run (the AI DM plays her autonomously, reacting in character)? Don't assume either way — ask Jake once it actually comes up in a fight, first turn she'd act.
+Documentation discipline reminder: two real doc contradictions surfaced this session (the anchor/chalice wording, and a Powder Charge ruling that existed in an old Claude session but never made it into these files). Worth periodically sanity-checking that established-in-play precedent and the written docs actually agree, rather than assuming the docs are complete.
 ---
-Last updated: mid-session 7 (Maria recruited, party about to enter first joint recipe). Continuing in a fresh chat.
+Last updated: end of session 7. Fresh session 8 starts back at the hub.

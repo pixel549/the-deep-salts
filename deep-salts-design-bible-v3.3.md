@@ -57,7 +57,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Hollow Bell | Aura | "It slowly raises the bell before a dull, submerged toll." | Target | Light | 20 raw; 1 Influence stack | Standard | Long delay before next toll |
+| Hollow Bell | Aura | "It slowly raises the bell before a dull, submerged toll." | Target 1.60s, ±0.35s total (±0.20s base + Insight window bonus) — set live session 7 | Light | 20 raw; 1 Influence stack | Standard | Long delay before next toll |
 
 - **Kitable:** Y. **Assess 0–1:** "That bell feels worse than it sounds." · **Assess 2+:** "Interrupt the toll by staying aggressive. Left alone it keeps building Influence."
 - **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** ignoring support enemies. **Dismember threat:** Low.
@@ -70,7 +70,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Iron Scrape | Heavy | "The scraper screeches across the floor before a wide sweep." | Target | Heavy | 60 raw | Standard | Long recovery dragging weapon free |
+| Iron Scrape | Heavy | "The scraper screeches across the floor before a wide sweep." | Target 1.20s, ±0.40s total (±0.25s base + Insight window bonus) — set live session 7 | Heavy | 60 raw | Standard | Long recovery dragging weapon free |
 
 - **Kitable:** Y. **Assess 0–1:** "That thing is slow, but don't stand in front of it." · **Assess 2+:** "The scrape announces everything. Dodge late, punish hard."
 - **White Salts drop:** 15. **Insight:** +1/+0. **Habit punished:** greedy attacks after the tell begins. **Dismember threat:** High.
@@ -181,6 +181,16 @@ One page per weapon — identity, damage, passive, sever maths together.
 - **Passive — Powder Charge (ranged variant):** fires loaded only, no capsule = no shot. Loading = universal Fast Action (0m). No timing check — guaranteed detonation, traded for finite ammo. On hit: 1 Discombobulation, automatic.
 - **Range:** 8m. **Movement cost to fire:** 1m (Light-tier, no Heavy variant to price separately). **Ammo:** drawn from Hub Kit capsule stock (4 standard). Empty = treat as Fists.
 - **Sever viability:** none at any ESV — concussive, not bladed, not built for it.
+
+## Weapon 3 — Metal Knuckles (paired)
+
+Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge capsules. Lost to the Singer session 3, recovered session 6, back in active use.
+
+- **Type:** Quick · **Stat/Grade:** Skill/D · **Hands:** One
+- **Acquisition:** backstory weapon, character-specific, not generally found.
+- **Base:** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75. **Worked rows:** ESV 18 → 31/58.
+- **Passive — Powder Charge (melee variant):** load a capsule as a universal Fast Action (0m), same as the ranged variant. Unlike the Launcher, firing it is a **timed** detonation: target 1.00s, ±0.15s base, widened by Insight window bonus. **Confirmed effects (session 7):** success = ×1.5 damage modifier on that hit, plus 1 Discombobulation to the target. Failure = the wielder takes 2 Blood Loss stacks and the turn ends immediately with no leftover movement to spend — harsher than a whiffed self-Rally, deliberately, since the capsule is armed either way.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
 
 ## Weapon Template (blank)
 
@@ -308,10 +318,19 @@ Lloyd's, currently lost with the Singer.
 
 ## Item 4 — Clean Source-Water Flask
 
-Lloyd's, currently lost with the Singer — the "clean variant" referenced generically in the ruleset's Action Items list, this specific instance's numbers pinned down.
+Lloyd's, recovered session 6 alongside the rest of the gear forfeited to the Singer — the "clean variant" referenced generically in the ruleset's Action Items list, this specific instance's numbers pinned down.
 
 - **Type:** Action Item · **Action Cost:** full Action, 2m · **Consumable:** Y, Uses: 1
 - **Effect:** heals 75% of Max HP. **No Influence stack** — unlike the standard source-water flask, this is the power without the vulnerability tax. Rarer for exactly that reason.
+
+## Item 5 — The Note-Keeper's Robe
+
+Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of the vestments, dry where everything else was sodden.
+
+- **Type:** Passive/Equip · **Action Cost:** none, worn · **Consumable:** N
+- **Effect:** none yet — deliberately unresolved.
+- **Lore:** carries a stitched vow along the collar, legible only via Tier 4+ Insight: *"I take the note up so no other throat has to open."* Lloyd reads it as belonging to the Singer he killed (or a prior wearer of that role) — unconfirmed in-fiction. Maria (Insight 0) could not perceive any script on it at all.
+- **Open design question:** is this genuine Insight-gated perception of something real, or something else entirely. Do not pre-resolve — this is meant to stay live.
 
 ## Item Template (blank)
 
