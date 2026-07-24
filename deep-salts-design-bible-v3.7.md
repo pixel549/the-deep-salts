@@ -3,7 +3,7 @@
 
 Companion to the ruleset. **Load this plus the ruleset and character sheet when running the game.** Mechanic index/book plan/known gaps live in the dev log — do NOT load that during play.
 
-*Version 3.6. Session attribution and change history live in the dev log, not here.*
+*Version 3.7. Session attribution and change history live in the dev log, not here.*
 
 Every monster/weapon/item/NPC/status/currency gets one complete page. Copy the blank template to add an instance.
 
@@ -617,6 +617,241 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
 - **Base:** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75. **Worked rows:** ESV 18 → 31/58.
 - **Passive — Powder Charge (melee variant):** load a capsule as a universal Fast Action (0m), same as the ranged variant. Unlike the Launcher, firing it is a **timed** detonation: target 1.00s, ±0.15s base, widened by Insight window bonus. **Confirmed effects (session 7):** success = ×1.5 damage modifier on that hit, plus 1 Discombobulation to the target. Failure = the wielder takes 2 Blood Loss stacks and the turn ends immediately with no leftover movement to spend — harsher than a whiffed self-Rally, deliberately, since the capsule is armed either way.
 - **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 4 — The Guillotine Shears
+
+*Fills the Tideglass Cleaver row (Ruleset §4) — first Bible instance of that archetype.*
+
+- **Type:** Quick · **Stat/Grade:** Skill/C · **Hands:** Optional
+- **Acquisition:** found — Paper Mill recipe, instance loot.
+- **Base:** 24. Light = 24+ESV×0.7 · Heavy = 48+ESV×1.05.
+- **Worked rows:** ESV 8 → 30/57 · ESV 47 → 57/98.
+- **Passive:** a mounted paper-guillotine blade cut down into a dual-handled shear-sword. Light attacks close twice — the shear snapping shut — second hit at 50% of the first (rounded up). Heavy is a single full-weight cut, shears held wide.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 5 — The Foundry Wedge
+
+*Fills the Cautery Saw row (Ruleset §4) — the canon "best raw sever weapon" archetype.*
+
+- **Type:** Heavy · **Stat/Grade:** Strength/B · **Hands:** Two
+- **Acquisition:** found — Cold Forge recipe, instance loot.
+- **Base:** 30. Light = 30+ESV×0.9 · Heavy = 60+ESV×1.35.
+- **Worked rows:** ESV 8 → 38/71 · ESV 47 → 73/124.
+- **Passive:** an iron wedge-cleaver used to split cooling ingots off the slag. No gimmick beyond raw weight — this is the weapon you reach for specifically to sever, the same design role Cautery Saw fills.
+- **Sever viability:** the game's benchmark sever weapon. Str 8 → ESV 8 → Heavy 71 (below every threshold). Str 40 → ESV 33 → Heavy ~109 (still under Head's 120). Str 99 → ESV 47 → Heavy 124, clears the Head's 120-raw line outright.
+
+## Weapon 6 — The Retractor
+
+*Fills the Birthing Hook row (Ruleset §4) — first Bible instance of that archetype.*
+
+- **Type:** Reach · **Stat/Grade:** Skill/C · **Hands:** Optional
+- **Acquisition:** found — Gaslight Ward recipe, instance loot.
+- **Base:** 26. Light = 26+ESV×0.7 · Heavy = 52+ESV×1.05.
+- **Worked rows:** ESV 8 → 32/61 · ESV 47 → 59/102.
+- **Passive:** a long surgical retractor-hook, built to hold an incision open — now opens something else. Wide sweeping arcs; a single swing (Light or Heavy) can be declared against two adjacent limbs on the same target instead of one, each resolved at full weight, at the cost of using the tighter of the two limbs' precision tolerances for both (Ruleset §10) — strong against multi-limb targets, genuinely riskier on single hard-to-hit ones.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 7 — The Brake Spike
+
+*Fills the Funicular Spike row (Ruleset §4) — first Bible instance of that archetype. Ties back to the funicular carriage from the campaign's opening beat.*
+
+- **Type:** Reach/thrust · **Stat/Grade:** Strength/B · **Hands:** Two
+- **Acquisition:** found — deep in the Choir Deep recipe, near the original funicular housing.
+- **Base:** 28. Light = 28+ESV×0.9 · Heavy = 56+ESV×1.35.
+- **Worked rows:** ESV 8 → 36/67 · ESV 47 → 71/120.
+- **Passive:** an iron emergency brake-spike, once driven into a funicular rail to stop runaway carriages. Any hit (Light or Heavy) against a staggered target deals +25% raw — it was built to stop something already losing momentum, and still does.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty. (At ESV 47, Heavy exactly clears the Head's 120-raw line.)
+
+## Weapon 8 — The Toll-Press
+
+*Fills the Brass Token Press row (Ruleset §4) — first Bible instance of that archetype.*
+
+- **Type:** Trick (Skill↔Strength) · **Stat/Grade:** compact Skill/D · full-transform Strength/B · **Hands:** Switches (One compact, Two full-transform)
+- **Acquisition:** found — hub sub-basement, tied to the toll/token economy already in play. Character-agnostic.
+- **Base (compact, Quick):** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75. **Worked rows:** ESV 8 → 26/50 · ESV 47 → 46/80.
+- **Base (full-transform, Heavy):** 34. Light = 34+ESV×0.9 · Heavy = 68+ESV×1.35. **Worked rows:** ESV 8 → 42/79 · ESV 47 → 77/132.
+- **Passive:** a hand-press stamp for validating tolls, folded compact by default. Folding/unfolding is a Fast Action (0m), matching weapon-swap economy (Ruleset §7). **Insight Gate:** full transform requires Insight Tier 1 — below it, the press physically won't unfold; Skill governs it compact either way.
+- **Sever viability:** compact — none at any ESV, it's a stamp, not a blade. Full-transform — standard per the general limb-model sever thresholds.
+
+## Weapon 9 — The Kiln Fork
+
+- **Type:** Heavy · **Stat/Grade:** Strength/C · **Hands:** Two
+- **Acquisition:** found — Ember Wards / Cold Forge recipes, instance loot.
+- **Base:** 28. Light = 28+ESV×0.7 · Heavy = 56+ESV×1.05.
+- **Worked rows:** ESV 8 → 34/65 · ESV 47 → 61/106.
+- **Passive:** a two-tined furnace fork, still kiln-hot at the tines. Any Heavy hit that connects applies 1 Burning stack. A Heavy landed against a Discombobulated target deals an additional +25% raw — built to finish something already reeling.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 10 — The Gravedigger's Maul
+
+- **Type:** Heavy · **Stat/Grade:** Strength/C · **Hands:** Two
+- **Acquisition:** found — general Vault reward, unlinked to a specific recipe.
+- **Base:** 26. Light = 26+ESV×0.7 · Heavy = 52+ESV×1.05.
+- **Worked rows:** ESV 8 → 32/61 · ESV 47 → 59/102.
+- **Passive:** a lead-headed grave-maul. Any Heavy hit that staggers a limb also knocks the target back 2m — pure crowd control, not damage. Built for a Strength build that wants space, not just numbers.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 11 — The Bell-Yoke Hammer
+
+- **Type:** Heavy · **Stat/Grade:** Strength/C · **Hands:** Two
+- **Acquisition:** found — Bellfounder's Pit recipe, instance loot.
+- **Base:** 27. Light = 27+ESV×0.7 · Heavy = 54+ESV×1.05.
+- **Worked rows:** ESV 8 → 33/63 · ESV 47 → 60/104.
+- **Passive:** a cast bronze yoke-hammer salvaged from a dead bell-foundry. A fully-landed Heavy hit tolls once — every enemy within 3m of the target (not the target itself) takes 1 Influence stack. Melee weapon, incidental AOE support-pressure.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 12 — The Coalback Pick
+
+- **Type:** Heavy · **Stat/Grade:** Strength/B · **Hands:** Two
+- **Acquisition:** found — Coal Seam recipe, instance loot.
+- **Base:** 27 (deliberately 10% below the standard Strength/B baseline — see Passive). Light = 27+ESV×0.9 · Heavy = 54+ESV×1.35.
+- **Worked rows:** ESV 8 → 35/65 · ESV 47 → 70/118.
+- **Passive:** a narrow-pointed mining pick. Trades raw power for a genuine sever specialization: this weapon's own sever thresholds are reduced 15% (**Head 102 · Arm 262 · Leg 340**, down from the standard 120/308/400) instead of the usual −10% Base tax buying nothing back.
+- **Sever viability:** Head becomes viable noticeably earlier than a standard weapon — Heavy clears its own reduced 102-raw Head line around ESV ~40 (Str ~85+), well before a standard weapon would clear 120.
+
+## Weapon 13 — The Twin Boning Hooks *(paired)*
+
+- **Type:** Quick · **Stat/Grade:** Strength/D · **Hands:** One (paired)
+- **Acquisition:** found — general Vault reward.
+- **Base:** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75.
+- **Worked rows:** ESV 8 → 26/50 · ESV 47 → 46/80.
+- **Passive:** twin dock-hooks, one per hand. A Light attack that staggers a limb lets the off-hand immediately follow with a free Light strike at the same target, 0m cost — a genuine paired-weapon combo, distinct from Metal Knuckles' timed-risk identity. Fast, Strength-governed, built for a brawler who doesn't want to go two-handed.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 14 — The Choir Needle
+
+- **Type:** Quick · **Stat/Grade:** Skill/D · **Hands:** One
+- **Acquisition:** found — Choir Deep recipe, instance loot.
+- **Base:** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75.
+- **Worked rows:** ESV 8 → 26/50 · ESV 47 → 46/80.
+- **Passive:** a long embroidery needle-blade. Self-initiated called shots (Ruleset §10 — an unparryable grasp, a stationary target) using this weapon have their tightened tolerance eased back one band, toward the limb's own baseline. Built specifically for ambush/precision play rather than raw output.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 15 — The Split-Tongue Dagger *(paired)*
+
+- **Type:** Quick · **Stat/Grade:** Skill/D · **Hands:** One (paired)
+- **Acquisition:** found — general Vault reward.
+- **Base:** 20. Light = 20+ESV×0.5 · Heavy = 40+ESV×0.75.
+- **Worked rows:** ESV 8 → 24/46 · ESV 47 → 44/76.
+- **Passive:** twin narrow daggers. As one Action, both blades can strike the same limb back to back — each hit resolves independently at full weight against that limb's stagger/sever meter, rather than one hit at reduced value. Lower Base than most Skill/D options; the payoff is in the doubled meter contribution, not raw per-swing damage.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 16 — The Longhand Rapier
+
+- **Type:** Reach · **Stat/Grade:** Skill/C · **Hands:** One
+- **Acquisition:** found — general Vault reward.
+- **Base:** 24. Light = 24+ESV×0.7 · Heavy = 48+ESV×1.05.
+- **Worked rows:** ESV 8 → 30/57 · ESV 47 → 57/98.
+- **Passive:** an absurdly long, thin dueling blade. Every Precision Strike stopwatch (Ruleset §10, limb multiplier >1.0) is widened one full tolerance band while wielding this weapon — a true finesse pick, built entirely around called shots rather than raw weight.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 17 — The Cage-Wire Whip
+
+- **Type:** Reach · **Stat/Grade:** Skill/D · **Hands:** One
+- **Acquisition:** found — Hollow Aviary recipe, instance loot.
+- **Base:** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75.
+- **Worked rows:** ESV 8 → 26/50 · ESV 47 → 46/80.
+- **Passive:** birdcage wire, braided into a whip. Any hit costs the target 1 extra metre of movement the next time it tries to close distance on the wielder that encounter (once per landed hit, doesn't stack past a single extra metre at a time) — a genuine enemy-mobility debuff, not a player-side status.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 18 — The Bone Comb
+
+- **Type:** Quick · **Stat/Grade:** Skill/E · **Hands:** One
+- **Acquisition:** found — general Vault reward, low-tier/early pickup.
+- **Base:** 20 (the floor). Light = 20+ESV×0.3 · Heavy = 40+ESV×0.45.
+- **Worked rows:** ESV 8 → 23/44 · ESV 47 → 35/62.
+- **Passive:** a wide-toothed carved bone comb, honed at every tine. Any Light attack costs 1m less to follow up with another action — the game's other accessible mobility-first Quick weapon alongside Paring Knife, for a build leaning on movement over raw output.
+- **Sever viability:** none at any ESV — floor-tier weapon, same tradeoff as Paring Knife.
+
+## Weapon 19 — The Censer Flail
+
+- **Type:** Reach · **Stat/Grade:** Resolve/C · **Hands:** Two
+- **Acquisition:** found — Reliquary recipe, instance loot.
+- **Base:** 26. Light = 26+ESV×0.7 · Heavy = 52+ESV×1.05.
+- **Worked rows:** ESV 8 → 32/61 · ESV 47 → 59/102.
+- **Passive:** a swinging censer on a heavy chain, trailing incense smoke. A fully-landed Heavy hit clears 1 stack from any single status track on an ally within 3m — a support effect delivered through an attack, not a cast. First weapon in the game to combine melee damage with ally-support, letting a Resolve build fight and hold up a companion at the same time.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 20 — The Sigil Lash
+
+- **Type:** Quick · **Stat/Grade:** Resolve/D · **Hands:** One
+- **Acquisition:** found — Choir Deep / Reliquary recipes, instance loot.
+- **Base:** 20. Light = 20+ESV×0.5 · Heavy = 40+ESV×0.75.
+- **Worked rows:** ESV 8 → 24/46 · ESV 47 → 44/76.
+- **Passive:** a leather lash inked with warding sigils. On hit, the target's resistance to Insanity/Influence pressure drops −1 for 1 round (stacks additively with Maria's Steady Faith, a different source). A Resolve weapon built to soften enemies up for the party's status stacking rather than deal raw damage itself.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 21 — The Hymnal Truncheon
+
+- **Type:** Heavy · **Stat/Grade:** Resolve/C · **Hands:** One
+- **Acquisition:** found — Choir Deep recipe, instance loot.
+- **Base:** 26. Light = 26+ESV×0.7 · Heavy = 52+ESV×1.05.
+- **Worked rows:** ESV 8 → 32/61 · ESV 47 → 59/102.
+- **Passive:** a thick prayer-book bound in iron plates, swung like a club. Successful Heavy hits apply 1 Influence stack to the target on top of raw damage (Enemy-side Influence Overload, Ruleset §5) — a "battle cleric" option, one-handed despite the Heavy tag, built around a Resolve build that still wants to swing something.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 22 — The Reliquary Chime
+
+- **Type:** Reach · **Stat/Grade:** Resolve/D · **Hands:** One
+- **Acquisition:** found — Reliquary / Bellfounder's Pit recipes, instance loot.
+- **Base:** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75.
+- **Worked rows:** ESV 8 → 26/50 · ESV 47 → 46/80.
+- **Passive:** a hand-chime on a short rod, usable out to 6m without being a dedicated ranged weapon. On hit, applies 1 Discombobulation. Low raw output by design — this is a crowd-control pick for a Resolve build, not a damage one.
+- **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
+
+## Weapon 23 — The Grief-Bell
+
+- **Type:** Quick · **Stat/Grade:** Resolve/E · **Hands:** One
+- **Acquisition:** found — general Vault reward, low-tier/early pickup.
+- **Base:** 20 (the floor). Light = 20+ESV×0.3 · Heavy = 40+ESV×0.45.
+- **Worked rows:** ESV 8 → 23/44 · ESV 47 → 35/62.
+- **Passive:** a small hand-bell. Ringing it as a Fast Action (0m) grants an ally within 5m +1 to their next Insanity/Influence save — a direct, cheap support action baked into an otherwise unremarkable Quick weapon. The floor-tier entry for the Resolve column, same role as Paring Knife/Fists fill for Skill/Strength.
+- **Sever viability:** none at any ESV — floor-tier weapon, same tradeoff as Paring Knife.
+
+## Weapon 24 — The Coil-Spring Gauntlet
+
+- **Type:** Trick (Skill↔Strength) · **Stat/Grade:** compact Skill/D · extended Strength/C · **Hands:** Switches (One compact, Two extended)
+- **Acquisition:** found — Cold Forge recipe, instance loot.
+- **Base (compact, Quick):** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75. **Worked rows:** ESV 8 → 26/50 · ESV 47 → 46/80.
+- **Base (extended, Heavy):** 28. Light = 28+ESV×0.7 · Heavy = 56+ESV×1.05. **Worked rows:** ESV 8 → 34/65 · ESV 47 → 61/106.
+- **Passive:** a brass knuckle-gauntlet with a coiled spring core. Extending is a Fast Action (0m). Extended-form Heavy hits that stagger a limb preferentially target a leg if the wielder chooses (piston recoil knocks the stance out from under it) and knock the target back 1m. **Insight Gate:** full extension requires Insight Tier 2 — one tier past the Toll-Press, reflecting the stronger payoff.
+- **Sever viability:** standard, per the general limb-model sever thresholds, in either form.
+
+## Weapon 25 — The Furl-Blade Parasol
+
+- **Type:** Trick (Skill↔Skill, Type switches) · **Stat/Grade:** Skill/C both forms · **Hands:** Switches (One folded, Two unfurled)
+- **Acquisition:** found — Hall of Broken Mirrors recipe, instance loot.
+- **Base (folded, Quick):** 24. Light = 24+ESV×0.7 · Heavy = 48+ESV×1.05. **Worked rows:** ESV 8 → 30/57 · ESV 47 → 57/98.
+- **Base (unfurled, Reach):** 24 — identical formula, Type changes to Reach. Same worked rows.
+- **Passive:** a slim rapier built into a parasol shaft. Unfurling/folding is a Fast Action (0m), no Insight gate — same stat and grade both ways, so nothing about raw output changes, only the tradeoff. While unfurled: incoming Light attacks against the wielder are reduced by a flat −5 raw (the canopy actually blocks something), at the cost of Reach's slower repositioning compared to the folded Quick form.
+- **Sever viability:** standard, per the general limb-model sever thresholds, in either form.
+
+## Weapon 26 — The Segmented Choir-Flail
+
+- **Type:** Trick (Strength↔Strength, Type/Hands switch) · **Stat/Grade:** Strength/D compact · Strength/C extended · **Hands:** Switches (One compact, Two extended)
+- **Acquisition:** found — Loom Room recipe, instance loot.
+- **Base (compact, Quick):** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75. **Worked rows:** ESV 8 → 26/50 · ESV 47 → 46/80.
+- **Base (extended, Reach):** 28. Light = 28+ESV×0.7 · Heavy = 56+ESV×1.05. **Worked rows:** ESV 8 → 34/65 · ESV 47 → 61/106.
+- **Passive:** compact nunchaku-style jabs, or unspooled (Fast Action, 0m) into a full chain-flail. Extended-form Heavy attacks are the first **player-side** use of the stopwatch on offense rather than defense: the swing resolves as two sequential mini-windows (0.80s, 1.30s, each ±0.20s). Both hit within their targets → full combined raw, no penalty. Miss either → that swing's total raw is halved. No Insight gate — the risk/reward is the whole point of the weapon, not a bonus layered on top.
+- **Sever viability:** standard, per the general limb-model sever thresholds, in either form.
+
+## Weapon 27 — The Twin-Reed Bow-Blade
+
+- **Type:** Trick (Skill↔Skill, Type switches) · **Stat/Grade:** Skill/C melee · Skill/D ranged · **Hands:** Two, both forms
+- **Acquisition:** found — general Vault reward, no single recipe tie.
+- **Base (melee, Quick):** 24. Light = 24+ESV×0.7 · Heavy = 48+ESV×1.05. **Worked rows:** ESV 8 → 30/57 · ESV 47 → 57/98.
+- **Base (bow, Reach, single-shot — no Light/Heavy split):** 26. Shot = 26+ESV×0.5. **Worked rows:** ESV 8 → 30 · ESV 47 → 50.
+- **Passive:** a curved short-sword that reconfigures (Fast Action, 0m) into a small recurve bow, drawing its own bolts from a built-in quiver rather than needing carried ammo. **Ammo:** 6 self-drawn bolts before requiring a hub restock (Hub Kit refill, same economy as the Salvage Launcher's capsules). Range 8m, 1m movement cost to fire, no timing check — the melee/ranged switch-hitter option for a Skill build, distinct from the Salvage Launcher's single dedicated ranged role.
+- **Sever viability:** melee form — standard, per the general limb-model sever thresholds. Bow form — none at any ESV, same as the Salvage Launcher.
+
+## Weapon 28 — The Widow's Cane
+
+- **Type:** Trick (Skill↔Strength) · **Stat/Grade:** Skill/C compact · Strength/C extended · **Hands:** Switches (One compact, Two extended)
+- **Acquisition:** found — general Vault reward, no single recipe tie — deliberately the most widely available Trick weapon.
+- **Base (compact, Quick):** 24. Light = 24+ESV×0.7 · Heavy = 48+ESV×1.05. **Worked rows:** ESV 8 → 30/57 · ESV 47 → 57/98.
+- **Base (extended, Heavy):** 27. Light = 27+ESV×0.7 · Heavy = 54+ESV×1.05. **Worked rows:** ESV 8 → 33/63 · ESV 47 → 60/104.
+- **Passive:** an elegant cane-sword that unfolds (Fast Action, 0m) into a lead-weighted cudgel-cane. No Insight gate, no bonus hook beyond the switch itself — deliberately the "plain" Trick weapon, for a build that wants to flex between finesse and power without committing to either, rather than chasing a flashy gimmick.
+- **Sever viability:** standard, per the general limb-model sever thresholds, in either form.
 
 ## Weapon Template (blank)
 
