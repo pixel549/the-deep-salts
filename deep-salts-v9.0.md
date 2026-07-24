@@ -3,7 +3,7 @@
 
 System-agnostic ruleset (d20 base) for solo play with an AI DM. You trade humanity for power, and only see the trade once you've gone mad enough to look.
 
-*Version 8.9. Session-attribution history and rationale prose live in the dev log, not here.*
+*Version 9.0. Session-attribution history and rationale prose live in the dev log, not here.*
 
 ---
 
@@ -126,10 +126,10 @@ Granted per points invested in that specific stat.
 
 **ENDURANCE**
 - 20 *Light Foot:* moving right after an attack costs 1m less.
-- 40 *Overcharge:* a whiffed parry, once/encounter, becomes a chip hit instead of full whiff punishment. *(Confirmed — session-off ruling, replaces the orphaned charge-based draft.)*
+- 40 *Overcharge:* a whiffed parry, once/encounter, becomes a chip hit instead of full whiff punishment.
 - 60 *Quick Recovery:* track management becomes a Fast Action.
 - 80 *Outrunner:* movement budget never drops below half, regardless of leg damage.
-- 99 *Endless:* once/encounter, immediately retry a failed stopwatch check with no whiff punishment. *(Confirmed — session-off ruling, replaces the orphaned charge-based draft. Now covers the Charged Heavy stopwatch too.)*
+- 99 *Endless:* once/encounter, immediately retry a failed stopwatch check with no whiff punishment. Covers the Charged Heavy stopwatch too.
 
 **STRENGTH**
 - 20 *Heavy Hand:* raw damage counts +5 solely for sever-threshold checks.
@@ -165,9 +165,9 @@ Granted per points invested in that specific stat.
 | Brass Token Press | Trick | Skill↔Strength | Switches | Folds Quick/Heavy; full transform gated Insight Tier 1 |
 | Fists (unarmed) | Quick | Skill/E | N/A | No gimmick, no ammo. Base 10 — deliberate sub-floor exception (session 6 ruling); never sever-capable, full stop, as the tradeoff. |
 
-*Worked example — Cautery Saw heavy, base 30: Str 8→ESV 8→~71 dmg. Str 40→ESV 33→~105. Str 99→ESV ~47→~123, past the head's 120-raw sever line (§10).*
+*Worked example — Cautery Saw heavy, base 30: Str 8→ESV 8→~71 dmg. Str 40→ESV 33→~105. Str 99→ESV ~47→~124, past the head's 120-raw sever line (§10).*
 
-**Charged Heavy** *(session-off ruling — the third tier the Strength 40 perk **Brute Force** already referenced but nothing defined).* A genuine third attack weight, not just bigger Heavy math:
+**Charged Heavy** — the third attack weight (referenced by the Strength 40 perk *Brute Force*):
 - **Cost:** 5m (vs. Heavy's 3m). One per turn, same as any Action.
 - **Resolution:** a self-timed stopwatch at release — target 1.5s, ±0.20s base, widened by the wielder's Insight window bonus same as any other stopwatch (§11). This is the first player-side stopwatch on a *default* attack rather than a weapon-specific gimmick (Segmented Choir-Flail, Bible §2, was the first on any attack at all).
 - **Success:** 2×Base + ESV×grade×**2.0** (up from Heavy's ×1.5) — a real step up, not a rounding difference.
@@ -195,7 +195,7 @@ Most conditions are tracks, 0–10, building rather than switching.
 **INSANITY** — on taking damage / witnessing something wrong / failing a fear save: Save Roll (below). Fail → DM controls you one turn.
 
 **BREAK** (triggered @ Insanity 10, automatic, no roll) — Insanity resets to 0. In exchange:
-- **Blackout:** DM full narrative control, **3 turns, confirmed** (session-off ruling — was a placeholder, now the standing number). Broken World scene — false tells, fake Influence commands, wrong layouts, plus a hallucinated threat that deals real damage (floor 20).
+- **Blackout:** DM full narrative control, **3 turns**. Broken World scene — false tells, fake Influence commands, wrong layouts, plus a hallucinated threat that deals real damage (floor 20).
 - **Scar:** permanent trait attaches when the blackout ends — upside + downside, contextual to what triggered the Break (same shape as Corrupted Regrowth, §10). Full trade legible only at **Insight 6 (Tier 3)** — same threshold Tier 3 already grants for "full mutation stat-lines" (§11), not a separate number. Scars stack uncapped.
 - **Removal:** only via the Memory Vendor (design bible), Insight-priced, escalating: Scar 1 = 6 Insight, Scar 2 = 10, Scar 3+ = higher.
 
@@ -327,16 +327,15 @@ Needs a stopwatch.
 3. Pause inside the window.
 
 **Outcomes:**
-- **Inside → PARRY.** The telegraphed heavy is interrupted — it never lands. Enemy is knocked down, losing its **very next turn only** — no action, no movement, that one turn. The turn after that, it's back to acting normally; this isn't an open-ended lockout. Lloyd's own next action against it is a weak-point strike **attempt** at 1.5× (plus Insight mods) — Tier 1 default, via an **eased precision stopwatch** rather than an automatic hit (see below).
+- **Inside → PARRY.** The telegraphed heavy is interrupted — it never lands. Enemy is knocked down, losing its **very next turn only**; the turn after, it acts normally. Lloyd's next action against it is a weak-point strike **attempt** at 1.5× (plus Insight mods) — Tier 1 default, via the eased stopwatch below.
 - **Outside → WHIFF.** Eat the heavy in full plus a punish (DM's pick). Don't reuse a tell.
 
-**Bounding the payoff** *(session-off ruling — Jake flagged the parry loop as feeling broken: managing several consecutive unanswered turns off a single successful stopwatch, to the point it had crowded out every other strategy).* "Ends its turn" previously had no stated limit, and stacked with an automatic weak-point hit to snowball into 2–3 clean player turns per successful read. First fix: bound what a parry alone buys to **exactly one interrupted attack, one skipped enemy turn** — the enemy is back to acting, and back to being a threat, the turn after. Second fix, one round later, same complaint from a different angle *(follow-up ruling)*: even bounded to one turn, an *automatic* weak-point hit removed the follow-up strike's own risk entirely. **The follow-up is no longer automatic — it's an eased stopwatch check (§10):**
+**A parry buys exactly this much: one interrupted attack, one skipped enemy turn, one eased follow-up attempt.** Never an open-ended lockout — chaining requires landing another parry at full whiff risk. Plain attacks (§3, ≤1.0 multiplier) always land with zero roll; that's the standing no-timer alternative this sits alongside.
 
-- **Tolerance:** flat **±0.25s**, regardless of the target's actual multiplier band — the loosest tolerance anywhere in the game (§10's own 1.01–1.25 band, normally reserved for the weakest called shots). Target time is the same DM-set convention as any Precision Strike (~1.50s default, 1.0–2.0s range) — only the tolerance gets flattened, not the timing itself.
-- **Hit →** the weak-point strike lands as normal, 1.5× plus Insight mods.
-- **Miss →** falls back to a plain torso hit — full raw, no bonus multiplier, no sever. **No further penalty stacks on top** — the target's already down and defenseless; missing the placement doesn't cost anything beyond not getting the bonus.
-
-Landing the parry itself remains the hard, real skill check; the follow-up is now a second, much easier one rather than a freebie — still heavily favoring the player, no longer risk-free. Keeping a chain going requires landing the parry with the same whiff risk as ever, and now *also* clearing the eased follow-up for full value. Plain attacks (§3, ≤1.0 multiplier) always land with zero roll either way — that's the standing, legitimate no-timer alternative this was always meant to sit alongside, not lose to by default.
+**The eased follow-up stopwatch** (Tier 1 only):
+- **Tolerance:** flat **±0.25s** regardless of the target's actual multiplier band — the loosest band in the game. Target time per the normal Precision Strike convention (~1.50s default, 1.0–2.0s range).
+- **Hit →** the weak-point strike lands, 1.5× plus Insight mods.
+- **Miss →** falls back to a plain torso hit — full raw, no bonus multiplier, no sever, and no further penalty (the target's already down; a miss costs the bonus, not a beating).
 
 Insight widens windows and unlocks visceral mods (§11): Bloody, Sustaining, Quickening.
 
@@ -400,7 +399,7 @@ Target time DM-set per opening (default ~1.50s, range 1.0–2.0s). Miss punishme
 | 1.51–1.75 | Wide — no dmg, enemy free reactive strike |
 | 1.76+ | Whiff + exposed — enemy free heavy, or a track |
 
-**Tier 1 parry flattens the precision watch to the loosest tolerance band, ±0.25s, regardless of the target's own multiplier** — eased, not removed (session-off ruling, see §9 for the full outcome/miss handling). Tier 2 widens it one tier from the target's actual band. Tier 3 keeps it full, target's actual band, no easing.
+**Tier 1 parry flattens the precision watch to the loosest tolerance band, ±0.25s, regardless of the target's own multiplier** — eased, not removed (miss handling: §9). Tier 2 widens it one tier from the target's actual band. Tier 3 keeps it full, no easing.
 
 **Self-initiated called shots** (no enemy tell — an unparryable grasp, a stationary target): tolerance tightens one band beyond the multiplier's own. A **miss ends the turn outright**, no repositioning; a **hit** lets remaining movement be used normally. **Limb multiplier only — no visceral ×1.5 stacking** (visceral is reserved for genuine parry/ambush openings).
 
@@ -437,8 +436,8 @@ Separate sixth dial, earned through discovery (lore, dangerous sources tasted, t
 | 1 | 2–3 | Bloody mod. Parry window +0.05s. Low-grade mutation reads. |
 | 2 | 4–5 | Sustaining mod. See warp-thresholds. Window +0.10s. |
 | 3 | 6–7 | Quickening mod. Full mutation stat-lines. Charm items usable. |
-| 4 | 8–9 | Window +0.15s. Untranslatable lore becomes comprehensible — **now extends to monster vocalization/behaviour, not just written text** (session-off ruling; see Insight Perception, below). |
-| 5 | 10 | Full sight. **Deepest hub content unlocked — this is the depth threshold that finally makes the Memory Vendor reachable** (Bible §4, NPC 2). Per the standing Threshold-Gate rule above ("free to pass once there"): reaching Insight 10 even once opens the path; the Vendor stays reachable afterward even if Insight later drops from spending. |
+| 4 | 8–9 | Window +0.15s. Untranslatable lore becomes comprehensible — written text **and monster vocalization/behaviour** (Insight Perception, below). |
+| 5 | 10 | Full sight. **Deepest hub content unlocked — the depth threshold that makes the Memory Vendor reachable** (Bible §4, NPC 2). A threshold gate ("free to pass once there"): reached once, the path stays open even if Insight later drops from spending. |
 
 Window bonus is a flat total per tier, not additive across tiers crossed — a tier without its own number inherits the last stated value. Applies to any DM-set timing window, not just parries.
 
@@ -452,7 +451,7 @@ Costs and grants nothing — the existing score doing narrative work on repeat c
 
 ### Insight Perception — Narrating the Climb
 
-*(Session-off addition — concrete guidance for what the three Re-Read bands above actually sound like at the table, plus what Tier 5 specifically opens up. Standing DM technique, not a one-time scene.)*
+*Standing DM technique for what the Re-Read bands sound like at the table — not a one-time scene.*
 
 **The one hard rule: surreal, never spatially broken.** Higher Insight changes what Lloyd notices and how it's described — never the actual geometry of a space. He can always retrace how he got somewhere; a corridor is always the same length it was a minute ago. The strangeness lives entirely in sensory detail and interpretation, not in the map. A room that's colder, watched, or wrong in a way Lloyd can articulate is in-bounds. A hallway that loops back on itself when it structurally shouldn't is not — that's a Break/Fugue effect (§5/§13, both already gated behind their own specific triggers), never ambient Insight narration.
 
@@ -586,11 +585,11 @@ Archetypes, reskin per location. Attack damage generated live (§2), scaled to l
 
 **Recipes & biomes.** A recipe is a biome's permanent identity (fixed mapping). Everything inside rerolls — layout, wake-in point, loot, spawns. DM holds a biome overview per recipe (palette, reskins, hazards, loot tier, anchor flavour, sub-locale list) — never a map. Some recipes Insight-gated (threshold check, not a spend). **A biome's constant doesn't have to be water/wet/grime/blood** — every recipe so far has leaned that way because Stillwell Hydro's whole hook is a bathhouse, not because the system requires it. A recipe's throughline can be built on anything sensory — light, temperature, sound, colour, texture — instead of dampness: a golden-hour, sunlit, ethereal chapel recipe with no water or blood anywhere in it is just as valid a biome as a flooded one.
 
-**Recipe/salt discovery** *(session-off ruling — no procedure existed before this).* A wholly new recipe becomes accessible when **both** are true: (1) its Insight-gate threshold, if it has one, is currently met, and (2) a concrete narrative seed pointing to it has already surfaced in fiction — a journal entry, an NPC's offhand mention, a sealed or glimpsed-but-unenterable passage. Either alone isn't enough; meeting an Insight threshold with no seed just means nothing's found yet, and a seed with no threshold met means the door's visible but doesn't open. Salt payout scales entirely through the Monster Manual's own per-archetype White Salts drops (Bible §1) — a harder recipe pays out via tougher/more numerous monsters, not a separate flat recipe-level bonus on top.
+**Recipe/salt discovery.** A wholly new recipe becomes accessible when **both** are true: (1) its Insight-gate threshold, if it has one, is currently met, and (2) a concrete narrative seed pointing to it has already surfaced in fiction — a journal entry, an NPC's offhand mention, a sealed or glimpsed-but-unenterable passage. Either alone isn't enough; meeting an Insight threshold with no seed just means nothing's found yet, and a seed with no threshold met means the door's visible but doesn't open. Salt payout scales entirely through the Monster Manual's own per-archetype White Salts drops (Bible §1) — a harder recipe pays out via tougher/more numerous monsters, not a separate flat recipe-level bonus on top.
 
 **Sub-locale variation.** A reroll can relocate within a biome's identity, not just reshuffle one floor plan — e.g. a flooded recipe's constant is the water/mould/palette, not literally "street level" every time (see above: this is one possible throughline, not the only one). **Same sub-locale never repeats two rerolls in a row.** DM tracks a running sub-locale list per recipe.
 
-**Sub-locale pool policy** *(session-off ruling — closes the "most recipes have no written pool" gap).* A recipe's pool starts at whatever's already been visited in play and grows by exactly one entry the moment the no-immediate-repeat rule would otherwise force a genuinely new location — that new sub-locale joins the permanent list, never removed, available for any future reroll from then on. Two recipes have real play history; their pools as of now:
+**Sub-locale pool policy.** A recipe's pool starts at whatever's already been visited in play and grows by exactly one entry the moment the no-immediate-repeat rule would otherwise force a genuinely new location — that new sub-locale joins the permanent list, never removed, available for any future reroll from then on. Two recipes have real play history; their pools as of now:
 - **Flooded gallery** (first recipe): colonnade/pews (sessions 1, 2, 4) · undercroft/crypt + ritual chamber (session 5) · *seeded, not yet visited:* sunken laundry/service stair · reception overflow annex.
 - **Choir Deep:** rotunda (session 3) · drained plunge-bath + sunken chapel (session 6) · vestry + robing gallery + side chantry (session 7) · *seeded, not yet visited:* the choir loft · bell-ringers' spiral stair.
 
@@ -616,16 +615,14 @@ Every other recipe (the Ember Wards, Cold Forge, Reliquary, and the rest seeded 
 - A boss that respawns after the first kill is a **fresh, full-HP instance**, never a damaged one. Retreat or Abandon-All mid-fight carries no damage forward either.
 
 **Companions.** Two tracks:
-- **Instance Companions** — Insight-summon (§11) or a found in-run ally (rarity guidance: Instance Depth & Pacing, above). Instance Quest by nature: expires with the layout. **Stat generation procedure** *(session-off ruling — closes the "untested" gap)*: build it exactly like generating a monster live (§16/§17) — pick the mook or elite HP band appropriate to party level, scale it the same way, give it 1 Action per turn (same economy as the player), and one signature gimmick reusing an existing subsystem (a status application, a heal, a buff) rather than inventing new mechanics. It never gets called-shot/visceral capability against the player's own side. Record the generated block in Bible §4 (NPC Template — Instance Companion) the first time it's actually summoned, same "canon after first contact" rule as everything else.
-- **Persistent Companions** — recruited at the hub, survive rerolls as a Quest. Recruitment is a relationship thread, not a purchase. Real stat block generated on first accompanied run, recorded as canon. Can die in-instance — permanent, no respawn-with-you. **Hub-bargained pricing** *(session-off ruling; story-initiated recruitment stays 0 cost, unchanged)*: a companion bargained for rather than earned through a story beat costs a flat **40 Vault Salts, or 4 Insight, player's choice at the moment of recruitment** — priced below a single Memory Vendor Scar-removal trade deliberately, since a companion isn't permanent power the way a buff is; it's a fragile ally that can die for good.
+- **Instance Companions** — Insight-summon (§11) or a found in-run ally (rarity guidance: Instance Depth & Pacing, above). Instance Quest by nature: expires with the layout. **Stat generation:** build it exactly like generating a monster live (§16/§17) — pick the mook or elite HP band appropriate to party level, scale it the same way, give it 1 Action per turn (same economy as the player), and one signature gimmick reusing an existing subsystem (a status application, a heal, a buff) rather than inventing new mechanics. It never gets called-shot/visceral capability against the player's own side. Record the generated block in Bible §4 (NPC Template — Instance Companion) the first time it's actually summoned, same "canon after first contact" rule as everything else.
+- **Persistent Companions** — recruited at the hub, survive rerolls as a Quest. Recruitment is a relationship thread, not a purchase. Real stat block generated on first accompanied run, recorded as canon. Can die in-instance — permanent, no respawn-with-you. **Hub-bargained pricing** (story-initiated recruitment stays 0 cost): a companion bargained for rather than earned through a story beat costs a flat **40 Vault Salts, or 4 Insight, player's choice at the moment of recruitment** — priced below a single Memory Vendor Scar-removal trade deliberately, since a companion isn't permanent power the way a buff is; it's a fragile ally that can die for good.
 
 ---
 
 ## 19. Skill Checks — Beyond Combat
 
-*(Session-off addition. Fleshes out §3's existing "anything genuinely uncertain" line into a real framework — same underlying math throughout, now with actual named shape instead of one flat catch-all a DM has to improvise fresh every time.)*
-
-**Base structure, unchanged:** d20 + Attribute Modifier (§3 table) vs a DC. No new resolution system — more defined shape around the one that already exists.
+**Base structure:** d20 + Attribute Modifier (§3 table) vs a DC — the same math as §3's catch-all line, given named shape. No new resolution system.
 
 ### DC ladder
 
@@ -663,9 +660,9 @@ Noticing something **novel** (never encountered before) defaults to a Skill chec
 
 ## 20. Timing Checks — Beyond the Parry
 
-*(Session-off addition. Same stopwatch tool the Visceral (§9), Precision Strike (§10), and weapon-gimmick systems already use — target time ± tolerance, Insight window bonus applies exactly as it already does (§11) — now with named shapes for non-attack contexts instead of reinventing the wheel each time one comes up.)*
+Same stopwatch tool as §9/§10 — target time ± tolerance, Insight window bonus applies as ever (§11) — with named shapes for non-attack contexts.
 
-**Standing rule, unchanged from §2/§9: a stopwatch only ever follows a genuine, readable tell.** Nothing below is a tell-less "gotcha" — no fair cue, no stopwatch, just narration.
+**Standing rule (§2/§9): a stopwatch only ever follows a genuine, readable tell.** Nothing below is a tell-less "gotcha" — no fair cue, no stopwatch, just narration.
 
 ### Environmental Hazard Timing
 
