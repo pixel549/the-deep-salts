@@ -3,7 +3,7 @@
 
 Companion to the ruleset. **Load this plus the ruleset and character sheet when running the game.** Mechanic index/book plan/known gaps live in the dev log — do NOT load that during play.
 
-*Version 3.5. Session attribution and change history live in the dev log, not here.*
+*Version 3.6. Session attribution and change history live in the dev log, not here.*
 
 Every monster/weapon/item/NPC/status/currency gets one complete page. Copy the blank template to add an instance.
 
@@ -275,6 +275,289 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 - **White Salts drop:** 55. **Insight:** +1/+1.
 - **Boss Gimmick:** The Effigy parries and viscerals like a real opponent — the genuine boss-tier exception to the standing rule that standard archetypes can't (Ruleset §16/§9). It also initiates its own visceral off a missed player parry, mirroring the exact system back. Sever the Seam and the copy shatters outright, fight ends regardless of remaining HP. **Threshold 250 at ×1.75 ≈ 143 raw in one hit** (per Ruleset §10's threshold ÷ multiplier) — reachable, not trivial, at current gear. Sever is never required (Ruleset §3); pure attrition still ends it.
 - **Habit punished:** leading every exchange the same way twice — it's had one rep to learn it by the second attempt. **Dismember threat:** Moderate (nothing overtly bisecting, but the parry loop punishes greed hard). **Retreat always reachable:** Y, though it will follow at exactly your own pace.
+
+## Monster 19 — The Sackcloth Verger
+
+- **Archetype:** Shambler (mook) · **Level Range:** 1–15 · **HP:** 240 · **Move:** 3m constant shuffle, no burst/recovery beat · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A relic-keeper's under-robe, stiff with gold leaf flaking off in sheets, shuffling the same slow circuit it walked in life — venerating icons that were sold off a century ago.
+- **Limbs:** standard defaults, no deviations. Not sever-immune.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Gilded Grasp | Light | None — unparryable, no windup | N/A | N/A | 0 raw; 1 Influence stack | Standard | N/A — outside 3m it just doesn't land |
+
+- **Kitable:** Y — slowest move budget in the game.
+- **Assess 0–1:** "It's slow. It won't hit hard." · **Assess 2+:** "Same shuffle as anything in this family. Stagger a leg, take the head after."
+- **White Salts drop:** 5 (the floor). **Insight:** +1/+0.
+
+## Monster 20 — Powdered Deacon
+
+- **Archetype:** Shambler (mook) · **Level Range:** 1–15 · **HP:** 260 · **Move:** 3m constant shuffle, no burst/recovery beat · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** Soot-caked robes packed with decades of loose gunpowder dust. The grasp itself does nothing — the residue it leaves keeps eating long after contact ends.
+- **Limbs:** standard defaults, no deviations.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Sooted Grasp | Light | None — unparryable, no windup | N/A | N/A | 0 raw; 1 Corrosion stack | Standard | N/A — outside 3m it just doesn't land |
+
+- **Kitable:** Y. **Assess 0–1:** "Don't let the dust get on you — that's the whole fight." · **Assess 2+:** "Same floor-tier shuffle as always. The Corrosion's the only thing worth respecting."
+- **White Salts drop:** 5. **Insight:** +1/+0.
+
+## Monster 21 — Loom-Handed Weaver
+
+- **Archetype:** Lunger (mook) · **Level Range:** 1–20 · **HP:** 360 · **Move:** 3m stalking pace, single 5m lunge after a short pause then a recovery beat · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** Fingers fused into a shuttle, still working threads that snapped off the loom decades ago. The lunge is the same motion its hands never stopped making.
+- **Limbs:** standard defaults, no deviations.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Shuttle Strike | Heavy | "The shuttle-hand draws back with a mechanical click." | Target 1.2s, ±0.20s | 1 | 40 raw; 1 Blood Loss stack | Standard | Long recovery, re-threading itself |
+
+- **Kitable:** Y. **Assess 0–1:** "Only dangerous once it commits." · **Assess 2+:** "Wait for the click. Dodge the strike, punish the recovery."
+- **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** panic-dodging too early. **Dismember threat:** Moderate. **Retreat always reachable:** Y.
+
+## Monster 22 — Gaslit Orderly
+
+- **Archetype:** Lunger (mook) · **Level Range:** 1–20 · **HP:** 380 · **Move:** 3m stalking pace, single 5m lunge after a short pause then a recovery beat · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A surgical orderly still in a gaslit apron, scalpel grown straight through the palm. Steps in with the same clinical patience it once used on patients.
+- **Limbs:** standard defaults, no deviations.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Clinical Thrust | Heavy | "It steadies its grip before driving the scalpel forward." | Target 1.3s, ±0.20s | 1 | 40 raw; 1 Blood Loss stack | Standard | Long recovery, blade caught on bone |
+
+- **Kitable:** Y. **Assess 0–1:** "Only dangerous once it commits." · **Assess 2+:** "Wait for the grip, dodge the thrust, punish the recovery."
+- **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** panic-dodging too early. **Dismember threat:** Moderate. **Retreat always reachable:** Y.
+
+## Monster 23 — Coalback Skitterer
+
+- **Archetype:** Burster (skirmisher) · **Level Range:** 5–25 · **HP:** 500 · **Move:** 3m idle scrabble, 8m surge / ~1m recovery on the lunge · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** Something that learned to move in absolute dark, coiled tight against a seam wall until the lamp swings away. Then it isn't there anymore.
+- **Limbs:** standard defaults, no deviations.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Dark Surge | Heavy | "A scrape of coal, then silence — it's already coiled." | Target 1.3s, ±0.20s | 1 | 45 raw | Standard | Long recovery, scrabbling back into the dark |
+
+- **Kitable:** Partial — Y between bursts, N mid-surge. **Assess 0–1:** "It's not fast. It's a spring." · **Assess 2+:** "It needs dark to close the gap. Keep a light on it and the surge never lines up."
+- **White Salts drop:** 12. **Insight:** +1/+0. **Habit punished:** standing in full dark near a wall. **Dismember threat:** Moderate.
+
+## Monster 24 — Reliquary Imp
+
+- **Archetype:** Burster (skirmisher) · **Level Range:** 5–25 · **HP:** 460 · **Move:** 3m twitching idle, 8m surge / ~1m recovery on the lunge · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A gilt devotional figure, small enough to fit a shelf — until it isn't on the shelf anymore.
+- **Limbs:** standard defaults, no deviations.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Gilt Lunge | Heavy | "The gold figure's joints creak taut." | Target 1.3s, ±0.20s | 1 | 45 raw | Standard | Long recovery, joints locked |
+
+- **Kitable:** Partial — Y between bursts, N mid-surge. **Assess 0–1:** "It's not fast. It's a spring." · **Assess 2+:** "Everything happens on the coil. Move the instant the joints lock, not after."
+- **White Salts drop:** 12. **Insight:** +1/+0. **Habit punished:** standing still after its first miss. **Dismember threat:** Moderate.
+
+## Monster 25 — Sedated Whisperer
+
+- **Archetype:** Chanter (caster) · **Level Range:** 1–20 · **HP:** 320 · **Move:** 3m drifting glide, always hangs back, never closes · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A patient strapped to a gurney, no longer breathing in any way that matters, still murmuring sedation-talk that was never meant for anyone conscious.
+- **Limbs:** standard defaults, no deviations — soft target, nothing to armor.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Sedation Murmur | Ranged/Aura | None — unparryable, always lands in range | N/A | N/A | 0 raw; 1 Insanity stack (DM may substitute Influence, per the archetype's dual pressure) | N/A | N/A |
+
+- **Kitable:** N/A — no melee attack to kite; correct play is closing distance and killing it fast.
+- **Assess 0–1:** "It isn't attacking you, exactly." · **Assess 2+:** "No tell because there's nothing to parry. Kill it before the stacks matter."
+- **White Salts drop:** 10. **Insight:** +1/+0. **Habit punished:** ignoring it because "it isn't attacking." **Dismember threat:** Low.
+
+## Monster 26 — Static-Throated Operator
+
+- **Archetype:** Chanter (caster) · **Level Range:** 1–20 · **HP:** 360 · **Move:** 3m drifting glide, always hangs back, never closes · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A switchboard operator, cord still plugged into a jack sewn straight into its throat. Every word comes out as feedback first, language second.
+- **Limbs:** standard defaults, no deviations — soft target.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Feedback Whisper | Ranged/Aura | None — unparryable, always lands in range | N/A | N/A | 0 raw; 1 Influence stack | N/A | N/A |
+
+- **Kitable:** N/A — no melee attack to kite; correct play is closing distance and killing it fast.
+- **Assess 0–1:** "It isn't attacking you, exactly." · **Assess 2+:** "No tell because there's nothing to parry. Kill it before the stacks matter."
+- **White Salts drop:** 10. **Insight:** +1/+0. **Habit punished:** ignoring it because "it isn't attacking." **Dismember threat:** Low.
+
+## Monster 27 — Plume-Choked Keeper
+
+- **Archetype:** Spitter (controller) · **Level Range:** 1–20 · **HP:** 320 · **Move:** 3m retreating shuffle, keeps distance · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** An aviary-keeper's throat gone to down and hollow bone. Every cough throws a storm of feather-barbs, fine enough to work under skin.
+- **Limbs:** standard defaults, no deviations.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Plume Cough | Ranged | "Its chest swells, feathers already leaking from the seams." | Target 1.6s, ±0.20s | 1 | 30 raw; 2 Corrosion stacks | Standard | Stands exposed, coughing through its own storm |
+
+- **Kitable:** N. **Assess 0–1:** "Closing the gap is safer than staying at range." · **Assess 2+:** "Rush it during the swell."
+- **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** backpedalling constantly. **Dismember threat:** Low.
+
+## Monster 28 — Pulp-Throated Presser
+
+- **Archetype:** Spitter (controller) · **Level Range:** 1–20 · **HP:** 340 · **Move:** 3m retreating shuffle, keeps distance · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** Throat packed solid with wet pulp gone dry and papery. The cough throws shredded fiber that catches in a wound and keeps working itself deeper.
+- **Limbs:** standard defaults, no deviations.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Pulp Cough | Ranged | "Its throat rattles, dry fiber already sifting loose." | Target 1.6s, ±0.20s | 1 | 30 raw; 2 Corrosion stacks | Standard | Stands exposed, coughing through the drift |
+
+- **Kitable:** N. **Assess 0–1:** "Closing the gap is safer than staying at range." · **Assess 2+:** "Rush it during the rattle."
+- **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** backpedalling constantly. **Dismember threat:** Low.
+
+## Monster 29 — Seam-Breaker
+
+- **Archetype:** Brute (heavy) · **Level Range:** 20–70 · **HP:** 2200 · **Move:** 4m slow, deliberate advance · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** Something that used to break coal for a living, and never really clocked out. Swings a pick the length of a man.
+- **Limbs:** standard defaults, no deviations — bulk instead of speed; the legs stay the one real opening.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Seam Swing | Heavy | "It plants both feet, pick raised past its own shoulder." | Target 2.0s, ±0.20s | 2 | 90 raw | Standard | Long stationary recovery, pick buried in stone |
+
+- **Kitable:** Y in principle — it's enormous, and enormous is slow. **Assess 0–1:** "It's huge. It's also slow enough to just not be there when it lands." · **Assess 2+:** "Sever a leg and the approach stops being a threat at all."
+- **White Salts drop:** 35. **Insight:** +1/+0. **Habit punished:** trading hits at melee range while under-levelled — genuine bisect threat. **Dismember threat:** Very High. **Retreat always reachable:** Y.
+
+## Monster 30 — Frost-Iron Smith
+
+- **Archetype:** Brute (heavy) · **Level Range:** 15–55 · **HP:** 1600 · **Move:** 4m slow, deliberate advance · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A smith frozen mid-strike when the forge finally went cold for good. The hammer still glows faintly with a heat that never quite left the iron.
+- **Limbs:** standard defaults, no deviations — bulk instead of speed; the legs stay the one real opening.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Cold Hammer | Heavy | "The hammer arm rises past its shoulder, trailing frost off dying heat." | Target 2.0s, ±0.20s | 2 | 90 raw; 1 Burning stack | Standard | Long stationary recovery, hammer stuck to the anvil |
+
+- **Kitable:** Y in principle. **Assess 0–1:** "It's huge. It's also slow enough to just not be there when it lands." · **Assess 2+:** "Sever a leg and the approach stops being a threat at all."
+- **White Salts drop:** 35. **Insight:** +1/+0. **Habit punished:** trading hits at melee range while under-levelled. **Dismember threat:** Very High. **Retreat always reachable:** Y.
+
+## Monster 31 — Wire-Boned Falconer
+
+- **Archetype:** Drudge (elite) · **Level Range:** 5–20 · **HP:** 720 · **Move:** 3m relentless walk, never sprints · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A falconer whose arm rebuilt itself in wire and feather after the bird it once carried finished the job. Never stops advancing, never speeds up either.
+- **Limbs:** standard defaults, no deviations.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Wire-Boned Backhand | Heavy | "The wire arm swings wide with an audible creak." | Target 1.2s, ±0.25s | 1 | 55 raw | Standard | Long recovery re-settling its stance |
+
+- **Kitable:** Y. **Assess 0–1:** "Slow, but it never stops coming." · **Assess 2+:** "Fully readable, fully punishable."
+- **White Salts drop:** 15. **Insight:** +1/+0. **Habit punished:** greedy attacks after the tell begins. **Dismember threat:** High.
+
+## Monster 32 — Anvil-Bound Apprentice
+
+- **Archetype:** Drudge (elite) · **Level Range:** 10–20 · **HP:** 760 · **Move:** 2m deliberate advance, pauses after every attack · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** An apprentice still chained wrist-to-anvil, dragging the whole iron block behind it with every step, never once slowing to compensate.
+- **Limbs:** standard defaults, no deviations.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Anvil Drag-Swing | Heavy | "The anvil scrapes stone before the whole weight comes around." | Target 1.3s, ±0.25s | 2 | 60 raw | Standard | Long recovery dragging the anvil back into line |
+
+- **Kitable:** Y. **Assess 0–1:** "Every hit hurts. Every swing is slow." · **Assess 2+:** "Its recovery is longer than its attack — survive one, answer with several."
+- **White Salts drop:** 18. **Insight:** +1/+0. **Habit punished:** trading hits. **Dismember threat:** High.
+
+## Monster 33 — Fuse-Throated Crier
+
+- **Archetype:** Toller (mook) · **Level Range:** 1–20 · **HP:** 280 · **Move:** 2m slow walk, rarely closes · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** Throat packed with a slow-burning fuse instead of a voice box. Every call is timed to a sputter that never quite reaches detonation.
+- **Limbs:** standard defaults, plus non-standard: **Fuse-Horn** — implement, not a limb (Ruleset §10): multiplier ×2.0, sever 30 raw. Deals full HP damage on hit like any other strike. Breaking it disables Sputtered Call for the encounter.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Sputtered Call | Aura | "The fuse in its throat catches, sputtering toward a call." | Target 1.4s, ±0.30s total | 1 | 20 raw; 1 Burning stack | Standard | Long delay before the fuse catches again |
+
+- **Kitable:** Y. **Assess 0–1:** "The call's worse than the creature." · **Assess 2+:** "Break the horn and it has nothing left at all."
+- **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** ignoring support enemies. **Dismember threat:** Low.
+
+## Monster 34 — The Squall Box
+
+- **Archetype:** Toller (mook) · **Level Range:** 1–20 · **HP:** 320 · **Move:** 2m slow walk, rarely closes · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A cracked speaker cabinet strapped to its chest like a breastplate, still wired into whatever's left of its own throat.
+- **Limbs:** standard defaults, plus non-standard: **Speaker Cabinet** — implement, not a limb (Ruleset §10): multiplier ×2.0, sever 40 raw. Deals full HP damage on hit like any other strike. Breaking it disables Feedback Squall for the encounter.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Feedback Squall | Aura | "The cabinet crackles, building toward a squall." | Target 1.5s, ±0.30s total | 1 | 20 raw; 1 Discombobulation | Standard | Long delay before the next squall |
+
+- **Kitable:** Y. **Assess 0–1:** "The call's worse than the creature." · **Assess 2+:** "Break the cabinet and it has nothing left at all."
+- **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** ignoring support enemies. **Dismember threat:** Low.
+
+## Monster 35 — Shuttle-Armed Weaver
+
+- **Archetype:** Flailer (chaotic) · **Level Range:** 10–20 · **HP:** 760 · **Move:** 4m erratic, unpredictable direction changes · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** Four loom-shuttles grown fused to its limbs, each trailing a length of thread sharp enough to open skin. It doesn't move so much as it's operated.
+- **Limbs:** standard defaults, no deviations.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Thread Snap | Light | "A loose shuttle-thread snaps without warning." | None — unparryable chip | N/A | 20 raw | Standard | N/A |
+| Full Weave | Heavy (chain) | "All four shuttles draw back in unison, then fire in sequence." | **3 sequential windows: 0.80s · 1.30s · 1.80s, each ±0.20s base** | 3 | 30 raw per unparried window (90 if all three land) | Standard | Chain continues from the missed beat |
+
+**Full Weave — the ballistic chain** *(same archetype rule as the Bathhouse Flailer's Frenzied Whirl, reskinned)*: three windows resolved back to back, one stopwatch each, restarting from 0 at each beat.
+- **All three parried →** Tier 1 Open, weak point free, no second stopwatch.
+- **Miss any window →** take that beat's 30 raw and every remaining beat automatically. No partial credit, no opening.
+- Parried beats deal no damage and don't open it on their own — only the full three do.
+
+- **Kitable:** N. **Assess 0–1:** "Stay calm. It isn't." · **Assess 2+:** "The weave isn't one attack, it's three. Read all of them or none."
+- **White Salts drop:** 18. **Insight:** +1/+0. **Habit punished:** staying glued to its sides. **Dismember threat:** High.
+
+## Monster 36 — Ream-Wrapped Binder
+
+- **Archetype:** Flailer (chaotic) · **Level Range:** 10–25 · **HP:** 780 · **Move:** 4m erratic, unpredictable direction changes · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** Wrapped shoulder to wrist in reams of uncut paper, each sheet honed razor-sharp at the edge by decades of the same motion repeated.
+- **Limbs:** standard defaults, no deviations.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Paper Cut | Light | "A loose sheet slices without warning." | None — unparryable chip | N/A | 20 raw | Standard | N/A |
+| Ream Cascade | Heavy (chain) | "Both arms draw the reams taut, then release in sequence." | **3 sequential windows: 0.80s · 1.30s · 1.80s, each ±0.20s base** | 3 | 30 raw per unparried window (90 if all three land) | Standard | Chain continues from the missed beat |
+
+**Ream Cascade — the ballistic chain** *(same archetype rule, reskinned)*: three windows resolved back to back, one stopwatch each, restarting from 0 at each beat.
+- **All three parried →** Tier 1 Open, weak point free, no second stopwatch.
+- **Miss any window →** take that beat's 30 raw and every remaining beat automatically. No partial credit, no opening.
+- Parried beats deal no damage and don't open it on their own — only the full three do.
+
+- **Kitable:** N. **Assess 0–1:** "Stay calm. It isn't." · **Assess 2+:** "The cascade isn't one attack, it's three. Read all of them or none."
+- **White Salts drop:** 18. **Insight:** +1/+0. **Habit punished:** staying glued to its sides. **Dismember threat:** High.
+
+## Monster 37 — The Foundry Marshal *(boss, Cold Forge)*
+
+- **Archetype:** Foundry (boss, heavy/reach-chain) · **HP:** 1400 (hand-set, exempt from scaling) · **Move:** 3m, never sprints, never retreats — but its swing radius reaches well past where its footsteps suggest.
+- **Flavour:** Once oversaw the whole forge floor. Now its ribs are the furnace, and everything it swings is still hot from the inside.
+- **Limbs:** standard defaults + **The Furnace Door** (weak point, chest) — multiplier ×1.75, sever 300.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect |
+|---|---|---|---|---|---|
+| Marshal's Cross | Heavy | "It plants both feet, both arms crossing before a wide double swing." | Target 1.8s, ±0.20s | 1 | 70 raw; 1 Burning stack |
+| Foundry Reckoning | Heavy (chain) | "The furnace door in its chest cracks open, venting three pulses of heat in sequence." | **3 sequential windows: 0.90s · 1.40s · 1.90s, each ±0.15s** | 3 | 40 raw per unparried window (120 if all three land), +1 Burning stack per landed window |
+
+- **Kitable:** Partial — its footwork is slow, but the swing radius reaches further than instinct suggests; keep distance wider than it looks like you need to.
+- **Assess 0–1:** "It's not fast. Its reach is the trick." · **Assess 2+:** "The chest cracks before the real attack. Read the vents, not the arms — Marshal's Cross alone never opens it."
+- **White Salts drop:** 50. **Insight:** +1/+1.
+- **Boss Gimmick:** Foundry Reckoning is the Marshal's real opening, same chain rule as any Flailer: **all three windows parried → Tier 1 Open on the Furnace Door**, no second stopwatch. **Miss any window → take that beat's 40 raw + Burning and every remaining beat automatically.** Sever the Furnace Door — **300 at ×1.75 ≈ 171 raw in one hit** (per Ruleset §10's threshold ÷ multiplier) — and the fight ends regardless of remaining HP. Reachable, not trivial, at current gear. Sever never required (Ruleset §3).
+- **Habit punished:** judging distance by its feet instead of its reach. **Dismember threat:** High (Burning stacks compound fast off a clean chain). **Retreat always reachable:** Y.
+
+## Monster 38 — The Bellfounder *(boss, Bellfounder's Pit)*
+
+- **Archetype:** Bellfounder (boss, aura/attrition-chain) · **HP:** 1000 (hand-set, exempt from scaling) · **Move:** 0m — rooted at the casting pit, never advances or retreats.
+- **Flavour:** Cast itself into its own bell before the bronze finished cooling. The ringing hasn't stopped since, and neither has the pouring.
+- **Limbs:** standard defaults + **The Crack** (weak point, a fault line down the bell-body) — multiplier ×2.0, sever 350 (degrades, see Boss Gimmick).
+
+| Attack | Type | Tell | Window | Tier | Hit Effect |
+|---|---|---|---|---|---|
+| Founding Toll | Ranged/Aura | "The bell-body vibrates, tone climbing." | Unparryable, always lands | N/A | 0 raw; 2 Influence stacks/toll |
+| Molten Pour | Heavy (chain) | "The Crack along its side glows, then splits into three successive pours." | **3 sequential windows: 1.00s · 1.50s · 2.00s, each ±0.20s** | 3 | 35 raw per unparried window (105 if all three land), +1 Burning stack per landed window |
+
+- **Kitable:** N/A — never moves. Breaking line of sight is the counter, same as the Singer.
+- **Assess 0–1:** "It's not hunting. It's still pouring." · **Assess 2+:** "The toll's just pressure. The pour is the real fight, and it comes in three."
+- **White Salts drop:** 50. **Insight:** +1/+1.
+- **Boss Gimmick:** Molten Pour follows the standard chain rule — **all three parried → Tier 1 Open on The Crack**, no second stopwatch; **miss any window → take that beat's damage/Burning and the rest automatically.** Sever The Crack (base 350 at ×2.0 = 175 raw in one hit) to end the fight regardless of remaining HP. **Distinct twist:** every time all three Molten Pour windows land uncontested, the pour itself widens The Crack — its sever threshold **permanently drops by 50** for the rest of the fight (350 → 300 → 250 → …), an escalating vulnerability rather than a static number. Otherwise pure attrition — Founding Toll never stops, Influence climbs the whole fight, save DC rising with stack count. Sever never required (Ruleset §3).
+- **Habit punished:** tanking the pour in the open instead of reading all three windows. **Dismember threat:** Moderate (no melee of its own, but Burning stacks compound if the chain lands clean). **Retreat always reachable:** Y.
 
 ## Monster Template (blank)
 
