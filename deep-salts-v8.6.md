@@ -3,7 +3,7 @@
 
 System-agnostic ruleset (d20 base) for solo play with an AI DM. You trade humanity for power, and only see the trade once you've gone mad enough to look.
 
-*Version 8.5. Session-attribution history and rationale prose live in the dev log, not here.*
+*Version 8.6. Session-attribution history and rationale prose live in the dev log, not here.*
 
 ---
 
@@ -126,10 +126,10 @@ Granted per points invested in that specific stat.
 
 **ENDURANCE**
 - 20 *Light Foot:* moving right after an attack costs 1m less.
-- 40 *Overcharge:* **placeholder, needs sign-off** — orphaned by charge removal (§9). Proposed: a whiffed parry, once/encounter, becomes a chip hit instead of full whiff punishment.
+- 40 *Overcharge:* a whiffed parry, once/encounter, becomes a chip hit instead of full whiff punishment. *(Confirmed — session-off ruling, replaces the orphaned charge-based draft.)*
 - 60 *Quick Recovery:* track management becomes a Fast Action.
 - 80 *Outrunner:* movement budget never drops below half, regardless of leg damage.
-- 99 *Endless:* **placeholder, needs sign-off** — orphaned by charge removal. Proposed: once/encounter, immediately retry a failed stopwatch check with no whiff punishment.
+- 99 *Endless:* once/encounter, immediately retry a failed stopwatch check with no whiff punishment. *(Confirmed — session-off ruling, replaces the orphaned charge-based draft. Now covers the Charged Heavy stopwatch too.)*
 
 **STRENGTH**
 - 20 *Heavy Hand:* raw damage counts +5 solely for sever-threshold checks.
@@ -167,6 +167,15 @@ Granted per points invested in that specific stat.
 
 *Worked example — Cautery Saw heavy, base 30: Str 8→ESV 8→~71 dmg. Str 40→ESV 33→~105. Str 99→ESV ~47→~123, past the head's 120-raw sever line (§10).*
 
+**Charged Heavy** *(session-off ruling — the third tier the Strength 40 perk **Brute Force** already referenced but nothing defined).* A genuine third attack weight, not just bigger Heavy math:
+- **Cost:** 5m (vs. Heavy's 3m). One per turn, same as any Action.
+- **Resolution:** a self-timed stopwatch at release — target 1.5s, ±0.20s base, widened by the wielder's Insight window bonus same as any other stopwatch (§11). This is the first player-side stopwatch on a *default* attack rather than a weapon-specific gimmick (Segmented Choir-Flail, Bible §2, was the first on any attack at all).
+- **Success:** 2×Base + ESV×grade×**2.0** (up from Heavy's ×1.5) — a real step up, not a rounding difference.
+- **Failure:** 0 damage, turn ends immediately, no leftover movement to spend — same harsh-failure shape as Powder Charge and the Choir-Flail's own chain, deliberately.
+- Boss stagger-meter interaction (Brute Force, Strength 40: "treat boss stagger meters one tier lower") now has a real trigger to attach to.
+
+**Double-swing reduction** *(closes the Bible §2 gap — Tideglass Cleaver and any reskin of it).* Standard is **50% of the first hit's raw, rounded up**, unless a specific weapon's own Bible entry states otherwise. Applies to any weapon whose gimmick is "swings/hits twice per Light" — a default, not a per-weapon negotiation.
+
 ### Damage Floor & Scale
 
 **20 is the practical floor** for any base number passing through a multiplier (weapon bases, enemy damage, DM-generated numbers) — keeps multiplier results whole and ensures even weak weapons can eventually sever. Doesn't bind flat unmodified numbers (Quick Item heals, status ticks).
@@ -186,8 +195,8 @@ Most conditions are tracks, 0–10, building rather than switching.
 **INSANITY** — on taking damage / witnessing something wrong / failing a fear save: Save Roll (below). Fail → DM controls you one turn.
 
 **BREAK** (triggered @ Insanity 10, automatic, no roll) — Insanity resets to 0. In exchange:
-- **Blackout:** DM full narrative control, 3 turns. Broken World scene — false tells, fake Influence commands, wrong layouts, plus a hallucinated threat that deals real damage (floor 20).
-- **Scar:** permanent trait attaches when the blackout ends — upside + downside, contextual to what triggered the Break (same shape as Corrupted Regrowth, §10). Full trade legible only at sufficient Insight. Scars stack uncapped.
+- **Blackout:** DM full narrative control, **3 turns, confirmed** (session-off ruling — was a placeholder, now the standing number). Broken World scene — false tells, fake Influence commands, wrong layouts, plus a hallucinated threat that deals real damage (floor 20).
+- **Scar:** permanent trait attaches when the blackout ends — upside + downside, contextual to what triggered the Break (same shape as Corrupted Regrowth, §10). Full trade legible only at **Insight 6 (Tier 3)** — same threshold Tier 3 already grants for "full mutation stat-lines" (§11), not a separate number. Scars stack uncapped.
 - **Removal:** only via the Memory Vendor (design bible), Insight-priced, escalating: Scar 1 = 6 Insight, Scar 2 = 10, Scar 3+ = higher.
 
 **BURNING** — ticking damage/turn, spreads to oil/cloth/steam-soaked surfaces. Smother = an action.
@@ -389,7 +398,7 @@ Target time DM-set per opening (default ~1.50s, range 1.0–2.0s). Miss punishme
 
 ### Corrupted Regrowth — the build engine
 
-A lost limb regrows at hub with a chance of coming back changed — clear upside, clear downside (e.g. beastly arm: +damage/−parry window; tendril arm: +reach/−accuracy; carapace leg: +stagger resist/−movement). Full stat-line legible only at sufficient Insight; below threshold, vibes only.
+A lost limb regrows at hub with a chance of coming back changed — clear upside, clear downside (e.g. beastly arm: +damage/−parry window; tendril arm: +reach/−accuracy; carapace leg: +stagger resist/−movement). Full stat-line legible only at **Insight 6 (Tier 3)** — same threshold as the Scar read above (§5) and the tier table's own "full mutation stat-lines" (§11); below it, vibes only.
 
 **Regret options (hub):** Revert to human (Vault Salts or Insight) · Reroll (regrow again, Vault cost). Both run.
 
@@ -418,8 +427,8 @@ Separate sixth dial, earned through discovery (lore, dangerous sources tasted, t
 | 1 | 2–3 | Bloody mod. Parry window +0.05s. Low-grade mutation reads. |
 | 2 | 4–5 | Sustaining mod. See warp-thresholds. Window +0.10s. |
 | 3 | 6–7 | Quickening mod. Full mutation stat-lines. Charm items usable. |
-| 4 | 8–9 | Window +0.15s. Untranslatable lore becomes comprehensible. |
-| 5 | 10 | Full sight. Deepest hub content unlocked. |
+| 4 | 8–9 | Window +0.15s. Untranslatable lore becomes comprehensible — **now extends to monster vocalization/behaviour, not just written text** (session-off ruling; see Insight Perception, below). |
+| 5 | 10 | Full sight. **Deepest hub content unlocked — this is the depth threshold that finally makes the Memory Vendor reachable** (Bible §4, NPC 2). Per the standing Threshold-Gate rule above ("free to pass once there"): reaching Insight 10 even once opens the path; the Vendor stays reachable afterward even if Insight later drops from spending. |
 
 Window bonus is a flat total per tier, not additive across tiers crossed — a tier without its own number inherits the last stated value. Applies to any DM-set timing window, not just parries.
 
@@ -430,6 +439,22 @@ Window bonus is a flat total per tier, not additive across tiers crossed — a t
 - **Score 6–10:** the truth, plainly legible.
 
 Costs and grants nothing — the existing score doing narrative work on repeat contact. Applies to locations and NPCs the same as monsters.
+
+### Insight Perception — Narrating the Climb
+
+*(Session-off addition — concrete guidance for what the three Re-Read bands above actually sound like at the table, plus what Tier 5 specifically opens up. Standing DM technique, not a one-time scene.)*
+
+**The one hard rule: surreal, never spatially broken.** Higher Insight changes what Lloyd notices and how it's described — never the actual geometry of a space. He can always retrace how he got somewhere; a corridor is always the same length it was a minute ago. The strangeness lives entirely in sensory detail and interpretation, not in the map. A room that's colder, watched, or wrong in a way Lloyd can articulate is in-bounds. A hallway that loops back on itself when it structurally shouldn't is not — that's a Break/Fugue effect (§5/§13, both already gated behind their own specific triggers), never ambient Insight narration.
+
+**By Re-Read band, concretely:**
+- **Score 0–1 (surface read):** plain description. A stain on the wall is a stain. A monster's noise is just noise.
+- **Score 2–5 (reframing detail):** one extra, specific, sense-grounded detail that recontextualizes without changing the facts on the ground — the stain has a shape if he looks twice; the noise has a rhythm that almost isn't random.
+- **Score 6–10 (the truth, plainly legible):** the detail resolves into something Lloyd can act on, described as genuinely, vividly real rather than a vague impression:
+  - *Environment:* "eyes on the walls" — a damp patch that's watching, a knot in the wood that tracks him across the room. Real, consistent, reappears if he comes back.
+  - *Compulsion:* a voice, attached to a real in-fiction source (never a disembodied narrator aside), pressing toward something specific and dangerous — "drink the water," "keep walking," "you know this room." This is flavour on top of an actual Influence source already present, not a new mechanic — the voice is how a live Influence stack gets narrated at high Insight, not a fresh effect.
+  - *Monsters (Tier 4+ specifically):* Lloyd *thinks* he understands what one is trying to say — intent and want, legible through behaviour and sound, not necessarily word-for-word translation. Genuine comprehension, described with the same conviction as everything else at this band, but framed as Lloyd's read of intent rather than subtitled dialogue — leaves room for a given read to later prove incomplete without retroactively making it a lie.
+
+**Escalation, not universal onset.** Not every scene needs a Tier 6–10 read fired off — reserve it for beats that matter (a new instance's first real look, a recurring NPC/location on repeat contact, a monster with something to communicate). Constant maximum-intensity narration flattens it fast.
 
 ### Spending Insight
 
@@ -551,7 +576,15 @@ Archetypes, reskin per location. Attack damage generated live (§2), scaled to l
 
 **Recipes & biomes.** A recipe is a biome's permanent identity (fixed mapping). Everything inside rerolls — layout, wake-in point, loot, spawns. DM holds a biome overview per recipe (palette, reskins, hazards, loot tier, anchor flavour, sub-locale list) — never a map. Some recipes Insight-gated (threshold check, not a spend). **A biome's constant doesn't have to be water/wet/grime/blood** — every recipe so far has leaned that way because Stillwell Hydro's whole hook is a bathhouse, not because the system requires it. A recipe's throughline can be built on anything sensory — light, temperature, sound, colour, texture — instead of dampness: a golden-hour, sunlit, ethereal chapel recipe with no water or blood anywhere in it is just as valid a biome as a flooded one.
 
+**Recipe/salt discovery** *(session-off ruling — no procedure existed before this).* A wholly new recipe becomes accessible when **both** are true: (1) its Insight-gate threshold, if it has one, is currently met, and (2) a concrete narrative seed pointing to it has already surfaced in fiction — a journal entry, an NPC's offhand mention, a sealed or glimpsed-but-unenterable passage. Either alone isn't enough; meeting an Insight threshold with no seed just means nothing's found yet, and a seed with no threshold met means the door's visible but doesn't open. Salt payout scales entirely through the Monster Manual's own per-archetype White Salts drops (Bible §1) — a harder recipe pays out via tougher/more numerous monsters, not a separate flat recipe-level bonus on top.
+
 **Sub-locale variation.** A reroll can relocate within a biome's identity, not just reshuffle one floor plan — e.g. a flooded recipe's constant is the water/mould/palette, not literally "street level" every time (see above: this is one possible throughline, not the only one). **Same sub-locale never repeats two rerolls in a row.** DM tracks a running sub-locale list per recipe.
+
+**Sub-locale pool policy** *(session-off ruling — closes the "most recipes have no written pool" gap).* A recipe's pool starts at whatever's already been visited in play and grows by exactly one entry the moment the no-immediate-repeat rule would otherwise force a genuinely new location — that new sub-locale joins the permanent list, never removed, available for any future reroll from then on. Two recipes have real play history; their pools as of now:
+- **Flooded gallery** (first recipe): colonnade/pews (sessions 1, 2, 4) · undercroft/crypt + ritual chamber (session 5) · *seeded, not yet visited:* sunken laundry/service stair · reception overflow annex.
+- **Choir Deep:** rotunda (session 3) · drained plunge-bath + sunken chapel (session 6) · vestry + robing gallery + side chantry (session 7) · *seeded, not yet visited:* the choir loft · bell-ringers' spiral stair.
+
+Every other recipe (the Ember Wards, Cold Forge, Reliquary, and the rest seeded across the Monster Manual/Weapon Manual passes) starts its pool empty and fills in live the first time it's actually run — same "manual is canon after first contact" principle as monsters.
 
 **Instance flavour tagging.** Each reroll gets a private dominant tag — **Combat / Mystery-Lore / Puzzle / Social Encounter / Escape-Survival** — leaning generated content that direction. Floor: **at least 1 in 3 rerolls of an already-explored recipe skews non-combat-primary.**
 
@@ -573,8 +606,8 @@ Archetypes, reskin per location. Attack damage generated live (§2), scaled to l
 - A boss that respawns after the first kill is a **fresh, full-HP instance**, never a damaged one. Retreat or Abandon-All mid-fight carries no damage forward either.
 
 **Companions.** Two tracks:
-- **Instance Companions** — Insight-summon (§11) or a found in-run ally (rarity guidance: Instance Depth & Pacing, above). Instance Quest by nature: expires with the layout. Stats generated live like a monster.
-- **Persistent Companions** — recruited at the hub, survive rerolls as a Quest. Recruitment is a relationship thread, not a purchase. Real stat block generated on first accompanied run, recorded as canon. Can die in-instance — permanent, no respawn-with-you.
+- **Instance Companions** — Insight-summon (§11) or a found in-run ally (rarity guidance: Instance Depth & Pacing, above). Instance Quest by nature: expires with the layout. **Stat generation procedure** *(session-off ruling — closes the "untested" gap)*: build it exactly like generating a monster live (§16/§17) — pick the mook or elite HP band appropriate to party level, scale it the same way, give it 1 Action per turn (same economy as the player), and one signature gimmick reusing an existing subsystem (a status application, a heal, a buff) rather than inventing new mechanics. It never gets called-shot/visceral capability against the player's own side. Record the generated block in Bible §4 (NPC Template — Instance Companion) the first time it's actually summoned, same "canon after first contact" rule as everything else.
+- **Persistent Companions** — recruited at the hub, survive rerolls as a Quest. Recruitment is a relationship thread, not a purchase. Real stat block generated on first accompanied run, recorded as canon. Can die in-instance — permanent, no respawn-with-you. **Hub-bargained pricing** *(session-off ruling; story-initiated recruitment stays 0 cost, unchanged)*: a companion bargained for rather than earned through a story beat costs a flat **40 Vault Salts, or 4 Insight, player's choice at the moment of recruitment** — priced below a single Memory Vendor Scar-removal trade deliberately, since a companion isn't permanent power the way a buff is; it's a fragile ally that can die for good.
 
 ---
 

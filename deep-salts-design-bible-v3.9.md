@@ -3,7 +3,7 @@
 
 Companion to the ruleset. **Load this plus the ruleset and character sheet when running the game.** Mechanic index/book plan/known gaps live in the dev log — do NOT load that during play.
 
-*Version 3.8. Session attribution and change history live in the dev log, not here.*
+*Version 3.9. Session attribution and change history live in the dev log, not here.*
 
 Every monster/weapon/item/NPC/status/currency gets one complete page. Copy the blank template to add an instance.
 
@@ -51,7 +51,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Toller (mook) · **Level Range:** 1–20 · **HP:** 280 · **Move:** 2m slow walk, rarely closes · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** A ruined attendant dragging a cracked handbell beneath the waterline. Every ring reaches inside the skull.
-- **Limbs:** standard defaults, plus non-standard: **Bell** — implement, not a limb (Ruleset §10): multiplier ~2.0, sever ~40 raw (placeholder anchor). Deals full HP damage on the hit like any other strike. Breaking it permanently disables Hollow Bell for the encounter — and the Bellkeeper has no other attack, so a destroyed bell leaves it harmless.
+- **Limbs:** standard defaults, plus non-standard: **Bell** — implement, not a limb (Ruleset §10): multiplier ×2.0, sever 40 raw *(confirmed — session-off ruling, was a placeholder)*. Deals full HP damage on the hit like any other strike. Breaking it permanently disables Hollow Bell for the encounter — and the Bellkeeper has no other attack, so a destroyed bell leaves it harmless.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
@@ -896,7 +896,7 @@ Zero mechanical function, zero dialogue, zero lore thread. *Not the reception cl
 - **Fixed appearance:** undefined, genuinely unmet. **On arrival:** offers trades — permanent buffs or Scar removal, Insight only. **Never** accepts Salts/items/favors as payment.
 - **Dialogue:** measured, transactional, unbothered by refusal · treats a missed payment as fact not threat · never raises its voice about invasion — it's just what happens next.
 - **Mechanical function:**
-  - **Buy-in trades:** spend Insight (score/tier/floor drop immediately) for a permanent effect, negotiated case-by-case, no fixed menu.
+  - **Buy-in trades:** spend Insight (score/tier/floor drop immediately) for a permanent effect, negotiated case-by-case, no fixed menu. **Pricing formula** *(session-off ruling — the Vendor still negotiates in fiction, but the DM now has a real number to land on rather than improvising cold)*: price a permanent effect as roughly equivalent to an attribute perk at the same power level, using **Insight cost ≈ perk tier ÷ 4, rounded up** — a Tier-20-equivalent effect runs ~5 Insight, a Tier-40-equivalent ~10, a Tier-80-equivalent ~20. Anchor this against the already-fixed Scar removal scale (6/10/escalating) rather than re-deriving it each time — a buy-in roughly as strong as clearing a first Scar should cost roughly the same.
   - **Scar removal:** only route. Scar 1 = 6 Insight, Scar 2 = 10, Scar 3+ = higher — deliberately unpayable past the first in one sitting.
   - **Debt/toll:** larger trades can be a payment plan (e.g. "13 Insight across 2 runs"). Tracked as bookkeeping — no track, no rolls.
     - Missing a scheduled payment: flat 10% of that run's Vault banking, no escalation.

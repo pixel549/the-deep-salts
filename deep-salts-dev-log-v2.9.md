@@ -1,5 +1,5 @@
 # THE DEEP SALTS
-**Dev Log — Mechanic Index, Book Plan & Known Gaps — v2.8**
+**Dev Log — Mechanic Index, Book Plan & Known Gaps — v2.9**
 
 Project management. **Do NOT load when running the game.** Section numbers (§8–10) match ruleset/bible cross-references.
 
@@ -37,19 +37,9 @@ Five books, filled from bible entries. **(✓)** = floor entry filled.
 
 | Gap | Note | Lives in |
 |---|---|---|
-| Endurance 40/99 perks | *Overcharge*/*Endless* orphaned by charge removal — provisional text, needs sign-off. | Ruleset §4 |
-| Break blackout duration | 3 turns, genuine placeholder, untested against an actual Break. | Ruleset §5 |
-| Scar/mutation read threshold | "Sufficient Insight" never pinned to a number. | Ruleset §5/§10 |
-| Bell sever threshold (Bellkeeper) | ~40 raw is a placeholder anchor. | Bible §1 |
-| Memory Vendor buy-in pricing | Case-by-case, genuinely undetermined until first deal made live. | Bible §4 |
-| Double-swing reduction | No fixed %. Proposed 50%. | Bible §2 |
-| Charged Heavy tier | No distinct third tier defined; placeholder = same math as Heavy. | Ruleset §4 |
-| Recipe/salt discovery triggers | No written procedure for how new recipes/drop rates work. | Ruleset §18 |
-| Sub-locale pools per recipe | Rule requires no-immediate-repeat, but most recipes have no written pool yet. | Ruleset §18 |
-| Persistent Companion pricing (hub-bargained) | Story-initiated recruitment resolved session 7 (see Resolved table) — a companion *bargained for* at the hub instead of recruited through a story beat still has no fixed price. | Ruleset §18/Bible §4 |
-| Instance Companion stat gen | "Generate live like a monster" untested — none summoned yet. | Ruleset §11/§18 |
-| Insight Tier 5 content | "Full sight. Deepest hub content unlocked" (Insight 10) — reached for the first time session 7. No content defined anywhere for what this actually unlocks. | Ruleset §11 |
-| Token identity | Ruleset §15 seeds a **brass** token "that isn't yours"; Bible §7 describes worn brass; character sheet and campaign log call it the **Wooden Token**, keepsake of "R." Unclear whether these are one item whose material drifted, or two distinct tokens (the clerk issues one at reception, and the brass one explicitly doesn't match it). Needs a fiction call, not a mechanical one. | Bible §7 / Ruleset §15 |
+| Token identity | Ruleset §15 seeds a **brass** token "that isn't yours"; Bible §7 describes worn brass; character sheet and campaign log call it the **Wooden Token**, keepsake of "R." Unclear whether these are one item whose material drifted, or two distinct tokens (the clerk issues one at reception, and the brass one explicitly doesn't match it). Needs a fiction call, not a mechanical one — deliberately left for Jake, not resolved in the session-off pass below. | Bible §7 / Ruleset §15 |
+
+*Everything else that was sitting in this table got resolved in the session-off ruling pass below (dated entry, right after this section) — see there for the actual numbers/procedures rather than re-deriving them here.*
 
 ## Resolved — proposed numbers, still untested in practice
 
@@ -91,6 +81,24 @@ Save Roll formula · Blood Loss/Rupture split · sever thresholds as fixed const
 ---
 
 *Change history compressed above. Ask if you want the full narrative version of any specific past ruling restored.*
+
+---
+
+**Off-session ruling pass — closing eleven of twelve Open gaps (Ruleset → v8.6, Bible → v3.9).** Jake authorized rulings directly ("fix most of these yourself") rather than requesting each individually. Resolved:
+- **Endurance 40/99** (*Overcharge*/*Endless*) — confirmed as written, no longer provisional.
+- **Break blackout** — 3 turns confirmed as the standing number, not a placeholder.
+- **Scar/mutation read threshold** — pinned to **Insight 6 (Tier 3)**, recognizing it was already implicitly answered by the tier table's own "full mutation stat-lines" line rather than needing a separate number.
+- **Bellkeeper bell sever** — confirmed at 40 raw, ×2.0 multiplier.
+- **Double-swing reduction** — standardized at 50% of the first hit, rounded up, as the default for any Tideglass-Cleaver-family gimmick.
+- **Charged Heavy** — defined as a genuine third attack weight: 5m cost, self-timed 1.5s±0.20s stopwatch, success = ×2.0 grade coefficient (up from Heavy's ×1.5), failure = 0 damage and the turn ends. Gives the Strength 40 perk *Brute Force* something real to reference for the first time.
+- **Recipe/salt discovery** — new procedure: Insight threshold met AND a narrative seed already surfaced, both required; salt payout stays purely archetype-driven, no separate recipe bonus.
+- **Sub-locale pools** — policy defined (grows by one entry whenever the no-repeat rule forces a genuinely new location) plus concrete pools written for the two recipes with real play history (flooded gallery, Choir Deep), including two seeded-but-unvisited entries each for future rerolls.
+- **Persistent Companion (hub-bargained) pricing** — flat 40 Vault Salts or 4 Insight, player's choice.
+- **Instance Companion stat gen** — procedure defined: generate like a monster of appropriate level band, 1 Action/turn, one gimmick from an existing subsystem, no visceral/called-shot capability against the party.
+- **Memory Vendor buy-in pricing** — formula added (Insight ≈ perk tier ÷ 4, rounded up, anchored against the existing Scar-removal scale) so the Vendor still negotiates in fiction but the DM isn't improvising the number cold.
+- **Insight Tier 5 content** — resolved as: reaching Insight 10 is the threshold-gate that makes the Memory Vendor reachable at all (using the existing "free to pass once there" rule, so it stays reachable even after Insight next drops from spending). Alongside this, a full **Insight Perception** subsection was added (Ruleset §11) giving concrete, tier-banded guidance for how environments/monsters/compulsions get narrated as Insight climbs — explicitly *surreal, never spatially broken*: the geometry of a space never lies, only what Lloyd notices and how vividly does. Covers all three Re-Read bands with concrete examples (watching walls, a voice tied to a real Influence source, Lloyd reading monster intent at Tier 4+ without literal translation) and states plainly this is escalation for beats that matter, not a new default for every scene.
+
+**Left open, deliberately:** Token identity (brass vs. Wooden Token) — a fiction call about Lloyd's own backstory thread, not a mechanical ruling, so it stays with Jake rather than getting resolved in a documentation pass.
 
 ---
 
