@@ -465,6 +465,8 @@ Costs and grants nothing — the existing score doing narrative work on repeat c
 
 **Escalation, not universal onset.** Not every scene needs a Tier 6–10 read fired off — reserve it for beats that matter (a new instance's first real look, a recurring NPC/location on repeat contact, a monster with something to communicate). Constant maximum-intensity narration flattens it fast.
 
+**Visual description is mandatory, not optional.** Every creature encountered gets a physical description on first sight — what it looks like, how it moves, what's wrong with it — written for theatre of the mind, not just stat delivery. Insight tier shapes these descriptions: at low Insight Lloyd sees the surface (shape, size, behavior); at higher tiers he reads deeper (what's *off* about it, what it used to be, what it's becoming). Maria or other companions without Lloyd's Insight see less — their read should be visibly shallower, grounded in their own frame of reference. The Assess action delivers tactical data; the visual description is separate from and in addition to that, not a substitute for it.
+
 ### Spending Insight
 
 Spending drops your current score immediately — drop a tier, lose its benefits until you earn back up. Insanity/Influence floor drops with it.
