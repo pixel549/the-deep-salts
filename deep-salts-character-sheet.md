@@ -40,7 +40,7 @@
 | Track | Value |
 |---|---|
 | Blood Loss | 0 |
-| Insanity | 7 (was 4; +3 this session — two failed Influence saves at stack 3+, Choir Deep re-entry) |
+| Insanity | 5 (was 7; −2 via Camphor, session 8) |
 | Influence | 0 — cleared via broken line of sight, fled the Rotunda into the Nave, session 8 |
 | Discombobulation | — |
 | Corrosion | 0 |
@@ -55,7 +55,7 @@ Standard, no mutations, no damage.
 
 ### Inventory
 - Powder capsules — 4/4, loaded (Hub Kit, refilled on hub return)
-- Wrap ×2 · Tonic ×2 (2 used, session 8) · Camphor ×1 · Scour ×1 (all Hub Kit, refilled on hub return)
+- Wrap ×2 · Tonic ×2 (2 used, session 8) · Camphor ×0 (used, session 8) · Scour ×1 (all Hub Kit, refilled on hub return)
 - **Corroded ring** — persistent. Unidentified mark; Maud recognized it, confirmed non-dangerous, refuses to say more. Open thread.
 - **The Beckoner** — currently left behind in Lloyd's room at the hub (full divestment, not carried). Influence baseline cleared as a result. Still knows Lloyd's name — unresolved.
 - **Charm** ×1 — Uses: 1, Insight Tier 3 gate (met).
