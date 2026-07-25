@@ -7,7 +7,7 @@
 
 **Concept:** Young, athletic Skill-build fighter. Self-made twin knuckledusters rigged with detonating powder capsules — recovered session 6, back in active use.
 
-**Level:** 4 (next attribute point costs 25 × 4 = **100**) · **Insight:** 10 (Tier 5 — "Full sight. Deepest hub content unlocked." No content defined anywhere yet; genuine open design work, not improvised.)
+**Level:** 4 (next attribute point costs 25 × 4 = **100**) · **Insight:** 11 (Tier 5 — first-ever Marble Attendant kill, +1. Tier 5 ceiling: "Full sight, deepest hub content unlocked" — still genuinely undefined content, open thread.)
 
 ### Attributes
 | VIG | END | STR | SKI | RES |
@@ -51,7 +51,7 @@
 Standard, no mutations, no damage.
 
 ### White Salts
-- Purse: **31** (8 from Penitent kill + 23 Nave stash, session 8) · Vault: 56
+- Purse: **51** (31 + 20 from Marble Attendant, session 8) · Vault: 56
 
 ### Inventory
 - Powder capsules — 4/4, loaded (Hub Kit, refilled on hub return)

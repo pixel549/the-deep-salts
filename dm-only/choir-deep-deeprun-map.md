@@ -192,3 +192,5 @@ When this arc closes, add a line to the dev log: "Choir Deep deep-run map (dm-on
 - All other rooms/wings: untouched, as designed above.
 
 **Correction, session 8 (Nave beat):** I wrongly narrated A3/A4/A5/B1/B2 as "already picked through" when the party retreated into A2 — conflating past-session canon (same recipe identity, fixed lore like Nell's rota) with this run's actual exploration state. Fixed above. Only A1 and A2 have actually been walked this run so far. Everything past A2 is genuinely fresh, first-visit territory for this dive.
+
+**Session 8, D1:** Marble Attendant ambushed — head, called shot + Powder Charge both landed (1.07s, inside 0.70-1.30). ~200 effective vs 180 threshold, outright sever. Room clear. 20 Salts to Purse, +1 Insight (first kill of this archetype).
