@@ -7,6 +7,8 @@ Ruleset §18 states the DM holds a biome overview per recipe — "never a map" �
 
 Real constraint this file must respect: everything **already established as canon** (rotunda, drained plunge-bath, sunken chapel, vestry, robing gallery, side chantry, Nell's rota, the funicular housing, the Note-Keeper's Robe origin point, the Singer's defeat) is fixed and cannot contradict prior sessions. Everything new below is new construction filling in the seeded-but-unvisited sub-locales (choir loft, bell-ringers' spiral stair) plus additional rooms invented to give the dive real size, per Jake's ask.
 
+**Lifecycle (clarified session 8):** this file is a living document for the duration of the run, same spirit as dm-plan.md but scoped to the whole run rather than one session. Rewrite/update it each session — mark rooms cleared, encounters resolved, loot claimed, doors opened, any live adjustments — so it stays an accurate, consistent plan throughout. At the true end of this run (arc closes, party done with this deep-run entirely), erase it and author a fresh map for whichever run comes next. Don't treat "session" and "run" as the same unit here — update per session, retire per run.
+
 Do not pre-resolve, in play, any of the genuinely open mysteries this touches (Note-Keeper's Robe truth, Beckoner-knows-his-name consequence, Maria's actual want, Mirel/ring connection, reception clerk's brother). This file may *gesture* toward them but must never hand down a definitive answer that overrides the "genuinely unresolved, don't pre-invent" standing notes in the campaign log/dm-plan.
 
 ---
@@ -174,3 +176,15 @@ Plus optional F1 — pure atmosphere, no mechanical quest attached.
 
 ## Retirement note
 When this arc closes, add a line to the dev log: "Choir Deep deep-run map (dm-only/) retired as of session N — recipe reverts to standard reroll-per-visit, no persistent layout going forward, per Ruleset §18." Do not delete this file; it's a fine historical record of a deliberate one-off exception.
+
+---
+
+## LIVE STATE LOG *(update every session — this is the part that actually changes)*
+
+**Session 8, opening:** Rare-respawn roll for A1 came up hit (1-in-4) — fresh, full-HP Singer + full 4-Penitent congregation present on arrival, matching the original session-6 defeat composition exactly (no invented count).
+
+- Singer HP: 868/900 (Maria opened with Purging Flame, no called shot on the Open Throat, standard body damage).
+- Penitent #1: 268/300 (caught in Purging Flame radius). Penitent #2: 268/300 (same). Penitent #3, #4: 300/300, untouched, ring's far side.
+- Lloyd: not caught in the blast — stood back near the entry point, out of the 4m radius.
+- Influence: pending Choir Pulse resolution this round, both PCs likely to hit stack 2 (first-save threshold) immediately.
+- All other rooms/wings: untouched, as designed above.
