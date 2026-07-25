@@ -17,7 +17,7 @@
 *Session 8, hub: tempered with Greta (NPC 5, design bible) — Skill 18→19, fourth point overall, 75 Vault Salts spent (25×3, per point-cost-at-current-level rule).*
 
 ### Derived Stats
-- **Max HP:** 108/108
+- **Max HP:** 79/108 (took 40 raw from an unanswered Penitent Rush; healed 11 via Tonic, session 8)
 - **Movement:** 8m
 - **Attribute Modifier:** Skill +0 (still in 10–19 band) · Strength −2 · Resolve −2
 - **Insanity/Influence save mod:** ⌊Resolve÷10⌋ +0, Insight term ⌊10÷2⌋ **+5** (was +4 at Insight 9)
@@ -40,8 +40,8 @@
 | Track | Value |
 |---|---|
 | Blood Loss | 0 |
-| Insanity | 4 (build-only, doesn't clear at hub) |
-| Influence | **0** — sticky Beckoner baseline cleared this session via full divestment (left the idol behind at the hub, not just wrapped/carried) |
+| Insanity | 7 (was 4; +3 this session — two failed Influence saves at stack 3+, Choir Deep re-entry) |
+| Influence | 0 — cleared via broken line of sight, fled the Rotunda into the Nave, session 8 |
 | Discombobulation | — |
 | Corrosion | 0 |
 | Burning | — |
@@ -51,11 +51,11 @@
 Standard, no mutations, no damage.
 
 ### White Salts
-- Purse: 0 · **Vault: 56** (131 prior, −75 spent tempering Skill 18→19 with Greta, session 8)
+- Purse: **31** (8 from Penitent kill + 23 Nave stash, session 8) · Vault: 56
 
 ### Inventory
 - Powder capsules — 4/4, loaded (Hub Kit, refilled on hub return)
-- Wrap ×2 · Tonic ×4 · Camphor ×1 · Scour ×1 (all Hub Kit, refilled on hub return — 1 Tonic was used on Maria this run, now restocked)
+- Wrap ×2 · Tonic ×3 (1 used, session 8) · Camphor ×1 · Scour ×1 (all Hub Kit, refilled on hub return)
 - **Corroded ring** — persistent. Unidentified mark; Maud recognized it, confirmed non-dangerous, refuses to say more. Open thread.
 - **The Beckoner** — currently left behind in Lloyd's room at the hub (full divestment, not carried). Influence baseline cleared as a result. Still knows Lloyd's name — unresolved.
 - **Charm** ×1 — Uses: 1, Insight Tier 3 gate (met).
