@@ -7,12 +7,14 @@
 
 **Concept:** Young, athletic Skill-build fighter. Self-made twin knuckledusters rigged with detonating powder capsules — recovered session 6, back in active use.
 
-**Level:** 3 (next attribute point costs 25 × 3 = **75** — affordable now) · **Insight:** 10 (Tier 5 — "Full sight. Deepest hub content unlocked." No content defined anywhere yet; genuine open design work, not improvised.)
+**Level:** 4 (next attribute point costs 25 × 4 = **100**) · **Insight:** 10 (Tier 5 — "Full sight. Deepest hub content unlocked." No content defined anywhere yet; genuine open design work, not improvised.)
 
 ### Attributes
 | VIG | END | STR | SKI | RES |
 |---|---|---|---|---|
-| 8 | 10 | 4 | 18 | 3 |
+| 8 | 10 | 4 | 19 | 3 |
+
+*Session 8, hub: tempered with Greta (NPC 5, design bible) — Skill 18→19, fourth point overall, 75 Vault Salts spent (25×3, per point-cost-at-current-level rule).*
 
 ### Derived Stats
 - **Max HP:** 108/108
@@ -24,9 +26,9 @@
 
 ### Weapons
 
-**Metal Knuckles (paired) — equipped, active.** Skill/D, one-handed, Base 22 (Light 31/Heavy ~58 at ESV 18). **Powder Charge:** timed detonation, target 1.00s ±0.15s base (+ Insight window bonus on top). **Confirmed effects (session 7):** success = ×1.5 damage modifier on that hit + 1 Discombobulation to target. Failure = wielder takes 2 Blood Loss stacks, turn ends immediately with no leftover movement (harsher than the old 1-stack version, deliberately).
+**Metal Knuckles (paired) — equipped, active.** Skill/D, one-handed, Base 22 (Light 32/Heavy ~59 at ESV 19). **Powder Charge:** timed detonation, target 1.00s ±0.15s base (+ Insight window bonus on top). **Confirmed effects (session 7):** success = ×1.5 damage modifier on that hit + 1 Discombobulation to target. Failure = wielder takes 2 Blood Loss stacks, turn ends immediately with no leftover movement (harsher than the old 1-stack version, deliberately).
 
-**The Salvage Launcher — back at the hub**, not currently carried. Reach, Skill/D, two-handed. Fires loaded only, no timing check, guaranteed hit. Base 30+ESV×0.5 (39 at ESV 18), range 8m, 1m to fire. On hit: 1 Discombobulation. Not sever-viable. **Ammo: 4/4** (Hub Kit refill).
+**The Salvage Launcher — back at the hub**, not currently carried. Reach, Skill/D, two-handed. Fires loaded only, no timing check, guaranteed hit. Base 30+ESV×0.5 (40 at ESV 19), range 8m, 1m to fire. On hit: 1 Discombobulation. Not sever-viable. **Ammo: 4/4** (Hub Kit refill).
 
 **Fists** — Skill/E, Base 10 (Light 16/Heavy 29 at ESV 18, rounded up). *Ruled session 6: stays Base 10, deliberate sub-floor exception — trade-off is Fists can never sever, full stop.*
 
@@ -49,7 +51,7 @@
 Standard, no mutations, no damage.
 
 ### White Salts
-- Purse: 0 · **Vault: 131** (94 prior + 37 banked this run — 16× Drowned Bellkeepers, 6 from a stash, 15× Salt-Eaten Custodian)
+- Purse: 0 · **Vault: 56** (131 prior, −75 spent tempering Skill 18→19 with Greta, session 8)
 
 ### Inventory
 - Powder capsules — 4/4, loaded (Hub Kit, refilled on hub return)

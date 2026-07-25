@@ -905,6 +905,16 @@ Zero mechanical function, zero dialogue, zero lore thread. *Not the reception cl
     - No interest accrues in Insight specifically (a scarce, non-renewable resource — avoids a softlock).
 - **Lore:** tangled with the reception clerk's "brother" hook. Never revealed: true name, appearance, location.
 
+## NPC 5 — Greta
+
+- **Role:** hub attribute-leveling administrator — "tempering." **Location:** hub only, always found in one of the non-Salt open saunas, never anywhere else. **Fightable:** N.
+- **Fixed appearance:** heavyset, old, wrapped in plain linen, steam blurring most detail past silhouette. Eyes closed more often than open — never confirmed whether she's actually looking at anything.
+- **On arrival:** doesn't rise, doesn't greet first — waits to be approached, then asks what's being tempered before anything else. **Never** leaves the sauna, references the passage of time, or explains how long she's been there.
+- **Never says directly:** her own history, what "tempering" costs her personally (if anything), or why it has to happen here.
+- **Dialogue seeds:** "Tempering's a slow burn — no shortcuts I know of." / "Sit if you're staying. Steam does half the work." / "Which of you is changing today." (said flatly, not really a question) / "That's the price. I don't set it, I just take it."
+- **Mechanical function:** administers the existing Leveling system unchanged (Ruleset §leveling — spend Vault Salts on attribute points, cost = 25 × current level, cap 100). No new formula, no discount, no markup — she's the fictional seat for a mechanic that previously had no NPC attached to it. Attribute choice is always the player's declared call, never resolved on her end.
+- **Lore:** connects to nothing yet. First appearance session 8.
+
 ## NPC Template — Persistent Companion variant
 
 Same fields as standard, plus once recruited:
