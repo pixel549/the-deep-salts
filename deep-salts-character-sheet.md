@@ -17,7 +17,7 @@
 *Session 8, hub: tempered with Greta (NPC 5, design bible) — Skill 18→19, fourth point overall, 75 Vault Salts spent (25×3, per point-cost-at-current-level rule).*
 
 ### Derived Stats
-- **Max HP:** 79/108 (took 40 raw from an unanswered Penitent Rush; healed 11 via Tonic, session 8)
+- **Max HP:** 90/108 (79 + second Tonic, session 8)
 - **Movement:** 8m
 - **Attribute Modifier:** Skill +0 (still in 10–19 band) · Strength −2 · Resolve −2
 - **Insanity/Influence save mod:** ⌊Resolve÷10⌋ +0, Insight term ⌊10÷2⌋ **+5** (was +4 at Insight 9)
@@ -55,7 +55,7 @@ Standard, no mutations, no damage.
 
 ### Inventory
 - Powder capsules — 4/4, loaded (Hub Kit, refilled on hub return)
-- Wrap ×2 · Tonic ×3 (1 used, session 8) · Camphor ×1 · Scour ×1 (all Hub Kit, refilled on hub return)
+- Wrap ×2 · Tonic ×2 (2 used, session 8) · Camphor ×1 · Scour ×1 (all Hub Kit, refilled on hub return)
 - **Corroded ring** — persistent. Unidentified mark; Maud recognized it, confirmed non-dangerous, refuses to say more. Open thread.
 - **The Beckoner** — currently left behind in Lloyd's room at the hub (full divestment, not carried). Influence baseline cleared as a result. Still knows Lloyd's name — unresolved.
 - **Charm** ×1 — Uses: 1, Insight Tier 3 gate (met).
