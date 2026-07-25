@@ -37,31 +37,31 @@ Long congregation hall, rotted pews, stained-glass long gone to salt-fog.
 - **Loot:** minor Salts stash (~20-30) wedged under a collapsed pew.
 - Exits: A1, A3, A4.
 
-### A3 — Side Chantry *(established, session 7 anchor was found "this run" here per character sheet)*
-Small side altar. Already explored; nothing new here this dive unless Jake goes looking again — if so, it's just quiet, already-picked-over space. Don't invent new loot in an already-cleared room.
+### A3 — Side Chantry
+Small side altar. **Correction (session 8):** thematically consistent with the session-7 side chantry (same recipe identity, same general character), but this is a fresh instantiation of the persistent map — the party has NOT actually explored it in this run yet. Fixed lore elements from past visits carry over (it's still recognizably the same kind of space), but loot/exploration should be treated as unclaimed until they actually walk through it this dive.
 - Exits: A2 only.
 
-### A4 — Drained Plunge-Bath *(established, session 6 — Nell's rota)*
-The carved rota is still here, unchanged — Nell's name, decades of repetition. Already seen; re-describe through Tier 5 Insight if Lloyd looks again (Insight Re-Read, Ruleset) but don't add new information here — the payoff room for Nell is D2, not here.
+### A4 — Drained Plunge-Bath
+**Correction (session 8):** same deal as A3 — Nell's rota carved in the tile is fixed, permanent lore (that detail doesn't change, it's canon), but the party has not yet physically been here this run. Don't describe it as already-picked-over; it's live ground for this dive same as everything else in Wings B-F.
 - Exits: A2, A5.
 
-### A5 — Sunken Chapel *(established, session 6)*
-Flooded lower chapel.
+### A5 — Sunken Chapel
+Flooded lower chapel, same recipe identity as past visits — fresh ground this run, not yet walked.
 - **Encounter:** 2× Brine Spitter.
 - **Optional hidden exit:** a collapsed section of flooring, easy to miss (no forced perception mechanic — just describe rubble that could be moved) → F1 (Crypt Alcove, optional/secret).
 - Exits: A4, submerged archway → B1, hidden rubble → F1.
 
 ---
 
-## WING B — Vestry & Robing *(established: vestry, robing gallery, session 7)*
+## WING B — Vestry & Robing *(recipe identity consistent with past visits, fresh for this run)*
 
-### B1 — The Vestry *(established, Note-Keeper's Robe found here)*
-Already resolved beat — robe is gone (Lloyd's wearing it). Room is otherwise unremarkable now.
+### B1 — The Vestry
+**Fixed canon:** this is where the Note-Keeper's Robe originated (the object itself, permanently in Lloyd's inventory now, doesn't change) — that fact stays true whenever they narratively connect this room to it. But the party hasn't walked this specific room this run yet; treat it as open ground, not already-cleared. Room can have its own fresh content beyond the robe callback.
 - Exits: A5, B2.
 
-### B2 — Robing Gallery *(established, session 7)*
-Racks of vestments, mostly picked through.
-- **New this dive:** a loose wall panel, easily found if anyone actually pushes on the racks (no roll needed, just describe the give in the wood) → B3.
+### B2 — Robing Gallery
+Racks of vestments. Fresh this run — not yet explored.
+- A loose wall panel, easily found if anyone actually pushes on the racks (no roll needed, just describe the give in the wood) → B3.
 - Exits: B1, B3 (hidden), B4.
 
 ### B3 — Robing Gallery Annex *(NEW sub-locale — pool growth per Ruleset §18 policy)*
@@ -188,3 +188,5 @@ When this arc closes, add a line to the dev log: "Choir Deep deep-run map (dm-on
 - Lloyd: not caught in the blast — stood back near the entry point, out of the 4m radius.
 - Influence: pending Choir Pulse resolution this round, both PCs likely to hit stack 2 (first-save threshold) immediately.
 - All other rooms/wings: untouched, as designed above.
+
+**Correction, session 8 (Nave beat):** I wrongly narrated A3/A4/A5/B1/B2 as "already picked through" when the party retreated into A2 — conflating past-session canon (same recipe identity, fixed lore like Nell's rota) with this run's actual exploration state. Fixed above. Only A1 and A2 have actually been walked this run so far. Everything past A2 is genuinely fresh, first-visit territory for this dive.
