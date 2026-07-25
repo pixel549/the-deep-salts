@@ -51,7 +51,7 @@
 Standard, no mutations, no damage.
 
 ### White Salts
-- Purse: **51** (31 + 20 from Marble Attendant, session 8) · Vault: 56
+- Purse: **61** (51 + 10 side chantry, session 8) · Vault: 56
 
 ### Inventory
 - Powder capsules — 4/4, loaded (Hub Kit, refilled on hub return)
