@@ -122,7 +122,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Choir (boss) · **HP:** 900 (hand-set, exempt from scaling) · **Move:** 0m — fully rooted, never advances or retreats.
 - **Flavour:** A pilgrim shape whose face gave way to a vertical opening that doesn't sing so much as *is* the sound. Sustains an unbroken note that draws the faithful into a ring around it, never approaching its own devotion.
-- **Limbs:** standard defaults + **The Open Throat** (weak point) — multiplier ×2.0, sever 400.
+- **Limbs:** standard defaults + **The Open Throat** (weak point) — multiplier ×2.0, stagger 240, sever 400.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect |
 |---|---|---|---|---|---|
@@ -1243,6 +1243,15 @@ Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of 
 - **Consumable:** N.
 - **Insight Gate:** none. **Limb Requirement:** none, carried.
 - **Acquisition:** found — general instance loot, uncommon.
+
+## Item 34 — Censer Incense
+
+- **Type:** Consumable · **Action Cost:** Light Action to ignite
+- **Effect:** fills a ~4m radius with dense, opaque smoke for 3 rounds. Anything inside the cloud can't see out; anything outside can't see in. Breaks line of sight for all purposes — Influence auras, targeting, Assess — both ways. Placed on the ground once lit, doesn't move with the user.
+- **Consumable:** Y (single use per block).
+- **Insight Gate:** none. **Limb Requirement:** none.
+- **Acquisition:** found — Choir Deep recipe, instance loot. Thematically tied to choir preparation rooms (the choir needed protection from its own Singer's Influence during performances).
+- **Design note:** a tactical positioning tool, not a ward. Solves the Singer's LOS problem without trivializing the fight — the user trades visibility for safety, and must step out of the cloud to attack. First found session 8, robing gallery annex, ×3 stack.
 
 ## Item 34 — Threadbare Glove
 
