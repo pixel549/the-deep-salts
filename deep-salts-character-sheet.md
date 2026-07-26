@@ -7,7 +7,7 @@
 
 **Concept:** Young, athletic Skill-build fighter. Self-made twin knuckledusters rigged with detonating powder capsules — recovered session 6, back in active use.
 
-**Level:** 4 (next attribute point costs 25 × 4 = **100**) · **Insight:** 11 (Tier 5 — first-ever Marble Attendant kill, +1. Tier 5 ceiling: "Full sight, deepest hub content unlocked" — still genuinely undefined content, open thread.)
+**Level:** 4 (next attribute point costs 25 × 4 = **100**) · **Insight:** 12 (Tier 5 — Brine Spitter first-archetype kill +1, session 8.)
 
 ### Attributes
 | VIG | END | STR | SKI | RES |
@@ -17,7 +17,7 @@
 *Session 8, hub: tempered with Greta (NPC 5, design bible) — Skill 18→19, fourth point overall, 75 Vault Salts spent (25×3, per point-cost-at-current-level rule).*
 
 ### Derived Stats
-- **Max HP:** 90/108 (79 + second Tonic, session 8)
+- **Max HP:** 60/108 (session 8: took 40 Penitent Rush + 30+30 Brine Jets = 100 total; healed 22 Tonics + 15 Steadying Grace = 37 recovered)
 - **Movement:** 8m
 - **Attribute Modifier:** Skill +0 (still in 10–19 band) · Strength −2 · Resolve −2
 - **Insanity/Influence save mod:** ⌊Resolve÷10⌋ +0, Insight term ⌊10÷2⌋ **+5** (was +4 at Insight 9)
@@ -51,10 +51,10 @@
 Standard, no mutations, no damage.
 
 ### White Salts
-- Purse: **61** (51 + 10 side chantry, session 8) · Vault: 56
+- Purse: **77** (61 + 8+8 Brine Spitters, session 8) · Vault: 56
 
 ### Inventory
-- Powder capsules — 4/4, loaded (Hub Kit, refilled on hub return)
+- Powder capsules — 2/4 remaining (1 loaded, 1 unloaded; 2 used session 8 — Penitent + Marble Attendant)
 - Wrap ×2 · Tonic ×2 (2 used, session 8) · Camphor ×0 (used, session 8) · Scour ×1 (all Hub Kit, refilled on hub return)
 - **Corroded ring** — persistent. Unidentified mark; Maud recognized it, confirmed non-dangerous, refuses to say more. Open thread.
 - **The Beckoner** — currently left behind in Lloyd's room at the hub (full divestment, not carried). Influence baseline cleared as a result. Still knows Lloyd's name — unresolved.
@@ -81,7 +81,7 @@ None.
 
 **Concept:** Sister Maria, of the Church of St Narrikon's Redemption of Mankind. Recruited unprompted at the hub baths, session 7 — 0 cost (story-initiated). Full stat block canon in the design bible, NPC 4.
 
-**RES:** 24 (ESV 23) · **Insight:** 0 · **Max HP:** 55/55 · **Move:** 8m
+**RES:** 24 (ESV 23) · **Insight:** 0 · **Max HP:** 25/55 (took 30 raw Brine Jet, session 8) · **Move:** 8m
 
 ### Kit
 - **Purging Flame** — AOE, RES/D, Heavy (3m), ranged 8m, 4m radius. 32 dmg/enemy in radius — hits Lloyd too if he's in it. Not used in combat yet.
