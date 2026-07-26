@@ -401,9 +401,25 @@ Target time DM-set per opening (default ~1.50s, range 1.0–2.0s). Miss punishme
 
 **Tier 1 parry flattens the precision watch to the loosest tolerance band, ±0.25s, regardless of the target's own multiplier** — eased, not removed (miss handling: §9). Tier 2 widens it one tier from the target's actual band. Tier 3 keeps it full, no easing.
 
+**Accuracy Tiers** *(session 8 ruling).* Within a hit window, the existing tolerance bands (±0.25s, ±0.13s, ±0.09s, ±0.06s, ±0.04s) act as inner rings. Count how many bands sit inside your current window — each one you land in beyond the minimum = a bonus tier. If your window only covers one band, no bonus is possible. Multiplier applied to **final calculated damage** (after all other multipliers):
+
+| Bands deeper than required | Multiplier |
+|---|---|
+| 1 | ×1.25 |
+| 2 | ×1.5 |
+| 3 | ×2.0 |
+| 4+ | ×3.0 (critical) |
+
+Applies to the primary attack stopwatch only — Powder Charge and other secondary stopwatches stay binary hit/miss.
+
 **Self-initiated called shots** (no enemy tell — an unparryable grasp, a stationary target): tolerance tightens one band beyond the multiplier's own. A **miss ends the turn outright**, no repositioning; a **hit** lets remaining movement be used normally. **Limb multiplier only — no visceral ×1.5 stacking** (visceral is reserved for genuine parry/ambush openings).
 
 **Ambush called shots** (genuine full unawareness — a real stealth approach): count as a Tier 1 parry-grade opening. Free, no stopwatch, AND stacks with visceral 1.5× (raw × visceral × limb multiplier compound).
+
+**Ambush Perception** *(session 8 ruling).* Only fires when the DM has set up a genuine ambush — a concealed, motionless enemy positioned to strike an unaware player. Standard encounters are not ambushes. Roll **d20 + ⌊Insight÷2⌋** vs a DM-set **Ambush DC** (factors: concealment quality, lighting, clutter). Three outcomes:
+- **Fail:** ambush fires as designed — unparryable chip, enemy acts first.
+- **Pass:** ambush detected. No chip, normal turn order (player first).
+- **Pass by 10+:** ambush *reversed* — player gets the ambush opening instead (Tier 1 compound, no stopwatch, visceral stacks).
 
 ### Corrupted Regrowth — the build engine
 
@@ -586,6 +602,8 @@ Archetypes, reskin per location. Attack damage generated live (§2), scaled to l
 - Enemies never persist across instances — same *kind* possible, always a fresh instance at full pool.
 
 **Recipes & biomes.** A recipe is a biome's permanent identity (fixed mapping). Everything inside rerolls — layout, wake-in point, loot, spawns. DM holds a biome overview per recipe (palette, reskins, hazards, loot tier, anchor flavour, sub-locale list) — never a map. Some recipes Insight-gated (threshold check, not a spend). **A biome's constant doesn't have to be water/wet/grime/blood** — every recipe so far has leaned that way because Stillwell Hydro's whole hook is a bathhouse, not because the system requires it. A recipe's throughline can be built on anything sensory — light, temperature, sound, colour, texture — instead of dampness: a golden-hour, sunlit, ethereal chapel recipe with no water or blood anywhere in it is just as valid a biome as a flooded one.
+
+**DM deep-run maps** *(session 8 ruling).* For multi-session dives, the DM builds a hidden persistent map (dm-only/) with rooms, encounters, loot, secrets, and instance quests — sized for roughly 3–5 sessions of play. Updated each session to track cleared rooms, claimed loot, and opened shortcuts. **Retired and fully rewritten** at the end of each run (not each session). The map is a plan, not a contract: the DM should add, move, or adjust rooms and loot mid-run to support the player if the situation demands it (e.g. the player needs a tool to solve a problem the map didn't anticipate). No room or sub-locale has continuity between separate runs — same type of room can be described and laid out completely differently each time.
 
 **Recipe/salt discovery.** A wholly new recipe becomes accessible when **both** are true: (1) its Insight-gate threshold, if it has one, is currently met, and (2) a concrete narrative seed pointing to it has already surfaced in fiction — a journal entry, an NPC's offhand mention, a sealed or glimpsed-but-unenterable passage. Either alone isn't enough; meeting an Insight threshold with no seed just means nothing's found yet, and a seed with no threshold met means the door's visible but doesn't open. Salt payout scales entirely through the Monster Manual's own per-archetype White Salts drops (Bible §1) — a harder recipe pays out via tougher/more numerous monsters, not a separate flat recipe-level bonus on top.
 

@@ -18,44 +18,54 @@ Session 6 opened at the hub — Lloyd spent an attribute point (Skill 17→18, h
 - Banked clean via the anchor: **92 White Salts** (4× Chapel Penitent + The Singer). Vault 2 → 94.
 - Showed the wrapped Beckoner to Maud at the hub. She wouldn't ID it or touch it twice — recognized it as deliberate, non-mundane craft, but drew a hard line at guessing further. Visibly placed it against something she already knows internally; didn't say what.
 
-Session 7 opened at the hub, morning after — Lloyd resting alone in one of the non-Salts baths, eyes closed, first real quiet since the Choir Deep. A young woman in nun's robes and sturdy trekking boots approached and watched him without a word until he opened his eyes. **Sister Maria**, of the Church of St Narrikon's Redemption of Mankind. Visibly nervous, over-explained herself twice, then asked outright to be taken with him — not for the Salts everyone else wants, something else unstated. Lloyd let the silence sit, sized her up, said "okay." Half an hour later she was back, geared and ready. **Recruited — 0 cost**, ruled on the spot: a companion who seeks the player out through pure story beat costs nothing; a hub-bargained one might cost real Salts/Insight later. Full stat block built and locked in the same sitting (design bible NPC 4) — RES-based arcane kit: an AOE flame attack that doesn't spare Lloyd if he's caught in it, a precise but weaker single-target bolt, a weapon-buff, and a once-per-opening Rally-assist. Party now stands at two for the first time.
+Session 8 opened at the hub. Lloyd tempered with **Greta** (NPC 5, new — heavyset old woman permanently in one of the non-Salt open saunas, the fictional seat for the existing leveling mechanic), putting his fourth attribute point into Skill (18→19, 75 Vault Salts, Level 3→4). Entered the Choir Deep with Maria.
 
-Continuing the same session: Lloyd left the Beckoner wrapped on a shelf in his room — properly left behind, not just wrapped and carried — before walking Maria down and explaining the process for the first time. Full divestment cleared his sticky Influence baseline (3 → 0). Fresh Choir Deep reroll: a **vestry**, no Singer this time. A robe hung apart from the others turned out to carry a stitched vow, legible to Lloyd via Tier 4 Insight — *"I take the note up so no other throat has to open."* Lloyd's read: it belonged to the Singer he killed, or whoever wore that role before. **Maria could not see any script on it at all.** Genuinely unresolved — do not pre-invent which of them is right. Lloyd took the robe and wore it anyway. Reading it pushed Insight 9 → 10, crossing into **Tier 5** ("Full sight. Deepest hub content unlocked") — an effect nothing in the docs actually defines yet, flagged as real open design work rather than improvised on the spot.
+Rare Singer respawn rolled on arrival (1-in-4 hit) — full 900 HP Singer + full Penitent congregation in the Rotunda. Maria opened with Purging Flame; Lloyd severed a Penitent's head via parry + Powder Charge ambush combo. But Influence stacks climbed fast: Lloyd's RES 3 / Insight build makes the save DC mathematically impossible past stack threshold. Two failed saves, Insanity 4→7, a clean Penitent Rush hit (40 raw), and Lloyd called the retreat. Both broke LOS into the Nave — Influence cleared, Insanity and HP damage did not.
 
-First combat as a party of two: a pair of Drowned Bellkeepers in a flooded bell gallery. Both bells destroyed via called shots (one clean parry, one self-initiated precision shot), both killed outright once disarmed — 16 White Salts, no Insight bump (complete manual entries, already-encountered rule applies regardless of first actual appearance in play). Maria took a full Hollow Bell toll to the face; Lloyd used a Tonic directly on her afterward, a new cross-target ruling made in the moment (heals a % of the *target's* max HP, not the user's). A real mixup surfaced here too: Lloyd assumed the entry point was this run's exit anchor, which turned out to contradict the actual anchor rule (the "clean chalice" isn't the wake-in point — you wake in blind and have to find it, same as every prior run). Genuine documentation contradiction between two lines in the ruleset, not a fabrication on either side — corrected in play, flagged for a real fix.
+Explored deeper rather than re-engaging: Nave (23 Salts stash, two passive Penitents ignored), side chantry (10 Salts, Maria's first real personal comment — prefers small chapels, hinted her official reason for being at the Hydro "isn't the whole truth"), drained plunge-bath (Nell's name repeated in tile, Tier 5 read: personal record vs administrative, gap year not distinguished here), flooded chapel (2× Brine Spitters, first-archetype kill).
 
-Pushed further: a hidden stash (6 Salts, a spare Wrap), then the actual chalice — a clear-water font in a side chantry. Beyond it, a **Salt-Eaten Custodian**. First fight this campaign that's actually cost Lloyd real HP: he traded blows instead of holding, and an unanswered Iron Scrape took him from 108 to 48 in a single hit. Maria's Steadying Grace clawed back part of it (→63). Two clean parries turned the fight around after that — the second one, stacked with Maria's Imbue Weapon and a correctly-timed Powder Charge detonation on the knuckles, blew straight through the head's one-hit sever threshold and took it off outright, 287 HP remaining or not. 15 more White Salts. Banked clean at the font: **37 total this run. Vault 94 → 131.** Full restoration on hub return.
+Choir loft: **Marble Attendant** ambushed via called shot + Powder Charge — outright sever, 800 HP elite one-shot. Choir archive: **Nell's full rota book** — decades of service confirmed, one blank gap year, no explanation. Dead-end room.
+
+Robing gallery → hidden annex: **Bathhouse Flailer** (Tier 3 elite). Ambush chip hit (25 raw, no perception roll — prompted the new Ambush Perception ruling). Lloyd parried all three chain windows, then severed its head with a charged visceral follow-up. Second elite one-shot this session. Found the **Second Name** lore beat (note-keeper was a rotating role, handed down teacher to student, not one person) and **Censer Incense ×3** (opaque smoke, breaks LOS, 3 rounds per block — the choir's own protection from the Singer).
+
+Crypt alcove (hidden via rubble in the flooded chapel): a sealed niche with the name **"Brother Thomas"** carved into it. Possible connection to the reception clerk's dormant "brother" thread — unconfirmed. Lloyd mentioned finding a similar niche with a different name ("Maren") in a previous instance. Maria said more than she meant to about past choices.
+
+**Singer rematch.** Plan: Lloyd lights incense near the Singer, fights from inside the smoke cloud (safe from Pulse), stepping out to deliver self-initiated called shots to the Open Throat (×2.0 multiplier). Maria provides Imbue Weapon from within the cloud via touch, and carries the second incense block. Six consecutive throat hits landed (118 effective each, 130 with Imbue), two throat staggers triggered (new session 8 ruling: Open Throat gets a stagger threshold at 240, scaling proportionally with other limbs). Singer killed at 0 HP, three surviving Penitents left purposeless and ignored. **60 White Salts. Insight 10→14 across the session** (Marble Attendant +1, Brine Spitter +1, Flailer +1, Singer +1).
+
+Banked at the chalice. **Vault: 56 + 137 = 193.** Hub return, full restoration. Insanity persists at 5 (was 7, −2 Camphor mid-run).
 
 ## Quests (persistent)
 
 *Only threads anchored to persistent entities (NPCs, hub, recipes, carried items) survive rerolls — everything else dies with its layout, untracked.*
 
 - **Old man by the fire.** Didn't come up this session.
-- **Reception clerk's "brother" comments.** Still dormant.
-- **Memory Vendor.** Still a "go deep enough" lead, not a location.
-- **The Choir Deep — RESOLVED.** Singer killed via the Beckoner's redirected chaos + Overload Rupture, not direct combat. Landmark settles; the recipe continues, with the Singer now a rare (~1 in 4) rather than guaranteed spawn.
-- **Lost gear — RESOLVED.** Metal Knuckles, Charm, Wooden Token, clean flask all recovered. Lloyd is fully re-armed.
-- **The Beckoner.** Recovered, currently left behind in Lloyd's room at the hub (not carried) — full divestment cleared the sticky Influence baseline (3 → 0) as of session 7. Still knows Lloyd's name. Consequence still unresolved.
-- **The Beckoner knows Lloyd's name.** Open, deliberately unresolved. Do not pre-invent a consequence.
-- **The Note-Keeper's Robe.** New, session 7. Found in a Choir Deep vestry, worn by Lloyd. Stitched vow legible only via his Tier 4 Insight; Maria could not see any script on it at all. No mechanical effect — deliberately unresolved. Open question: is this genuine Insight sight of something real, or something else. Do not pre-invent which.
-- **Maud's connection to the ring's symbol.** Still live, still unconfirmed. Untouched this session.
-- **Maud and the Beckoner.** Minor thread — she recognized its nature as deliberate craft but refused to guess further, and looked like she was placing it against something she already knows. Not explained.
-- **Mirel.** Flooded-gallery/crypt thread only — explicitly NOT the same as session 6's unrelated "Nell" rota in the Choir Deep. Still unconfirmed link to Maud's ring.
-- **Engineer.** Commission delivered and fielded. No outstanding ask.
-- **Maud's salvage requests** (source-water, packing cloth). Two remain, unchanged this session.
-- **Maria, recruited.** Active companion, session 7, 0 cost. Church of St Narrikon's Redemption of Mankind — flagged pre-session as having a "sinister background," not yet surfaced in play. Wants something other than the Deep Salts; still unstated. First joint combat run completed this session — held her own, one real character beat with Lloyd ("I didn't refuse instructions. You didn't give me any.") worth remembering, still hasn't said what she actually wants.
+- **Reception clerk's "brother" comments.** Nudged — "Brother Thomas" name found in a sealed crypt alcove, session 8. Connection unconfirmed.
+- **Memory Vendor.** Still a "go deep enough" lead, not a location. Tier 5 Insight threshold met (session 7) — path is open but not yet walked.
+- **The Choir Deep — Singer killed twice** (session 6 via Beckoner chaos, session 8 via direct combat with incense LOS strategy). Rare spawn continues.
+- **Lost gear — RESOLVED.** Session 6.
+- **The Beckoner.** Left behind in Lloyd's room at the hub. Still knows Lloyd's name. Consequence still unresolved.
+- **The Note-Keeper's Robe.** Worn by Lloyd. Session 8 deepened this: the Second Name discovery (robing annex) confirms the note-keeper was a rotating role, not one person. Stitched vow still visible only to Lloyd. Unresolved.
+- **Nell's rota.** Session 8: full rota book found in the choir archive. Decades of service, one gap year, no explanation. The tile version (drained plunge-bath) doesn't distinguish the gap — personal vs administrative record discrepancy, Tier 5 read only.
+- **Maud's connection to the ring's symbol.** Untouched.
+- **Maud and the Beckoner.** Untouched.
+- **Mirel.** Flooded-gallery thread only, separate from Nell.
+- **Maria.** Active companion. Session 8: hinted her official reason for being at the Hydro isn't the whole truth, said "ask me again sometime." Mentioned preferring small chapels. Expressed regret about past choices (crypt alcove). Carried the second incense block into the Singer fight. Still hasn't said what she actually wants.
+- **Greta.** New NPC, session 8. Hub tempering (leveling) — always in the non-Salt saunas. No lore thread yet.
+- **"Brother Thomas" / "Maren."** Lloyd has now found two sealed niches with carved names in separate instances. Pattern or coincidence — unresolved.
 
 ## Standing notes
 
 - Combat: numbers first, minimal padding on routine hits; more room for kills/called shots/narrative beats.
 - Player uses a real phone stopwatch for timing checks.
 - Player is also the designer — expect rule-inconsistency catches mid-play; resolve with concrete numbers on the spot, flag gaps rather than patch silently.
-- **New this session: DM does not narrate the player character's own chosen actions or outcomes of those choices before the player states them.** Set up the situation and resolve mechanical consequences, but let the player declare what Lloyd does and how, every time — this was corrected multiple times in session 6 and matters a lot to Jake.
-- New weapons: build around a distinct identity (what it trades on), not by reskinning an existing entry's numbers.
-- Recipe rerolls: vary sub-locale, don't repeat the same enemy archetype 3x running, tag each reroll's dominant flavor (combat/lore/puzzle/social/escape), keep most discoveries low-stakes rather than escalating.
-- Cross-instance continuity discipline: instances are unrelated by default (different peoples' memories of a similar kind of place) — don't assume a recurring name/detail across different recipes means the same underlying thing without an earned reason.
-- **Anchors are found, not spawned-at.** You wake in a fresh instance blind (premise, not the wake-in fixture); the actual chalice/anchor exists somewhere in the layout and has to be located, same as every run to date. A contradicting line in §18 caused a real mixup session 7 — fixed in this pass.
-- Companion actions: Maria is player-directed but loosely — Jake calls her general intent, DM resolves whether her rolls/timers land. Established session 7.
+- **DM does not narrate the player character's own chosen actions or outcomes before the player states them.**
+- New weapons: build around a distinct identity, not by reskinning an existing entry's numbers.
+- Recipe rerolls: vary sub-locale, don't repeat same enemy archetype 3x running, tag dominant flavor, keep most discoveries low-stakes.
+- Cross-instance continuity discipline: instances unrelated by default.
+- **Anchors are found, not spawned-at.**
+- Companion actions: Maria is player-directed loosely — Jake calls general intent, DM resolves rolls/timers.
+- **Visually describe every creature on first encounter** — Insight tier shapes the description. Assess delivers tactical data separately. (Session 8 ruling.)
+- **Hold/parry does NOT count as a qualifying attack for Rally purposes.** (Session 8 ruling.)
 
 ---
-*Last updated: end of session 7 — banked clean at 131 Vault, party of two intact, back at the hub.*
+*Last updated: end of session 8 — banked clean at 193 Vault, party of two intact, back at the hub.*
