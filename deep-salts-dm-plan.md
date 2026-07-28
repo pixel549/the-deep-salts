@@ -1,54 +1,49 @@
-# DM Plan — Session 9 Direction
-*Ephemeral. Fully rewritten each session.*
+# DM Plan — Session 10
 
-## Party state
-- Lloyd: Level 4, SKI 19, Insight 14 (Tier 5), HP 108/108, Insanity 5, Vault 193. Kit fully refilled. 0 Powder Charges used. 1× Censer Incense remaining.
-- Maria: HP 55/55, all tracks zero. Growing trust — session 8 saw her most personal comments yet.
+*Ephemeral. Fully wiped and rewritten each session end.*
 
-## What happened last session
-Choir Deep deep-run, session 1 of the arc. Explored roughly half the map (Wings A, D, F, plus parts of B). Singer killed via incense LOS strategy + throat called shots. Banked 137 Salts.
+## Where we are
 
-## Deep-run map status
-dm-only/choir-deep-deeprun-map.md needs updating at session 9 start:
-- A1 (Rotunda): Singer killed, 3 Penitents alive but purposeless. Chalice used.
-- A2 (Nave): 2 passive Penitents alive, Salts stash claimed.
-- A3 (Side Chantry): visited, Salts claimed, Maria character beat done.
-- A4 (Plunge-bath): visited, Nell's tile seen.
-- A5 (Sunken Chapel): Brine Spitters killed.
-- B1 (Vestry): passed through.
-- B2 (Robing Gallery): visited, hidden panel found → B3.
-- B3 (Robing Annex): Flailer killed, Second Name lore found, Censer Incense found.
-- B4 (Drowned Sacristy): NOT YET VISITED.
-- C1–C4 (Funicular Works): NOT YET VISITED. Funicular Spike weapon waiting.
-- D1 (Choir Loft): Marble Attendant killed.
-- D2 (Choir Archive): Nell's Book found.
-- E1–E3 (Bell Tower): NOT YET VISITED. Capstone quest waiting.
-- F1 (Crypt Alcove): visited, Brother Thomas found.
+Lloyd is Level 5, Skill 20, Insight 18. Vault 317. Insanity 1. The Cold Forge is open — Marshal killed, rare spawn now. The Frost-Iron Smith on the walkway was scouted but not fought. One batch of Amber Forge-Salts remains.
 
-## Remaining content for this run
-- **Wing B4:** Drowned Sacristy — 2× Brine Spitter + Custodian, Ledger & Key → unlocks C4.
-- **Wing C:** Funicular Works — the Funicular Spike weapon (first actual find), the Bronze Door shortcut mechanism (3-window puzzle), Brake Room loot (40 Salts + note-keeper rotation confirmation).
-- **Wing E:** Bell Tower — 2× Bellkeeper encounters, capstone quest (Silence the Bell). The ambient Influence hum/pressure should be retroactively flavored as having been present all along.
+Maria wrapped the grey linen on her wrist and hasn't taken it off. She's three sessions in and still hasn't said what she wants. The clergy background is simmering.
 
-## Pacing target
-- Session 9: B4 + Wing C (Funicular Spike discovery is the big beat).
-- Session 10: Wing E, bell capstone, arc close.
-- Flex: if session 9 runs long, push bell to session 11.
+## Threads to advance
 
-## Threads to nudge (not force)
-- Maria's actual want — she's opened up twice now. A third prompt from Lloyd might get a real answer, or she might deflect again. Either is fine. Don't force it.
-- Nell's gap year — the archive book and the Brake Room log will give two separate angles. Neither resolves it.
-- Brother Thomas / reception clerk's brother — planted, leave it dormant unless Lloyd brings it up.
+**Nell.** Now confirmed across two recipes (Choir rota, Cold Forge shift assignment). This is the first cross-recipe persistent thread. Next touch should be in a third context — the flooded gallery, or at the hub itself. Maud might know the name if asked directly. Don't force it.
 
-## New rules to apply
-- **Ambush Perception:** d20 + ⌊Insight÷2⌋ vs DM-set DC. Only for genuine ambushes.
-- **Accuracy Tiers:** inner bands within hit windows grant ×1.25/×1.5/×2.0/×3.0 to final damage. Primary stopwatch only.
-- **DM deep-run maps:** plan is not a contract — add/adjust rooms and loot to support the player if needed.
-- **Visual creature descriptions mandatory**, Insight-scaled.
-- **Hold/parry ≠ Rally qualifier.**
+**The unknown woman.** Third run was blank. She didn't come back. If Lloyd returns to the Cold Forge, the woman's absence should be felt — maybe a trace in a deeper room, or nothing at all (which is worse). Don't resolve this quickly.
 
-## Standing DM reminders
-- Don't narrate Lloyd's chosen actions before Jake declares them.
-- Verify named entities/numbers against repo files before stating them.
-- Numbers first on routine hits; save narrative weight for kills/called shots/beats.
-- Instances have no continuity — same room type can look completely different each time.
+**Maria's linen.** She took it without thinking. Hospital cloth, unknown mark. If Lloyd asks her about it she should deflect — not secretively, just reflexively, like someone who doesn't know why they did it either. The mark might connect to something she recognises from her order. Don't confirm yet.
+
+**Memory Vendor.** Insight 18. The depth threshold is well past met. If Lloyd pushes deep enough in any instance — past the boss room, past the normal turnaround — the Vendor is findable. Don't seed it unless Lloyd expresses intent to go deep.
+
+**Token identity.** Wooden Token from "R." and brass token from the clerk. Both carried, neither explained. Low priority but don't forget they exist.
+
+## Mechanical notes
+
+**Accuracy tiers rebalanced this session.** The new table (1.0/1.1/1.3/1.5/3.0) is live. Dead centre ×3.0 is the unicorn — Lloyd hit it once this session against the Marshal. It should stay rare.
+
+**Burning defined.** 5 flat/turn, stacks = duration. This makes the Cold Forge's ambient Burning and the Marshal's Burning stacks properly threatening on repeat runs.
+
+**Maria's support range fixed at 5m.** All support abilities in one bubble. This matters tactically — she needs to be close enough to be at risk from AOE or pivoting bosses.
+
+**Items self-use only.** Lloyd manages his own consumables.
+
+**Ambush Perception must be rolled silently.** Failed once this session (Crier). Enforce going forward.
+
+## Possible session 10 directions
+
+- **Cold Forge second run.** The Smith and whatever's behind it. The woman's second note is already found — "the Foundry floor, don't touch the rails" — but her third run is the mystery. A second run could deepen that thread.
+- **Choir Deep return.** Singer rare spawn. Nell's rota is there. The choir archive might have more if Lloyd looks differently at Insight 18.
+- **Flooded gallery.** Haven't been back since session 5. Nell hasn't appeared here yet. Could be the third context.
+- **Hub exploration.** The pump room shaft is open. Other sealed areas might exist. Maud could be asked about Nell directly.
+- **Deep run for the Memory Vendor.** Lloyd has the Insight. He'd need to commit to pushing past the normal turnaround in any recipe.
+
+## Pacing
+
+Lloyd is getting strong. Skill 20, Steady Hand, Insight 18. The Attendants are trivial now. The Apprentices go down in one or two parry cycles. The Marshal took five rounds but Lloyd won with HP to spare. 
+
+Next session should introduce something that tests him differently — not just bigger HP pools, but fights where his strengths don't fully apply. The Smith on the walkway is already positioned for this (narrow space, can't kite, 90 raw hits). The Memory Vendor could offer power at a cost Lloyd isn't used to paying.
+
+Don't inflate enemy numbers to match him. Let the difficulty come from terrain, composition, and decision pressure.

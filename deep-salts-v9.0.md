@@ -199,7 +199,7 @@ Most conditions are tracks, 0–10, building rather than switching.
 - **Scar:** permanent trait attaches when the blackout ends — upside + downside, contextual to what triggered the Break (same shape as Corrupted Regrowth, §10). Full trade legible only at **Insight 6 (Tier 3)** — same threshold Tier 3 already grants for "full mutation stat-lines" (§11), not a separate number. Scars stack uncapped.
 - **Removal:** only via the Memory Vendor (design bible), Insight-priced, escalating: Scar 1 = 6 Insight, Scar 2 = 10, Scar 3+ = higher.
 
-**BURNING** — ticking damage/turn, spreads to oil/cloth/steam-soaked surfaces. Smother = an action.
+**BURNING** — **5 flat damage per turn** while any stacks remain. Lose 1 stack automatically each turn (burns down). Stacks add duration, not intensity. Smother (Action) clears all remaining stacks. Scour (Quick Item) clears 1 stack. Spreads to oil/cloth/steam-soaked surfaces.
 
 **DISCOMBOBULATION** — a Tick, not a track. Applied 1–3 by severity, counts down 1/turn automatically. While active: DM may misdescribe exits, reverse movement, strip reactions, scramble attack directions. Fresh application refreshes to the higher value. Cap 3. (Long-term cousin: Fugue, §13, a Track not a Tick.)
 
@@ -405,10 +405,11 @@ Target time DM-set per opening (default ~1.50s, range 1.0–2.0s). Miss punishme
 
 | Bands deeper than required | Multiplier |
 |---|---|
-| 1 | ×1.25 |
-| 2 | ×1.5 |
-| 3 | ×2.0 |
-| 4+ | ×3.0 (critical) |
+| 1 | ×1.0 (no bonus) |
+| 2 | ×1.1 |
+| 3 | ×1.3 |
+| 4 | ×1.5 |
+| Dead centre (exact target time) | ×3.0 (critical) |
 
 Applies to the primary attack stopwatch only — Powder Charge and other secondary stopwatches stay binary hit/miss.
 

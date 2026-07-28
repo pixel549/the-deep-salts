@@ -69,3 +69,101 @@ Banked at the chalice. **Vault: 56 + 137 = 193.** Hub return, full restoration. 
 
 ---
 *Last updated: end of session 8 — banked clean at 193 Vault, party of two intact, back at the hub.*
+
+---
+
+## Session 9
+
+Session 9 opened at the hub. Lloyd tempered with **Greta** — Skill 19→20, fifth attribute point, 100 Vault Salts spent (Level 4→5). Unlocked **Steady Hand perk** (Skill 20): all precision windows +0.02s flat, stacking with the Insight Tier 4 window bonus. Maria encouraged him to invest in Resolve instead. He didn't listen.
+
+Maria made Lloyd burn his Camphor in his room before heading out. **Insanity 5→3.** She noted his Insanity was scaring her. He said he was fine. She said he wasn't.
+
+Visited **Maud** asking about new salt recipes. Maud doesn't sell recipes but described a woman who'd brought her amber-brown crystallised salts from somewhere hot — furnace air, metal dust. The woman took her salts back down and never returned. Maud pointed Lloyd toward the old service lift behind the pump room — bricked up, but the mortar's soft. Two people have mentioned it to her now.
+
+Lloyd and Maria investigated. The brickwork was partially loosened already — the woman's earlier work. Twenty minutes of quiet effort opened a gap into the shaft. Iron rungs led eight metres down to a service corridor, then to a small preparation room: a stone trough stained amber-brown, a recipe diagram scratched into the wall (old Hydro shorthand, adapted), and an inscription in a different, steadier hand: *"The Cold Forge answers when the water remembers iron."*
+
+Found in the room: **Amber Forge-Salts ×2** (under the trough), the woman's incomplete run log (first run — orientation, second run — the Foundry floor, third line blank), and a strip of grey Stillwell-issue hospital linen with an unidentified inked mark (circle with vertical line). Maria wrapped the linen around her wrist without being asked.
+
+**New recipe unlocked: The Cold Forge.** Lloyd brewed one batch and entered with Maria.
+
+### Cold Forge — First Run
+
+**Wake-in: Cooling Gallery.** Industrial grating, dry heat, amber light, no moisture. First instance without water. Maria: "This isn't a church." "Good. I'm tired of churches."
+
+**Tool Crib (side room off Cooling Gallery):** Padlocked cage with a dormant Cinderbound Attendant and the **Coil-Spring Gauntlet** (Weapon 24, Trick Skill↔Strength). Maria killed the Attendant through the bars with nine Judgment Sparks — shooting gallery, no risk. Lock picked trivially (DC 14 vs Skill 20). Gauntlet acquired but functionally a downgrade from the Metal Knuckles for Lloyd's build (no Powder Charge, extended form runs off his STR 4). **Insight 14→15.**
+
+**Slag Floor:** Three Cinderbound Attendants in loose patrol. Maria wore down the first two with Purging Flame volleys while they shuffled toward the doorway; Lloyd finished each with precision headshots. The third was chipped by Maria and killed with an imbued Powder Charge headshot — **1.50 dead centre**, ×3.0 critical, head sever. **Insight 15→16.**
+
+**Chain Hoist Bay:** An Anvil-Bound Apprentice blocking the ground floor, a Fuse-Throated Crier perched on a raised platform 4m up. DM error: should have rolled Ambush Perception for the Crier's elevated position — flagged for future encounters. Lloyd sent Maria to bait the Crier with Judgment Spark. The Crier's Sputtered Call hit Lloyd (20 raw + 1 Burning — DM initially misidentified this as Influence, corrected mid-session). Lloyd parried the Apprentice's Anvil Drag-Swing and destroyed it with an imbued Powder Charge headshot (×2.25 visceral+head, ×1.3 accuracy = 187, head sever). Climbed the platform and severed the Crier's Fuse-Horn in one hit (59 × 2.0 × 1.5 = 177, implement destroyed + kill). **Insight 16→17, 17→18.**
+
+**Bellows Chamber (hidden, under hoist mechanism):** Found the **anchor** — dry stone quench trough with a brass chalice. Note found here in an older, shakier hand: *"The Marshal doesn't chase. It waits. It always waits."*
+
+**Rail Spur Walkway:** Scouted. A Frost-Iron Smith (1600 HP, 90 raw + Burning) blocking a narrow 2m walkway with hot rails underfoot. Lloyd assessed it ("Sever a leg and the approach stops being a threat at all") and backed off — bad terrain, not worth the risk this run. Content beyond the Smith left unexplored.
+
+**Annealing Room:** Ambient Burning (1 stack/3 rounds). An Anvil-Bound Apprentice inside. Lloyd and Maria dragged a sealed tool chest (15 White Salts) out of the heat before engaging. Maria baited the Apprentice into the Chain Hoist Bay with Judgment Sparks; Lloyd parried and killed it with an imbued headshot (240 damage, head sever).
+
+**Casting Hall (boss room):** Two Cinderbound Attendants flanking a cold casting pit. Maria baited them out through the Annealing Room, Lloyd killed both (one head sever, one torso finish). Iron rails on the floor — hot on contact, 1 Burning stack if stepped on.
+
+**Foundry Marshal** — 1400 HP boss. Motionless at the far end of the Hall, facing the cold pit. Would not be drawn out (confirmed by the note found earlier). Two attacks: Marshal's Cross (70 raw + 1 Burning, Tier 1 parry) and Foundry Reckoning (three-window chain, 40 raw + 1 Burning per unparried window, all three parried = Tier 1 Open on the Furnace Door weak point).
+
+Fight summary:
+- Lloyd parried the first Marshal's Cross, hit the head with an imbued Powder Charge Heavy (176 damage, 4 short of head stagger). 
+- Second swing was a Reckoning — Lloyd landed two of three parry windows, missed the third by one hundredth of a second (1.57 on a 1.58 window edge). Took 40 raw + 1 Burning. Maria used Steadying Grace to recover 20 Rally HP.
+- Third swing: Cross. Lloyd parried, hit the head imbued — **1.53, four bands deep, ×1.5** — 240 damage, head stagger triggered (176 + 240 = well past 180 threshold, meter had been reset). Free called shot: bare Heavy to head, 89 more damage.
+- Fourth swing: Reckoning again. Lloyd landed all three windows (0.86/1.37/1.76). Tier 1 Open on the Furnace Door. Imbued Powder Charge Heavy to the Door — 200 damage but Door needs 300 raw to sever. Door held. **Marshal at 764 HP.**
+- Fifth swing: Cross. Lloyd parried, imbued head shot — **1.50 dead centre. ×3.0 critical.** 71 × 1.5 × 1.5 × 3.0 = **480.** Marshal had 435 HP. **Kill.**
+
+**Foundry Marshal killed.** +50 White Salts. +1 Insight (18). First boss kill in the Cold Forge — Marshal drops to rare spawn (~1 in 4).
+
+**Foreman's Alcove (behind the casting pit):** A desk, a ledger. Work log in standard Hydro shorthand. One entry circled in different ink: **Nell** — a shift assignment, not a rota. Nell pulled shifts in the Cold Forge. Different context from the Choir Deep entirely.
+
+Returned to the Bellows Chamber, touched the chalice. Clean exit. **224 White Salts banked (61 purse + 163 earned). Vault: 93 + 224 = 317.**
+
+### Rules changes this session
+
+- **Burning track defined (session 9 ruling):** 5 flat damage per turn while any stacks remain. Lose 1 stack automatically each turn (burns down). Stacks add duration, not intensity. Smother (Action) clears all remaining. Scour (Quick Item) clears 1. Spreads to oil/cloth/steam-soaked surfaces.
+- **Accuracy Tiers rebalanced (session 9 ruling):** old multipliers (×1.25/×1.5/×2.0/×3.0) were too generous — a ×3.0 critical turned every good parry-headshot into an instant sever, trivialising the limb system. New table: 1 band deep = ×1.0 (no bonus), 2 bands = ×1.1, 3+ bands = ×1.3, 4 bands = ×1.5, dead centre only (exact target time) = ×3.0. The ×3.0 is a unicorn reward, not a fishable bonus.
+- **Maria's support range (session 9 ruling):** Imbue Weapon and Steadying Grace are both 5m range, matching her Steady Faith passive radius. All support abilities now operate in the same bubble.
+- **Items are self-use only (session 9 ruling):** companions cannot apply the player's consumables (Tonic, Scour, etc.) on their turns. Maria supports through her own designed abilities only.
+- **Ambush Perception enforcement note:** DM should roll silently for elevated/concealed enemies before describing them. Flagged after the Crier encounter — will be applied going forward.
+
+## Quests (persistent)
+
+*Only threads anchored to persistent entities (NPCs, hub, recipes, carried items) survive rerolls — everything else dies with its layout, untracked.*
+
+- **Old man by the fire.** Didn't come up this session.
+- **Reception clerk's "brother" comments.** Untouched.
+- **Memory Vendor.** Still a "go deep enough" lead, not a location. Tier 5 Insight threshold met (session 7) — path is open but not yet walked. Insight 18 now — the depth is getting closer.
+- **The Cold Forge — Foundry Marshal killed** (session 9). Rare spawn continues. Frost-Iron Smith on the walkway undefeated — content beyond it unexplored.
+- **The Choir Deep — Singer killed twice** (session 6 via Beckoner chaos, session 8 via direct combat with incense LOS strategy). Rare spawn continues.
+- **Lost gear — RESOLVED.** Session 6.
+- **The Beckoner.** Left behind in Lloyd's room at the hub. Still knows Lloyd's name. Consequence still unresolved.
+- **The Note-Keeper's Robe.** Worn by Lloyd. Unresolved.
+- **Nell's rota / Nell in the Cold Forge.** Session 8: full rota book found in the choir archive (gap year). Session 9: Nell's name in the Foreman's ledger — shift assignment, not a rota. Nell worked both the Choir Deep and the Cold Forge. Cross-recipe presence confirmed.
+- **Maud's connection to the ring's symbol.** Untouched.
+- **Maud and the Beckoner.** Untouched.
+- **Mirel.** Flooded-gallery thread only, separate from Nell.
+- **Maria.** Active companion. Session 9: wrapped the grey linen strip from the Cold Forge prep room around her wrist unprompted. Still hasn't explained why. Urged Lloyd to invest in Resolve rather than Skill. Said his Insanity was scaring her. Said "I'm tired of churches" on entering the Cold Forge. Still hasn't said what she actually wants.
+- **Greta.** Hub tempering NPC. No lore thread yet.
+- **"Brother Thomas" / "Maren."** Two sealed niches with carved names in separate instances. Unresolved.
+- **The unknown woman.** Explored the Cold Forge before Lloyd — left the prep room, the recipe, the run notes. Her third run entry was blank. She never came back. Maud saw her once. Identity unknown.
+- **The grey linen mark.** Circle with vertical line, inked on Stillwell hospital cloth. Found in the Cold Forge prep room. Maria is wearing it. Significance unknown.
+
+## Standing notes
+
+- Combat: numbers first, minimal padding on routine hits; more room for kills/called shots/narrative beats.
+- Player uses a real phone stopwatch for timing checks.
+- Player is also the designer — expect rule-inconsistency catches mid-play; resolve with concrete numbers on the spot, flag gaps rather than patch silently.
+- **DM does not narrate the player character's own chosen actions or outcomes before the player states them.**
+- **DM does not spoil loot/content in rooms the player hasn't reached.**
+- **DM rolls Ambush Perception silently for elevated/concealed enemies before describing them to the player.**
+- New weapons: build around a distinct identity, not by reskinning an existing entry's numbers.
+- Recipe rerolls: vary sub-locale, don't repeat same enemy archetype 3x running, tag dominant flavor, keep most discoveries low-stakes.
+- Cross-instance continuity discipline: instances unrelated by default.
+- **Anchors are found, not spawned-at.**
+- Companion actions: Maria is player-directed loosely — Jake calls general intent, DM resolves rolls/timers.
+- **Visually describe every creature on first encounter** — Insight tier shapes the description. Assess delivers tactical data separately. (Session 8 ruling.)
+- **Hold/parry does NOT count as a qualifying attack for Rally purposes.** (Session 8 ruling.)
+
+---
+*Last updated: end of session 9 — banked clean at 317 Vault, party of two intact, back at the hub.*
