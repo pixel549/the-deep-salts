@@ -276,7 +276,7 @@ Specific weapons/actions may price differently; perks may refund/grant/zero cost
 - Use a Quick Item, load a capsule.
 - Swap between two already-equipped weapons/options.
 
-Quick Items are Fast Actions (vial-and-swing works); Action Items are strong but cost the whole turn.
+Quick Items are Fast Actions (vial-and-swing works); Action Items are strong but cost the whole turn. **Items are self-use only** (session 9 ruling) — companions support through their own designed abilities, not by applying the player's consumables.
 
 **Reactions** sit outside all pools. Abandon-All lives here; Retreat cannot be used in active combat at all (§12).
 
