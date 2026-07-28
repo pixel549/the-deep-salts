@@ -137,3 +137,10 @@ Three mechanical gaps identified and resolved during play:
 One additional ruling made without a gap: **items are self-use only.** Companions cannot apply the player's consumables on their turns. Maria supports through her own designed abilities. Not a gap fix — a design call to prevent doubling the player's item economy.
 
 **Standing DM notes added:** (1) DM does not spoil loot/content in rooms the player hasn't reached. (2) DM rolls Ambush Perception silently for elevated/concealed enemies before describing them. Both prompted by specific errors during session 9 play.
+
+**Post-session 9 — player feedback (DM practice).**
+1. **Pre-planned instance maps with placed loot work well.** Keep using the DM-only map as a session prep tool. Loot, enemy placement, and room connections all benefit from being designed as a unit rather than improvised room-by-room.
+2. **Unique creature identity matters.** The Marshal as a furnace-golem felt distinct and memorable. Keep pushing for visual/mechanical identity on bosses especially.
+3. **Boss loot — some bosses should drop claimable gear**, but only if Lloyd thinks to investigate the body. Not every boss (the Marshal's fused tools were correct), but design space exists for bosses carrying actual weapons that reward player curiosity.
+4. **Loot discovery should be player-initiated, not auto-delivered.** Describe the space and its contents; let the player decide to investigate. Reward curiosity and initiative. The Tool Crib (player chose to engage with the cage) is the model; "you find 15 White Salts in a chest" is the anti-pattern. Embed loot in environment descriptions and let Lloyd pull on threads.
+5. **Biome distinctiveness confirmed.** The Cold Forge felt mechanically and aesthetically different from the Choir Deep. Maintain this separation across all recipes — each biome should have its own texture, not just a reskin.
