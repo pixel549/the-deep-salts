@@ -7,7 +7,7 @@
 
 **Concept:** Young, athletic Skill-build fighter. Self-made twin knuckledusters rigged with detonating powder capsules — recovered session 6, back in active use.
 
-**Level:** 7 (next attribute point costs 25 × 7 = **175**) · **Insight:** 18 (Tier 5 — session 9: Cinderbound Attendant +1, Anvil-Bound Apprentice +1, Fuse-Throated Crier +1, Foundry Marshal +1.)
+**Level:** 7 (next attribute point costs 25 × 7 = **175**) · **Insight:** 8 (Tier 4 — dropped from 18 via Memory Vendor, session 10: 5 spent on Thickened Sinew arm mutation, 5 spent on Dulled Sight eye mutation.)
 
 ### Attributes
 | VIG | END | STR | SKI | RES |
@@ -21,14 +21,15 @@
 - **Max HP:** 120/120 (full restoration at hub)
 - **Movement:** 8m
 - **Attribute Modifier:** Skill +0 (still in 10–19 band — note: ESV is 20, modifier band and ESV are separate) · Vigour +0 · Strength −2 · Resolve −2
-- **Insanity/Influence save mod:** ⌊Resolve÷10⌋ +0, Insight term ⌊18÷2⌋ **+9**
-- **Insight window bonus:** +0.15s (Tier 5 — no new number stated for this tier, inherits Tier 4's value)
-- **Perk — Steady Hand (Skill 20):** all precision windows +0.02s flat, stacks with Insight window bonus.
+- **Insanity/Influence save:** d20 ≥ 10 + track − ⌊Res÷10⌋(+0) + ⌊Insight÷2⌋(+4) − Dulled Sight(−3) = **11 + track.** With Maria's Steady Faith (−1): **10 + track.** Functional again — track 1 = 50%/55%, track 5 = 25%/30%.
+- **Insight window bonus:** +0.15s (Tier 4)
+- **Perk — Steady Hand (Skill 20):** +0.02s flat, **exactly negated by Dulled Sight mutation (−0.02s).** Net precision window bonus = Insight tier only (+0.15s).
+- **Arm mutation — Thickened Sinew:** parry windows −0.03s (applied as flat penalty, not tracked per-arm).
 - Standard enemies cannot parry/visceral Lloyd — boss/elite-tier only.
 
 ### Weapons
 
-**Metal Knuckles (paired) — equipped, active.** Skill/D, one-handed, Base 22 (Light 32/Heavy ~59 at ESV 20). **Powder Charge:** timed detonation, target 1.00s ±0.15s base (+ Insight window bonus + Steady Hand on top). **Confirmed effects (session 7):** success = ×1.5 damage modifier on that hit + 1 Discombobulation to target. Failure = wielder takes 2 Blood Loss stacks, turn ends immediately with no leftover movement (harsher than the old 1-stack version, deliberately).
+**Metal Knuckles (paired) — equipped, active.** Skill/D, one-handed, Base 22 (Light 32/Heavy ~59 at ESV 20). **Powder Charge:** timed detonation, target 1.00s ±0.15s base (+ Insight window +0.15s; Steady Hand +0.02s and Dulled Sight −0.02s cancel; effective total **±0.30s**). **Confirmed effects (session 7):** success = ×1.5 damage modifier on that hit + 1 Discombobulation to target. Failure = wielder takes 2 Blood Loss stacks, turn ends immediately with no leftover movement (harsher than the old 1-stack version, deliberately).
 
 **Coil-Spring Gauntlet — carried, not equipped.** Trick weapon. Compact form: Skill/D, one-handed, Base 22 (Light 32/Heavy 59 at ESV 20). Extended form: Strength/C, two-handed, Base 28 (Light 31/Heavy 60 at ESV 4) — 1m knockback on leg-stagger. Extending is a Fast Action. Full extension Insight Tier 2 gated (met). No Powder Charge in either form. Found session 9, Cold Forge Tool Crib.
 
@@ -52,7 +53,9 @@
 | Fugue | N/A |
 
 ### Limbs
-Standard, no mutations, no damage.
+- **Arms:** one mutated (Thickened Sinew), one standard. No mechanical left/right distinction — mutation penalty applies as flat modifier.
+- **Legs:** standard, no damage.
+- **Eyes:** mutated (Dulled Sight).
 
 ### White Salts
 - Purse: 0 · **Vault: 42** (317 prior − 275 tempering session 10: Vigour 8→10)
@@ -82,7 +85,8 @@ Standard, no mutations, no damage.
 - First recipe ("flooded gallery") — 4 visits. Known sub-locales: colonnade/pews (sessions 1,2,4); undercroft/crypt + ritual chamber (session 5).
 
 ### Mutations
-None.
+1. **Thickened Sinew (arm)** — Rally recovery +25%. Parry windows −0.03s. Acquired session 10, Memory Vendor (5 Insight).
+2. **Dulled Sight (eyes)** — Insanity/Influence save DC −3. All precision windows −0.02s (negates Steady Hand). Acquired session 10, Memory Vendor (5 Insight).
 
 ---
 
@@ -109,4 +113,4 @@ All zero. Full restoration at hub.
 Active. Three joint combat runs completed. Session 9 highlights: imbued Lloyd's knuckles for multiple critical headshots against Cinderbound Attendants and Anvil-Bound Apprentices; used Steadying Grace to recover Rally HP during the Foundry Marshal fight; kept 5m support range throughout the boss encounter. Wrapped the grey linen strip from the Cold Forge prep room around her wrist without being asked — hasn't explained why. Still hasn't said what she actually wants. Currently back at the Stillwell Hydro hub with Lloyd.
 
 ---
-*Last updated: end of session 9 — banked clean, party of two, both fully restored at the hub.*
+*Last updated: session 10 — Memory Vendor trades complete (Insight 18→8), two mutations acquired, leveled Vig 8→10. Party of two, both fully restored at the hub.*
