@@ -3,7 +3,7 @@
 
 System-agnostic ruleset (d20 base) for solo play with an AI DM. You trade humanity for power, and only see the trade once you've gone mad enough to look.
 
-*Version 9.0. Session-attribution history and rationale prose live in the dev log, not here.*
+*Version 9.1. Session-attribution history and rationale prose live in the dev log, not here.*
 
 ---
 
@@ -378,6 +378,10 @@ Standard humanoid:
 
 **Bosses get hand-set limb values** on their own Monster Template — high enough that clearing a weak point in one hit takes real specialization.
 
+**Multipliers below ×1.0 as armour.** A limb or shell entry may be set **below ×1.0** (e.g. ×0.5 plating, a copper shell), reducing all incoming raw against it. Because the Precision Strike watch only triggers *above* ×1.0, an armoured entry is safe to hit and slow to kill by design — no timing risk, no reward, just work. Armour entries may be paired with a high-multiplier seam or weak point elsewhere on the creature, giving a real choice between grinding and specialising. Sub-1.0 entries never scale with level; they're a fixed property of the creature.
+
+**Elemental multipliers and immunities.** A creature may declare an explicit multiplier or immunity against a specific status track — tripled Burning against a shelled swarm, zero Burning and zero Corrosion against a body made of water. These are stated on the Monster Template, apply to that track's damage only, and are deliberately rare: the point is to occasionally invalidate one tool in the player's kit for one encounter, not to introduce a resistance chart. Assess 2+ always reveals them.
+
 ### Precision Strike — the greedy-target tax
 
 Targeting a limb multiplier >1.0 triggers a precision stopwatch (at/below 1.0 — never affected):
@@ -524,6 +528,8 @@ Doesn't change your Insight number — makes it *lie*. Higher Insight hurts more
 
 **Clearing:** spend the next Insight point you earn — it clears Fugue instead of joining your stack.
 
+**Fugue from a non-death source.** A creature may inflict Fugue in combat as an attack effect, at a stated short duration (typically one turn) rather than until-cleared. Short-duration combat Fugue **expires on its own and does not consume the next earned Insight point** — the clearing rule above applies only to death-inflicted Fugue. In practice a one-turn Fugue means the DM delivers exactly one deliberately false tell, window or read on the following turn, and then plays straight again.
+
 ---
 
 ## 14. The Hub
@@ -568,6 +574,14 @@ Archetypes, reskin per location. Attack damage generated live (§2), scaled to l
 7. **FLAILER** (chaotic) — HP ~600–900 · Move medium, erratic. Multi-track (Corrosion + Blood Loss). Tell: limbs draw back in unison, multiple windows in sequence. Tier 3. Hardest non-boss to open.
 8. **DRUDGE** (elite) — HP ~600–900 · Move slow (2–3m), relentless, **never bursts or lunges**. One heavy on a steady cadence, always telegraphed, always parryable, long recovery after. Tier 1–2 (heavier instances use Tier 2). The counterpoint to Shambler: same slow walk, but its attack is fully readable and punishable instead of tell-less. Kitable forever in principle; it simply never stops coming.
 9. **TOLLER** (mook) — HP ~250–400 · Move slow (2m), hangs back, rarely closes. Applies track pressure through a **destructible implement** (bell, censer, horn) — telegraphed and parryable, unlike a Chanter's bare voice. **Destroy the implement and it has no attack left at all.** Tier 1. The counterpoint to Chanter: kill the tool, not the creature.
+
+**Non-humanoid archetypes.** The nine above all assume a roughly person-shaped enemy with a head, a torso and four limbs — which is what the standard limb model (§10) is built for. The five below deliberately do not, and each one breaks a different assumption the player has learned to rely on. They exist so that a room can pose a problem that isn't "the same fight with more HP."
+
+10. **SWARM** (mook–elite) — HP ~350–600 · Move medium, flows rather than walks. **No limb entries at all** — a single sever-immune Mass row. Precision Strike cannot be declared, stagger never fires, called shots resolve as plain hits. Dies only to raw HP damage. The direct counter to a precision build, and the reason HP attrition stays a first-class kill method (§3).
+11. **ANCHOR** (elite–boss) — HP ~600–1500 · **Move 0m, permanently.** Never chases, never follows, cannot be kited because it never needed to close. Threatens through room-wide auras, reach, or a hazard it imposes on the space. Leaving is usually a complete counter — which makes "is this fight worth having" a real question rather than a rhetorical one.
+12. **VESSEL** (elite) — a shell and an occupant, two separate creatures in sequence. The shell carries a **sub-1.0 damage multiplier as armour** (see §10) and no interesting attacks; the occupant is fast, fragile, and usually trying to leave. The health bar emptying is the middle of the fight, not the end of it.
+13. **CRAWLER** (elite) — HP ~600–900 · Move fast (8m+) across **walls and ceilings**, ignoring floor terrain, hazards and chokepoints entirely. Cannot be funnelled, cannot be outrun, and the player's usual positional tools all quietly stop working.
+14. **TIDE** (hazard-creature) — occupies a stretch of floor, corridor or room. Often has no attack the player can react to and sometimes **no HP at all** — it is resolved by crossing it, cutting a lane through it, or shutting it off, not by killing it. The archetype that makes an encounter a problem rather than a fight.
 
 **Standard archetypes cannot parry/visceral the player** — that loop is boss/hand-flagged-elite only.
 

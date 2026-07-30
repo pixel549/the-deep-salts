@@ -1,5 +1,5 @@
 # THE DEEP SALTS
-**Dev Log — Mechanic Index, Book Plan & Known Gaps — v3.3**
+**Dev Log — Mechanic Index, Book Plan & Known Gaps — v3.5**
 
 Project management. **Do NOT load when running the game.** Section numbers (§8–10) match ruleset/bible cross-references.
 
@@ -163,3 +163,43 @@ One additional ruling made without a gap: **items are self-use only.** Companion
 Cheapest "clean" Insight reduction (buy + immediately remove) costs 10 Insight for zero lasting change. Accepting the mutation costs 5 and keeps the upside+downside. This rewards commitment — cycling is expensive, living with the change is cheap.
 
 **Attribute leveling note.** Lloyd tempered Vigour 8→10 (275 Vault Salts, Level 5→7). Modifier band −1→+0, Max HP 108→120. Next point costs 175, Vault at 42.
+
+---
+
+### Off-session — Non-Humanoid Content Pass (Bestiary + Armoury)
+
+**Brief.** Player flagged that both pools had gone homogeneous: every monster in the manual was a ruined person (attendant, penitent, smith, clerk, usher), and every weapon was an implement reforged into a sword. Fine texture, but it meant every encounter was mechanically the same shape — standard humanoid limb table, one parryable heavy, grind or headshot — and every weapon was a stat-line with a small rider. Ask was for genuinely non-human, non-humanoid, eldritch content, and for the Trick-weapon concept pushed much harder than fold/unfold.
+
+**Delivered.** 20 monsters (Bible §1, entries 39–58) and 16 weapons (Bible §2, entries 29–44). All existing content retained untouched — this is additive. All damage figures generated against the §4 formula and verified by script; all sever-viability lines checked against the fixed §10 constants.
+
+**Design intent — monsters.** The pass was built around breaking specific assumptions rather than generating variety for its own sake. The existing manual has thirty-eight entries and almost all of them read "standard defaults, no deviations" on the limb line; that was the single biggest unused lever in the system. Assumptions deliberately broken across the new entries:
+- Creatures with **no limb table at all** — sever, stagger and Precision Strike simply don't apply, and HP attrition is the only route. This is the counter to a pure precision build and is exactly why §3's "every enemy still dies the ordinary way" needed to stay true.
+- Creatures where **dismemberment is a punishment** (severing splits the creature into two), and, separately, a boss where **dismemberment is the intended primary route** rather than an optional shortcut — the first inversion of the Singer's "sever is never required" default.
+- **Immobile enemies whose counter is walking away**, forcing "is this fight worth having" as a live question.
+- **Positional punishers** — one that can only reach a target standing near a wall, one that only bites what stops moving on it. Both target habits the player has drilled into muscle memory.
+- **A variable parry window** — target time rerolled every turn from a d4, with only a qualitative visual hint given. Every other parryable entry in the manual has one memorisable number.
+- **Delayed-resolution attacks** — declared on turn N, land on turn N+2, parry committed to in advance. Punishes purely reactive play.
+- **A damage source that scales off the player's own accumulated status tracks**, making "none of these stacks is individually lethal" false.
+- Two enemies that **specifically blunt the current build** — one soaks powder capsules on a full hit, one narrows every timing window in its radius. Both are counterable and neither invalidates the build; the point is that no single tool should be a universal answer.
+
+**Design intent — weapons.** Existing Trick entries all toggle between two forms with a stat swap. The new set pushes into: a three-form weapon that can only cycle in sequence (no jumping); two weapons that combine rather than transform; a weapon whose form is rolled by the DM at encounter start with no player input; a weapon that acts during the enemy's turn; a defensive-first Trick weapon (the missing shield row); weapons that read the wielder's own status tracks as fuel; a weapon that consumes Insight as ammunition; a weapon that is a limb and can be severed off; and a weapon that trades an entire subsystem away (no stagger, ever) for reduced sever thresholds.
+
+**Spread check.** Deliberately not skewed toward the current character's build. Of the 16: 7 Skill-governed, 7 Strength-governed, 2 mixed/rolled. One weapon rewards the parry build directly (stores parried raw, discharges on the next Heavy); the rest are spread across bleed, burn, zone control, armour-breaking, self-sustain and pure output. Two are actively hostile to a Skill/precision build.
+
+**Rules extensions made (all folded into Ruleset v9.1, flagged rather than silent):**
+1. **§16 — five new archetypes** (Swarm, Anchor, Vessel, Crawler, Tide). The existing nine all presuppose a person-shaped enemy; the new content needed frames the old table couldn't provide. Each is defined by which player assumption it breaks, not by its stat band.
+2. **§10 — sub-1.0 limb multipliers as armour.** Formalised: an entry may sit below ×1.0 to reduce incoming raw. Because the Precision watch only fires *above* ×1.0, armour is safe to hit and slow to kill by design, and can be paired with a high-multiplier seam elsewhere to give a real grind-vs-specialise choice.
+3. **§10 — elemental multipliers and immunities.** A creature may declare an explicit multiplier or zero against one status track. Deliberately rare and always revealed by Assess 2+ — the intent is to invalidate one tool for one encounter, not to introduce a resistance chart.
+4. **§13 — Fugue from a non-death source.** Previously Fugue applied only on death. Combat-inflicted Fugue is now legal at a stated short duration, expires on its own, and does **not** consume the next earned Insight point — the §13 clearing rule is scoped to death-inflicted Fugue only.
+5. **§4 grade table — Grades A and S are now actually used.** The table has always listed them; nothing in the Bible had ever reached past B. Two entries now do, both with severe non-numeric costs attached (movement tax plus self-inflicted Blood Loss on one; a permanent +3 save DC and no unequipping inside an instance on the other).
+
+**Open gaps flagged — proposed rulings, all untested in play.**
+1. **Window-narrowing as an enemy debuff.** One new entry narrows every parry and precision tolerance in its radius by a flat 0.10s. This is the first enemy-side attack on the player's timing windows rather than on their HP or tracks. **Proposed: it applies to the ± tolerance after the Insight window bonus, and stacks with nothing (no second source exists yet).** Risk to watch: layered with a Tier 3 ballistic chain it could make an opening functionally impossible for a low-Insight character. If that happens in play, the fix is to floor the tolerance rather than remove the mechanic.
+2. **Grade A/S power curve.** Both new top-grade weapons clear the Head's 120-raw sever line at ESV 31–32, versus ESV 47 for the previous benchmark. That is a fifteen-ESV jump and it has no play data behind it. **Proposed: leave as-is and watch.** The costs are meant to carry it, and both are hand-placed rather than rolled, so exposure is controllable. If head sever starts happening every fight, the lever is the acquisition rate, not the numbers.
+3. **Delayed-attack interaction with Rally (§6).** An attack declared on turn N and resolving on turn N+2 has no stated Rally behaviour. **Proposed: Rally resolves normally on the turn the attack lands, at the standard 50%, as though it were an ordinary hit that turn.** No contradiction found in §6, but worth stating before it comes up mid-fight.
+4. **Armour grind pacing.** Sub-1.0 multipliers are mechanically clean but untested for whether they're interesting or merely slow. **Proposed: pair every armour entry with either a burstable seam or a phase change, never armour alone.** Both new entries using it do this; the note is to keep it as a rule for future content rather than a coincidence.
+5. **Variable parry windows.** Depends entirely on whether the qualitative hint ("fast / steady / slow / very slow") gives enough information to be fair rather than a coin flip. **Proposed: DM always gives the hint, never the number, and the four values stay 0.30s apart so the bands don't overlap at ±0.20s tolerance.** Genuinely uncertain — this one needs a live test before it goes near a boss.
+
+**Bible → v4.5. Ruleset → v9.1. Dev log → v3.5.** Character sheet and campaign log untouched by this pass.
+
+**Housekeeping note:** campaign log currently ends at session 9; character sheet reflects session 10 (Memory Vendor trades, Vig 8→10). The session 10 narrative entry is outstanding.
