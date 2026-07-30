@@ -903,6 +903,7 @@ Zero mechanical function, zero dialogue, zero lore thread. *Not the reception cl
   - **Scar removal:** only route. Scar 1 = 6 Insight, Scar 2 = 10, Scar 3+ = escalating. **Requires** having the Scar (same constraint — no phantom trades).
   - **Hard constraint:** the player must either purchase a mutation OR have an existing mutation/Scar to remove. No clean Insight dumps. The cheapest "clean" Insight reduction (buy mutation + immediately remove it) costs 10 Insight for zero lasting change. Accepting the mutation costs 5 and you keep the upside+downside. This is by design — rewards commitment over cycling.
   - **No debt system.** Hub-accessible means all trades are immediate, no cross-run payment plans.
+  - **Single-conversation resolution.** All trades within one visit resolve before the Insight threshold check kicks in. The player can make multiple trades in a sitting even if intermediate Insight drops would take them below 15. Once the conversation ends and the player walks away, the threshold applies — if Insight is below 15, she's gone until it climbs back.
 - **Lore:** tangled with the reception clerk's "brother" hook. Never revealed: true name, what she does with collected Insight, why she's in the Hydro, or whether she was always here.
 
 ## NPC 5 — Greta
