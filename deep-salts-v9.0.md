@@ -456,7 +456,7 @@ Separate sixth dial, earned through discovery (lore, dangerous sources tasted, t
 | 4 | 8–9 | Window +0.15s. Untranslatable lore becomes comprehensible — written text **and monster vocalization/behaviour** (Insight Perception, below). |
 | 5 | 10 | Full sight. Deepest instance content unlocked. A threshold gate ("free to pass once there"): reached once, the path stays open even if Insight later drops from spending. |
 
-**Memory Vendor access** — separate from the tier table. The Vendor (Bible NPC 2) appears in the hub at **Insight 15+**. Same threshold-gate behaviour: once found, stays accessible even if Insight drops below 15 from spending. Trades Insight for voluntary mutations, mutation removal, and Scar removal — never accepts Salts, never allows a clean Insight dump (see design bible for full pricing and constraints).
+**Memory Vendor access** — separate from the tier table. The Vendor (Bible NPC 2) appears in the hub at **Insight 15+**. No threshold gate — if Insight drops below 15 from spending, she vanishes immediately. Trades Insight for voluntary mutations, mutation removal, and Scar removal — never accepts Salts, never allows a clean Insight dump (see design bible for full pricing and constraints).
 
 Window bonus is a flat total per tier, not additive across tiers crossed — a tier without its own number inherits the last stated value. Applies to any DM-set timing window, not just parries.
 

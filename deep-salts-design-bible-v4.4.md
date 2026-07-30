@@ -892,7 +892,7 @@ Zero mechanical function, zero dialogue, zero lore thread. *Not the reception cl
 
 ## NPC 2 — The Memory Vendor
 
-- **Role:** hub-accessible Insight trader. Trades Insight for voluntary mutations, mutation removal, and Scar removal. **Location:** hub — a fixed alcove, not signposted, not advertised. Visible only to those at Insight 15+. Once found, stays accessible even if Insight later drops from spending (threshold gate, same as Tier 5 general). **Fightable:** N.
+- **Role:** hub-accessible Insight trader. Trades Insight for voluntary mutations, mutation removal, and Scar removal. **Location:** hub — a fixed alcove, not signposted, not advertised. Visible only to those at Insight 15+. **No threshold gate — if Insight drops below 15, she vanishes immediately**, mid-conversation if necessary. Reappears when Insight climbs back. **Fightable:** N.
 - **Fixed appearance:** ghostly, ephemeral — translucent, edges indistinct, more suggestion than person. Never fully solid. Voice arrives slightly before or after her mouth moves. Details shift if you look away and back — hair length, hand count, whether she's standing or seated. The one constant: she's always facing you.
 - **On arrival:** doesn't introduce herself. Knows the player's Insight score without being told. Opens with what she can offer, not who she is. **Never** accepts Salts, items, or favours as payment. **Never** allows a clean Insight dump — every trade has a physical cost attached.
 - **Never does:** raise her voice, touch anything physical, appear to anyone below Insight 15, leave the alcove. **Never says directly:** her own name (the player names her, or doesn't), what she does with the Insight she collects, or why she's in the Hydro.
