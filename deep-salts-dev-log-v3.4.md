@@ -144,3 +144,22 @@ One additional ruling made without a gap: **items are self-use only.** Companion
 3. **Boss loot — some bosses should drop claimable gear**, but only if Lloyd thinks to investigate the body. Not every boss (the Marshal's fused tools were correct), but design space exists for bosses carrying actual weapons that reward player curiosity.
 4. **Loot discovery should be player-initiated, not auto-delivered.** Describe the space and its contents; let the player decide to investigate. Reward curiosity and initiative. The Tool Crib (player chose to engage with the cage) is the model; "you find 15 White Salts in a chest" is the anti-pattern. Embed loot in environment descriptions and let Lloyd pull on threads.
 5. **Biome distinctiveness confirmed.** The Cold Forge felt mechanically and aesthetically different from the Choir Deep. Maintain this separation across all recipes — each biome should have its own texture, not just a reskin.
+
+---
+
+### Session 10 — Memory Vendor Rework (pre-session design)
+
+**Problem solved.** The Memory Vendor was gated behind "pushing deep past a boss room" — but the players who most need to trade Insight away (high Insight → impossible Influence/Insanity saves) are exactly the ones whose save math makes deep pushing suicidal. A circular gate that punishes its own audience.
+
+**Solution.** Vendor moved to the hub. Appears at **Insight 15+** (threshold gate — once found, stays accessible even if Insight drops). Ghostly/ephemeral presentation — translucent, shifting details, never fully solid.
+
+**Core mechanical change.** Old system: clean permanent buffs for Insight, negotiated case-by-case, with a debt/toll system for payment plans. New system: all trades are mutations (upside + downside, same Corrupted Regrowth shape as §10). The debt system is dropped entirely — hub access means immediate trades only.
+
+**The constraint that makes it work:** the player cannot simply dump Insight for free. Every trade has a physical cost:
+- **Buy a voluntary mutation:** 5 Insight. Player picks a limb, DM generates upside+downside. Always available.
+- **Remove a mutation:** 5 Insight. Requires an existing mutation or Scar on the table.
+- **Remove a Scar:** 6/10/escalating (unchanged). Requires the Scar.
+
+Cheapest "clean" Insight reduction (buy + immediately remove) costs 10 Insight for zero lasting change. Accepting the mutation costs 5 and keeps the upside+downside. This rewards commitment — cycling is expensive, living with the change is cheap.
+
+**Attribute leveling note.** Lloyd tempered Vigour 8→10 (275 Vault Salts, Level 5→7). Modifier band −1→+0, Max HP 108→120. Next point costs 175, Vault at 42.

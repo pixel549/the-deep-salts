@@ -197,7 +197,7 @@ Most conditions are tracks, 0–10, building rather than switching.
 **BREAK** (triggered @ Insanity 10, automatic, no roll) — Insanity resets to 0. In exchange:
 - **Blackout:** DM full narrative control, **3 turns**. Broken World scene — false tells, fake Influence commands, wrong layouts, plus a hallucinated threat that deals real damage (floor 20).
 - **Scar:** permanent trait attaches when the blackout ends — upside + downside, contextual to what triggered the Break (same shape as Corrupted Regrowth, §10). Full trade legible only at **Insight 6 (Tier 3)** — same threshold Tier 3 already grants for "full mutation stat-lines" (§11), not a separate number. Scars stack uncapped.
-- **Removal:** only via the Memory Vendor (design bible), Insight-priced, escalating: Scar 1 = 6 Insight, Scar 2 = 10, Scar 3+ = higher.
+- **Removal:** only via the Memory Vendor (design bible NPC 2, hub-accessible at Insight 15+), Insight-priced, escalating: Scar 1 = 6 Insight, Scar 2 = 10, Scar 3+ = higher.
 
 **BURNING** — **5 flat damage per turn** while any stacks remain. Lose 1 stack automatically each turn (burns down). Stacks add duration, not intensity. Smother (Action) clears all remaining stacks. Scour (Quick Item) clears 1 stack. Spreads to oil/cloth/steam-soaked surfaces.
 
@@ -454,7 +454,9 @@ Separate sixth dial, earned through discovery (lore, dangerous sources tasted, t
 | 2 | 4–5 | Sustaining mod. See warp-thresholds. Window +0.10s. |
 | 3 | 6–7 | Quickening mod. Full mutation stat-lines. Charm items usable. |
 | 4 | 8–9 | Window +0.15s. Untranslatable lore becomes comprehensible — written text **and monster vocalization/behaviour** (Insight Perception, below). |
-| 5 | 10 | Full sight. **Deepest hub content unlocked — the depth threshold that makes the Memory Vendor reachable** (Bible §4, NPC 2). A threshold gate ("free to pass once there"): reached once, the path stays open even if Insight later drops from spending. |
+| 5 | 10 | Full sight. Deepest instance content unlocked. A threshold gate ("free to pass once there"): reached once, the path stays open even if Insight later drops from spending. |
+
+**Memory Vendor access** — separate from the tier table. The Vendor (Bible NPC 2) appears in the hub at **Insight 15+**. Same threshold-gate behaviour: once found, stays accessible even if Insight drops below 15 from spending. Trades Insight for voluntary mutations, mutation removal, and Scar removal — never accepts Salts, never allows a clean Insight dump (see design bible for full pricing and constraints).
 
 Window bonus is a flat total per tier, not additive across tiers crossed — a tier without its own number inherits the last stated value. Applies to any DM-set timing window, not just parries.
 
@@ -491,7 +493,7 @@ Spending drops your current score immediately — drop a tier, lose its benefits
 - Force a gated door/path where the location calls for a spend.
 - Insight-priced weapons/equipment.
 - Summon a support ally — default cost 2, for the current encounter only. Temporary, unreliable.
-- Memory Vendor trades — permanent buffs or Scar removal, Insight only, negotiated case-by-case (design bible).
+- Memory Vendor trades — voluntary mutations (5 Insight), mutation removal (5 Insight), or Scar removal (6/10/escalating). Insight only, hub-accessible at Insight 15+. No clean Insight dumps — must buy a mutation or have an existing mutation/Scar to remove (design bible NPC 2).
 
 ### Visceral Mods
 

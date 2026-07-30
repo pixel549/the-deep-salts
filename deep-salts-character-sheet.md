@@ -7,19 +7,20 @@
 
 **Concept:** Young, athletic Skill-build fighter. Self-made twin knuckledusters rigged with detonating powder capsules — recovered session 6, back in active use.
 
-**Level:** 5 (next attribute point costs 25 × 5 = **125**) · **Insight:** 18 (Tier 5 — session 9: Cinderbound Attendant +1, Anvil-Bound Apprentice +1, Fuse-Throated Crier +1, Foundry Marshal +1.)
+**Level:** 7 (next attribute point costs 25 × 7 = **175**) · **Insight:** 18 (Tier 5 — session 9: Cinderbound Attendant +1, Anvil-Bound Apprentice +1, Fuse-Throated Crier +1, Foundry Marshal +1.)
 
 ### Attributes
 | VIG | END | STR | SKI | RES |
 |---|---|---|---|---|
-| 8 | 10 | 4 | 20 | 3 |
+| 10 | 10 | 4 | 20 | 3 |
 
 *Session 9, hub: tempered with Greta (NPC 5, design bible) — Skill 19→20, fifth point overall, 100 Vault Salts spent (25×4, per point-cost-at-current-level rule). Unlocked Steady Hand perk (Skill 20): all precision windows +0.02s flat.*
+*Session 10, hub: tempered with Greta — Vigour 8→10, two points, 275 Vault Salts spent (125+150). Modifier band −1→+0. No perk (next Vigour perk at 20: Resist Rupture).*
 
 ### Derived Stats
-- **Max HP:** 108/108 (full restoration at hub)
+- **Max HP:** 120/120 (full restoration at hub)
 - **Movement:** 8m
-- **Attribute Modifier:** Skill +0 (still in 10–19 band — note: ESV is 20, modifier band and ESV are separate) · Strength −2 · Resolve −2
+- **Attribute Modifier:** Skill +0 (still in 10–19 band — note: ESV is 20, modifier band and ESV are separate) · Vigour +0 · Strength −2 · Resolve −2
 - **Insanity/Influence save mod:** ⌊Resolve÷10⌋ +0, Insight term ⌊18÷2⌋ **+9**
 - **Insight window bonus:** +0.15s (Tier 5 — no new number stated for this tier, inherits Tier 4's value)
 - **Perk — Steady Hand (Skill 20):** all precision windows +0.02s flat, stacks with Insight window bonus.
@@ -54,7 +55,7 @@
 Standard, no mutations, no damage.
 
 ### White Salts
-- Purse: 0 · **Vault: 317** (193 prior − 100 tempering + 224 banked session 9)
+- Purse: 0 · **Vault: 42** (317 prior − 275 tempering session 10: Vigour 8→10)
 
 ### Inventory
 - Powder capsules — 4/4, loaded (Hub Kit, refilled on hub return)

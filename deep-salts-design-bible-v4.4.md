@@ -892,18 +892,18 @@ Zero mechanical function, zero dialogue, zero lore thread. *Not the reception cl
 
 ## NPC 2 — The Memory Vendor
 
-- **Role:** deep-recess entity, not a hub fixture. Trades power for Insight, collects like a loan shark. **Location:** unconfirmed, not hub-accessible — "not a room, a depth. You get deep enough that it stops being able to avoid you." **Fightable:** N.
-- **Fixed appearance:** undefined, genuinely unmet. **On arrival:** offers trades — permanent buffs or Scar removal, Insight only. **Never** accepts Salts/items/favors as payment.
-- **Dialogue:** measured, transactional, unbothered by refusal · treats a missed payment as fact not threat · never raises its voice about invasion — it's just what happens next.
+- **Role:** hub-accessible Insight trader. Trades Insight for voluntary mutations, mutation removal, and Scar removal. **Location:** hub — a fixed alcove, not signposted, not advertised. Visible only to those at Insight 15+. Once found, stays accessible even if Insight later drops from spending (threshold gate, same as Tier 5 general). **Fightable:** N.
+- **Fixed appearance:** ghostly, ephemeral — translucent, edges indistinct, more suggestion than person. Never fully solid. Voice arrives slightly before or after her mouth moves. Details shift if you look away and back — hair length, hand count, whether she's standing or seated. The one constant: she's always facing you.
+- **On arrival:** doesn't introduce herself. Knows the player's Insight score without being told. Opens with what she can offer, not who she is. **Never** accepts Salts, items, or favours as payment. **Never** allows a clean Insight dump — every trade has a physical cost attached.
+- **Never does:** raise her voice, touch anything physical, appear to anyone below Insight 15, leave the alcove. **Never says directly:** her own name (the player names her, or doesn't), what she does with the Insight she collects, or why she's in the Hydro.
+- **Dialogue seeds:** measured, transactional, unbothered by refusal. "You've seen enough to find me. That's the price of admission." / "I don't sell power. I rearrange what's already yours." / "Come back when you have something to trade — or something you want taken away." / Treats a refusal as fact, not a slight.
 - **Mechanical function:**
-  - **Buy-in trades:** spend Insight (score/tier/floor drop immediately) for a permanent effect, negotiated case-by-case, no fixed menu. **Pricing formula** (the Vendor negotiates in fiction; the DM lands on this): price a permanent effect as roughly equivalent to an attribute perk at the same power level, using **Insight cost ≈ perk tier ÷ 4, rounded up** — a Tier-20-equivalent effect runs ~5 Insight, a Tier-40-equivalent ~10, a Tier-80-equivalent ~20. Anchor this against the already-fixed Scar removal scale (6/10/escalating) rather than re-deriving it each time — a buy-in roughly as strong as clearing a first Scar should cost roughly the same.
-  - **Scar removal:** only route. Scar 1 = 6 Insight, Scar 2 = 10, Scar 3+ = higher — deliberately unpayable past the first in one sitting.
-  - **Debt/toll:** larger trades can be a payment plan (e.g. "13 Insight across 2 runs"). Tracked as bookkeeping — no track, no rolls.
-    - Missing a scheduled payment: flat 10% of that run's Vault banking, no escalation.
-    - Refusing the toll (not just missing schedule): next reroll of that recipe comes back quietly worse (HP bump, extra body, seeded hazard).
-    - Full repayment closes the debt clean regardless of missed payments along the way.
-    - No interest accrues in Insight specifically (a scarce, non-renewable resource — avoids a softlock).
-- **Lore:** tangled with the reception clerk's "brother" hook. Never revealed: true name, appearance, location.
+  - **Voluntary mutation (buy):** 5 Insight → player chooses a limb, DM generates a mutation (upside + downside, same Corrupted Regrowth shape as ruleset §10). The limb doesn't need to be lost first — the Vendor changes it in place. Mutation is permanent until removed. Full stat-line legible immediately (Insight threshold already met by access requirement). Always available — no prerequisite.
+  - **Mutation removal:** 5 Insight → removes one existing mutation, limb reverts to human. **Requires** having at least one existing mutation or Scar — the Vendor won't accept Insight with nothing on the table.
+  - **Scar removal:** only route. Scar 1 = 6 Insight, Scar 2 = 10, Scar 3+ = escalating. **Requires** having the Scar (same constraint — no phantom trades).
+  - **Hard constraint:** the player must either purchase a mutation OR have an existing mutation/Scar to remove. No clean Insight dumps. The cheapest "clean" Insight reduction (buy mutation + immediately remove it) costs 10 Insight for zero lasting change. Accepting the mutation costs 5 and you keep the upside+downside. This is by design — rewards commitment over cycling.
+  - **No debt system.** Hub-accessible means all trades are immediate, no cross-run payment plans.
+- **Lore:** tangled with the reception clerk's "brother" hook. Never revealed: true name, what she does with collected Insight, why she's in the Hydro, or whether she was always here.
 
 ## NPC 5 — Greta
 
