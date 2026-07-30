@@ -1,5 +1,5 @@
 # THE DEEP SALTS
-**Dev Log — Mechanic Index, Book Plan & Known Gaps — v3.5**
+**Dev Log — Mechanic Index, Book Plan & Known Gaps — v3.6**
 
 Project management. **Do NOT load when running the game.** Section numbers (§8–10) match ruleset/bible cross-references.
 
@@ -203,3 +203,43 @@ Cheapest "clean" Insight reduction (buy + immediately remove) costs 10 Insight f
 **Bible → v4.5. Ruleset → v9.1. Dev log → v3.5.** Character sheet and campaign log untouched by this pass.
 
 **Housekeeping note:** campaign log currently ends at session 9; character sheet reflects session 10 (Memory Vendor trades, Vig 8→10). The session 10 narrative entry is outstanding.
+
+---
+
+### Off-session — Non-Humanoid Content Pass, Wave 2
+
+**Delivered.** 18 monsters (Bible §1, entries 59–76) and 16 weapons (Bible §2, entries 45–60). Additive again; nothing existing touched. Totals now **76 monsters, 60 weapons.** All figures script-verified against the §4 formula and the fixed §10 sever constants.
+
+**Where wave 1 left space.** Wave 1 attacked the limb table — creatures with no anatomy, moving weak points, armour multipliers. Wave 2 attacks **the turn structure and the player's habits around it**: what a turn costs, what information can be trusted, what the player's own strongest tool is worth, and whether the fight is a fight at all. Assumptions broken this time:
+- **The player's movement budget as free.** One entry moves only when the player spends 5m+, converting §7's budget into a priced resource and making hit-and-run the most dangerous option available rather than the safest. First hard anti-kiting enemy in the manual.
+- **The player's item economy as free.** One entry takes a free 35-raw swing every time any item is used by anyone, making tonics and capsule reloads cost blood in exactly the fights that demand them.
+- **Parrying as unconditionally correct.** One entry gains permanent, uncapped damage each time it is successfully parried. The parry still buys everything §9 says it buys — this is a tax, not a trap — but it makes the strongest tool in the game the wrong long-term answer in one specific room.
+- **The reliability of DM information.** One support entry causes exactly one deliberately false tell per round for *other* enemies in the room, unflagged, ending the instant it dies. Distinct from wave 1's window-narrowing entry, which degrades tolerance honestly.
+- **Triage by immediate threat.** One entry gains permanent HP and damage every round it takes no damage, uncapped, and is trivially kitable — the worst thing a player can do to it is leave it until last.
+- **Killing as the goal.** One entry runs away with the loot and is gone in four rounds. One is carrying something breakable that survives only if killed *badly*, with Light attacks and no severs. One is a trade, not a fight, and pays better if robbed than if dealt with fairly.
+- **Bosses as health bars.** The new boss has **no body, no HP and no kill** — six apertures to seal, a difficulty curve that runs backwards (it fights harder through every hole you close), and a Tier 3 chain that pays out in objective progress rather than damage.
+- **Solo play as the default assumption.** Two entries are explicitly built around having a second combatant — one restores HP each round to whichever of its two bodies wasn't hit, one attaches somewhere the host physically cannot reach but any ally can remove as a free action. Neither is unwinnable alone; both are meant to make walking in alone a real decision. Flagged below.
+
+**Weapons — where wave 2 went.** Wave 1 pushed the Trick concept. Wave 2 pushes **what a weapon is allowed to be governed by and what it is allowed to charge:**
+- **Two new governing stats.** The first **Endurance**-governed weapon (one score buying both swing and step, with movement and damage competing) and the first **Insight**-governed weapon (damage tracking the Insight dial live, rising on a lore read, falling the instant a gate is forced or a Vendor trade is made). Insight has never had a mechanical presence in the player's hands before; now the bargain in §11 is something felt during a swing rather than only in a save DC.
+- **Grade A reaches the Skill column**, and the Resolve column reaches **Grade B** for the first time — with an entry that also lowers the wielder's own Influence save DC, making it the first weapon that is defensively useful and the first that a Persistent Companion could meaningfully be handed.
+- **New currencies:** one weapon costs 2 White Salts per Heavy from the Purse (empty Purse = no Heavy); one converts the wielder's own Blood Loss into Corrosion on the target; one is thrown and stays where it lands until physically retrieved.
+- **Two mirrored momentum weapons:** one gains +8 raw per consecutive clean turn and loses everything to a single Burning tick; the other gains +10 raw per *miss* and clears the moment anything lands. The second is the only weapon in the game that improves while the player is doing badly.
+- **The first companion-side weapon** — handed to a Persistent Companion, giving a support build a melee option within its existing one-Action economy. No called shots, no viscerals, no second action.
+- **The first second-timing-check-inside-a-parry** — a 0.70s follow-up window fired immediately on a successful parry, free Light on a hit, forfeited eased follow-up on a miss.
+
+**Rules extensions made (Ruleset v9.1 → v9.2):**
+1. **§4 — weapon stat governance opened to any attribute**, with the Endurance and Insight consequences stated explicitly so they don't get discovered mid-fight.
+2. **§10 — two weapon-side exceptions to the precision subsystem** formalised: skipping the stopwatch entirely at a flat damage tax, and converting a *stagger* threshold into a sever at a stated unmitigable cost.
+3. **§16 — shared HP pools** across multiple bodies, with the two precedent shapes named (bleed-back and terminal burst). A Vessel/Swarm variant, not a new archetype.
+
+**Open gaps flagged — proposed rulings, all untested.**
+1. **Stagger-to-sever conversion is the largest structural change in either wave.** §10 states plainly that Arms (~308) and Legs (400) stay out of one-hit reach at any score, and that fixed constants are what make sever a build investment rather than a scaling wall. One new weapon routes around that entirely — not by raising damage, but by converting the stagger system into a sever engine over multiple hits. **Proposed: keep it, at the stated unmitigable self-damage cost (threshold ÷ 20), and treat the *torso* case as the real pressure test** — a torso sever kills outright and costs 40 self-damage to trigger, which should be prohibitive but has never been tried. If limb severing starts happening every fight, the lever is the divisor, not the mechanic. Watch this one specifically.
+2. **No-stopwatch called shots.** The accessibility weapon lets the entire limb system be used without ever touching a timer, at −40% raw. **Proposed: correct as priced** — at ESV 47 that is a 96-effective headshot with zero risk versus 159 with a ±0.13s window, so the timing game remains strictly better for anyone who can play it. Risk to watch is whether it makes the precision subsystem feel optional rather than earned.
+3. **Insight-governed damage.** Spending Insight now costs output as well as tier benefits, which stacks a third penalty onto an act §11 already prices twice. **Proposed: acceptable, because the weapon is optional and the effect is symmetrical** — it also rewards lore discovery with immediate combat power, which nothing else does. Watch for it discouraging Vendor use, which would be a bad outcome given the Vendor exists specifically to relieve high-Insight save pressure.
+4. **False-tell support enemy.** A monster that makes the DM lie is mechanically clean and tonally risky — it can read as the DM cheating rather than the creature working. **Proposed hard guidance: the entry must be visually described on sight like anything else (§11), Assess 2+ must state plainly that one read per round is false, and the lie must end instantly and completely on its death.** The player should always know they are being lied to and never know which one. If it lands as unfair rather than tense, cut the mechanic rather than softening it.
+5. **Solo-hostile content.** Two entries assume a second combatant. **Proposed: correct, and deliberately rare** — the party is currently two, companion recruitment is a live system (§18), and content that makes an ally *mechanically* valuable rather than merely narratively pleasant has not existed until now. Both remain winnable alone at a cost. Do not build more of these without checking the party composition first.
+6. **Trade-or-rob incentive.** The neutral entry pays 60 Salts if killed and considerably less if traded with, deliberately making robbery the profitable choice. **Proposed: leave it** — the fight is genuinely hard, the trade includes options nothing else offers (it will take status stacks off you and pay you for them), and the discovery escalation ratio (§18) is better served by an honest temptation than a rigged one. Revisit if it always resolves the same way.
+7. **The Recoil's anti-parry escalation.** Uncapped +15 raw per successful parry, permanent for the encounter. **Proposed: uncapped is correct** — the fight is entirely about knowing when to stop, and a cap would remove the decision. Watch for it being unreadable: Assess 2+ states the mechanic outright, so a player who assesses always knows the deal.
+
+**Bible → v4.6. Ruleset → v9.2. Dev log → v3.6.** Campaign log, character sheet and dm-plan untouched — a session was live in another thread during this pass.

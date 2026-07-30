@@ -3,7 +3,7 @@
 
 Companion to the ruleset. **Load this plus the ruleset and character sheet when running the game.** Mechanic index/book plan/known gaps live in the dev log — do NOT load that during play.
 
-*Version 4.5. Session attribution and change history live in the dev log, not here.*
+*Version 4.6. Session attribution and change history live in the dev log, not here.*
 
 Every monster/weapon/item/NPC/status/currency gets one complete page. Copy the blank template to add an instance.
 
@@ -966,6 +966,354 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 - **Kitable:** Y, and post-vent it becomes mandatory. **Assess 0–1:** "You're barely scratching it." · **Assess 2+:** "The plate is halving everything — the seam on its flank will open in one good hit and then it takes full damage. Understand that it starts venting the moment you do that, and it doesn't stop."
 - **White Salts drop:** 40. **Insight:** +1/+0. **Habit punished:** rushing the obvious weak point without a plan for what comes after. **Dismember threat:** Very High. **Retreat always reachable:** Y.
 
+## Monster 59 — The Yoked
+
+- **Archetype:** Vessel (elite, paired) · **Level Range:** 8–20 · **HP:** 1200 **shared across both bodies** · **Move:** 4m each, independently · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** Two bodies joined at the sternum by two metres of grey gut, drawn tight and never once allowed to go slack. Neither one leads. When one turns, the other has already turned.
+- **Limbs:** standard humanoid defaults on each body. **One HP pool, two bodies** — damage to either drains the same 1200.
+- **Sympathetic Recovery:** at the end of the enemy block, **whichever body was not damaged this round restores 40 HP to the shared pool.** Damage both in the same round and nothing is restored. A single attacker with a single Action cannot stop the bleed-back alone — this is the manual's first encounter explicitly designed around **having a second combatant**, and the first that a solo player should reasonably consider walking away from.
+- Severing the gut connecting them is **not possible** — it is not a limb entry, it is not targetable, and Assess says so plainly rather than teasing it.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Paired Step | Heavy | "They step in together, from opposite sides, on the same beat." | Target 1.40s, ±0.20s — **one window, both bodies** | 1 | 40 raw **per body still standing** (80 if both) | Standard | Both recover together |
+
+- **Kitable:** Y, but they close from two directions.
+- **Assess 0–1:** "Hurting one doesn't seem to be enough." · **Assess 2+:** "One life between the two of them, and whichever one you leave alone is putting it back. You need to hit both in the same round or you're running to stand still. If you're alone here, leave."
+- **White Salts drop:** 34. **Insight:** +1/+0. **Habit punished:** focusing a single target. **Dismember threat:** Moderate. **Retreat always reachable:** Y.
+
+## Monster 60 — The Joist-Rider
+
+- **Archetype:** Crawler (elite) · **Level Range:** 8–20 · **HP:** 620 · **Move:** 7m **beneath the floor**, through joists, voids and underfloor space · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** Nothing in the room. Then a board lifts half an inch somewhere behind you and settles again. It has never been seen in full and its shape can only be inferred from the sound it makes travelling.
+- **Limbs:** standard humanoid defaults — **but untargetable entirely while submerged.** It has no legal target of any kind until it surfaces.
+- **Submerged (default state):** cannot be attacked, cannot be parried, takes no damage from any source including AOE and status ticks. It attacks *through* the floor.
+- **Surfaced:** it breaks through to reposition or to land a Heavy, and is fully targetable for **that turn and the following turn** before it can submerge again.
+- **The counter is terrain.** On stone, tile, poured floor or anything without a void beneath it, the Joist-Rider **cannot submerge at all** and fights as an ordinary elite. Any room with a hard floor neutralises it completely. Assess 2+ states this outright.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Underfoot | Light | None — unparryable, no tell, from below | N/A | N/A | 30 raw + 1 Blood Loss | N/A | N/A |
+| Breach | Heavy | "The boards under you buckle upward." | Target 1.15s, ±0.15s | 2 | 60 raw, and it is **surfaced** for this turn and the next | Standard | Left exposed on the surface an extra turn |
+
+- **Kitable:** N — it is under the floor you are standing on.
+- **Assess 0–1:** "You can't fight what you can't reach." · **Assess 2+:** "It travels in the void under the boards. Get onto stone and it has nowhere to go — then it's just an ordinary thing with a bad temper. Otherwise your only windows are right after it comes up."
+- **White Salts drop:** 24. **Insight:** +1/+0. **Habit punished:** fighting on the ground the enemy chose. **Dismember threat:** High. **Retreat always reachable:** Y.
+
+## Monster 61 — The Sediment
+
+- **Archetype:** Brute · **Level Range:** 8–20 · **HP:** 900 **at spawn, and climbing** · **Move:** 2m, and it never needs more · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A slow accumulation of everything that has settled in this room since it was last drained — mineral, cloth, hair, and other things. It is roughly upright. It gets less roughly upright as time passes.
+- **Limbs:** no standard entries.
+
+|Limb|Multiplier|Stagger Threshold|Stagger Duration|Sever Threshold|Sever Immune?|
+|-|-|-|-|-|-|
+|Accretion|×1.0|—|—|—|**Yes**|
+
+- **Accretion (the whole design):** at the end of **any round in which the Sediment took no damage**, it gains **+100 Max HP and +5 raw on Slump, permanently, uncapped.** Damage it at all — one chip hit, one status tick, anything — and it gains nothing that round. It never heals; it only ever grows.
+- Ignoring it to clear the rest of the room is the natural instinct and it is the single worst available play. A Sediment left alone for six rounds is a 1500 HP creature hitting for 75.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Slump | Heavy | "The mass leans past its own balance point and comes down." | Target 1.95s, ±0.25s | 1 | 45 raw at spawn, +5 per Accretion tick | Standard | Very long — it has to reassemble itself |
+
+- **Kitable:** Y, trivially — and kiting it is how you lose.
+- **Assess 0–1:** "It's slow. Deal with it last." · **Assess 2+:** "Do not deal with it last. Every round you don't touch it, it gets bigger and hits harder, and none of that ever comes back off. Even a wasted chip hit is worth more than a clean turn spent elsewhere."
+- **White Salts drop:** 28, **+4 per Accretion tick it managed to bank.** **Insight:** +1/+0. **Habit punished:** triaging by immediate threat. **Dismember threat:** High (late). **Retreat always reachable:** Y.
+
+## Monster 62 — The Draught
+
+- **Archetype:** Shambler (elite) · **Level Range:** 5–20 · **HP:** 700 · **Move:** 4m, drawn toward heat the way a flame leans toward air · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A long, thin, hollow thing shaped something like a chimney flue with a mouth at both ends. Where it stands, the air moves toward it, and anything burning nearby goes out.
+- **Limbs:** standard humanoid defaults, no deviations. Perfectly ordinary to fight. That is not the problem.
+- **Feeds on fire (the whole design):** at the start of its turn, the Draught **removes all Burning stacks from every creature within 6m — itself included — and heals 25 HP per stack removed.** It takes **zero** damage from the Burning track under any circumstance.
+- This makes a Burning-heavy loadout not merely useless but actively counterproductive: every stack applied anywhere in its radius is 25 HP handed to it. It also, incidentally, means the Draught is the most effective way in the game to clear Burning off yourself, if you can stomach the trade.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Backdraught | Ranged | "Both ends of it open at once and the air reverses." | Target 1.45s, ±0.20s | 1 | 40 raw + 2 Burning **to the target** (which it will then take back off them next turn, and heal from) | Standard | Collapses inward, stationary for a beat |
+
+- **Kitable:** Y. **Assess 0–1:** "Your fire isn't taking." · **Assess 2+:** "It eats the burn. Every stack in this room — yours, theirs, the floor's — goes into it and comes back out as health. Put the fire away entirely and it's an ordinary fight. Keep using it and you will not finish this one."
+- **White Salts drop:** 26. **Insight:** +1/+0. **Habit punished:** running one damage type as a universal answer. **Dismember threat:** Moderate. **Retreat always reachable:** Y.
+
+## Monster 63 — The Prompter
+
+- **Archetype:** Chanter (elite, support) · **Level Range:** 10–20 · **HP:** 380 · **Move:** 4m, always keeping something between itself and the player · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A small hunched thing with a wide flat mouth and no eyes, tucked behind whatever else is in the room. It mouths along with the movements of everything around it, half a beat early, and it is not always right.
+- **Limbs:** standard humanoid defaults. Very low HP — it dies to almost anything that reaches it.
+- **False Prompt (the whole design):** while the Prompter lives, **once per round the DM delivers a deliberately incorrect tell for one other enemy in the room** — a wrong target time, a wrong tier, a wrong attack name, or a tell for an attack that isn't coming. The DM does not indicate which enemy, and does not flag the false one at the time.
+  - It never lies about the Prompter's own attacks.
+  - It cannot generate a false tell for an unparryable attack — it has to have a real window to corrupt.
+  - **The lie dies with it, immediately.** All tells are true again from the moment it drops.
+- This is distinct from the window-narrowing support enemy (Monster 46), which degrades timing honestly. The Prompter corrupts information rather than tolerance, and it is far more dangerous in a room with a Tier 2–3 attacker in it.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Cue | Light | None — unparryable | N/A | N/A | 15 raw + forces an Insanity save | N/A | N/A |
+
+- **Kitable:** Y, but it hides rather than flees, so reaching it costs position.
+- **Assess 0–1:** "Something in this room is wrong about what it's telling you." · **Assess 2+:** "It's feeding you one bad read a round and you won't know which one. Three hundred and eighty HP, no defence, and everything goes honest the second it's down. Kill it before anything else in here."
+- **White Salts drop:** 26. **Insight:** +1/+0. **Habit punished:** trusting every read at face value; leaving the small one for last. **Dismember threat:** Low. **Retreat always reachable:** Y.
+
+## Monster 64 — The Shuttlecore
+
+- **Archetype:** Vessel (elite) · **Level Range:** 10–20 · **HP:** 1100 · **Move:** 2m, ponderous · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A segmented iron drum the height of a person, mounted on a ring of small wheels. Six shuttered ports around its circumference. Behind one of them, at any given moment, something is very bright.
+- **Limbs:**
+
+|Limb|Multiplier|Stagger Threshold|Stagger Duration|Sever Threshold|Sever Immune?|
+|-|-|-|-|-|-|
+|Port ×6 — **the one currently holding the Core**|×2.0|—|—|240|N|
+|Port ×6 — **the five that don't**|**×0.5**|—|—|—|**Yes**|
+
+- **The Core migrates.** At the **start of every enemy block** it moves to a different port — the DM rolls d6, rerolling the current position, and **states plainly where it now is** ("the bright one is on its left-rear face now"). No hidden information, no guessing: the challenge is positional, not informational. Getting to the right side of it costs movement, and it turns.
+- **Severing the Core port kills it outright** regardless of HP. 240 at ×2.0 = **120 raw in one hit.** Every other surface is armour at ×0.5, no stagger, no sever, and no Precision watch (Ruleset §10).
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Port Vent | Ranged | "The bright shutter cracks open a finger's width." Fires from whichever port holds the Core. | Target 1.55s, ±0.20s | 1 | 50 raw + 1 Corrosion | Standard | Shutter jams open a beat — Core port stays put an extra round |
+
+- **Kitable:** Y. **Assess 0–1:** "Only one part of that is worth hitting." · **Assess 2+:** "Five sixths of it is plate and the sixth moves every round. It'll tell you where — it can't help that, it glows. Everything is about whether you can be standing there when it does."
+- **White Salts drop:** 30. **Insight:** +1/+0. **Habit punished:** attacking from wherever you happen to be standing. **Dismember threat:** Low. **Retreat always reachable:** Y.
+
+## Monster 65 — The Reliquary Crawler
+
+- **Archetype:** Crawler (mook) · **Level Range:** 5–20 · **HP:** 400 · **Move:** 6m, low and fast along skirting and pipework · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A flat, many-legged thing the size of a serving tray, with a glass-fronted cavity in its back. There is something inside the cavity. It is not part of the creature and never was.
+- **Limbs:** standard humanoid defaults for stagger purposes (it has enough legs that losing some barely registers).
+- **It is carrying something, and the something is fragile.** Every Reliquary Crawler carries one item, weapon, or Salts cache in its dorsal cavity, visible through the glass. What happens to it depends entirely on how the Crawler dies:
+  - **Killed by Light attacks only:** contents intact, recovered whole.
+  - **Killed by any Heavy attack:** contents damaged — Salts halved, an item reduced to a single use, a weapon recovered but requiring hub repair before it can be equipped.
+  - **Killed by any sever, or by AOE:** **contents destroyed outright.** Nothing recovered.
+- The DM shows what is in the cavity, plainly, before the fight starts. The whole encounter is the player deciding whether the prize is worth fighting badly for.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Skitter-Bite | Light | None — unparryable | N/A | N/A | 20 raw | N/A | N/A |
+
+- **Kitable:** N — faster than you, though barely dangerous.
+- **Assess 0–1:** "There's something in it." · **Assess 2+:** "Whatever's in that case comes out in the condition you leave the creature in. Hit it soft and slow, or hit it properly and accept you're only killing a bug."
+- **White Salts drop:** 10 (plus contents). **Insight:** +1/+0. **Habit punished:** opening with your best attack out of reflex. **Dismember threat:** None. **Retreat always reachable:** Y.
+
+## Monster 66 — The Bolter
+
+- **Archetype:** Burster (mook) · **Level Range:** 1–20 · **HP:** 300 · **Move:** 11m — the fastest thing in the manual · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A knot of grey limbs around a distended sac, running flat-out from the moment it is seen. The sac is full of White Salts and it is very obviously full of White Salts.
+- **Limbs:** standard humanoid defaults. **The Sac** — implement, ×1.5, sever 150. Severing the sac drops the Salts on the spot and the Bolter keeps running, now worthless.
+- **It is leaving.** The Bolter never attacks and never stops. It spends every turn moving its full 11m toward the nearest exit, and **after 4 rounds it is gone**, along with its drop, permanently — no chase, no second chance, no return later in the instance.
+- A pure aggression check, and a deliberate counterweight to a manual that otherwise rewards patience almost everywhere. There is no safe way to take it: you commit immediately or you watch 45 Salts leave the room.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| — | — | It has no attack of any kind. | — | — | — | — | — |
+
+- **Kitable:** N/A — you are not the one being avoided, you are the one being outrun.
+- **Assess 0–1:** "That's running and it's carrying something." · **Assess 2+:** "Four rounds and it's gone for good. It can't hurt you and you almost certainly can't catch it — but the sac comes off in one good hit and it doesn't need to die for you to get paid."
+- **White Salts drop:** 45. **Insight:** +1/+0. **Habit punished:** setting up carefully before committing. **Dismember threat:** None. **Retreat always reachable:** Y (it is retreating from you).
+
+## Monster 67 — The Tally
+
+- **Archetype:** Toller (elite) · **Level Range:** 8–20 · **HP:** 550 · **Move:** 3m, drifting at eye height · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A frame of counting-wires strung with black beads, hanging in the air without a hand near it. Beads move. There is a sound like a small door closing every time one does.
+- **Limbs:**
+
+|Limb|Multiplier|Stagger Threshold|Stagger Duration|Sever Threshold|Sever Immune?|
+|-|-|-|-|-|-|
+|Frame|×1.0|800|—|—|N|
+|The Wires *(implement)*|×2.0|—|—|200|N|
+
+- **Destroying the Wires removes Reckoning entirely** — 100 raw in one hit — leaving a slow, harmless frame.
+- **Reckoning (the whole design):** **every time any creature in the room uses an item** (Quick Item, Full Action item, consumable, anything from Ruleset §8), the Tally immediately takes a **free attack against that creature**, out of turn: **35 raw, unparryable, no tell.** Multiple item uses in one turn each trigger it separately.
+- It does nothing else of consequence. It simply makes healing, clearing tracks, and refilling capsules cost blood — and it is at its worst in exactly the fights where you most need to spend an item.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Reckoning | Reactive | None — unparryable, triggers on any item use by any creature | N/A | N/A | 35 raw | N/A | N/A |
+| Bead-Fall | Light | None — unparryable | N/A | N/A | 20 raw | N/A | N/A |
+
+- **Kitable:** Y. **Assess 0–1:** "It's counting what you spend." · **Assess 2+:** "Every tonic, every wrap, every capsule you load, it charges you thirty-five for. Break the wires or accept that this fight is going to be fought on what you walked in with."
+- **White Salts drop:** 24. **Insight:** +1/+0. **Habit punished:** item-cycling as a default answer to pressure. **Dismember threat:** Low. **Retreat always reachable:** Y.
+
+## Monster 68 — The Recoil
+
+- **Archetype:** Drudge (elite) · **Level Range:** 12–20 · **HP:** 850 · **Move:** 3m, relentless, never varies · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A dense, low, four-armed thing built like a press. It swings, and when the swing is stopped it does not stumble — it takes note. The next one is heavier. It has been counting for a long time.
+- **Limbs:** standard humanoid defaults, no deviations.
+- **Learns from being parried (the whole design):** **every successful parry against the Recoil permanently increases Press Down's damage by +15 raw for the remainder of the encounter, cumulatively and uncapped.** Parry it four times and it is hitting for 120.
+  - Parry rewards are otherwise unchanged — a parry still buys the skipped turn and the eased follow-up (Ruleset §9). It is not a trap; it is a tax.
+  - Dodging costs nothing and teaches it nothing.
+- The manual's first enemy that makes the player's strongest tool the wrong long-term answer. Against the Recoil, parrying is correct for tempo and catastrophic as a habit, and the fight is entirely about knowing when to stop.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Press Down | Heavy | "All four arms come up, and it waits to see what you do about it." | Target 1.70s, ±0.20s | 1 | 55 raw at the start of the fight, **+15 per successful parry landed against it this encounter** | Standard | Long, honest recovery — the openings are real |
+
+- **Kitable:** Y. **Assess 0–1:** "It's watching how you answer it." · **Assess 2+:** "Every time you stop that swing, the next one costs more. It's a fair fight and a slow trap — take the openings you actually need and dodge the rest, or it will out-scale you before its health runs out."
+- **White Salts drop:** 32. **Insight:** +1/+0. **Habit punished:** parrying on reflex because parrying is always right. **Dismember threat:** Very High (late). **Retreat always reachable:** Y.
+
+## Monster 69 — The Spore-Kin
+
+- **Archetype:** Swarm (elite, distributed) · **Level Range:** 10–20 · **HP:** 1000 **shared across five bodies** · **Move:** 5m each, independently · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** Five pale, knee-high, roughly ovoid bodies moving in loose company. Each one is taut in a way that suggests pressure rather than muscle. None of them is the important one.
+- **Limbs:** no standard entries on any body.
+
+|Limb|Multiplier|Stagger Threshold|Stagger Duration|Sever Threshold|Sever Immune?|
+|-|-|-|-|-|-|
+|Body ×5|×1.0|—|—|—|**Yes**|
+
+- **One pool, five bodies.** Damage to any body drains the shared 1000. Bodies cannot be killed individually — they cannot be reduced, severed, staggered or removed.
+- **Burst (the whole design):** when the shared pool reaches 0, the bodies do **not** simply die. **All five rupture simultaneously**, each dealing **50 raw + 3 Corrosion in a 3m radius** from wherever that body happens to be standing at that moment.
+- The fight therefore ends with a coordinated detonation whose geometry the player has been passively arranging for the entire encounter without necessarily noticing. Killing it in a doorway with all five clustered around you is a 250-raw mistake. Herding them apart first is the actual skill.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Press | Light | None — unparryable, per body | N/A | N/A | 12 raw per body in contact | N/A | N/A |
+
+- **Kitable:** Y — and kiting is how you survive the ending.
+- **Assess 0–1:** "There's one thing here wearing five bodies." · **Assess 2+:** "They share a life and they all go off when it runs out. Where they're standing when that happens is entirely up to you, and you should start thinking about it well before the pool gets low."
+- **White Salts drop:** 30. **Insight:** +1/+0. **Habit punished:** fighting in a doorway; not thinking about the kill until it happens. **Dismember threat:** None. **Retreat always reachable:** Y.
+
+## Monster 70 — The Sluice Mother *(boss, non-humanoid)*
+
+- **Archetype:** Anchor (boss) · **HP:** **none — the body is never present** · **Move:** N/A
+- **Flavour:** Somewhere below the room, wedged into the main drain, is something far too large to have got there. You will not see it. What you will see are six iron sluice-apertures set into the walls at varying heights, and what comes out of them.
+- **The body is unreachable, untargetable, and unkillable.** There is no health bar. There is no phase where it emerges. **The fight is the six apertures**, and it ends when all six are sealed.
+
+|Limb|Multiplier|Stagger Threshold|Stagger Duration|Sever Threshold|Sever Immune?|
+|-|-|-|-|-|-|
+|Aperture ×6 *(implement)*|×1.5|—|—|**200** *(≈134 raw in one hit)*|N|
+
+- **Sealing an aperture:** sever it (200 at ×1.5) **or** grind it down — each aperture has its own **250 HP**. Either works; sever is the fast route and grinding is always available (Ruleset §3).
+- **Reflux:** at the end of every third round, **any aperture not yet sealed reopens 60 HP of damage already dealt to it** (never below 0, never past sealed). Apertures finished cleanly stay finished. Half-finished work rots.
+- **Escalating reach:** the Mother distributes its effort. With six apertures open it makes **two** Limb attacks per round; with four open, **three**; with two open, **four.** It gets more dangerous as you win, and the last two apertures are the hardest part of the fight by a wide margin.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect |
+|---|---|---|---|---|---|
+| Limb | Heavy | "Something comes out of the third aperture, and it keeps coming out." | Target 1.30s, ±0.20s | 1 | 55 raw + 1 Corrosion |
+| Backwash | Aura | "All six run at once." Every fourth round. | Unparryable | N/A | 25 raw + 1 Influence to everything in the room, **per aperture still open** — 150 raw and 6 Influence at the start, nothing at all by the end |
+| The Draw | Heavy (chain) | "Three limbs withdraw together, and the water goes with them." | **3 sequential windows: 0.90s · 1.40s · 1.90s, each ±0.20s** | 3 | 40 raw per unparried window |
+
+- **The Draw — ballistic chain.** All three parried → **the Mother overreaches: one aperture of the player's choice is immediately sealed outright**, no damage required. Miss any window → that beat and every remaining beat land automatically. This is the only opening in the fight that converts skill directly into progress, and on a six-aperture clock it is worth a great deal.
+- **Kitable:** N/A. **Assess 0–1:** "Whatever that is, it isn't in this room and it isn't coming into this room." · **Assess 2+:** "There's no killing it. There's only closing the holes. Six of them — and it fights harder through every one that's left, so the front half of this is much easier than the back half. Finish what you start; half-shut ones creep back open."
+- **White Salts drop:** 80. **Insight:** +1/+1.
+- **Boss Gimmick:** **the first boss with no body, no HP bar and no kill.** It is resolved rather than defeated, its danger curve runs backwards (hardest at the end), and the Tier 3 chain pays out in objective progress rather than in a damage window. Retreat is always live and costs nothing but the run.
+- **Habit punished:** treating a boss as a health bar with a face. **Dismember threat:** High. **Retreat always reachable:** Y.
+
+## Monster 71 — The Understudy
+
+- **Archetype:** Effigy (elite) · **Level Range:** 12–20 · **HP:** 800 · **Move:** 5m, and it moves the way you move · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A smooth, featureless, roughly person-height column of grey matter with no face and no front. It stands very still and watches how it is hit. It is not defending itself; it is taking notes.
+- **Limbs:** standard humanoid defaults, no deviations.
+- **Adoption (the whole design):** the first time the Understudy is struck by a weapon with a **status-applying gimmick**, it permanently adopts that status for the rest of the encounter — every subsequent Bare Copy it lands applies **1 stack of that status**. It can hold **up to three** adopted statuses simultaneously, one per distinct source.
+  - Hit it with a Burning weapon and it burns you. Hit it with three different gimmick weapons and it has all three.
+  - It cannot adopt raw damage bonuses, accuracy effects, movement effects, or anything that isn't a status track — only tracks.
+  - **A player who commits to a single plain weapon for the whole fight gives it nothing.**
+- Directly punishes the loadout variety the rest of this manual encourages, which is the point: variety is correct almost everywhere, and this is the room where it costs.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Bare Copy | Heavy | "It reproduces your last swing, badly, and a half-beat slow." | Target — **matches the target time of the last attack the player made against it** (DM states it), ±0.20s | 1 | 50 raw + 1 stack of every status it has adopted | Standard | Standard |
+
+- **Kitable:** Y. **Assess 0–1:** "It's learning something off you." · **Assess 2+:** "Whatever you hit it with, it keeps. Three tricks maximum, and it only gets what you give it — so give it one boring weapon and nothing else, and this is a plain fight against a slow target."
+- **White Salts drop:** 34. **Insight:** +1/+0. **Habit punished:** rotating through your best tools. **Dismember threat:** Moderate. **Retreat always reachable:** Y.
+
+## Monster 72 — The Sealed
+
+- **Archetype:** Vessel (elite) · **Level Range:** 10–20 · **HP:** 600 · **Move:** 3m · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A fused ovoid of grey plate about the size of a wardrobe, walking on two short columns. There is no seam anywhere on it. There is no seam right up until there is.
+- **Limbs:**
+
+|Limb|Multiplier|Stagger Threshold|Stagger Duration|Sever Threshold|Sever Immune?|
+|-|-|-|-|-|-|
+|Shell *(closed)*|×1.0|—|—|—|**Yes — and takes 0 damage from all sources**|
+|Interior *(open)*|×1.5|180|1 turn|200|N|
+
+- **It takes literally nothing while closed.** Not raw damage, not status ticks, not AOE, not Burning, not Corrosion. Zero, from everything, permanently, for as long as it is shut.
+- **It opens only to attack**, and stays open **from the moment its tell begins until the end of the player's following turn.** That is the entire window and there is no other.
+- Consequently, damage is only ever available to a player who is standing close enough to exploit the opening created by the thing that is trying to hit them. Retreating to safety is a guarantee of never winning.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Split | Heavy | "A seam appears where there wasn't one, and the whole front of it hinges apart." | Target 1.60s, ±0.20s | 1 | 70 raw | Standard | Stays open an extra full turn — the best window in the fight |
+
+- **Kitable:** Y, and kiting achieves precisely nothing.
+- **Assess 0–1:** "You are not hurting that." · **Assess 2+:** "It's shut and nothing gets through a shut one. It has to open to swing at you, and it stays open a beat after — that's your only window, every single time. You cannot fight this one from a safe distance."
+- **White Salts drop:** 28. **Insight:** +1/+0. **Habit punished:** playing safe; disengaging under pressure. **Dismember threat:** High. **Retreat always reachable:** Y.
+
+## Monster 73 — The Cling
+
+- **Archetype:** Burster (mook) · **Level Range:** 5–20 · **HP:** 180 · **Move:** 8m, then a 4m leap · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A flat wet disc the width of two hands, edged all round with small hooks. It moves in short bursts and it is not trying to fight anyone. It is trying to get onto someone.
+- **Limbs:** none — a single sever-immune Body entry at ×1.0 while unattached.
+- **Attachment (the whole design):** on a successful Latch, the Cling attaches to its target and **can no longer be attacked by that target at all** — it is on their back, in the one place they cannot reach. While attached:
+  - It drains **10 HP per turn**, automatically, no save.
+  - The host may spend a **full Action and pass a Skill DC 15** to tear it off. Failure wastes the action and deals 5 raw to the host.
+  - **Any other creature can remove it as a Fast Action, automatically, no check.** A companion within reach ends the problem instantly.
+- Individually trivial. Three of them at once, with no second party present, is a genuine spiral — and the second reason in this pass to think hard about walking in alone.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Latch | Heavy | "It gathers itself flat against the floor and then it isn't on the floor." | Target 0.95s, ±0.15s | 2 | Attaches (see above). No raw damage on the leap itself. | Standard | Lands badly, prone and free to hit for a turn |
+
+- **Kitable:** N. **Assess 0–1:** "Don't let it land on you." · **Assess 2+:** "Once it's on you it's somewhere your arms don't go — you'll spend a whole turn and a good roll getting it off. Anyone else in the room can just pull it off you. Parry the leap and it never becomes a problem."
+- **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** ignoring small fast things. **Dismember threat:** None. **Retreat always reachable:** Y (unless attached).
+
+## Monster 74 — The Wake
+
+- **Archetype:** Lunger (elite) · **Level Range:** 10–20 · **HP:** 720 · **Move:** 0m — it never takes a step of its own · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A tall, thin, trailing shape that is always exactly behind you and has never been seen to travel. It does not follow. It is simply, each time you look, further along than it was.
+- **Limbs:** standard humanoid defaults, no deviations.
+- **Draw (the whole design):** the Wake never moves on its own turn. Instead, **every time the player spends more than 4m of movement in a single turn, the Wake immediately moves that same distance toward them and takes a free Trail attack if it ends within reach** — out of turn, unparryable, no tell.
+  - Spend 4m or less and it does not move at all, ever. It will stand in the same spot for the entire encounter.
+  - It converts the movement budget (Ruleset §7) from a free resource into a priced one, and it makes hit-and-run — normally the safe, slow, low-reward option — the single most dangerous thing available.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Trail | Reactive | None — unparryable, triggers on the player spending 5m+ in a turn | N/A | N/A | 35 raw + 1 Insanity save | N/A | N/A |
+| Overtake | Heavy | "It leans, and the lean covers more ground than a lean should." | Target 1.50s, ±0.20s | 1 | 65 raw | Standard | Standard |
+
+- **Kitable:** **N — kiting is the one thing that cannot be done here.** This is the manual's first hard anti-kiting enemy.
+- **Assess 0–1:** "Stop moving." · **Assess 2+:** "It only travels when you do, and only if you go further than a few paces. Fight it standing still and it's an ordinary thing on an honest tell. Try to keep away from it and it will be on you every single turn."
+- **White Salts drop:** 28. **Insight:** +1/+0. **Habit punished:** kiting as a universal safety valve. **Dismember threat:** High. **Retreat always reachable:** Y — leaving the room outright still works; it does not pursue between rooms.
+
+## Monster 75 — The Duplicant
+
+- **Archetype:** Flailer (elite) · **Level Range:** 10–20 · **HP:** 800 · **Move:** 5m · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A loose, wet, upright thing with too many surfaces and no consistent outline. Every so often part of it separates and stands up on its own, and neither part seems to regard this as significant.
+- **Limbs:** standard humanoid defaults, no deviations. Each copy has its own full set.
+- **Division (the whole design):** at the **end of every third round**, the Duplicant splits. It creates one copy with **half its current HP**, rounded down; the original keeps the other half. Both act independently thereafter, both have full attacks, and **both continue to divide on the same three-round clock.**
+  - Killing a body removes it permanently — no reassembly.
+  - The clock is global and does not reset on damage. Three rounds is three rounds.
+- A soft enrage timer expressed as arithmetic. Kill it inside six rounds and it is an ordinary elite; take twelve and you are fighting four of them at once. There is no trick, no weak point and no gimmick to exploit — the only answer is being fast enough, which makes it the manual's cleanest pure damage check.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Slough | Heavy | "A whole sheet of it draws back and comes across." | Target 1.25s, ±0.20s | 1 | 45 raw + 1 Blood Loss | Standard | Standard |
+
+- **Kitable:** Y — and every round spent kiting is a round on the clock.
+- **Assess 0–1:** "There's going to be more of that." · **Assess 2+:** "It halves itself every three rounds and both halves keep doing it. No weak point, nothing clever — you are simply on a timer, and the timer does not care what you do."
+- **White Salts drop:** 30 for the original, 10 per copy killed. **Insight:** +1/+0. **Habit punished:** slow, careful, attritional play. **Dismember threat:** Moderate. **Retreat always reachable:** Y.
+
+## Monster 76 — The Offerer
+
+- **Archetype:** Vessel (neutral) · **Level Range:** any · **HP:** 1400 · **Move:** 0m unless provoked, then 6m · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** A tall, narrow, closed thing like a folded pair of hands the height of a door, standing where it will be noticed. When approached it opens along its length. Inside there is a shallow dish, and the dish is empty, and it is very clearly waiting.
+- **Limbs:** standard humanoid defaults. Sever-viable, and considerably tougher than it looks.
+- **It does not attack. It will not attack. It is waiting to be paid.** The Offerer is a social encounter occupying a monster slot, and it is the manual's first entry that can be resolved entirely without combat.
+- **The trade.** Place something in the dish as a Full Action and it gives something back. It accepts exactly one payment per encounter and then closes for good:
+
+|Payment|Return|
+|-|-|
+|20 White Salts from Purse|A rolled item appropriate to the instance's loot tier|
+|**2 or more stacks from a single status track** *(it takes them off you)*|**2 White Salts per stack removed**, and the track is genuinely cleared|
+|1 Insight|A rolled weapon appropriate to the instance's loot tier|
+|Nothing — walk away|Nothing. It closes when you leave the room and bears no grudge.|
+
+- **If attacked, it changes.** It closes, and thereafter fights as a **Brute with 1400 HP, Move 6m, and a single Heavy: Fold (target 1.75s, ±0.20s, Tier 2, 95 raw)**. It drops **60 White Salts** — considerably more than trading with it would have yielded. That is deliberate: robbing it is genuinely more profitable and genuinely much harder, and it never offers again in that instance.
+- **Kitable:** Y once provoked. **Assess 0–1:** "It isn't hostile." · **Assess 2+:** "It's a transaction, and it will take almost anything off you — including the things you'd pay to be rid of. It'll also fight, if you'd rather have what's in it than what it's offering. It's a great deal harder than it looks and it pays better than it trades."
+- **White Salts drop:** 0 if traded with, 60 if killed. **Insight:** +1/+0 on first sighting either way.
+- **Habit punished:** none, deliberately — this entry rewards restraint and greed roughly equally and takes no view on which is correct. **Dismember threat:** Moderate (provoked). **Retreat always reachable:** Y.
+
 ## Monster Template (blank)
 
 - **Archetype:** · **Level Range:** · **HP:** · **Move Budget/Pattern:** · **Scale Band:** · **Flavour:**
@@ -1456,6 +1804,206 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
   - **It can never stagger a limb.** Its contribution to every stagger meter, on every hit, is **zero.** No stagger means no free called shots from crossing a threshold, and no limp limbs — ever.
 - The most specialised weapon in the manual. It severs earlier than anything at its grade and it removes an entire subsystem from the wielder's toolkit to do it.
 - **Sever viability:** Heavy clears the reduced Head line (96) at **ESV 33** — comparable to the Debt-Iron, at one grade lower and without the self-damage. Arm and Leg remain out of one-hit reach at any ESV even reduced, per the fixed-constant rule.
+
+## Weapon 45 — The Last Recourse
+
+- **Type:** Quick · **Stat/Grade:** Skill/C · **Hands:** One
+- **Acquisition:** found — general Vault reward, no recipe tie.
+- **Base:** 24. Light = 24+ESV×0.7 · Heavy = 48+ESV×1.05.
+- **Worked rows:** ESV 8 → 30/57 · ESV 20 → 38/69 · ESV 47 → 57/98.
+- **Passive:** a short broad blade with a grip wrapped in something that was not originally leather. **It pays out on how badly the fight is going.** Every attack deals **+1 raw per full 5% of the wielder's Max HP currently missing**, to a maximum of +19 at 5% HP remaining.
+  - At full health: nothing. At half: +10. At a quarter: +15.
+  - It offers no defence, no healing and no warning, and it is at its best in the exact circumstances where one more hit taken ends the run.
+- **Status Applied:** none.
+- **Sever viability:** standard, per the general limb-model sever thresholds. At ESV 47 and 5% HP a Heavy reaches 117 raw — three short of the Head line, deliberately. It never quite gets you there on its own.
+
+## Weapon 46 — The Bellows Maul
+
+*The first weapon in the game governed by **Endurance**. Endurance has only ever set the movement budget (Ruleset §7); this is the first thing that makes it an offensive stat.*
+
+- **Type:** Heavy · **Stat/Grade:** **Endurance/C** · **Hands:** Two
+- **Acquisition:** found — Cold Forge / Bellfounder's Pit recipes, instance loot.
+- **Base:** 28. Light = 28+ESV×0.7 · Heavy = 56+ESV×1.05. *(ESV drawn from Endurance, using the standard soft-cap table, Ruleset §4.)*
+- **Worked rows:** ESV 8 → 34/65 · ESV 20 → 42/77 · ESV 47 → 61/106.
+- **Passive:** a bellows-handle and its iron plate, torn off a forge wall and used as a two-hander. **Scaling and fuel come from the same stat**, which is the entire tension: a high-Endurance wielder has both the biggest movement budget and the hardest swings, and every Heavy taken is movement not spent.
+  - **Additionally: a Heavy landed after spending at least 6m of movement in the same turn deals +20% raw.** The weapon wants a run-up and it makes you choose between the run-up and everything else the turn could have been.
+- **Sever viability:** standard, per the general limb-model sever thresholds. Endurance is not a stat most builds push past 14 (the movement cap), so in practice this sits permanently mid-tier — a genuinely different power curve rather than a reskinned one.
+
+## Weapon 47 — The Sight-Line
+
+*The first weapon governed by **Insight** — a dial that is earned rather than bought, and that **falls every time it is spent** (Ruleset §11).*
+
+- **Type:** Reach · **Stat/Grade:** **Insight/B** · **Hands:** Two
+- **Acquisition:** found — behind an Insight-gated door only. It is never in an open room.
+- **Base:** 24. Light = 24+ESV×0.9 · Heavy = 48+ESV×1.35. *(ESV drawn directly from the current Insight score, standard soft-cap table.)*
+- **Worked rows:** ESV 8 → 32/59 · ESV 18 → 41/73 · ESV 20 → 42/75.
+- **Passive:** a long, thin, forked shaft of something that is not quite metal, which is only fully visible to whoever is holding it. **Its damage tracks the wielder's Insight score in real time and updates the instant that score changes** — mid-encounter, mid-turn, immediately.
+  - Earn a point of Insight from a first sighting and the weapon is stronger for the rest of the fight.
+  - Spend Insight on a gate, a Memory Vendor trade, or the Tithe-Fork's own passive, and it weakens on the spot.
+  - **At Insight 0 it is a Base 24 stick with no scaling at all**, and it will happily be that.
+- **Insight Gate:** none to wield. The weapon *is* the gate.
+- **Sever viability:** never clears the Head's 120-raw line at any realistic Insight score. This is not an output weapon — it is a weapon that makes the Insight bargain (§11) something you feel in your hands rather than only in your save DC.
+
+## Weapon 48 — The Anathema
+
+*The Resolve column has never gone past Grade C. This is its heavy.*
+
+- **Type:** Heavy · **Stat/Grade:** Resolve/B · **Hands:** Two
+- **Acquisition:** found — Reliquary / Choir Deep recipes, instance loot.
+- **Base:** 28. Light = 28+ESV×0.9 · Heavy = 56+ESV×1.35.
+- **Worked rows:** ESV 8 → 36/67 · ESV 20 → 46/83 · ESV 47 → 71/120.
+- **Passive:** a heavy iron bar cast with a text down its length that has been chiselled out rather than worn away. **A fully-landed Heavy applies 2 Influence stacks to the target** (Enemy-side Influence Overload, Ruleset §5) — double the Hymnal Truncheon's rate, on a considerably bigger swing.
+  - **Additionally, while equipped the wielder's own Influence save DC is −1** — the only weapon in the game that improves the wielder's saves. It is genuinely defensive as well as offensive, which is why it is priced at a grade the Resolve column has never had access to.
+- A real endgame option for a Resolve build, and the first weapon a Persistent Companion could meaningfully be handed rather than merely carry.
+- **Sever viability:** Heavy clears the Head's 120-raw line at **ESV 47** exactly — the same benchmark as the Foundry Wedge, reached through a stat that has never been able to sever before.
+
+## Weapon 49 — The Vivisectionist's Rule
+
+*The first **Grade A** weapon in the Skill column. Ruleset §4: A ×1.1.*
+
+- **Type:** Quick · **Stat/Grade:** Skill/A · **Hands:** One
+- **Acquisition:** found — deep instance loot only, hand-placed, never rolled.
+- **Base:** 30. Light = 30+ESV×1.1 · Heavy = 60+ESV×1.65.
+- **Worked rows:** ESV 8 → 39/74 · ESV 20 → 52/93 · ESV 47 → 82/138.
+- **Passive:** a straight steel rule ground to an edge on all four sides, marked in a scale that does not correspond to any known measure. It is precise beyond reason and it does not tolerate imprecision in return.
+  - **Every Precision Strike miss with this weapon ends the turn outright**, regardless of the band's normal miss punishment (Ruleset §10) — no torso consolation hit, no leftover movement, nothing. The greedy-target tax becomes all-or-nothing at every multiplier.
+  - Ordinary torso swings are unaffected. The penalty applies only when a limb multiplier above ×1.0 is declared.
+- The highest Skill output in the game, sold to a player confident enough in their timing to stake the whole turn on it every time they get greedy.
+- **Sever viability:** Heavy clears the Head's 120-raw line at **ESV 36** — the earliest of any Skill weapon by a wide margin, and reachable at a Skill score most builds actually get to.
+
+## Weapon 50 — The Sunk Hook
+
+- **Type:** Reach (thrown) · **Stat/Grade:** Skill/C · **Hands:** Two
+- **Acquisition:** found — flooded gallery / Bellfounder's Pit recipes, instance loot.
+- **Base:** 26. Light = 26+ESV×0.7 · Heavy = 52+ESV×1.05.
+- **Worked rows:** ESV 8 → 32/61 · ESV 20 → 40/73 · ESV 47 → 59/102.
+- **Passive:** a heavy grapple on a short length of chain, meant for dragging things out of water. It works in melee like any Reach weapon. It can also be **thrown**:
+  - **Throw (Full Action, 2m):** range 10m, no timing check, guaranteed hit, deals full **Heavy** damage.
+  - **The hook stays where it lands.** The wielder is unarmed — Fists (Ruleset §4) — until they physically go and retrieve it, which costs a **Fast Action while standing adjacent to it.**
+  - The chain is not long enough to pull it back. That was the first thing everyone tried.
+- A burst of Heavy damage at range, priced in the most inconvenient currency available: your own position, chosen by where the enemy happened to be standing.
+- **Sever viability:** standard, per the general limb-model sever thresholds, thrown or held. The throw is a full Heavy and severs normally — which is the entire reason to accept the drawback.
+
+## Weapon 51 — The Cascade
+
+- **Type:** Quick · **Stat/Grade:** Skill/D · **Hands:** One
+- **Acquisition:** found — general Vault reward.
+- **Base:** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75.
+- **Worked rows:** ESV 8 → 26/50 · ESV 20 → 32/59 · ESV 47 → 46/80.
+- **Passive:** a light fluted blade that runs hot along its spine the longer it is kept working. **Momentum:** each consecutive turn in which the wielder lands at least one attack adds **+8 raw to all attacks**, cumulative and uncapped.
+  - **The whole stack is lost the moment the wielder takes damage from any source** — including chip, status ticks, Burning, Corrosion and Rupture. Not reduced. Lost.
+  - A turn spent moving, using an item, parrying without following up, or missing also breaks it, at zero.
+- Low base numbers with a very high ceiling that only exists for a player who is winning cleanly and does not stop. Five untouched turns is +40 raw; one Burning tick is zero.
+- **Sever viability:** standard normally. At six turns of momentum a Heavy at ESV 47 reaches 128 raw and clears the Head line — which requires six consecutive clean turns, which is the point.
+
+## Weapon 52 — The Grudge
+
+- **Type:** Heavy · **Stat/Grade:** Strength/C · **Hands:** Two
+- **Acquisition:** found — general Vault reward.
+- **Base:** 26. Light = 26+ESV×0.7 · Heavy = 52+ESV×1.05.
+- **Worked rows:** ESV 8 → 32/61 · ESV 20 → 40/73 · ESV 47 → 59/102.
+- **Passive:** a notched iron bar that has clearly been swung at a great many things and connected with rather fewer. **The exact inverse of the Cascade:** every **missed** attack this encounter adds **+10 raw** to the weapon's damage, cumulative and uncapped. The entire stack clears the moment an attack lands.
+  - Precision Strike misses count. Whiffed Powder Charges count. Any declared attack that fails to connect counts.
+  - It is the only weapon in the game that gets better while you are playing badly, and it stops the instant you stop.
+- Pairs unusually well with a high-multiplier greedy build that misses often by design, and does nothing at all for a careful one.
+- **Sever viability:** standard normally. Four consecutive misses at ESV 47 put the next Heavy at 99 raw; seven put it past the Head line. Getting there requires seven misses in a row, and surviving seven misses in a row is its own problem.
+
+## Weapon 53 — The Blunt Reckoner
+
+- **Type:** Heavy · **Stat/Grade:** Strength/C · **Hands:** Two
+- **Acquisition:** found — Cold Forge / Paper Mill recipes, instance loot.
+- **Base:** 28. Light = 28+ESV×0.7 · Heavy = 56+ESV×1.05.
+- **Worked rows:** ESV 8 → 34/65 · ESV 20 → 42/77 · ESV 47 → 61/106.
+- **Passive:** a squared-off iron beam with no edge, no point and no finesse whatsoever. **Called shots with this weapon skip the Precision Strike stopwatch entirely** (Ruleset §10) — declare any limb, at any multiplier, and it simply lands. No timing check, no tolerance band, no miss punishment, ever.
+  - **The cost: all damage is reduced by 40%**, applied to raw before limb multipliers and before any other modifier.
+  - **Worked:** at ESV 47, Heavy 106 → **64 raw**; against a head at ×1.5 that is 96 effective damage with zero risk, versus 159 with the watch and a ±0.13s window to hit.
+- The accessibility option, and a genuinely different way to engage the limb system: it converts the entire greedy-target subsystem from a timing test into a flat, permanent damage tax. Nothing else in the manual lets a player use limbs without ever touching a stopwatch.
+- **Sever viability:** poor — reduced raw never clears the Head's 120-raw line at any ESV. This weapon staggers reliably and severs never, which is the honest shape of the trade.
+
+## Weapon 54 — The Alembic Blade
+
+- **Type:** Quick · **Stat/Grade:** Skill/D · **Hands:** One
+- **Acquisition:** found — Gaslight Ward / Reliquary recipes, instance loot.
+- **Base:** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75.
+- **Worked rows:** ESV 8 → 26/50 · ESV 20 → 32/59 · ESV 47 → 46/80.
+- **Passive:** a narrow blade with a sealed glass reservoir set into the flat, half-full of something that moves more slowly than liquid should. **Transmute (Fast Action, 0m):** convert **2 stacks of Blood Loss from the wielder into 1 stack of Corrosion on a target within reach.** Usable once per turn.
+  - The first weapon in the game that moves a status track from one creature to another rather than applying a new one.
+  - It is a bleed-management tool that happens to be offensive, and it is at its best in exactly the builds that generate self-inflicted Blood Loss on purpose — the Powder Charge, the Debt-Iron, the Hemorrhage.
+- **Sever viability:** standard, per the general limb-model sever thresholds.
+
+## Weapon 55 — The Toll-Blade
+
+- **Type:** Quick · **Stat/Grade:** Skill/B · **Hands:** One
+- **Acquisition:** found — hub sub-basement, tied to the toll/token economy alongside the Toll-Press. Character-agnostic.
+- **Base:** 26. Light = 26+ESV×0.9 · Heavy = 52+ESV×1.35.
+- **Worked rows:** ESV 8 → 34/63 · ESV 20 → 44/79 · ESV 47 → 69/116.
+- **Passive:** a slot-mouthed blade with a coin channel running the length of the fuller. **Every Heavy attack costs 2 White Salts from the Purse, paid at the moment of the swing.**
+  - **An empty Purse means no Heavy** — the blade will not complete the motion. Light attacks are always free.
+  - Salts spent this way are gone whether the attack lands, misses, or is interrupted.
+  - **It costs nothing at the hub** and everything in a long run, which means it is at its weakest precisely when the Purse is thin and the run has gone badly.
+- The first weapon in the game that draws on the Salts economy (Ruleset §4/§18) as an ammunition type. A Skill/B one-hander is genuinely strong; you are simply paying for it in the same currency as your levels.
+- **Sever viability:** standard, per the general limb-model sever thresholds. Never clears the Head line, so the Salts buy consistency rather than a sever route.
+
+## Weapon 56 — The Winnowing Fan
+
+- **Type:** Reach · **Stat/Grade:** Strength/C · **Hands:** Two
+- **Acquisition:** found — general Vault reward, no recipe tie.
+- **Base:** 26. Light = 26+ESV×0.7 · Heavy = 52+ESV×1.05.
+- **Worked rows:** ESV 8 → 32/61 · ESV 20 → 40/73 · ESV 47 → 59/102.
+- **Passive:** a broad winnowing blade on a long haft, made for separating chaff from grain by moving a very great deal of very small things at once. **All damage is doubled against any target whose limb table consists of a sever-immune Mass, Accretion or Body entry** — that is, against the Swarm archetype and anything else with no anatomy to speak of (Ruleset §16).
+  - Against everything else it is a plain, slightly under-powered Strength/C Reach weapon with no gimmick at all.
+- The manual's first deliberately **archetype-specific counter weapon.** Swarms exist specifically to be immune to precision play and to be killed only by raw HP damage; this is the tool that makes that a fair fight rather than a long one. It is dead weight in most rooms, which is the price of it being decisive in some.
+- **Sever viability:** standard against anything that can be severed — which, notably, is never the thing it is good against.
+
+## Weapon 57 — The Riposte Bar
+
+- **Type:** Quick · **Stat/Grade:** Skill/C · **Hands:** One
+- **Acquisition:** found — Hall of Broken Mirrors / Cold Forge recipes, instance loot.
+- **Base:** 24. Light = 24+ESV×0.7 · Heavy = 48+ESV×1.05.
+- **Worked rows:** ESV 8 → 30/57 · ESV 20 → 38/69 · ESV 47 → 57/98.
+- **Passive:** a short weighted bar with a swept guard, balanced for stopping a blow rather than landing one. **On a successful parry, a second stopwatch fires immediately — target 0.70s, ±0.15s, widened by the Insight window bonus as normal.**
+  - **Hit:** a free Light attack against the parried enemy, resolving instantly and outside the action economy. Contributes to stagger meters normally. This is *in addition to* everything the parry already bought (Ruleset §9) — the skipped turn and the eased follow-up remain.
+  - **Miss:** the parry still succeeds and still buys everything it normally buys, but **the eased Tier follow-up attempt is forfeited** for that opening.
+- The first weapon to put a second timing check inside a parry. It asks whether the player is confident enough to gamble the opening they just earned on a very tight window, immediately, with no time to reset.
+- **Sever viability:** standard, per the general limb-model sever thresholds. The free Light is a full Light and severs normally if it somehow reaches a threshold.
+
+## Weapon 58 — The Second Hand
+
+*The first weapon in the manual **written for the companion side of the party** rather than the player (Ruleset §18, Companions).*
+
+- **Type:** Quick · **Stat/Grade:** Resolve/D · **Hands:** One
+- **Acquisition:** found — instance loot, any recipe. Always found as a matched pair with nothing to match it to.
+- **Base:** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75.
+- **Worked rows:** ESV 8 → 26/50 · ESV 20 → 32/59 · ESV 47 → 46/80.
+- **Passive:** a plain, light, well-balanced blade with a second grip set behind the first, as though it expects to be held by someone standing just over your shoulder. **It may be handed to a Persistent Companion** (Ruleset §18), which no other weapon in the game may be.
+  - **While a companion wields it:** they gain a melee attack option using their own governing stat and their own ESV, resolved on their own turn within their existing one-Action economy. It grants no called shots, no visceral capability, and no second action — it simply means a support companion is no longer defenceless when something reaches them.
+  - **While the player wields it:** it is an unremarkable Resolve/D one-hander with no bonus whatsoever.
+- Companion stat blocks are generated as canon on first accompanied run (Ruleset §18); handing this over is a permanent addition to that block until it is taken back at the hub.
+- **Sever viability:** none in companion hands — companions never sever, per the standing companion constraint. Standard in player hands, for whatever that is worth.
+
+## Weapon 59 — The Sundering Wedge
+
+- **Type:** Heavy · **Stat/Grade:** Strength/B · **Hands:** Two
+- **Acquisition:** found — Cold Forge recipe, instance loot. Sits alongside the Foundry Wedge as its ugly cousin.
+- **Base:** 28. Light = 28+ESV×0.9 · Heavy = 56+ESV×1.35.
+- **Worked rows:** ESV 8 → 36/67 · ESV 20 → 46/83 · ESV 47 → 71/120.
+- **Passive:** a splitting wedge with a shaft driven through it at an angle no one would choose. **Any limb that crosses its stagger threshold while this weapon is equipped may instead be severed outright**, at the wielder's choice, declared as the threshold is crossed.
+  - **The cost:** the wielder immediately takes **self-damage equal to that limb's stagger threshold ÷ 20**, unmitigable, ignoring all reduction.
+  - **Worked:** Head (180) → **9 self.** Arm (200) → **10 self.** Leg (300) → **15 self.** Torso (800) → **40 self** — and a torso sever kills outright, which is why the price is what it is.
+- This converts the stagger subsystem into a sever engine and makes the fixed-constant one-hit thresholds (Ruleset §10) largely irrelevant to a patient Strength build — arms and legs, which are explicitly stated to stay out of one-hit reach at any score, become reachable over several hits for a price in HP. That is a significant structural change and it is deliberately expensive.
+- **Sever viability:** Heavy clears the Head's 120-raw line at **ESV 47** conventionally. The passive is the real sever route and it works at any ESV.
+
+## Weapon 60 — The Deadfall
+
+- **Type:** Heavy · **Stat/Grade:** Strength/A · **Hands:** Two
+- **Acquisition:** found — deep instance loot, hand-placed, never rolled.
+- **Base:** 32. Light = 32+ESV×1.1 · Heavy = 64+ESV×1.65.
+- **Worked rows:** ESV 8 → 41/78 · ESV 20 → 54/97 · ESV 47 → 84/142.
+- **Passive:** a counterweighted iron head on a ratcheted arm, which does not swing so much as it is released. **After any Heavy attack, the Deadfall is spent** — it cannot attack again, in any form, until it is reset with a **full Action (3m)**.
+  - Light attacks do not spend it and do not reset it.
+  - The practical cadence is therefore Heavy, reset, Heavy, reset — **one real attack every two turns**, with those turns fully exposed and nothing else happening in them.
+- The single hardest-hitting cadence-limited weapon in the game. Against a boss that gives one opening every two rounds anyway, it costs almost nothing; against anything fast, it is close to unusable.
+- **Sever viability:** Heavy clears the Head's 120-raw line at **ESV 34.** Combined with a parry opening and a limb multiplier, this is among the most reliable one-hit sever routes available — once every two turns, forever.
 
 ## Weapon Template (blank)
 

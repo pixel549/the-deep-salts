@@ -3,7 +3,7 @@
 
 System-agnostic ruleset (d20 base) for solo play with an AI DM. You trade humanity for power, and only see the trade once you've gone mad enough to look.
 
-*Version 9.1. Session-attribution history and rationale prose live in the dev log, not here.*
+*Version 9.2. Session-attribution history and rationale prose live in the dev log, not here.*
 
 ---
 
@@ -173,6 +173,10 @@ Granted per points invested in that specific stat.
 - **Success:** 2×Base + ESV×grade×**2.0** (up from Heavy's ×1.5) — a real step up, not a rounding difference.
 - **Failure:** 0 damage, turn ends immediately, no leftover movement to spend — same harsh-failure shape as Powder Charge and the Choir-Flail's own chain, deliberately.
 - Boss stagger-meter interaction (Brute Force, Strength 40: "treat boss stagger meters one tier lower") now has a real trigger to attach to.
+
+**Weapon stat governance.** Weapons have historically been governed by Skill, Strength or Resolve. Any attribute may govern a weapon, drawing ESV from that attribute's score through the standard soft-cap table above — including **Endurance** and **Insight**. Two consequences worth stating before they come up at the table:
+- **Endurance** also sets the movement budget (§7). An Endurance-governed weapon means one score buys both swing and step, and every action's movement cost is competing with the stat that makes it hurt.
+- **Insight** is earned rather than bought and **falls when spent** (§11). An Insight-governed weapon's damage therefore moves during play — up on a first sighting or a lore read, down the instant a gate is forced or a Vendor trade is made — and it recalculates immediately, mid-encounter. Insight realistically tops out around 20, so such weapons sit permanently mid-tier by design.
 
 **Double-swing reduction** *(closes the Bible §2 gap — Tideglass Cleaver and any reskin of it).* Standard is **50% of the first hit's raw, rounded up**, unless a specific weapon's own Bible entry states otherwise. Applies to any weapon whose gimmick is "swings/hits twice per Light" — a default, not a per-weapon negotiation.
 
@@ -375,6 +379,10 @@ Standard humanoid:
 *Worked example: leg (×0.75, 300) needs 400 raw in one hit to sever. Head (×1.5, 180) needs 120 raw.*
 
 **Standard humanoid thresholds are fixed constants, never level-scaled.** Only HP scales, so raw damage climbing over time makes one-hit sever increasingly viable: head sever starts ~raw Str 60–80 with a real sever weapon. Arms (~308 raw) and legs (400 raw) stay out of one-hit reach even at 99 — staggered, not severed.
+
+**Weapon effects on the precision subsystem.** Two weapon-side exceptions are legal and both are priced in the weapon's own entry rather than here:
+- **Skipping the watch.** A weapon may allow called shots with no Precision stopwatch at all, at a flat percentage damage reduction applied to raw before multipliers. This trades the entire greedy-target risk/reward for a permanent tax, and is the accessibility route into the limb system.
+- **Stagger-to-sever conversion.** A weapon may allow a limb crossing its *stagger* threshold to be severed instead, at the wielder's declared choice, for a stated cost. This is the only route by which Arms (~308) and Legs (400) — explicitly out of one-hit reach at any score — become severable in practice. Any weapon doing this must charge a real, unmitigable price; it is a structural change to the limb model, not a damage bonus.
 
 **Bosses get hand-set limb values** on their own Monster Template — high enough that clearing a weak point in one hit takes real specialization.
 
@@ -582,6 +590,8 @@ Archetypes, reskin per location. Attack damage generated live (§2), scaled to l
 12. **VESSEL** (elite) — a shell and an occupant, two separate creatures in sequence. The shell carries a **sub-1.0 damage multiplier as armour** (see §10) and no interesting attacks; the occupant is fast, fragile, and usually trying to leave. The health bar emptying is the middle of the fight, not the end of it.
 13. **CRAWLER** (elite) — HP ~600–900 · Move fast (8m+) across **walls and ceilings**, ignoring floor terrain, hazards and chokepoints entirely. Cannot be funnelled, cannot be outrun, and the player's usual positional tools all quietly stop working.
 14. **TIDE** (hazard-creature) — occupies a stretch of floor, corridor or room. Often has no attack the player can react to and sometimes **no HP at all** — it is resolved by crossing it, cutting a lane through it, or shutting it off, not by killing it. The archetype that makes an encounter a problem rather than a fight.
+
+**Shared HP pools.** A creature may present as several bodies drawing on one pool. Damage to any body drains the shared total; individual bodies are not separately killable unless the entry says so. This is a Vessel or Swarm variant, not a new archetype, and it exists to make target selection and positioning matter in fights that would otherwise be a single health bar with extra steps. Two shapes have precedent: **bleed-back** (an undamaged body restores to the pool each round, so splitting attention is mandatory) and **terminal burst** (the bodies detonate together when the pool empties, so where they stand at the end is the real fight).
 
 **Standard archetypes cannot parry/visceral the player** — that loop is boss/hand-flagged-elite only.
 
