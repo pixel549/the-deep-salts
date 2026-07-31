@@ -245,7 +245,30 @@ Damage taken becomes recoverable grey health. Land a qualifying hit on your very
 
 ---
 
-## 7. Movement & Positioning
+## 7. Combat Flow, Movement & Positioning
+
+### Round Structure
+
+Each round has two phases, always in this order:
+
+**1. Player Phase**
+
+Declare and resolve all player actions: movement, one Action (§8), one Fast Action (§8), and companion actions.
+
+- Movement budget is splittable before and after the Action.
+- **Hold (parry stance) is an Action** — it costs 2m and commits the player's Action for the round. A player who attacks, uses an item, Assesses, or takes any other Action cannot also Hold. **No Action left = no parry available this round.**
+- Companion (e.g. Maria) acts during the Player Phase with her own Action and movement. She cannot parry on Lloyd's behalf or redirect attacks targeting him.
+
+**2. Enemy Phase**
+
+**All enemies act simultaneously as a block.** Every active enemy takes its action during this phase — they do not queue, wait, or take individual turns.
+
+- Each enemy narrates a full tell-then-strike as one continuous beat (bow then lunge, wind-up then swing).
+- **One parry per round.** If the player declared Hold, they may attempt to parry exactly one incoming parryable attack via stopwatch (§9). Every other enemy attack during this phase lands normally — default attacks always hit (§3). A holding player cannot deflect multiple simultaneous strikes.
+- **Enemies that are not being parried connect automatically.** This is not optional DM discretion — if an enemy is in range and attacking, and the player is not parrying that specific attack, it hits.
+- **Consequence:** multi-enemy combat is dangerous by design. The counterplay is thinning numbers before they act (kill or stagger on the Player Phase), kiting to keep enemies out of range, using positioning and line of sight to limit how many can reach you simultaneously, or accepting the trade (stand, swing, eat what comes). Parrying through a crowd is not possible without specific builds, perks, or mutations that explicitly grant additional parry attempts.
+
+### Movement & Positioning
 
 Budget set by Endurance (8–14m) — the single per-turn currency; repositioning and actions both draw from it. Spend before/after your action up to the total minus the action's own cost (§8).
 
@@ -601,9 +624,9 @@ Archetypes, reskin per location. Attack damage generated live (§2), scaled to l
 
 ---
 
-## 17. Running Notes — Turn Order, Recovery & Scaling
+## 17. Running Notes — Recovery & Scaling
 
-**Turn order.** Player always acts first, every round; enemies act as a block after. A single enemy turn can narrate a full tell-then-strike (bow, then lunge) as one continuous beat.
+**Turn order** — see §7 (Combat Flow). Player Phase → Enemy Phase, enemies act as a simultaneous block, one parry per round.
 
 **Out-of-combat recovery.** A quiet moment (not the hub) allows: clear one track by one stack, OR recover a small flat HP chunk. Free, no item spent. Doesn't restore limbs/mutations — hub only.
 
