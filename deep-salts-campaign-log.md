@@ -167,3 +167,92 @@ Returned to the Bellows Chamber, touched the chalice. Clean exit. **224 White Sa
 
 ---
 *Last updated: end of session 9 — banked clean at 317 Vault, party of two intact, back at the hub.*
+
+---
+
+## Session 10 — The Choir Deep (Run 4)
+
+### Hub (pre-dive)
+
+Lloyd tempered with Greta: Vigour 8→10 (two points, 275 Vault Salts, Level 5→7). Max HP 108→120, modifier −1→+0.
+
+Lloyd found the Memory Vendor at the far end of the client suites — a ghostly, translucent woman sitting in a chair that didn't quite touch the ground. She knew his Insight (18) before he spoke. She offered three mutations: arm, leg, eyes. Lloyd chose arm and eyes.
+
+**Thickened Sinew (arm):** Rally recovery +25%, parry windows −0.03s.
+**Dulled Sight (eyes):** Insanity/Influence save DC −3, all precision windows −0.02s. Steady Hand perk exactly negated.
+
+Insight 18→8. Tier 5→Tier 4. The Vendor vanished the moment the trades resolved. Maria didn't see her — stopped walking ten paces back without explaining why. When Lloyd came back: "What are you doing?" / "Just talking to a friend."
+
+Lloyd chose the Choir Deep. Maria chose which recipe: "The Choir. I want to go back to the Choir." Said it quietly, without elaborating.
+
+### The Narthex (R1, wake-in)
+
+Narrow stone antechamber. Cracked baptismal font. Ceiling fresco with devotional script Lloyd could read at Tier 4 — but something underneath the text swam when he tried to focus on it. It didn't used to do that.
+
+Two exits: low arch left, stairs right. They went left first.
+
+### The Undercroft (R2)
+
+Barrel-vaulted passage, standing water. Two Chapel Penitents kneeling side by side. Lloyd ambushed the first — Maria imbued his knuckles, he snuck up (stealth 20 vs DC 12), heavy + Powder Charge to the head. 241 damage, head severed, instant kill. One-shot.
+
+The second Penitent rushed during the enemy phase. Lloyd had no Action left (spent on ambush), took 40 raw. Maria used Steadying Grace (50% of 40 = 20 HP recovered). Next round Lloyd held, parried the Rush (1.24s), then visceral to the head (1.48s, ×1.5 accuracy) — 240 damage, head severed. Both Penitents down.
+
+Found: 12 White Salts (collapsed shelf), Censer Incense ×1 (behind broken column — Maria spotted it).
+
+### The Processional (R4)
+
+Narrow corridor, 3m wide, names carved on the walls — hundreds of patient admissions. A Salt-Eaten Custodian patrolling, filling most of the corridor width. 650 HP, 60 raw Iron Scrape.
+
+Lloyd let Maria chip it with Judgement Sparks while it closed (108 damage over 4 rounds). Then held and parried twice (1.73s, 1.60s — the second hit the absolute bottom of the window). Third parry opened a Powder-Charged visceral to the head: 1.49s stopwatch (×1.5 accuracy), Powder 0.83s. 362 damage. Head detonated. Custodian dead.
+
+**Nell's name on the wall.** Scratched deeper than the others, different hand, with a date in the gap year. Third cross-recipe Nell context (Choir rota, Foreman's ledger, now the Processional wall). Maria: "Someone added this after the fact. The hand is different." Lloyd: "How is this name coming up across different realities?" Maria's theory: Nell isn't in the salts — she's something the Hydro remembers on purpose. Scratched in, not grown.
+
+### The Reliquary (R5)
+
+Small, cold, glass-fronted cabinets. A choir attendance ledger inside. Maria pulled it out, went very still. "We kept ours the same way." First direct admission that her order's record-keeping matches the Choir Deep's format.
+
+Lloyd commented on St Narrikon's Church — "Some people are wary... Things happen when their priests come into towns. You're very genuine. I've never trusted the Narrikon priests I've met." Maria was confused, not defensive. "The Church does good work, Lloyd. Important work." She genuinely doesn't understand what he's implying. She left the Church because she "wasn't able to stay" — not because she saw anything wrong with it.
+
+Found: **Bent Tuning Key** (locked cabinet, smashed open). Precision Strike windows treated as one Insight tier higher.
+
+### The Chancel (R6)
+
+High-ceilinged, raised stone platform. Marble Attendant standing motionless. 800 HP, Marble Fist at 80 raw. Wet floor — rough terrain, +1m movement cost.
+
+Maria chipped with Sparks while it closed (108 damage over 4 rounds). Lloyd parried twice (1.73s, 1.60s) with visceral follow-ups to the head. Third visceral: **1.50s dead centre. ×3.0 accuracy. 480 damage. Head detonated.** Maria: "Bloody hell." First time she's sworn.
+
+Found: **Widow's Veil** (sealed reliquary box behind the platform). Removes wearer from Influence Overload redirect pool. Maria recognised it as a mourning veil — "It makes you absent."
+
+### The Bell Tower Base (R7)
+
+Spiral staircase, tight space. Bathhouse Flailer (700 HP) thrashing on the landing. Frenzied Whirl — the Tier 3 chain (three sequential stopwatches: 0.80/1.30/1.80, each ±0.32s).
+
+Lloyd held and parried all three beats (0.79s, 1.22s, 1.57s). Tier 1 opening. Visceral to the head: 1.52s (×1.5 accuracy). 240 damage. Head severed.
+
+The bell rope — Lloyd pulled it. The bell fell, split on impact. Inside: 25 White Salts and a torn register page. "Sr. M——, seconded to Stillwell." Same date range as Nell's gap year. Maria saw it. Didn't ask. Already knew.
+
+### The Choir Pit (R3)
+
+Sunken oval rehearsal space. Drowned Bellkeeper (280 HP) with bell on the upper tier, two Waterlogged Guests (200 HP each) wading below.
+
+Lloyd rushed the Bellkeeper, self-initiated called shot to the bell (implement — isolated HP pool, does not chip enemy HP). 1.51s (×1.5 accuracy). Bell destroyed in one hit. Bellkeeper rendered harmless. Cleanup: Lloyd and Maria took their time dispatching the now-toothless enemies. Maria practiced with the Sigil Lash on the Guests — found her rhythm with it.
+
+Found: **Choir Needle** (drain grate, wedged in the ironwork). Skill/D, same base as Metal Knuckles. Passive: self-initiated called shots eased one band. A precision sidearm.
+
+### The Apse (R8, boss room — empty)
+
+The Singer wasn't there. Scorch marks where it stood. Dried residue in a ring — the congregation's outline. Water channels running from nothing.
+
+Mosaic ceiling: pilgrims descending into water. Last figure has no face — just an opening. An inscription beneath it that Lloyd could see letters in but couldn't read. He used to be able to. First real consequence of trading Insight.
+
+**Sigil Lash** found leaning against the wall where the Singer stood. Resolve/D, on-hit −1 Influence resistance. Lloyd gave it to Maria. She recognised the Narrikon ward-marks: "Why is a Narrikon weapon in a place like this?" Lloyd suggested a previous Narrikon visitor killed the Singer and dropped it.
+
+Maria prayed in the Apse. Lloyd told her not to. She stopped.
+
+Banked clean via the chalice.
+
+### Session 10 design rulings
+- **Memory Vendor reworked:** hub NPC at Insight 15+, trades Insight for voluntary mutations (upside+downside). No threshold gate — vanishes if Insight drops below 15. Single-conversation resolution (all trades complete before threshold check). Can also remove mutations (5 Insight) and Scars (6/10/escalating). Cannot dump Insight without buying a mutation or having an existing mutation/Scar to remove.
+- **Combat Flow codified (§7):** Player Phase → Enemy Phase. Enemies act simultaneously as a block. One parry per round (Hold = Action). Unparried attacks connect automatically.
+- **Implement vs Limb distinction corrected:** Implements have isolated HP pools, damage does NOT chip enemy HP. Limbs are HP-connected. Previous ruling ("implements deal full HP damage") overturned.
+- **Thickened Sinew Rally ruling:** +25% applies to Lloyd's own Rally only, not Maria's Steadying Grace (her magic, not his biology).
