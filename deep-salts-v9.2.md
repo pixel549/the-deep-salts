@@ -397,7 +397,7 @@ Standard humanoid:
 - Threshold over several hits → **STAGGER** (limb goes limp). The hit that crosses it grants an immediate free called shot, same action. Player stagger duration: fixed 1 turn. Enemy stagger duration: variable, set per Monster Template.
 - Threshold in one hit → **SEVER** (permanent). Severing torso/head kills regardless of remaining HP.
 - No free called shots on a standing, alert, unstaggered enemy — needs an opening (stagger/knockdown/off-balance/parry) or takes a penalty. Default swings land torso.
-- **Implements and objects** (a carried bell, a shield, a crack in a shell, an eye) are non-standard entries with a high multiplier. They are not limbs — they're extensions of the enemy, targeted the same way a weapon is. **They deal full HP damage like any other hit** (raw × multiplier), and use **Sever only** — destroyed or intact, no partial stagger state.
+- **Implements and objects** (a carried bell, a shield, a crack in a shell, an eye) are non-standard entries that are NOT limbs — they're equipment or objects attached to the enemy. **Damage to an implement does not chip the enemy's HP pool.** Implements have their own isolated stagger/sever thresholds. Stagger produces a partial effect (defined per implement — e.g. a cracked bell might toll at reduced potency). Sever destroys the implement entirely, disabling whatever it provided. The distinction is logical: punching an enemy's sword doesn't wound the enemy, but punching their arm does.
 
 *Worked example: leg (×0.75, 300) needs 400 raw in one hit to sever. Head (×1.5, 180) needs 120 raw.*
 
