@@ -38,7 +38,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Lunger (mook) · **Level Range:** 1–20 · **HP:** 300 · **Move:** 3m stalking pace, single 5m lunge after a short pause then a recovery beat · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** A pilgrim whose knees wore grooves into the stone before death. Still bows before every attack.
-- **Limbs:** standard defaults, no deviations.
+- **Limbs:** custom. **Head:** standard (stagger 180). **Arms:** standard (stagger 200). **Legs: stagger 150** (knees worn to grooves from centuries of kneeling — structurally compromised). Leg sever → Penitent Rush permanently disabled (no lunge without legs).
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
@@ -64,7 +64,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Drudge (elite) · **Level Range:** 5–20 · **HP:** 650 · **Move:** 3m relentless walk, never sprints · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** Once tasked with cleaning the baths, now drags an iron scraper large enough to serve as a coffin lid.
-- **Limbs:** standard defaults, no deviations.
+- **Limbs:** custom. **Head: stagger 250** (salt-crusted skull and neck — reinforced, much harder than standard). **Scraper arm: stagger 120** (salt-eaten elbow joint — structurally compromised). Arm sever → Iron Scrape permanently disabled, scraper drops. **Off arm:** standard (200). **Legs:** standard (300).
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
@@ -90,11 +90,11 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Flailer (elite) · **Level Range:** 10–20 · **HP:** 700 · **Move:** 4m erratic, unpredictable direction changes · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** Wrapped in soaking towels that whip through the air like living tentacles when it panics.
-- **Limbs:** standard defaults, no deviations.
+- **Limbs:** custom. **Head: stagger 240** (wrapped in layers of soaking towels — padded, harder than standard). **Each arm: stagger 140** (towel-wrapped, less structural than bone). Arm sever → Frenzied Whirl permanently drops 1 beat from chain (3→2→1). Both arms severed = single-beat chain. **Legs:** standard (300).
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Towel Lash | Light | "The dripping cloth suddenly snaps tight." | None — unparryable chip | N/A | 25 raw | Standard | N/A |
+| Towel Lash | None — unparryable chip | N/A | 25 raw | Standard | N/A |
 | Frenzied Whirl | Heavy (chain) | "All four towels draw back in unison, then unwind one after another." | **3 sequential windows: 0.80s · 1.30s · 1.80s, each ±0.20s base** | 3 | 30 raw per unparried window (90 if all three land) | Standard | Chain continues from the missed beat |
 
 **Frenzied Whirl — the ballistic chain** *(set session 7, gives the Flailer archetype its defining Tier 3 opening):* three windows resolved back to back, one stopwatch each, restarting from 0 at each beat.
@@ -109,11 +109,11 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Drudge (elite) · **Level Range:** 10–20 · **HP:** 800 · **Move:** 2m deliberate advance, pauses after every attack · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** A carved attendant statue animated by centuries of absorbed prayers. Marble chips fall with every step.
-- **Limbs:** standard defaults, no deviations.
+- **Limbs:** custom. **Head: stagger 350** (solid marble — near-impossible to sever at current raw). **Arms: stagger 160** (stress fractures from centuries of punching stone). Arm sever → Marble Fist permanently disabled. **Legs: stagger 200** (weight-bearing pillars under constant stress — weaker than standard). Leg sever → grounded (1m crawl, can't advance), but still punches if you're in range.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Marble Fist | Heavy | "Stone cracks loudly through its arm before the punch." | Target 1.80s, ±0.20s | 2 | 80 raw | Standard | Long stationary recovery |
+| Marble Fist | Target 1.80s, ±0.20s | 2 | 80 raw | Standard | Long stationary recovery |
 
 - **Kitable:** Y. **Assess 0–1:** "Every hit hurts. Every swing is slow." · **Assess 2+:** "Its recovery is longer than its attack. Survive one blow, answer with several."
 - **White Salts drop:** 20. **Insight:** +1/+0. **Habit punished:** trading hits. **Dismember threat:** Very High.
@@ -152,11 +152,11 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Lunger (mook) · **Level Range:** 1–20 · **HP:** 340 · **Move:** 3m stalking pace, single 5m lunge after a short pause then a recovery beat · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** Once kept the cold stores at temperature. Now the cold that killed it lives under the skin, an icicle grown straight through the forearm where a blade should be.
-- **Limbs:** standard defaults, no deviations.
+- **Limbs:** custom. **Head:** standard (180). **Rime arm (ice shard): stagger 160** (frozen, brittle). Arm sever → Rime Thrust permanently disabled. **Off arm:** standard (200). **Legs:** standard (300).
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Rime Thrust | Heavy | "Frost cracks up its arm before it drives the shard forward." | Target 1.2s, ±0.20s | 1 | 40 raw; 1 Blood Loss stack | Standard | Long recovery prying the shard free |
+| Rime Thrust | Target 1.2s, ±0.20s | 1 | 40 raw; 1 Blood Loss stack | Standard | Long recovery prying the shard free |
 
 - **Kitable:** Y. **Assess 0–1:** "Only dangerous once it commits." · **Assess 2+:** "Wait for the crack. Dodge the thrust, punish the recovery — same rhythm as anything with one move."
 - **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** panic-dodging too early. **Dismember threat:** Moderate. **Retreat always reachable:** Y.
@@ -165,7 +165,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Burster (skirmisher) · **Level Range:** 5–25 · **HP:** 480 · **Move:** 3m twitching idle, 8m surge / ~1m recovery on the lunge · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** Something that used to work the strings now wears them — cord grown straight into its own joints, drawn bowstring-tight before every leap. First of its archetype on record; nothing about it is slow.
-- **Limbs:** standard defaults, no deviations.
+- **Limbs:** custom. **Head:** standard (180). **Arms: stagger 140** (wire-strung, taut but snappable). **Legs: stagger 150** (wire joints under tension). Leg sever → 8m surge disabled, grounded. The Marionette's danger is its surge — removing the legs removes the threat.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
@@ -205,7 +205,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Brute (heavy) · **Level Range:** 15–60 · **HP:** 1800 · **Move:** 4m slow, deliberate advance · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** Built from decades of fused ossuary bone, bound in rope and set pitch, wielding a cleaver the length of a door. Doesn't so much walk as arrive. First of its archetype on record — built deliberately over-levelled for now, a long-campaign fixture rather than a next-session encounter.
-- **Limbs:** standard defaults, no deviations — bulk instead of speed; the legs stay the one real opening regardless of its size.
+- **Limbs:** custom. **Head:** protected by **Forge Mask** (implement, isolated pool, stagger 100 — knock it off. No sever). While masked: head stagger threshold 300 (protected). Unmasked: standard 180. Two-phase head targeting. **Hammer arm: stagger 280** (overdeveloped, heat-hardened — tougher than standard). Arm sever → Cold Hammer permanently disabled. **Tongs arm: stagger 100** (worn, underworked — weakest point on the body). Arm sever → Smith reels (1 turn Discombobulation), but no attack was on this arm. A trap target — easy to hit, achieves little. **Legs: stagger 200** (weight-bearing under forge posture — weaker than standard). Leg sever → grounded, approach stops being a threat.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
@@ -452,11 +452,11 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Drudge (elite) · **Level Range:** 10–20 · **HP:** 760 · **Move:** 2m deliberate advance, pauses after every attack · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** An apprentice still chained wrist-to-anvil, dragging the whole iron block behind it with every step, never once slowing to compensate.
-- **Limbs:** standard defaults, no deviations.
+- **Limbs:** custom. **Head:** standard (180). **Chain arm (anvil-chained): stagger 250** (the chain reinforces the arm — tougher than standard). Arm sever → Anvil Drag-Swing disabled, chain and anvil become a floor obstacle. **Free arm: stagger 130** (weak, unworked — easy to take off, but no attack on this arm; a trap target that achieves little). **Legs:** standard (300).
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Anvil Drag-Swing | Heavy | "The anvil scrapes stone before the whole weight comes around." | Target 1.3s, ±0.25s | 2 | 60 raw | Standard | Long recovery dragging the anvil back into line |
+| Anvil Drag-Swing | Target 1.3s, ±0.25s | 2 | 60 raw | Standard | Long recovery dragging the anvil back into line |
 
 - **Kitable:** Y. **Assess 0–1:** "Every hit hurts. Every swing is slow." · **Assess 2+:** "Its recovery is longer than its attack — survive one, answer with several."
 - **White Salts drop:** 18. **Insight:** +1/+0. **Habit punished:** trading hits. **Dismember threat:** High.
@@ -529,7 +529,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Foundry (boss, heavy/reach-chain) · **HP:** 1400 (hand-set, exempt from scaling) · **Move:** 3m, never sprints, never retreats — but its swing radius reaches well past where its footsteps suggest.
 - **Flavour:** Once oversaw the whole forge floor. Now its ribs are the furnace, and everything it swings is still hot from the inside.
-- **Limbs:** standard defaults + **The Furnace Door** (weak point, chest) — multiplier ×1.75, sever 300.
+- **Limbs:** standard defaults + **The Furnace Door** (weak point, chest) — multiplier ×1.75, sever 300. **Head: stagger 250** (furnace-built, thick). **Each arm:** standard (200). Arm sever → Marshal's Cross disabled (needs both arms for the crossing swing), but Foundry Reckoning (chest-based) still functions. Severing arms removes the simpler attack without ending the fight.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect |
 |---|---|---|---|---|---|

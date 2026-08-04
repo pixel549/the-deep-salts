@@ -401,7 +401,7 @@ Standard humanoid:
 
 *Worked example: leg (×0.75, 300) needs 400 raw in one hit to sever. Head (×1.5, 180) needs 120 raw.*
 
-**Standard humanoid thresholds are fixed constants, never level-scaled.** Only HP scales, so raw damage climbing over time makes one-hit sever increasingly viable: head sever starts ~raw Str 60–80 with a real sever weapon. Arms (~308 raw) and legs (400 raw) stay out of one-hit reach even at 99 — staggered, not severed.
+**Standard humanoid thresholds are the baseline, never level-scaled.** Individual monsters may override specific limb thresholds in their Monster Template entries — reinforced heads, weakened arms, etc. Where no override is listed, standard defaults apply. Only HP scales with level, so raw damage climbing over time makes one-hit sever increasingly viable: head sever starts ~raw Str 60–80 with a real sever weapon. Arms (~308 raw) and legs (400 raw) stay out of one-hit reach even at 99 under standard defaults — staggered, not severed.
 
 **Weapon effects on the precision subsystem.** Two weapon-side exceptions are legal and both are priced in the weapon's own entry rather than here:
 - **Skipping the watch.** A weapon may allow called shots with no Precision stopwatch at all, at a flat percentage damage reduction applied to raw before multipliers. This trades the entire greedy-target risk/reward for a permanent tax, and is the accessibility route into the limb system.

@@ -245,3 +245,15 @@ Cheapest "clean" Insight reduction (buy + immediately remove) costs 10 Insight f
 **Bible → v4.6. Ruleset → v9.2. Dev log → v3.6.** Campaign log, character sheet and dm-plan untouched — a session was live in another thread during this pass.
 
 **Implement vs Limb distinction (session 10, mid-combat correction).** Previous ruling ("implements deal full HP damage like any other hit") was wrong. Corrected: implements have **isolated HP pools** that do not connect to the enemy's main HP. Damage to an implement only affects the implement's own stagger/sever thresholds. Stagger = partial effect (per implement), sever = destroyed. This is the logical distinction: hitting an enemy's equipment is not hitting the enemy. Limbs remain HP-connected — damage to a limb chips the enemy's main pool AND fills the limb's stagger/sever meter. The dev log entry that read "Previously the 'Sever only' phrasing was read as implying no HP damage, which was wrong" is itself now overturned — the original "no HP damage" reading was correct after all, it just needed the cleaner framing of isolated pools rather than "sever only."
+
+**Per-enemy limb tables (session 10, post-session design).** The headshot problem: every fight was parry → visceral → head → sever. No reason to target anything else because head has the highest multiplier and lowest sever threshold on every enemy. Fix: custom limb thresholds per monster, replacing "standard defaults, no deviations" on key enemies.
+
+Design principles applied:
+- **Reinforced heads** on enemies where it makes physical sense (salt-crusted Custodian, towel-wrapped Flailer, solid marble Attendant, masked Smith, furnace-built Marshal). Makes head sever harder or impossible at current raw.
+- **Weakened non-head limbs** that are tactically decisive: Custodian's salt-eaten scraper arm (sever = disarm), Flailer's towel-arms (sever = reduce chain beats), Marble Attendant's stressed legs (sever = immobilize), Marionette's wire legs (sever = no more surge).
+- **Trap targets** — limbs that are easy to hit but achieve nothing useful. Apprentice's free arm (weak but no attack attached), Smith's tongs arm (low threshold, minor reward). Teaches players to read what a limb DOES before targeting it.
+- **Two-phase targeting** — Smith's Forge Mask (implement, stagger to remove) protects the head. Must knock mask off before head becomes viable. Creates a multi-step targeting puzzle.
+
+Monsters updated: Chapel Penitent, Salt-Eaten Custodian, Bathhouse Flailer, Marble Attendant, Rime-Fused Bailiff, Wire-Strung Marionette, Anvil-Bound Apprentice, Frost-Iron Smith, Foundry Marshal. Ruleset §10 updated to note standard thresholds are defaults, not universal.
+
+The remaining 30+ "standard defaults" entries are left as-is for now. They'll be reworked as they come up in play or during a dedicated design pass.
