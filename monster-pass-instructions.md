@@ -1,8 +1,10 @@
-# Monster Manual — Limb/Implement Sanity Pass
+# Monster Manual — Design Standards & Pass Instructions
+
+*Originally the limb/implement sanity pass brief. Extended after the Secondary Actions & Atypical Archetypes pass — the limb rules below are unchanged and still binding; §§ on Secondary Actions and archetype coverage are additive requirements for all future entries.*
 
 ## Context
 
-The Deep Salts is a Soulsborne-inspired TTRPG. The monster manual lives in the design bible (`deep-salts-design-bible-v4.6.md` or whatever the current version is). Each monster entry has a `**Limbs:**` line describing its targetable body parts.
+The Deep Salts is a Soulsborne-inspired TTRPG. The monster manual lives in the design bible (`deep-salts-design-bible-v4.7.md` or whatever the current version is). Each monster entry has a `**Limbs:**` line describing its targetable body parts.
 
 The game has a problem: every fight devolves into "parry → visceral → headshot → sever → instant kill" because the head is always the optimal target (highest multiplier ×1.5, lowest effective sever threshold, instant kill on sever). This pass fixes that by giving monsters interesting limb tables that create tactical variety.
 
@@ -103,6 +105,48 @@ Or for guarded heads:
 - Don't make heads unseverable — just make them harder than the alternative. The player should still be able to headshot if they commit resources (Powder Charges, perfect accuracy), but the weak point should be the efficient play.
 - Sever effects should change how the fight plays, not just do damage. Disabling attacks, grounding enemies, removing armor — these are tactical rewards.
 
-## After Editing
+## After Editing (Part 1 only)
 
-Commit with a descriptive message. Don't version-bump the file — Jake will do that manually if warranted.
+Commit with a descriptive message. Don't version-bump the file for a limb-only pass — Jake will do that manually if warranted.
+
+
+---
+
+## Part 2 — Secondary Actions (mandatory on every entry)
+
+Full rules: **Ruleset §7.** Summary of what a pass must produce:
+
+**Every monster carries at least one Secondary Action. Most carry two or three.** They exist because the parry loop is solvable: Hold, read the tell, visceral, repeat. A Secondary Action is the enemy's answer to being read.
+
+Each one needs, without exception:
+1. A **name**.
+2. An **objective trigger** — a checkable condition, never DM mood. *"Parried twice in a row." "Below half HP." "A limb severed." "Took no damage last round." "The player is more than 6m away."*
+3. A **cooldown** in rounds, or "once per encounter." Without one they loop as badly as the primary attack did.
+4. An **effect that changes the shape of the next round.** Repositioning, denial, escalation, calling for help, self-repair, retreat, handing something to another enemy, changing its own limb table. **"Same attack, +20 raw" is not a Secondary Action.**
+
+Written in priority order — if two triggers fire in the same round, the first listed wins. A Secondary Action **replaces** the enemy's attack; it is never taken in addition to one.
+
+**Best practice, from this pass:**
+- The strongest triggers are things the **player did well**. False Bow (Chapel Penitent) fires because the player parried. Note It Down (The Recoil) fires because the player *stopped* parrying. Both close the exit the player just found.
+- Give roughly one in four entries a Secondary Action that is **not** an attack at all — healing an ally, fleeing, hiding behind something, offering a trade, standing still to regrow. These are what stop a room reading as a queue of health bars.
+- Enemies that regenerate, restring, re-mask or re-seal should be able to do it **repeatedly.** The lesson is "commit properly," not "you get one chance."
+- Where a Secondary Action makes the DM withhold or falsify information (false tells, silenced rooms), **Assess 2+ must state that it is happening** without stating which piece of information is the lie.
+
+## Part 3 — Archetype coverage
+
+Ruleset §16 now runs to twenty archetypes. Nine humanoid, five non-humanoid, six atypical (Pack, Leech, Snare, Stalker, Rite, Passenger), plus Effigy.
+
+When adding monsters, check the spread before writing. The recurring failure mode is drifting back toward *a ruined person with one parryable heavy*, because that is the easiest thing to write and the least interesting thing to fight. Specific requirements:
+
+- **Pack** entries are written as **one page** covering members and Alpha together. Members need **three or more attack options** — the whole design is that they hard-stack one of them while the Alpha lives and scatter across all of them when it dies. Always give the Alpha a **soft alternative target** (a whistle, a lead arm, a wing) that breaks coherence more cheaply than killing it.
+- **Leech** entries deal **zero physical damage**, always. If it hurts, it is not a Leech.
+- **Snare** entries must have an armoured, sever-immune body with an HP total that makes attrition explicitly *not* the plan — and limbs whose destruction permanently shrinks the room's threatened footprint.
+- **Stalker** entries require the instance to contain **at least one environmental answer**, decided when the layout is generated, never improvised when the player asks. Soft joints buy rounds; the true weak point is out of reach on purpose.
+- **Rite** entries state their rule **only in the DM-facing text**. The rule never bends. Assess 2+ gives a directional hint, never the answer.
+- **Passenger** entries must state their transfer range, their host preference order, and whether they can ride a companion or the player.
+- **Crawler** entries must state their **reach below the ceiling** and their **stated counter** (Ruleset §7 — an Interception with no answer is not shippable). Legs are the limb table; staggering one drops it, severing half grounds it.
+- **Swarm** entries state their occupied volume, their Arc/Point interaction (§10) and any elemental multiplier.
+
+## Part 4 — After editing
+
+Commit with a descriptive message. Version-bump only if the pass changed the ruleset; a monster-only pass leaves version numbers alone for Jake to decide on.

@@ -3,7 +3,7 @@
 
 System-agnostic ruleset (d20 base) for solo play with an AI DM. You trade humanity for power, and only see the trade once you've gone mad enough to look.
 
-*Version 9.2. Session-attribution history and rationale prose live in the dev log, not here.*
+*Version 9.3. Session-attribution history and rationale prose live in the dev log, not here.*
 
 ---
 
@@ -268,6 +268,40 @@ Declare and resolve all player actions: movement, one Action (§8), one Fast Act
 - **Enemies that are not being parried connect automatically.** This is not optional DM discretion — if an enemy is in range and attacking, and the player is not parrying that specific attack, it hits.
 - **Consequence:** multi-enemy combat is dangerous by design. The counterplay is thinning numbers before they act (kill or stagger on the Player Phase), kiting to keep enemies out of range, using positioning and line of sight to limit how many can reach you simultaneously, or accepting the trade (stand, swing, eat what comes). Parrying through a crowd is not possible without specific builds, perks, or mutations that explicitly grant additional parry attempts.
 
+### Secondary Actions (enemy-side)
+
+An enemy's primary attack is what it does when nothing has gone wrong for it. **Secondary Actions are what it does when something has.** Every monster entry carries at least one, and most carry two or three.
+
+**How they resolve:**
+
+- A Secondary Action **replaces** the enemy's attack for that Enemy Phase. It is never taken in addition to one — an enemy still acts exactly once per round.
+- Each has a stated **trigger**: an objective, checkable condition, never DM mood. *"Parried twice in a row." "Below half HP." "A limb severed." "Target further than 6m." "Took no damage last round."* If no trigger is true, the enemy attacks normally.
+- Each has a stated **cooldown** in rounds. Without one they loop as badly as the primary did.
+- If two triggers fire in the same round, the enemy takes the one listed **first** in its entry. Secondary Actions are written in priority order.
+- **Assess 2+ reveals the trigger, not the outcome.** The player learns what sets it off; what it does is discovered by setting it off.
+- A Secondary Action is an *action*, so a monster taking one is not attacking — no Rally is generated, no parry is available against it unless the entry says otherwise, and any recovery or opening tied to the primary attack does not occur.
+
+**Why they exist.** The parry loop is the strongest thing in the player's kit and it is meant to be. What it should not be is a solved encounter: Hold, read the tell, visceral, repeat until the bar empties. A Secondary Action is the enemy's answer to being read — it changes the shape of the next round the moment the player gets comfortable, so that "I know this monster" describes a decision tree rather than a single memorised number.
+
+**Design constraints (binding on all future content):**
+
+- A Secondary Action must **change the shape of the next round**, not merely deal damage on a different line. Repositioning, denial, escalation, calling for help, self-repair, retreat, handing something off to another enemy, changing its own limb table — all valid. *"Same attack, +20 raw"* is not a Secondary Action, it is a bigger swing.
+- It may be unparryable where that is the point, but an enemy whose *every* action is unparryable is a Shambler and should be built as one.
+- Secondary Actions never invent new subsystems. They reuse tracks, stagger, movement, line of sight, HP and the existing openings.
+- A Secondary Action **may** be triggered by the player doing well. Those are usually the best ones.
+- **They are not enrage timers.** A Secondary Action that fires unconditionally every N rounds is a second primary attack wearing a hat. The trigger must be something the player did.
+
+### Interception — enemy reactions during the Player Phase
+
+Enemies act on the Enemy Phase. A small number of entries — always flagged explicitly on their own Monster Template — instead act **in response to the player acting**, during the Player Phase. This is the only legal exception to the two-phase structure and it is deliberately rare.
+
+- An Interception is declared on the entry with its own trigger, and it resolves **before** the player's declared Action does.
+- **It cannot be parried.** Hold is an Action (§7), and an Interception fires on the Action being taken — including on Hold itself. A player who declares Hold against an intercepting enemy is hit mid-stance and loses that round's parry entirely.
+- An enemy that Intercepts does **not** also act on the Enemy Phase that round. It has spent its action.
+- **Interception damage is small by design.** The cost is the lost turn, not the number. An Interception that also hits hard is a design error.
+- The counter is always positional, ranged, or preparatory: break the condition that lets it reach you, hit it from outside its trigger, or spend a round making the trigger false. **Every intercepting entry must state its counter explicitly on its own page.** An interception with no stated answer is a tax on existing, not an encounter.
+- Movement alone never triggers an Interception. If it did, the player would have no legal move at all.
+
 ### Movement & Positioning
 
 Budget set by Endurance (8–14m) — the single per-turn currency; repositioning and actions both draw from it. Spend before/after your action up to the total minus the action's own cost (§8).
@@ -412,6 +446,13 @@ Standard humanoid:
 **Multipliers below ×1.0 as armour.** A limb or shell entry may be set **below ×1.0** (e.g. ×0.5 plating, a copper shell), reducing all incoming raw against it. Because the Precision Strike watch only triggers *above* ×1.0, an armoured entry is safe to hit and slow to kill by design — no timing risk, no reward, just work. Armour entries may be paired with a high-multiplier seam or weak point elsewhere on the creature, giving a real choice between grinding and specialising. Sub-1.0 entries never scale with level; they're a fixed property of the creature.
 
 **Elemental multipliers and immunities.** A creature may declare an explicit multiplier or immunity against a specific status track — tripled Burning against a shelled swarm, zero Burning and zero Corrosion against a body made of water. These are stated on the Monster Template, apply to that track's damage only, and are deliberately rare: the point is to occasionally invalidate one tool in the player's kit for one encounter, not to introduce a resistance chart. Assess 2+ always reveals them.
+
+**Attack shape — Arc and Point.** Most of the manual does not care how wide a swing is. A small and growing set of entries does — Swarms above all (§16), plus any creature made of many small bodies or many thin limbs. Two shapes:
+
+- **Arc** — sweeping, shearing, whipping or crushing across a span. **Default:** all *Reach* and *Heavy* type weapons, all flails, whips and lashes, all two-handed weapons, and any weapon whose own entry describes a sweep, shear or wide cut (the Guillotine Shears and the Retractor both qualify explicitly).
+- **Point** — thrusts, jabs, punches, single-target quick work. **Default:** one-handed *Quick* weapons, all thrust weapons, Fists, and all ranged single-projectile attacks.
+
+Where an entry doesn't make it obvious, the DM calls it once out loud and it stays called for the campaign. Shape never affects damage against anything with a normal limb table — it only matters where an entry explicitly invokes it, and it never interacts with Precision Strike, sever or stagger.
 
 ### Precision Strike — the greedy-target tax
 
@@ -608,11 +649,30 @@ Archetypes, reskin per location. Attack damage generated live (§2), scaled to l
 
 **Non-humanoid archetypes.** The nine above all assume a roughly person-shaped enemy with a head, a torso and four limbs — which is what the standard limb model (§10) is built for. The five below deliberately do not, and each one breaks a different assumption the player has learned to rely on. They exist so that a room can pose a problem that isn't "the same fight with more HP."
 
-10. **SWARM** (mook–elite) — HP ~350–600 · Move medium, flows rather than walks. **No limb entries at all** — a single sever-immune Mass row. Precision Strike cannot be declared, stagger never fires, called shots resolve as plain hits. Dies only to raw HP damage. The direct counter to a precision build, and the reason HP attrition stays a first-class kill method (§3).
+10. **SWARM / AMBIENT HAZARD** (mook–elite) — HP ~350–600 · Move medium, flows rather than walks; occupies a stated volume (e.g. 3m×3m) rather than a point. **No limb entries at all** — a single sever-immune Mass row. Precision Strike cannot be declared, stagger never fires, called shots resolve as plain hits, and every sever check simply does not apply. Dies only to raw HP damage. The direct counter to a precision build, and the reason HP attrition stays a first-class kill method (§3).
+    - **Dispersion (attack shape matters).** A Swarm's HP represents distributed bodies, not a target. **Arc attacks deal full raw. Point attacks deal half, rounded up** (see *Attack shape* in §10). A Swarm is the one place in the game where a slow wide weapon strictly outperforms a fast precise one, and where the correct answer may be a torch rather than a blade.
+    - **Escalating contact.** A Swarm's damage is designed to grow with time spent inside it rather than with the strength of its hits. Standing in one is the mistake; the archetype exists to price the player's position rather than to threaten a burst.
+    - Swarms are the natural home for elemental multipliers and immunities (§10) — a shelled swarm cooks, a swarm of vapour ignores bleed entirely.
 11. **ANCHOR** (elite–boss) — HP ~600–1500 · **Move 0m, permanently.** Never chases, never follows, cannot be kited because it never needed to close. Threatens through room-wide auras, reach, or a hazard it imposes on the space. Leaving is usually a complete counter — which makes "is this fight worth having" a real question rather than a rhetorical one.
 12. **VESSEL** (elite) — a shell and an occupant, two separate creatures in sequence. The shell carries a **sub-1.0 damage multiplier as armour** (see §10) and no interesting attacks; the occupant is fast, fragile, and usually trying to leave. The health bar emptying is the middle of the fight, not the end of it.
-13. **CRAWLER** (elite) — HP ~600–900 · Move fast (8m+) across **walls and ceilings**, ignoring floor terrain, hazards and chokepoints entirely. Cannot be funnelled, cannot be outrun, and the player's usual positional tools all quietly stop working.
+13. **CRAWLER / CEILING AMBUSHER** (elite) — HP ~600–900 · Move fast (8m+) across **walls and ceilings**, ignoring floor terrain, hazards and chokepoints entirely. Cannot be funnelled, cannot be outrun, and the player's usual positional tools all quietly stop working.
+    - **It holds with half its limbs and strikes with the other half**, so a Crawler that attacks from the ceiling *stays on the ceiling*. Attacking it in melee requires that its striking limbs be long enough to have brought it into reach — and many variants' aren't. Reach is stated per entry; some Crawlers are simply not meltable with a melee weapon while overhead.
+    - **Interception is the archetype's signature** (§7): while overhead and unspotted, a Crawler answers the player *taking an Action* rather than acting on its own phase. The mirror-image of the player's own parry loop — it punishes committing first, exactly as the parry punishes the enemy for committing first.
+    - **Legs are the whole limb table.** A 6- or 8-leg cluster; **severing half of them ends wall and ceiling movement permanently**, converting the Crawler to a slow ground crawl for the rest of the encounter. **Staggering any single leg drops it to the floor immediately** for the stagger's duration. Getting it down is the fight; killing it once it is down usually is not.
+    - The archetype is built to make ranged tools, thrown items and knockdown effects load-bearing rather than optional. A player with no answer to *height* has no answer to a Crawler.
 14. **TIDE** (hazard-creature) — occupies a stretch of floor, corridor or room. Often has no attack the player can react to and sometimes **no HP at all** — it is resolved by crossing it, cutting a lane through it, or shutting it off, not by killing it. The archetype that makes an encounter a problem rather than a fight.
+
+15. **PACK** (mook, group-only) — HP ~150–320 per member · Move fast (6–8m). **Never appears alone.** A Pack is 3–6 members plus one **Alpha** carrying roughly triple a member's HP and one command or buff ability. Every member has **three or more attack options** rather than one. **While the Alpha lives, the whole pack takes the same action in unison** — five Blood Loss applications landing in a single Enemy Phase, or five bodies of flat raw, chosen fresh each round. Individually each member is parryable and unthreatening; collectively they are unparryable, because §7 grants one parry per round against five simultaneous strikes. **Kill the Alpha and coherence breaks:** surviving members roll independently from then on, each picking its own attack, and the round stops arriving as a single stacked blow even though not one statline changed. The archetype that makes the simultaneous Enemy Phase bite, and the first where target priority *is* the fight.
+
+16. **LEECH** (parasite/controller) — HP ~200–450 · Move variable, frequently concealed, sometimes short-range blink. **Deals no physical damage whatsoever.** It drains the player's *economy* instead: White Salts out of the Purse, Insight, item charges, ammunition, pending Rally, or an attribute temporarily — a fixed amount per round, beginning the round after it establishes and continuing until it dies, loses line of sight, or the player leaves its stated range. Trivially killable and never worth the turn while anything else in the room is swinging, which is precisely the trap: ignore it and it eats the run's profit, answer it and you turn your back on whatever is walking up behind it. **Drained resources are gone, not held** — killing a Leech never refunds what it took unless its own entry says so.
+
+17. **SNARE** (terrain/anchor hybrid) — HP deliberately excessive (~1200–2500) · Move 0m, or a crawl measured in metres per encounter. A living hazard fused into the room, threatening through tendrils, roots, wires or lines reaching stated distances from a fixed anchor. **HP attrition is deliberately not the route** — the intended kill is limb destruction, and each limb destroyed permanently removes one zone of threat and shrinks the room's dangerous footprint. Converts a kitable space into a spatial puzzle where standing position relative to the anchor decides which incoming attacks can be escaped at all, including those of *other* enemies in the room. Distinct from Anchor (threatens the whole room; answered by leaving) and Tide (crossed rather than fought): a Snare can be dismantled, and dismantling it is the encounter.
+
+18. **STALKER** (pursuit/unkillable) — HP hand-set and deliberately excessive, or none at all · Move relentless, pointedly just under the player's own budget. **Not built to be beaten in a stand-up fight, and often not beatable at all in a given instance.** Limbs split into two grades: **soft joints** that stagger in a round or two and buy 2–4 rounds of distance, and a **true weak point** — a core, a gem, a heart-seam — with a threshold no current weapon reaches and reduced incoming damage on top. Alerting one converts the rest of the instance into a chase; it crosses rooms, it does not lose interest, and it does not heal what has been staggered off it for the duration of the run. **The instance must contain at least one environmental answer**, decided when the layout is generated rather than improvised when the player asks for one: a drop, a hazard, a sealable door, a flooding chamber, a rival creature that will aggro it. If a given roll genuinely has none, then finding the anchor and leaving is the correct play and the DM must let that read cleanly rather than dangling a solution that does not exist.
+
+19. **RITE** (puzzle/rule-bound) — HP variable · Move variable. Operates under a **strict, discoverable, absolutely consistent rule** governing when, whether and whom it attacks: it strikes only armed targets, or only what moved last round, or only whoever spoke, or it repeats the player's own previous action back at them. **The rule is never stated outright.** It is deduced from behaviour; Assess 2+ gives a strong directional hint rather than the answer. **The rule never bends — not once, not for tension, not because the fight has gone long.** An enemy that cheats its own rule is a random number generator with extra steps and destroys every Rite that comes after it. Obeying the rule is usually a complete counter and usually costs the player something they did not want to give up. The archetype for a room that is a problem rather than a fight.
+
+20. **PASSENGER** (occupant/target-denial) — HP ~150–250 for the passenger itself, plus whatever it is currently riding · Move via its host. Something small living inside something larger. **Killing the host does not kill it.** On the host's death it transfers to the nearest available body within a stated range — other enemies, corpses on the floor, and where the entry explicitly says so, a companion. It is exposed and targetable **only during the transfer, for exactly one round.** The whole fight is engineering a moment where the host dies with nothing else in reach. Distinct from Vessel (a shell and an occupant resolved in sequence): a Passenger has no fixed number of phases and will keep going as long as the room keeps offering it bodies.
 
 **Shared HP pools.** A creature may present as several bodies drawing on one pool. Damage to any body drains the shared total; individual bodies are not separately killable unless the entry says so. This is a Vessel or Swarm variant, not a new archetype, and it exists to make target selection and positioning matter in fights that would otherwise be a single health bar with extra steps. Two shapes have precedent: **bleed-back** (an undamaged body restores to the pool each round, so splitting attention is mandatory) and **terminal burst** (the bodies detonate together when the pool empties, so where they stand at the end is the real fight).
 
