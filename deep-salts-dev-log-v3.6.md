@@ -257,3 +257,17 @@ Design principles applied:
 Monsters updated: Chapel Penitent, Salt-Eaten Custodian, Bathhouse Flailer, Marble Attendant, Rime-Fused Bailiff, Wire-Strung Marionette, Anvil-Bound Apprentice, Frost-Iron Smith, Foundry Marshal. Ruleset §10 updated to note standard thresholds are defaults, not universal.
 
 The remaining 30+ "standard defaults" entries are left as-is for now. They'll be reworked as they come up in play or during a dedicated design pass.
+
+**Monster limb diversity pass (session 10, post-session).** Problem: every fight devolved into parry → visceral → head → sever. The head was always optimal because ×1.5 multiplier + lowest sever threshold + instant kill on sever = no reason to target anything else.
+
+Root cause was twofold:
+1. **Several monsters already had reinforced heads and weak-point limbs in the bible, but the DM was ignoring them and running standard humanoid 180 thresholds.** The Custodian (250 head), Flailer (240), and Marble Attendant (350) were all designed to resist headshots. This was a DM execution failure, not a design gap.
+2. **Weak-point limbs used standard arm/leg multipliers (×0.65/×0.75), making them nearly impossible to sever even with low thresholds.** A 120-threshold arm at ×0.65 needs 185 raw — harder than a 180 head at ×1.5 (needs 120 raw). The weak point was only weak on paper.
+
+Fixes applied:
+- **Custom multipliers on weak-point limbs.** Custodian scraper arm: ×1.2. Flailer arms: ×1.0. Marble Attendant arms/legs: ×1.0. These make weak points genuinely easier to sever than the reinforced head.
+- **Head guarding.** Guest and Cinderbound Attendant now guard their heads by default (hunched posture, apron cowl). Head not targetable until another limb is staggered first. Creates a multi-step puzzle.
+- **Implement personality.** Brine Spitter jaw is now an implement — sever it to permanently disable Brine Jet. Gives the player a tactical choice: kill it via HP attrition or disarm it and mop up.
+- **Sever effects that matter.** Every custom limb now has a specific sever consequence (disable attack, degrade chain, ground the enemy). Non-head severs are tactical choices, not consolation prizes.
+
+Design principle going forward: "standard defaults" is only acceptable for enemies where the headshot loop isn't a problem (pure HP-race mooks, non-humanoids, enemies with other gimmicks). Any elite or repeat-encounter enemy should have at least one non-head weak point that's genuinely the optimal target.

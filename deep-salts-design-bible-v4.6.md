@@ -23,7 +23,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Shambler (mook) · **Level Range:** 1–15 · **HP:** 200 · **Move:** 3m constant shuffle, no burst/recovery beat · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** A guest who came for the waters and never left the pool. Robe fused to grey skin. Drifts toward warmth rather than hunting.
-- **Limbs:** standard defaults, no deviations. Not sever-immune.
+- **Limbs:** custom. **Head: guarded** — hunches forward, arms outstretched. Not targetable until at least one arm is staggered or severed (recoils, exposing head). Once exposed: standard (stagger 180, ×1.5). **Arms: stagger 100, ×1.0** (waterlogged, swollen, barely holding together). Arm sever → Grasp disabled on that side; both severed = harmless. **Legs:** standard (300, ×0.75). Not sever-immune.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
@@ -51,7 +51,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Toller (mook) · **Level Range:** 1–20 · **HP:** 280 · **Move:** 2m slow walk, rarely closes · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** A ruined attendant dragging a cracked handbell beneath the waterline. Every ring reaches inside the skull.
-- **Limbs:** standard defaults, plus non-standard: **Bell** — implement, not a limb (Ruleset §10): multiplier ×2.0, sever 40 raw. Deals full HP damage on the hit like any other strike. Breaking it permanently disables Hollow Bell for the encounter — and the Bellkeeper has no other attack, so a destroyed bell leaves it harmless.
+- **Limbs:** standard defaults, plus non-standard: **Bell** — implement, not a limb (Ruleset §10): isolated HP pool, multiplier ×2.0, sever threshold 40. Damage to the bell does NOT chip the Bellkeeper's main HP. Breaking it permanently disables Hollow Bell for the encounter — and the Bellkeeper has no other attack, so a destroyed bell leaves it harmless.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
@@ -64,7 +64,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Drudge (elite) · **Level Range:** 5–20 · **HP:** 650 · **Move:** 3m relentless walk, never sprints · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** Once tasked with cleaning the baths, now drags an iron scraper large enough to serve as a coffin lid.
-- **Limbs:** custom. **Head: stagger 250** (salt-crusted skull and neck — reinforced, much harder than standard). **Scraper arm: stagger 120** (salt-eaten elbow joint — structurally compromised). Arm sever → Iron Scrape permanently disabled, scraper drops. **Off arm:** standard (200). **Legs:** standard (300).
+- **Limbs:** custom. **Head: stagger 250, ×1.5** (salt-crusted skull and neck — reinforced, much harder than standard). **Scraper arm: stagger 120, ×1.2** (salt-eaten elbow joint — exposed, damage transfers efficiently). Arm sever → Iron Scrape permanently disabled, scraper drops. Optimal target — lower threshold AND higher multiplier than head. **Off arm:** standard (200, ×0.65). **Legs:** standard (300, ×0.75).
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
@@ -77,7 +77,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Spitter (mook) · **Level Range:** 1–20 · **HP:** 260 · **Move:** 3m retreating shuffle, keeps distance · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** Jaw hangs permanently open, overflowing with glittering saltwater that never runs dry.
-- **Limbs:** standard defaults, no deviations.
+- **Limbs:** custom. **Head: stagger 180, ×1.5** (standard). **Jaw** — implement, isolated HP pool: stagger threshold 60 (×1.5). Jaw stagger → Brine Jet interrupted, 1 round cooldown before it can spit again. Jaw sever → Brine Jet permanently disabled (mouth destroyed). The jaw hangs loose — it's the obvious weak point. **Arms:** standard (200, ×0.65). **Legs:** standard (300, ×0.75).
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
@@ -90,7 +90,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Flailer (elite) · **Level Range:** 10–20 · **HP:** 700 · **Move:** 4m erratic, unpredictable direction changes · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** Wrapped in soaking towels that whip through the air like living tentacles when it panics.
-- **Limbs:** custom. **Head: stagger 240** (wrapped in layers of soaking towels — padded, harder than standard). **Each arm: stagger 140** (towel-wrapped, less structural than bone). Arm sever → Frenzied Whirl permanently drops 1 beat from chain (3→2→1). Both arms severed = single-beat chain. **Legs:** standard (300).
+- **Limbs:** custom. **Head: stagger 240, ×1.5** (wrapped in layers of soaking towels — padded, harder than standard). **Each arm: stagger 140, ×1.0** (towel-wrapped, less structural than bone — damage transfers cleanly). Arm sever → Frenzied Whirl permanently drops 1 beat from chain (3→2→1). Both arms severed = single-beat chain. Optimal targets — lower threshold, decent multiplier, and each sever degrades its best attack. **Legs:** standard (300, ×0.75).
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
@@ -109,7 +109,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Drudge (elite) · **Level Range:** 10–20 · **HP:** 800 · **Move:** 2m deliberate advance, pauses after every attack · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** A carved attendant statue animated by centuries of absorbed prayers. Marble chips fall with every step.
-- **Limbs:** custom. **Head: stagger 350** (solid marble — near-impossible to sever at current raw). **Arms: stagger 160** (stress fractures from centuries of punching stone). Arm sever → Marble Fist permanently disabled. **Legs: stagger 200** (weight-bearing pillars under constant stress — weaker than standard). Leg sever → grounded (1m crawl, can't advance), but still punches if you're in range.
+- **Limbs:** custom. **Head: stagger 350, ×1.5** (solid marble — near-impossible to sever at current raw; this is deliberate). **Arms: stagger 160, ×1.0** (stress fractures from centuries of punching stone — clean break point). Arm sever → Marble Fist permanently disabled. Optimal target for ending the fight's threat. **Legs: stagger 200, ×1.0** (weight-bearing pillars under constant stress). Leg sever → grounded (1m crawl), but still punches in range. Useful for kiting, not for finishing.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
@@ -138,7 +138,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Shambler (mook) · **Level Range:** 1–15 · **HP:** 220 · **Move:** 3m constant shuffle, no burst/recovery beat · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** A crematorium attendant whose apron fused to the firebrick during the last real burn. The wrap around its arms never fully cools. Drifts toward cold rather than hunting — the inverse of the thing that still wants its bath.
-- **Limbs:** standard defaults, no deviations. Not sever-immune.
+- **Limbs:** custom. **Head: guarded** — the firebrick apron covers its face and chest like a cowl. Not targetable until torso stagger (apron cracks, head exposed). Once exposed: standard (stagger 180, ×1.5). **Arms: stagger 120, ×1.0** (wrapped in smouldering cloth — brittle underneath). Arm sever → Cinder Grasp disabled on that side; 1 Burning applied to attacker from the severed stump's final flare. **Legs:** standard (300, ×0.75). Not sever-immune.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
