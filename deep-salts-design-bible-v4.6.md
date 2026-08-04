@@ -231,7 +231,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Toller (mook) · **Level Range:** 1–20 · **HP:** 300 · **Move:** 2m slow walk, rarely closes · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** Wears a barker's brass megaphone fused permanently to its jaw. Every call through it warps the mirrors around it into something worse.
-- **Limbs:** standard defaults, plus non-standard: **Megaphone** — implement, not a limb (Ruleset §10): multiplier ×2.0, sever 35 raw. Deals full HP damage on hit like any other strike. Breaking it disables Warped Call for the encounter — no other attack exists.
+- **Limbs:** standard defaults, plus non-standard: **Megaphone** — implement, not a limb (Ruleset §10): isolated HP pool, multiplier ×2.0, sever threshold 35. Damage to the megaphone does NOT chip the Barker's main HP. Breaking it disables Warped Call for the encounter — no other attack exists.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
@@ -465,7 +465,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Toller (mook) · **Level Range:** 1–20 · **HP:** 280 · **Move:** 2m slow walk, rarely closes · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** Throat packed with a slow-burning fuse instead of a voice box. Every call is timed to a sputter that never quite reaches detonation.
-- **Limbs:** standard defaults, plus non-standard: **Fuse-Horn** — implement, not a limb (Ruleset §10): multiplier ×2.0, sever 30 raw. Deals full HP damage on hit like any other strike. Breaking it disables Sputtered Call for the encounter.
+- **Limbs:** standard defaults, plus non-standard: **Fuse-Horn** — limb, not an implement (embedded in the throat, part of the body). Multiplier ×2.0, stagger/sever threshold 30. Damage to the Fuse-Horn chips the Crier's main HP (raw × 2.0). Sever → Sputtered Call permanently disabled, throat destroyed.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
@@ -478,7 +478,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Toller (mook) · **Level Range:** 1–20 · **HP:** 320 · **Move:** 2m slow walk, rarely closes · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** A cracked speaker cabinet strapped to its chest like a breastplate, still wired into whatever's left of its own throat.
-- **Limbs:** standard defaults, plus non-standard: **Speaker Cabinet** — implement, not a limb (Ruleset §10): multiplier ×2.0, sever 40 raw. Deals full HP damage on hit like any other strike. Breaking it disables Feedback Squall for the encounter.
+- **Limbs:** standard defaults, plus non-standard: **Speaker Cabinet** — implement, not a limb (Ruleset §10): isolated HP pool, multiplier ×2.0, sever threshold 40. Damage to the cabinet does NOT chip the Squall Box's main HP. Breaking it disables Feedback Squall for the encounter.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
