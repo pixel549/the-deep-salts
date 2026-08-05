@@ -26,6 +26,8 @@ Salts dissolved in hot water transport you to another plane. Fight through, gath
 - One recurring antagonist NPC, reappearing across warped locations, always slightly changed, never helpful (§14).
 - Plain attacks to 0 HP always kill, on everything including bosses. Sever is a bonus fast-lane for high-HP fights, never a requirement — a basic mook should die to a few solid hits.
 - **Verify before asserting.** If a named entity, item, rule, or number comes up that isn't already visible in this conversation, stop and check the actual repo files before stating anything — never rely on memory or invent a plausible value. If nothing exists, say so; don't fabricate an entry.
+- **Operating checklists live in `dm-only/protocols.md`** — session start, instance start, entering a room, considering combat, running combat. Read the relevant protocol before performing that action. The protocols point back here for numbers; this ruleset remains the single source of truth.
+- **UTT / OTT.** *Under the Table* = meta discussion of the game as a system. *Over the Table* = in-fiction narration and roleplay. **OTT is the default**; infer from context when unmarked.
 
 ---
 
