@@ -170,7 +170,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Secondary Actions:**
   - **Soak** — *Trigger:* any Burning stack lands on it. *Cooldown:* 2 rounds. It wrings the sodden towels over itself. All Burning cleared, and it gains 2m of movement this round. Fire is the obvious answer to a cloth enemy and this is why it isn't.
-  - **Snap Dry** — *Trigger:* both arms severed. *Cooldown:* 3 rounds. With no towels left it grabs and squeezes instead: unparryable, 20 raw + 1 Blood Loss to a creature within 1m, every round. Taking its arms off makes it worse at range and no safer up close.
+  - **Snap Dry** — *Trigger:* both arms severed. *Cooldown:* 3 rounds. With no towels left it grabs and squeezes instead: unparryable, 20 raw + 1 Bleeding to a creature within 1m, every round. Taking its arms off makes it worse at range and no safer up close.
 - **Kitable:** N. **Assess 0–1:** "Stay calm. It isn't." · **Assess 2+:** "The spin isn't one attack, it's three. Read all of them or none."
 - **White Salts drop:** 18. **Insight:** +1/+0. **Habit punished:** staying glued to its sides. **Dismember threat:** High.
 
@@ -234,7 +234,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Rime Thrust | Target 1.2s, ±0.20s | 1 | 40 raw; 1 Blood Loss stack | Standard | Long recovery prying the shard free |
+| Rime Thrust | Target 1.2s, ±0.20s | 1 | 40 raw; 1 Bleeding stack | Standard | Long recovery prying the shard free |
 
 - **Secondary Actions:**
   - **Rime Sheath** — *Trigger:* the Rime arm is staggered. *Cooldown:* 3 rounds. No thrust. It plunges the arm into the floor and regrows the shard: the stagger clears and the arm's stagger meter resets to zero. Sever it or commit properly — half measures are undone every time.
@@ -270,7 +270,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Secondary Actions:**
   - **Cross-Reference** — *Trigger:* two or more other enemies are in the room. *Cooldown:* 3 rounds. No recitation. It reads across: every other enemy's next attack gains +10 raw for one round. The Chanter's support role made explicit rather than implied.
-  - **Erratum** — *Trigger:* it takes damage from a Precision Strike or called shot. *Cooldown:* 2 rounds. The marginal notes rewrite themselves. The player's next Precision Strike this encounter resolves one tolerance band tighter. Stacks with itself up to twice.
+  - **Erratum** — *Trigger:* it takes damage from a Precision Strike or Precision Strike. *Cooldown:* 2 rounds. The marginal notes rewrite themselves. The player's next Precision Strike this encounter resolves one tolerance band tighter. Stacks with itself up to twice.
 - **Kitable:** N/A — no melee attack to kite; correct play is closing distance and killing it fast, not keeping range.
 - **Assess 0–1:** "It isn't attacking you, exactly. It's reading something onto you." · **Assess 2+:** "No tell because there's nothing to parry. Low HP, soft everywhere — kill it before the stacks matter."
 - **White Salts drop:** 10. **Insight:** +1/+0. **Habit punished:** ignoring it because "it isn't attacking." **Dismember threat:** Low (dies before limbs matter).
@@ -422,10 +422,10 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Shuttle Strike | Heavy | "The shuttle-hand draws back with a mechanical click." | Target 1.2s, ±0.20s | 1 | 40 raw; 1 Blood Loss stack | Standard | Long recovery, re-threading itself |
+| Shuttle Strike | Heavy | "The shuttle-hand draws back with a mechanical click." | Target 1.2s, ±0.20s | 1 | 40 raw; 1 Bleeding stack | Standard | Long recovery, re-threading itself |
 
 - **Secondary Actions:**
-  - **Warp the Floor** — *Trigger:* Shuttle Strike is parried. *Cooldown:* 3 rounds. It runs thread across the room instead of recovering: two 4m lines drawn between fixed points. Crossing one costs 2m and 1 Blood Loss. They last the encounter and **cannot be cut by Point attacks** (§10) — an Arc attack declared against a line destroys it.
+  - **Warp the Floor** — *Trigger:* Shuttle Strike is parried. *Cooldown:* 3 rounds. It runs thread across the room instead of recovering: two 4m lines drawn between fixed points. Crossing one costs 2m and 1 Bleeding. They last the encounter and **cannot be cut by Point attacks** (§10) — an Arc attack declared against a line destroys it.
   - **Draw Tight** — *Trigger:* the player is standing on or across one of its threads. *Cooldown:* 2 rounds. No attack. It hauls: the player is dragged 3m along the thread toward the Weaver. No save, no damage, no way to decline.
 - **Kitable:** Y. **Assess 0–1:** "Only dangerous once it commits." · **Assess 2+:** "Wait for the click. Dodge the strike, punish the recovery."
 - **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** panic-dodging too early. **Dismember threat:** Moderate. **Retreat always reachable:** Y.
@@ -438,11 +438,11 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Clinical Thrust | Heavy | "It steadies its grip before driving the scalpel forward." | Target 1.3s, ±0.20s | 1 | 40 raw; 1 Blood Loss stack | Standard | Long recovery, blade caught on bone |
+| Clinical Thrust | Heavy | "It steadies its grip before driving the scalpel forward." | Target 1.3s, ±0.20s | 1 | 40 raw; 1 Bleeding stack | Standard | Long recovery, blade caught on bone |
 
 - **Secondary Actions:**
   - **Triage** — *Trigger:* another enemy within 4m is below half HP. *Cooldown:* 3 rounds. No attack. It works on the ally instead: 60 HP restored and one staggered limb cleared. Clinical, unhurried, and the reason it should never be left for last.
-  - **Dose** — *Trigger:* the player has 3 or more Blood Loss stacks. *Cooldown:* 3 rounds. Unparryable, 0 raw. Forces an Insanity save at +2 DC. It is not trying to kill anyone. It believes it is helping.
+  - **Dose** — *Trigger:* the player has 3 or more Bleeding stacks. *Cooldown:* 3 rounds. Unparryable, 0 raw. Forces an Insanity save at +2 DC. It is not trying to kill anyone. It believes it is helping.
 - **Kitable:** Y. **Assess 0–1:** "Only dangerous once it commits." · **Assess 2+:** "Wait for the grip, dodge the thrust, punish the recovery."
 - **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** panic-dodging too early. **Dismember threat:** Moderate. **Retreat always reachable:** Y.
 
@@ -539,7 +539,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 | Pulp Cough | Ranged | "Its throat rattles, dry fiber already sifting loose." | Target 1.6s, ±0.20s | 1 | 30 raw; 2 Corrosion stacks | Standard | Stands exposed, coughing through the drift |
 
 - **Secondary Actions:**
-  - **Pack the Wound** — *Trigger:* the player has 1 or more Blood Loss stacks. *Cooldown:* 2 rounds. Unparryable, 0 raw. **Converts 2 Blood Loss stacks into 3 Corrosion stacks.** Strictly worse for the player, and a real decision about which track to manage first.
+  - **Pack the Wound** — *Trigger:* the player has 1 or more Bleeding stacks. *Cooldown:* 2 rounds. Unparryable, 0 raw. **Converts 2 Bleeding stacks into 3 Corrosion stacks.** Strictly worse for the player, and a real decision about which track to manage first.
   - **Set** — *Trigger:* below 50% HP. *Cooldown:* 4 rounds. No attack. The pulp hardens across its whole body: incoming raw ×0.6 for 3 rounds, during which all of its own attacks are disabled. A window that costs it nothing to open and everything to hold.
 - **Kitable:** N. **Assess 0–1:** "Closing the gap is safer than staying at range." · **Assess 2+:** "Rush it during the rattle."
 - **White Salts drop:** 8. **Insight:** +1/+0. **Habit punished:** backpedalling constantly. **Dismember threat:** Low.
@@ -729,7 +729,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Swarm (elite) · **Level Range:** 5–20 · **HP:** 450 · **Move:** 4m, flows over any surface, never climbs so much as spreads · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** A low tide of pale hands, wrist-deep and cut off clean, moving together with no body to belong to. No two are the same size. They test a surface before they cross it, the way a hand tests bathwater.
-- **Limbs:** **no standard limb entries at all.** Single entry below. Precision Strike cannot be declared against Handfall — there is no anatomy to be greedy about, and any called shot resolves as a plain Mass hit.
+- **Limbs:** **no standard limb entries at all.** Single entry below. Precision Strike cannot be declared against Handfall — there is no anatomy to be greedy about, and any Precision Strike resolves as a plain Mass hit.
 
 |Limb|Multiplier|Stagger Threshold|Stagger Duration|Sever Threshold|Sever Immune?|
 |-|-|-|-|-|-|
@@ -738,14 +738,14 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
 | Undertow | Light | None — unparryable, no windup | N/A | N/A | 15 raw + 1 Influence to every creature within 2m | N/A | N/A |
-| Closing Fist | Heavy | "A dozen hands stack into a single column and cock back." | Target 1.30s, ±0.20s | 1 | 45 raw + 1 Blood Loss | Standard | The column collapses; it re-forms over ~2 player actions |
+| Closing Fist | Heavy | "A dozen hands stack into a single column and cock back." | Target 1.30s, ±0.20s | 1 | 45 raw + 1 Bleeding | Standard | The column collapses; it re-forms over ~2 player actions |
 
 - **Secondary Actions:**
   - **Scatter** — *Trigger:* it takes an Arc attack (§10) or any AOE. *Cooldown:* 3 rounds. The hands disperse across the whole room. **Handfall cannot be damaged at all this round.** It deals no damage either, and reforms at the start of the next Enemy Phase anywhere the DM chooses within the room.
   - **Donate** — *Trigger:* another enemy in the room is below 50% HP. *Cooldown:* 4 rounds. No attack. The mass flows over and **transfers 60 of its own HP to that enemy**, up to that creature's own maximum. The swarm signature: damage the player deals does not necessarily stay dealt.
   - **Carry** — *Trigger:* it has dealt 40 or more cumulative raw this encounter. *Cooldown:* 4 rounds. No attack. The column lifts something loose off the floor — a dropped weapon, an item, a corpse — and carries it to the far side of the room. If nothing is loose, it lifts the player 2m and sets them down elsewhere.
-- **Kitable:** Y. **Assess 0–1:** "There's nothing to aim at." · **Assess 2+:** "It has no anatomy. Sever, stagger and called shots are all off the table — this one dies to raw HP damage and nothing else. Area damage is worth more than accuracy here."
-- **White Salts drop:** 16. **Insight:** +1/+0. **Habit punished:** called-shot dependency. **Dismember threat:** Low. **Retreat always reachable:** Y.
+- **Kitable:** Y. **Assess 0–1:** "There's nothing to aim at." · **Assess 2+:** "It has no anatomy. Sever, stagger and Precision Strikes are all off the table — this one dies to raw HP damage and nothing else. Area damage is worth more than accuracy here."
+- **White Salts drop:** 16. **Insight:** +1/+0. **Habit punished:** Precision Strike dependency. **Dismember threat:** Low. **Retreat always reachable:** Y.
 
 ## Monster 40 — The Salt Lung
 
@@ -860,7 +860,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Strike-and-Sink | Heavy | "A single ripple, moving against the current." | Target 1.05s, ±0.15s | 2 | 60 raw + 1 Blood Loss | Standard | It is *out* — head exposed for the following turn |
+| Strike-and-Sink | Heavy | "A single ripple, moving against the current." | Target 1.05s, ±0.15s | 2 | 60 raw + 1 Bleeding | Standard | It is *out* — head exposed for the following turn |
 | Constrict | Heavy — only usable if the target is standing in water | "Coils break the surface on both sides of you at once." | Target 1.70s, ±0.20s | 1 | 40 raw per turn until broken; **Strength DC 15** as an Action to escape | Standard | Releases, head exposed |
 
 - **Secondary Actions:**
@@ -928,7 +928,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Bite Down | Reactive | None — unparryable. Triggers on any creature that **ends its movement** on the Tooth. | N/A | N/A | 30 raw + 2 Blood Loss | N/A | N/A |
+| Bite Down | Reactive | None — unparryable. Triggers on any creature that **ends its movement** on the Tooth. | N/A | N/A | 30 raw + 2 Bleeding | N/A | N/A |
 
 - It never attacks anything not standing on it. It has no reach, no ranged option, and infinite patience.
 - **Secondary Actions:**
@@ -972,12 +972,12 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Weigh | Aura | "The dial spins up and a ticket starts feeding through the slot." Every third turn. | None — unparryable | N/A | Target takes damage equal to **their current total status-track stacks × 10** (Blood Loss + Insanity + Influence + Corrosion + Burning combined). Zero stacks = zero damage. | N/A | N/A |
+| Weigh | Aura | "The dial spins up and a ticket starts feeding through the slot." Every third turn. | None — unparryable | N/A | Target takes damage equal to **their current total status-track stacks × 10** (Bleeding + Insanity + Influence + Corrosion + Burning combined). Zero stacks = zero damage. | N/A | N/A |
 | Slot Arm | Heavy | "The ticket slot swings open on its arm." | Target 1.45s, ±0.20s | 1 | 55 raw | Standard | Long mechanical reset |
 
 - **Secondary Actions:**
   - **Print a Second Ticket** — *Trigger:* the player has 6 or more total status-track stacks. *Cooldown:* 3 rounds. No attack. It prints and offers a ticket. **The player may read it as a Full Action to learn one true fact about this room or this instance.** Reading it adds 2 Insanity. It is genuinely useful and it is genuinely not free.
-  - **Tare** — *Trigger:* the player has zero status-track stacks at the start of the Enemy Phase. *Cooldown:* 3 rounds. Unparryable. It applies 1 stack each of Blood Loss, Corrosion and Influence. It cannot weigh nothing and it will not be given nothing to weigh.
+  - **Tare** — *Trigger:* the player has zero status-track stacks at the start of the Enemy Phase. *Cooldown:* 3 rounds. Unparryable. It applies 1 stack each of Bleeding, Corrosion and Influence. It cannot weigh nothing and it will not be given nothing to weigh.
 - **Kitable:** Y. **Assess 0–1:** "It's counting something about you." · **Assess 2+:** "It charges you for everything you're already carrying. Clean your tracks or break the dial — either works, and one of them is a lot faster."
 - **White Salts drop:** 24. **Insight:** +1/+0. **Habit punished:** letting status tracks ride because none of them are individually lethal. **Dismember threat:** Low. **Retreat always reachable:** Y.
 
@@ -1015,7 +1015,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 |The Cup *(weak point — sealed until 3 petals are severed)*|×2.0|400|1 turn|500|N|
 
 - **Each severed Petal permanently removes one Petal Sweep line and reduces the Bloom's reach by 3m.** At two petals remaining it can no longer reach the room's edge at all.
-- **The Cup is physically inaccessible until three Petals are severed** — no called shot against it resolves before then, regardless of opening.
+- **The Cup is physically inaccessible until three Petals are severed** — no Precision Strike against it resolves before then, regardless of opening.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect |
 |---|---|---|---|---|---|
@@ -1043,7 +1043,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 |-|-|-|-|-|-|
 |Shell|**×0.5**|—|—|400|N|
 
-- **The ×0.5 Shell multiplier is armour** — every hit against the Vessel while shelled deals half raw. Being at or below ×1.0 it triggers **no Precision Strike stopwatch** (Ruleset §10), so it is safe to hit and slow to kill, deliberately.
+- **The ×0.5 Shell multiplier** — every hit against the Vessel while shelled deals half raw. Being at or below ×1.0 it triggers **no Precision Strike stopwatch** (Ruleset §10), so it is safe to hit and slow to kill, deliberately.
 - **Two routes through the shell:** grind it to 0 HP, or **sever it in one hit (400 at ×0.5 = 800 raw — effectively impossible; it is there to be a wall, not a target).** Either way, when the shell fails:
 - **Spilled phase:** the occupant tips out — a separate creature, **250 HP, Move 7m, standard humanoid limbs, no armour, actively panicking.** It does not fight; it runs.
 
@@ -1128,14 +1128,14 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 |Limb|Multiplier|Stagger Threshold|Stagger Duration|Sever Threshold|Sever Immune?|
 |-|-|-|-|-|-|
-|Body|×1.0|—|—|—|**Yes** — all called shots, of any kind, resolve as Body|
+|Body|×1.0|—|—|—|**Yes** — all Precision Strikes, of any kind, resolve as Body|
 
 - **Immunities:** Burning damage deals **0** against the Steeping. Corrosion deals **0**. It is water; there is nothing to burn and nothing to eat.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
 | Scald | Light | None — unparryable | N/A | N/A | 30 raw + 1 Burning | N/A | N/A |
-| Immerse | Heavy | "It leans toward you and loses its outline on the way." | Target 1.65s, ±0.25s | 1 | 65 raw + 2 Burning. **Additionally: the target's carried powder capsules are soaked** — the next Powder Charge attempt of any kind automatically fails as a dud. No Blood Loss penalty on the dud (Ruleset §4 failure clause does not apply — nothing detonated). One capsule wasted. | Standard | Has to gather itself back upright |
+| Immerse | Heavy | "It leans toward you and loses its outline on the way." | Target 1.65s, ±0.25s | 1 | 65 raw + 2 Burning. **Additionally: the target's carried powder capsules are soaked** — the next Powder Charge attempt of any kind automatically fails as a dud. No Bleeding penalty on the dud (Ruleset §4 failure clause does not apply — nothing detonated). One capsule wasted. | Standard | Has to gather itself back upright |
 
 - **Secondary Actions:**
   - **Pour** — *Trigger:* it is blocked by terrain, a chokepoint or a closed door. *Cooldown:* 2 rounds. No attack. It goes through the gap and reforms on the far side, ending adjacent to whatever it was trying to reach. There is no such thing as cover from this.
@@ -1161,7 +1161,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Fugue from a non-death source.** Ruleset §13 previously applied Fugue only on death. The Second Sight is the first creature that inflicts it in combat, at one-turn duration rather than until-cleared. It does not consume the next earned Insight point (the §13 clearing rule) — it simply expires.
 - **Secondary Actions:**
-  - **Look Away** — *Trigger:* it takes damage from a Precision Strike or called shot. *Cooldown:* 2 rounds. The cluster splits across seven positions at once. For 2 rounds it **cannot be called-shot at all** — plain attacks only, resolving against one seventh of the cluster per hit.
+  - **Look Away** — *Trigger:* it takes damage from a Precision Strike or Precision Strike. *Cooldown:* 2 rounds. The cluster splits across seven positions at once. For 2 rounds it **cannot be Precision Strike at all** — plain attacks only, resolving against one seventh of the cluster per hit.
   - **Regard in Unison** — *Trigger:* the player has passed two Insanity saves in a row. *Cooldown:* 4 rounds. All seven turn together. Insanity save at **+4 DC**; on failure, 2 rounds of Fugue instead of one.
 - **Kitable:** N. **Assess 0–1:** "Every one of those is a target and every one of those is watching." · **Assess 2+:** "Seven eyes, and each one comes off in a single hit — but they're the greediest shots in the game and a miss hands it a free strike. And once it's had a proper look at you, don't trust the next tell you get."
 - **White Salts drop:** 24. **Insight:** +1/+0. **Habit punished:** trusting the DM's reads unconditionally at high Insight. **Dismember threat:** Low. **Retreat always reachable:** Y.
@@ -1223,7 +1223,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Underfoot | Light | None — unparryable, no tell, from below | N/A | N/A | 30 raw + 1 Blood Loss | N/A | N/A |
+| Underfoot | Light | None — unparryable, no tell, from below | N/A | N/A | 30 raw + 1 Bleeding | N/A | N/A |
 | Breach | Heavy | "The boards under you buckle upward." | Target 1.15s, ±0.15s | 2 | 60 raw, and it is **surfaced** for this turn and the next | Standard | Left exposed on the surface an extra turn |
 
 - **Secondary Actions:**
@@ -1466,7 +1466,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Effigy (elite) · **Level Range:** 12–20 · **HP:** 800 · **Move:** 5m, and it moves the way you move · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** A smooth, featureless, roughly person-height column of grey matter with no face and no front. It stands very still and watches how it is hit. It is not defending itself; it is taking notes.
-- **Limbs:** custom, and **it has no anatomy until it has watched some.** At encounter start it is a single **Mass** entry: ×1.0, no stagger threshold, sever-immune. **Every time the player declares a called shot at a specific limb — on the Understudy or on anything else in the room — the Understudy grows that limb**, permanently for the encounter, at the standard humanoid threshold and multiplier for it. A player who never calls a shot fights a featureless block with no weak points and no way to end it quickly. A player who plays their usual game builds it a head at ×1.5 and hands themselves a fast kill. **Each limb grown also raises Bare Copy by +8 raw, permanently.** Assess 2+ states this outright, which is the whole encounter: knowing the deal does not make it an easy call.
+- **Limbs:** custom, and **it has no anatomy until it has watched some.** At encounter start it is a single **Mass** entry: ×1.0, no stagger threshold, sever-immune. **Every time the player declares a Precision Strike at a specific limb — on the Understudy or on anything else in the room — the Understudy grows that limb**, permanently for the encounter, at the standard humanoid threshold and multiplier for it. A player who never calls a shot fights a featureless block with no weak points and no way to end it quickly. A player who plays their usual game builds it a head at ×1.5 and hands themselves a fast kill. **Each limb grown also raises Bare Copy by +8 raw, permanently.** Assess 2+ states this outright, which is the whole encounter: knowing the deal does not make it an easy call.
 - **Adoption (the whole design):** the first time the Understudy is struck by a weapon with a **status-applying gimmick**, it permanently adopts that status for the rest of the encounter — every subsequent Bare Copy it lands applies **1 stack of that status**. It can hold **up to three** adopted statuses simultaneously, one per distinct source.
   - Hit it with a Burning weapon and it burns you. Hit it with three different gimmick weapons and it has all three.
   - It cannot adopt raw damage bonuses, accuracy effects, movement effects, or anything that isn't a status track — only tracks.
@@ -1563,7 +1563,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Slough | Heavy | "A whole sheet of it draws back and comes across." | Target 1.25s, ±0.20s | 1 | 45 raw + 1 Blood Loss | Standard | Standard |
+| Slough | Heavy | "A whole sheet of it draws back and comes across." | Target 1.25s, ±0.20s | 1 | 45 raw + 1 Bleeding | Standard | Standard |
 
 - **Secondary Actions:**
   - **Reabsorb** — *Trigger:* two or more copies are within 2m of each other and their combined HP is below 300. *Cooldown:* 3 rounds. No attack. The copies merge into a single body at their combined HP **+100**, and the three-round division clock resets. The only thing worse than a timer is a timer that runs backwards.
@@ -1599,14 +1599,14 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Swarm (elite) · **Level Range:** 5–20 · **HP:** 480 · **Move:** 6m, occupying a **4m × 4m column of air** rather than a point · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** Every loose page from every hymnal in the building, in the air at once, turning slowly. Each page has a name written at the top in a different hand. None of the names are printed.
-- **Limbs:** none. Single sever-immune **Mass** entry, ×1.0. Precision Strike cannot be declared, stagger never fires, called shots resolve as plain hits.
+- **Limbs:** none. Single sever-immune **Mass** entry, ×1.0. Precision Strike cannot be declared, stagger never fires, Precision Strikes resolve as plain hits.
 - **Attack shape (§10):** **Arc attacks deal full raw. Point attacks deal half, rounded up.** A knuckle through a page-storm accomplishes exactly what it sounds like it accomplishes.
-- **Elemental (§10):** **Burning ×3.** **Blood Loss immune** — there is nothing in it to open.
+- **Elemental (§10):** **Burning ×3.** **Bleeding immune** — there is nothing in it to open.
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
 | Recitation | Aura | None — unparryable, resolves at the end of the enemy block | N/A | N/A | 1 Influence to every creature inside the column | N/A | N/A |
-| Papercut Squall | Light | None — unparryable | N/A | N/A | 12 raw + 1 Blood Loss to every creature inside the column, **+6 raw for each consecutive round that creature has remained inside** | N/A | N/A |
+| Papercut Squall | Light | None — unparryable | N/A | N/A | 12 raw + 1 Bleeding to every creature inside the column, **+6 raw for each consecutive round that creature has remained inside** | N/A | N/A |
 
 - **Secondary Actions:**
   - **Scatter** — *Trigger:* it takes an Arc attack (§10) or any AOE. *Cooldown:* 3 rounds. The pages fly apart across the whole room. **The Hymnal cannot be damaged at all this round**, deals no damage either, and reforms at the start of the next Enemy Phase anywhere the DM chooses.
@@ -1763,7 +1763,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Leech (elite) · **Level Range:** 8–20 · **HP:** 280 · **Move:** 0m — it does not travel and it does not follow · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** A patch of ordinary air, about the height of a person, that the eye keeps declining to settle on. It is not hidden. It is simply not interesting, and it is working very hard at that.
-- **Limbs:** none. Single sever-immune **Presence** entry, ×1.0. No stagger, no Precision Strike, no called shots.
+- **Limbs:** none. Single sever-immune **Presence** entry, ×1.0. No stagger, no Precision Strike, no Precision Strikes.
 - **It deals no physical damage of any kind.**
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
@@ -1824,7 +1824,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Lash | Heavy — **one per surviving tendril, all resolving in the same Enemy Phase** | "Three of them come off the floor at once and there is no telling which." | Target 1.35s, ±0.20s each | 1 | 35 raw + 1 Blood Loss per unparried Lash | Standard | Standard |
+| Lash | Heavy — **one per surviving tendril, all resolving in the same Enemy Phase** | "Three of them come off the floor at once and there is no telling which." | Target 1.35s, ±0.20s each | 1 | 35 raw + 1 Bleeding per unparried Lash | Standard | Standard |
 
 - **One parry per round (§7).** With six tendrils live, five Lashes land. With two live, one lands. The fight gets better only as fast as the player takes it apart.
 - **Secondary Actions:**
@@ -1843,7 +1843,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
-| Draw | Reactive | None — **unparryable, deliberately.** Triggers on any creature crossing a live wire. | N/A | N/A | 25 raw + 1 Blood Loss, and the crossing creature forfeits the rest of its movement. **This applies to enemies as well, and the Rood does not care.** | N/A | N/A |
+| Draw | Reactive | None — **unparryable, deliberately.** Triggers on any creature crossing a live wire. | N/A | N/A | 25 raw + 1 Bleeding, and the crossing creature forfeits the rest of its movement. **This applies to enemies as well, and the Rood does not care.** | N/A | N/A |
 | Toll the Screen | Aura — every third round | "The wires all go tight at once and the note comes up out of the floor." | Unparryable | N/A | 1 Influence to everything in the room, **+1 per five wires still live** | N/A | N/A |
 
 - **Secondary Actions:**
@@ -1858,7 +1858,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 - **Archetype:** Snare (elite) · **Level Range:** 12–25 · **HP:** 1800 · **Move:** 1m per encounter — it drags its anchor a single metre and no more · **Scale Band:** 1–20 (×1.0)
 - **Flavour:** The forge's bellows grew roots at some point and the roots grew opinions. Four leather arms come off a central knot that breathes on its own schedule, and each one has scorched a quadrant of the floor black.
-- **Limbs:** custom. **Root Mass: ×0.5, no stagger, sever-immune** — armour by the §10 rule, 1800 HP behind it, not the intended kill. **Four Bellows Arms, each: stagger 150, ×1.1, sever 210.** Each owns a 90° quadrant out to **5m**. Sever → that quadrant is permanently safe and the Root loses one Blast per round. **The Throat: ×1.6, stagger 200, sever 280 — physically sealed until two Arms are severed**; no called shot resolves against it before then. **Throat sever → it collapses regardless of remaining HP.**
+- **Limbs:** custom. **Root Mass: ×0.5, no stagger, sever-immune** — armour by the §10 rule, 1800 HP behind it, not the intended kill. **Four Bellows Arms, each: stagger 150, ×1.1, sever 210.** Each owns a 90° quadrant out to **5m**. Sever → that quadrant is permanently safe and the Root loses one Blast per round. **The Throat: ×1.6, stagger 200, sever 280 — physically sealed until two Arms are severed**; no Precision Strike resolves against it before then. **Throat sever → it collapses regardless of remaining HP.**
 
 | Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
 |---|---|---|---|---|---|---|---|
@@ -1933,7 +1933,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect |
 |---|---|---|---|---|---|
-| Chew | Light | None — unparryable | N/A | N/A | 12 raw + 1 Blood Loss |
+| Chew | Light | None — unparryable | N/A | N/A | 12 raw + 1 Bleeding |
 | Rear | Heavy | "It stands up on the back half of itself." | Target 1.10s, ±0.15s | 2 | 22 raw |
 | Burrow | — | None | N/A | N/A | No damage. **Untargetable this round**; resurfaces adjacent to the player at the start of the next. |
 
@@ -1966,7 +1966,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 
 | Attack | Type | Tell | Window | Tier | Hit Effect |
 |---|---|---|---|---|---|
-| Snap | Light | None — unparryable | N/A | N/A | 18 raw + 1 Blood Loss |
+| Snap | Light | None — unparryable | N/A | N/A | 18 raw + 1 Bleeding |
 | Bear Down | Heavy | "It drops its shoulders and stops making any noise at all." | Target 1.05s, ±0.15s | 2 | 30 raw, and the target is knocked prone on a hit |
 | Cut Off | — | None | N/A | N/A | No damage. It moves to block the player's nearest exit and holds there. |
 
@@ -1999,7 +1999,7 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 | Correction | Heavy *(only against a held target)* | "The other hand comes up." | Target 1.30s, ±0.15s | 2 | 110 raw | Standard | Standard |
 
 - **Alert state.** Once it has seen the player it pursues for the remainder of the instance. It knows which room they are in. It does not lose interest. **Staggered limbs do not recover between rooms** — damage done to it persists across the whole run, which is the only mercy in the entry.
-- **Environmental answers — the instance MUST contain at least one, decided when the layout is generated (Ruleset §16):** a floor grate or drop it can be walked onto (10 rounds to climb out); a boiler room or plant room it can be shut into; a flooded chamber that reduces it to 2m; or a Brute-tier creature that will engage it in preference to the player. **If a given roll genuinely has none, finding the anchor and leaving is the correct play and the DM must let that read cleanly.**
+- **Environmental answers — the instance MUST contain at least one, decided when the layout is generated (Bible §0):** a floor grate or drop it can be walked onto (10 rounds to climb out); a boiler room or plant room it can be shut into; a flooded chamber that reduces it to 2m; or a Brute-tier creature that will engage it in preference to the player. **If a given roll genuinely has none, finding the anchor and leaving is the correct play and the DM must let that read cleanly.**
 - **Secondary Actions:**
   - **Reset the Joint** — *Trigger:* a knee is staggered or severed. *Cooldown:* none. It stops where it is, kneels, and takes **2 full rounds doing nothing at all** while it puts the joint back. The stagger clears at the end of it; a sever does not come back. **Two free rounds, every single time, and they are the whole reason to break its legs.**
   - **Roar** — *Trigger:* the player has left a room without engaging it. *Cooldown:* 3 rounds. No attack. **Every enemy in the adjacent rooms joins its pursuit.** A player who has spent the run avoiding fights is now being followed by all of them at once, in a group, behind something that cannot be killed.
@@ -2204,7 +2204,7 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
 - **Type:** Quick · **Stat/Grade:** Skill/D · **Hands:** One
 - **Acquisition:** backstory weapon, character-specific, not generally found.
 - **Base:** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75. **Worked rows:** ESV 18 → 31/58.
-- **Passive — Powder Charge (melee variant):** load a capsule as a universal Fast Action (0m), same as the ranged variant. Unlike the Launcher, firing it is a **timed** detonation: target 1.00s, ±0.15s base, widened by Insight window bonus. **Confirmed effects (session 7):** success = ×1.5 damage modifier on that hit, plus 1 Discombobulation to the target. Failure = the wielder takes 2 Blood Loss stacks and the turn ends immediately with no leftover movement to spend — harsher than a whiffed self-Rally, deliberately, since the capsule is armed either way.
+- **Passive — Powder Charge (melee variant):** load a capsule as a universal Fast Action (0m), same as the ranged variant. Unlike the Launcher, firing it is a **timed** detonation: target 1.00s, ±0.15s base, widened by Insight window bonus. **Confirmed effects (session 7):** success = ×1.5 damage modifier on that hit, plus 1 Discombobulation to the target. Failure = the wielder takes 2 Bleeding stacks and the turn ends immediately with no leftover movement to spend — harsher than a whiffed self-Rally, deliberately, since the capsule is armed either way.
 - **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
 
 ## Weapon 4 — The Guillotine Shears
@@ -2313,7 +2313,7 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
 - **Acquisition:** found — Choir Deep recipe, instance loot.
 - **Base:** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75.
 - **Worked rows:** ESV 8 → 26/50 · ESV 47 → 46/80.
-- **Passive:** a long embroidery needle-blade. Self-initiated called shots (Ruleset §10 — an unparryable grasp, a stationary target) using this weapon have their tightened tolerance eased back one band, toward the limb's own baseline. Built specifically for ambush/precision play rather than raw output.
+- **Passive:** a long embroidery needle-blade. Self-initiated Precision Strikes (Ruleset §10 — an unparryable grasp, a stationary target) using this weapon have their tightened tolerance eased back one band, toward the limb's own baseline. Built specifically for ambush/precision play rather than raw output.
 - **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
 
 ## Weapon 15 — The Split-Tongue Dagger *(paired)*
@@ -2331,7 +2331,7 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
 - **Acquisition:** found — general Vault reward.
 - **Base:** 24. Light = 24+ESV×0.7 · Heavy = 48+ESV×1.05.
 - **Worked rows:** ESV 8 → 30/57 · ESV 47 → 57/98.
-- **Passive:** an absurdly long, thin dueling blade. Every Precision Strike stopwatch (Ruleset §10, limb multiplier >1.0) is widened one full tolerance band while wielding this weapon — a true finesse pick, built entirely around called shots rather than raw weight.
+- **Passive:** an absurdly long, thin dueling blade. Every Precision Strike stopwatch (Ruleset §10, limb multiplier >1.0) is widened one full tolerance band while wielding this weapon — a true finesse pick, built entirely around Precision Strikes rather than raw weight.
 - **Sever viability:** standard, per the general limb-model sever thresholds — no weapon-specific bonus or penalty.
 
 ## Weapon 17 — The Cage-Wire Whip
@@ -2461,7 +2461,7 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
 - **Acquisition:** found — general Vault reward, no recipe tie.
 - **Base:** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75.
 - **Worked rows:** ESV 8 → 26/50 · ESV 47 → 46/80.
-- **Passive:** a fluted blade with a channel cut down its spine and a grip that has never been properly cleaned. **Both Light and Heavy deal +5 raw per Blood Loss stack the wielder is currently carrying.** At 9 stacks that is +45 raw on every swing — roughly doubling its output — and at 10 stacks the wielder Ruptures (25% Max HP, Ruleset §5). The weapon does nothing to cause bleeding and nothing to stop it. It simply pays better the closer you are to going over.
+- **Passive:** a fluted blade with a channel cut down its spine and a grip that has never been properly cleaned. **Both Light and Heavy deal +5 raw per Bleeding stack the wielder is currently carrying.** At 9 stacks that is +45 raw on every swing — roughly doubling its output — and at 10 stacks the wielder Ruptures (25% Max HP, Ruleset §5). The weapon does nothing to cause bleeding and nothing to stop it. It simply pays better the closer you are to going over.
 - **Status Applied:** none — it only reads.
 - **Sever viability:** standard, per the general limb-model sever thresholds. Note the interaction: a Heavy at 9 stacks reaches **125 raw at ESV 47**, clearing the Head line on a weapon that otherwise never would. That is the whole point and it is deliberately not safe.
 
@@ -2545,7 +2545,7 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
 - **Worked rows:** ESV 8 → 43/82 · ESV 20 → 56/101 · ESV 47 → 86/146.
 - **Passive:** a debt-collector's breaking bar, tallied down one face in notches that were not cut by the same hand. It is too much weapon and it charges for itself.
   - **Every Heavy swing costs 5m of movement** rather than 3m (matching Charged Heavy, Ruleset §4). At a standard 8m budget that is most of a turn.
-  - **Every Heavy inflicts 1 Blood Loss on the wielder, landed or missed.** The bar does not care whether it connected.
+  - **Every Heavy inflicts 1 Bleeding on the wielder, landed or missed.** The bar does not care whether it connected.
 - **Sever viability:** best-in-class outside the Coronal. Heavy clears the Head's 120-raw line at **ESV 32** — fifteen ESV earlier than the Foundry Wedge, the previous benchmark. Arm (~308) and Leg (400) remain out of one-hit reach at any ESV, per the fixed-constant rule (Ruleset §10).
 
 ## Weapon 38 — The Hollow Coronal
@@ -2558,7 +2558,7 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
 - **Worked rows:** ESV 8 → 41/76 · ESV 20 → 56/99 · ESV 47 → 92/152.
 - **Passive:** a crown of fused iron on a shaft, or a shaft that ends in one — the join isn't visible. It is the heaviest thing anyone has carried down here and it is not neutral about being carried.
   - **While equipped, the wielder's Insanity and Influence save DC is +3, permanently and unconditionally.** This stacks with the Insight term and does not care about Resolve.
-  - **It cannot be unequipped, stowed, or swapped away from inside an instance.** The choice is made at the hub, at the door, before anything is known about what is on the other side. It can be dropped — abandoned outright, per Abandon-All's gear rules (Ruleset §12) — but not put away.
+  - **It cannot be unequipped, stowed, or swapped away from inside an instance.** The choice is made at the hub, at the door, before anything is known about what is on the other side. It can be dropped — abandoned outright, per the gear-forfeit rules (Ruleset §12) — but not put away.
 - **Insight Gate:** none. It is not gated by sight. It is gated by nerve.
 - **Sever viability:** the highest in the game. Heavy clears the Head's 120-raw line at **ESV 31.** Arm and Leg remain unreachable in one hit at any ESV — even the ceiling does not break the fixed-constant rule.
 
@@ -2597,9 +2597,9 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
 - **Acquisition:** found — Cold Forge / Ember Wards recipes, instance loot.
 - **Base:** 28. Light = 28+ESV×0.7 · Heavy = 56+ESV×1.05.
 - **Worked rows:** ESV 8 → 34/65 · ESV 47 → 61/106.
-- **Passive:** a long thrusting lance with a heated collar behind the point, of the sort used to seal a wound shut rather than open one. **Every fully-landed Heavy applies 2 Burning to the target and clears 2 Blood Loss from the wielder.** The heat runs both ways along the shaft.
-- The Strength answer to a bleed problem — a build that runs hot, takes Blood Loss freely, and burns it off by committing to Heavies rather than by spending item actions on Wrap.
-- **Status Applied:** Burning (target), Blood Loss removal (self).
+- **Passive:** a long thrusting lance with a heated collar behind the point, of the sort used to seal a wound shut rather than open one. **Every fully-landed Heavy applies 2 Burning to the target and clears 2 Bleeding from the wielder.** The heat runs both ways along the shaft.
+- The Strength answer to a bleed problem — a build that runs hot, takes Bleeding freely, and burns it off by committing to Heavies rather than by spending item actions on Wrap.
+- **Status Applied:** Burning (target), Bleeding removal (self).
 - **Sever viability:** standard, per the general limb-model sever thresholds.
 
 ## Weapon 42 — The Grafted Limb
@@ -2609,9 +2609,9 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
 - **Base:** 26. Light = 26+ESV×0.7 · Heavy = 52+ESV×1.05.
 - **Worked rows:** ESV 8 → 32/61 · ESV 47 → 59/102.
 - **Passive:** a forearm and hand of dark worked metal that replaces the wielder's own from the elbow down. Once attached:
-  - **It cannot be unequipped, swapped, or dropped except at the hub**, where removal follows the Corrupted Regrowth regret rules (Ruleset §10) — a real cost, not a menu option.
+  - **It cannot be unequipped, swapped, or dropped except at the hub**, where removal follows the Mutation regret rules (Ruleset §10) — a real cost, not a menu option.
   - **It can never be disarmed** by any effect.
-  - **All self-inflicted damage from the wielder's own weapon gimmicks is halved** — Powder Charge failure, the Debt-Iron's Blood Loss, the Nursling's feeding, anything where the weapon costs you. It absorbs what it can.
+  - **All self-inflicted damage from the wielder's own weapon gimmicks is halved** — Powder Charge failure, the Debt-Iron's Bleeding, the Nursling's feeding, anything where the weapon costs you. It absorbs what it can.
   - **Severing that arm on the wielder destroys the weapon permanently.** It is a limb; limbs come off.
 - **Insight Gate:** none, though below **Insight Tier 3** the wielder cannot read what it is actually doing to the arm (same threshold as full mutation stat-lines, Ruleset §10).
 - **Sever viability:** standard, per the general limb-model sever thresholds.
@@ -2622,7 +2622,7 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
 - **Acquisition:** found — general Vault reward, no recipe tie.
 - **Base:** 24. Light = 24+ESV×0.7 · Heavy = 48+ESV×1.05.
 - **Worked rows:** ESV 8 → 30/57 · ESV 47 → 57/98.
-- **Passive:** a short blade of no consistent material, which is a polite way of saying it is made of pieces of other things. **After landing a killing blow, the Aggregate takes on one property of what it killed for the rest of the encounter:** the DM grants it one status application drawn from that creature's own kit — Burning, Corrosion, Influence, Blood Loss or Discombobulation — applied on its Heavy attacks at 1 stack.
+- **Passive:** a short blade of no consistent material, which is a polite way of saying it is made of pieces of other things. **After landing a killing blow, the Aggregate takes on one property of what it killed for the rest of the encounter:** the DM grants it one status application drawn from that creature's own kit — Burning, Corrosion, Influence, Bleeding or Discombobulation — applied on its Heavy attacks at 1 stack.
 - **Overwrites on every subsequent kill**, never stacks, and resets to nothing at the end of the encounter. Kill something that applies nothing and it takes nothing; the weapon is only as interesting as the room is.
 - **Insight Gate:** none.
 - **Sever viability:** standard, per the general limb-model sever thresholds.
@@ -2635,7 +2635,7 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
 - **Worked rows:** ESV 8 → 34/63 · ESV 20 → 44/79 · ESV 47 → 69/116.
 - **Passive:** a mortuary trocar scaled up past any use it was made for — a hollow spike on a long shaft, meant to go all the way through in one push. **All or nothing:**
   - **Sever thresholds are reduced by 20% for this weapon** against every target, standard or bespoke. Standard humanoid Head becomes **96**, Arm ~246, Leg 320.
-  - **It can never stagger a limb.** Its contribution to every stagger meter, on every hit, is **zero.** No stagger means no free called shots from crossing a threshold, and no limp limbs — ever.
+  - **It can never stagger a limb.** Its contribution to every stagger meter, on every hit, is **zero.** No stagger means no free Precision Strikes from crossing a threshold, and no limp limbs — ever.
 - The most specialised weapon in the manual. It severs earlier than anything at its grade and it removes an entire subsystem from the wielder's toolkit to do it.
 - **Sever viability:** Heavy clears the reduced Head line (96) at **ESV 33** — comparable to the Debt-Iron, at one grade lower and without the self-damage. Arm and Leg remain out of one-hit reach at any ESV even reduced, per the fixed-constant rule.
 
@@ -2748,7 +2748,7 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
 - **Acquisition:** found — Cold Forge / Paper Mill recipes, instance loot.
 - **Base:** 28. Light = 28+ESV×0.7 · Heavy = 56+ESV×1.05.
 - **Worked rows:** ESV 8 → 34/65 · ESV 20 → 42/77 · ESV 47 → 61/106.
-- **Passive:** a squared-off iron beam with no edge, no point and no finesse whatsoever. **Called shots with this weapon skip the Precision Strike stopwatch entirely** (Ruleset §10) — declare any limb, at any multiplier, and it simply lands. No timing check, no tolerance band, no miss punishment, ever.
+- **Passive:** a squared-off iron beam with no edge, no point and no finesse whatsoever. **Precision Strikes with this weapon skip the Precision Strike stopwatch entirely** (Ruleset §10) — declare any limb, at any multiplier, and it simply lands. No timing check, no tolerance band, no miss punishment, ever.
   - **The cost: all damage is reduced by 40%**, applied to raw before limb multipliers and before any other modifier.
   - **Worked:** at ESV 47, Heavy 106 → **64 raw**; against a head at ×1.5 that is 96 effective damage with zero risk, versus 159 with the watch and a ±0.13s window to hit.
 - The accessibility option, and a genuinely different way to engage the limb system: it converts the entire greedy-target subsystem from a timing test into a flat, permanent damage tax. Nothing else in the manual lets a player use limbs without ever touching a stopwatch.
@@ -2760,9 +2760,9 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
 - **Acquisition:** found — Gaslight Ward / Reliquary recipes, instance loot.
 - **Base:** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75.
 - **Worked rows:** ESV 8 → 26/50 · ESV 20 → 32/59 · ESV 47 → 46/80.
-- **Passive:** a narrow blade with a sealed glass reservoir set into the flat, half-full of something that moves more slowly than liquid should. **Transmute (Fast Action, 0m):** convert **2 stacks of Blood Loss from the wielder into 1 stack of Corrosion on a target within reach.** Usable once per turn.
+- **Passive:** a narrow blade with a sealed glass reservoir set into the flat, half-full of something that moves more slowly than liquid should. **Transmute (Fast Action, 0m):** convert **2 stacks of Bleeding from the wielder into 1 stack of Corrosion on a target within reach.** Usable once per turn.
   - The first weapon in the game that moves a status track from one creature to another rather than applying a new one.
-  - It is a bleed-management tool that happens to be offensive, and it is at its best in exactly the builds that generate self-inflicted Blood Loss on purpose — the Powder Charge, the Debt-Iron, the Hemorrhage.
+  - It is a bleed-management tool that happens to be offensive, and it is at its best in exactly the builds that generate self-inflicted Bleeding on purpose — the Powder Charge, the Debt-Iron, the Hemorrhage.
 - **Sever viability:** standard, per the general limb-model sever thresholds.
 
 ## Weapon 55 — The Toll-Blade
@@ -2810,7 +2810,7 @@ Lloyd's self-made twin knuckledusters, rigged to detonate loaded Powder Charge c
 - **Base:** 22. Light = 22+ESV×0.5 · Heavy = 44+ESV×0.75.
 - **Worked rows:** ESV 8 → 26/50 · ESV 20 → 32/59 · ESV 47 → 46/80.
 - **Passive:** a plain, light, well-balanced blade with a second grip set behind the first, as though it expects to be held by someone standing just over your shoulder. **It may be handed to a Persistent Companion** (Ruleset §18), which no other weapon in the game may be.
-  - **While a companion wields it:** they gain a melee attack option using their own governing stat and their own ESV, resolved on their own turn within their existing one-Action economy. It grants no called shots, no visceral capability, and no second action — it simply means a support companion is no longer defenceless when something reaches them.
+  - **While a companion wields it:** they gain a melee attack option using their own governing stat and their own ESV, resolved on their own turn within their existing one-Action economy. It grants no Precision Strikes, no visceral capability, and no second action — it simply means a support companion is no longer defenceless when something reaches them.
   - **While the player wields it:** it is an unremarkable Resolve/D one-hander with no bonus whatsoever.
 - Companion stat blocks are generated as canon on first accompanied run (Ruleset §18); handing this over is a permanent addition to that block until it is taken back at the hub.
 - **Sever viability:** none in companion hands — companions never sever, per the standing companion constraint. Standard in player hands, for whatever that is worth.
@@ -2884,7 +2884,7 @@ Zero mechanical function, zero dialogue, zero lore thread. *Not the reception cl
 - **Never does:** raise her voice, touch anything physical, appear to anyone below Insight 15, leave the alcove. **Never says directly:** her own name (the player names her, or doesn't), what she does with the Insight she collects, or why she's in the Hydro.
 - **Dialogue seeds:** measured, transactional, unbothered by refusal. "You've seen enough to find me. That's the price of admission." / "I don't sell power. I rearrange what's already yours." / "Come back when you have something to trade — or something you want taken away." / Treats a refusal as fact, not a slight.
 - **Mechanical function:**
-  - **Voluntary mutation (buy):** 5 Insight → player chooses a limb, DM generates a mutation (upside + downside, same Corrupted Regrowth shape as ruleset §10). The limb doesn't need to be lost first — the Vendor changes it in place. Mutation is permanent until removed. Full stat-line legible immediately (Insight threshold already met by access requirement). Always available — no prerequisite.
+  - **Voluntary mutation (buy):** 5 Insight → player chooses a limb, DM generates a mutation (upside + downside, same Mutation shape as ruleset §10). The limb doesn't need to be lost first — the Vendor changes it in place. Mutation is permanent until removed. Full stat-line legible immediately (Insight threshold already met by access requirement). Always available — no prerequisite.
   - **Mutation removal:** 5 Insight → removes one existing mutation, limb reverts to human. **Requires** having at least one existing mutation or Scar — the Vendor won't accept Insight with nothing on the table.
   - **Scar removal:** only route. Scar 1 = 6 Insight, Scar 2 = 10, Scar 3+ = escalating. **Requires** having the Scar (same constraint — no phantom trades).
   - **Hard constraint:** the player must either purchase a mutation OR have an existing mutation/Scar to remove. No clean Insight dumps. The cheapest "clean" Insight reduction (buy mutation + immediately remove it) costs 10 Insight for zero lasting change. Accepting the mutation costs 5 and you keep the upside+downside. This is by design — rewards commitment over cycling.
@@ -2927,7 +2927,7 @@ Same fields as standard, plus once recruited:
 - **Stat block** *(generated live session 7, recorded as canon)*:
   - HP 55 · Move 8m · RES 24 (ESV 23) · Insight 0. One Action per turn, same economy as the player.
   - **Purging Flame** — AOE, RES/D, Heavy Action (3m), ranged cast up to 8m, 4m radius: 32 dmg to every enemy in the radius — and to Lloyd, if he's standing in it. No exception carved out for him.
-  - **Judgment Spark** — single-target, RES/E, Light Action (1m), ranged: 27 dmg. Deliberately her weakest number; can never be used for called shots or limb targeting.
+  - **Judgment Spark** — single-target, RES/E, Light Action (1m), ranged: 27 dmg. Deliberately her weakest number; can never be used for Precision Strikes or limb targeting.
   - **Imbue Weapon** — Full Action (2m), range 5m (session 9 ruling): +12 flat damage to Lloyd's next attack, light or heavy, whichever he swings first. One charge at a time, doesn't stack with itself, does stack with the Charm (different source — hers scales off RES, the Charm is a flat item bonus).
   - **Steadying Grace** — Full Action (2m), range 5m (session 9 ruling): usable only the turn immediately after Lloyd takes a hit and doesn't land a qualifying attack that turn (his Rally window closing). Recovers 50% of whatever grey Rally HP is currently pending into real HP; the other half is lost, same as a whiffed self-Rally. Bound entirely to the existing Rally system — no new resource.
   - **Steady Faith** *(passive)* — within 5m of Lloyd, he gets −1 to his own Insanity/Influence save DC.
@@ -2994,7 +2994,7 @@ Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of 
 *Fills the default Quick Item row (Ruleset §8) — first standalone Bible entry, values already canon via the character sheet/Hub Kit.*
 
 - **Type:** Quick · **Action Cost:** Fast Action
-- **Effect:** clears 2 Blood Loss stacks.
+- **Effect:** clears 2 Bleeding stacks.
 - **Status Applied:** none (removal only). **Duration:** instant. **Consumable:** Y. **Carry Limit:** 5.
 - **Insight Gate:** none. **Limb Requirement:** a working hand.
 - **Acquisition:** Hub Kit (2× on every arrival, free) · bought at 10 Salts beyond the kit default.
@@ -3035,7 +3035,7 @@ Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of 
 *Fills the default Action Item row (Ruleset §8) — first standalone Bible entry.*
 
 - **Type:** Action Item · **Action Cost:** full Action, costs the entire remaining movement budget for the turn
-- **Effect:** fully clears Blood Loss to 0, regardless of current stack count.
+- **Effect:** fully clears Bleeding to 0, regardless of current stack count.
 - **Status Applied:** none (removal only). **Duration:** instant. **Consumable:** N (Constant — reusable indefinitely, the cost is the movement tax, not the item).
 - **Insight Gate:** none. **Limb Requirement:** a working hand and arm.
 - **Acquisition:** commissioned (hub apothecary) · not found in instances. Backstory-eligible.
@@ -3056,7 +3056,7 @@ Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of 
 - **Effect:** clears 1 Influence stack.
 - **Status Applied:** none (removal only). **Duration:** instant. **Consumable:** Y. **Carry Limit:** 5.
 - **Insight Gate:** none. **Limb Requirement:** a working hand.
-- **Acquisition:** found — general instance loot. Bought at 10 Salts. **Design note:** the first dedicated Influence-clear Quick Item — closes the last gap in track-clear parity (Blood Loss/Wrap, Insanity/Camphor, Corrosion/Scour, now Influence/this).
+- **Acquisition:** found — general instance loot. Bought at 10 Salts. **Design note:** the first dedicated Influence-clear Quick Item — closes the last gap in track-clear parity (Bleeding/Wrap, Insanity/Camphor, Corrosion/Scour, now Influence/this).
 - **Flavour:** an old coin, filed smooth on one face. Pressed to the tongue, it gives the mouth something to taste that isn't the compulsion.
 
 ## Item 13 — Cold Press
@@ -3105,7 +3105,7 @@ Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of 
 ## Item 18 — Hollow Reed
 
 - **Type:** Quick · **Action Cost:** Fast Action
-- **Effect:** clears 1 stack from any single status track of the wielder's choice (Blood Loss, Insanity, Influence, Corrosion, or Burning).
+- **Effect:** clears 1 stack from any single status track of the wielder's choice (Bleeding, Insanity, Influence, Corrosion, or Burning).
 - **Duration:** instant. **Consumable:** Y, Uses: 1, **not Hub Kit** — doesn't refill on hub return, must be found or bought fresh each time.
 - **Carry Limit:** 3.
 - **Insight Gate:** none. **Limb Requirement:** a working hand.
@@ -3114,7 +3114,7 @@ Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of 
 ## Item 19 — Thread-Count Bandage
 
 - **Type:** Quick · **Action Cost:** Fast Action
-- **Effect:** clears 1 Blood Loss stack **and** ends the wielder's current Off-Balance status, if active, in the same use.
+- **Effect:** clears 1 Bleeding stack **and** ends the wielder's current Off-Balance status, if active, in the same use.
 - **Duration:** instant. **Consumable:** Y. **Carry Limit:** 2 (a combo item, deliberately rarer than plain Wrap).
 - **Insight Gate:** none. **Limb Requirement:** a working hand.
 - **Acquisition:** found — general instance loot, uncommon. Bought at 15 Salts.
@@ -3122,7 +3122,7 @@ Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of 
 ## Item 20 — Bone-Set Splint
 
 - **Type:** Action Item · **Action Cost:** full Action, costs the entire remaining movement budget for the turn (same tax as Cautery Iron)
-- **Effect:** fully clears Blood Loss to 0, regardless of current stack count.
+- **Effect:** fully clears Bleeding to 0, regardless of current stack count.
 - **Duration:** instant. **Consumable:** Y, Uses: 1. **Carry Limit:** 2.
 - **Insight Gate:** none. **Limb Requirement:** a working hand and arm.
 - **Acquisition:** found — general instance loot, uncommon. Bought at 35 Salts. **Design note:** the disposable, found/bought counterpart to Cautery Iron's Constant hub-commissioned version — same effect, different durability tag, different economy.
@@ -3170,7 +3170,7 @@ Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of 
 ## Item 26 — Hooked Anchor Line
 
 - **Type:** Action Item · **Action Cost:** full Action, 2m · **Range:** 5m
-- **Effect:** pulls the user 5m toward a fixed surface (wall, pillar, railing) — never toward an enemy or a hazard. Pure repositioning, no damage, no called shot.
+- **Effect:** pulls the user 5m toward a fixed surface (wall, pillar, railing) — never toward an enemy or a hazard. Pure repositioning, no damage, no Precision Strike.
 - **Duration:** instant. **Consumable:** Y, Uses: 1. **Carry Limit:** 2.
 - **Insight Gate:** none. **Limb Requirement:** a working hand and arm.
 - **Acquisition:** found — general instance loot. Bought at 30 Salts.
@@ -3202,7 +3202,7 @@ Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of 
 ## Item 30 — Chipped Molar
 
 - **Type:** Passive/Equip · **Action Cost:** none, carried
-- **Effect:** once per hub cycle, the first Blood Loss stack taken during a run is negated entirely (as if it never happened) — same cadence convention as the Vigor 40 perk *Second Wind*.
+- **Effect:** once per hub cycle, the first Bleeding stack taken during a run is negated entirely (as if it never happened) — same cadence convention as the Vigor 40 perk *Second Wind*.
 - **Consumable:** N.
 - **Insight Gate:** none. **Limb Requirement:** none, carried.
 - **Acquisition:** found — general instance loot, uncommon.
@@ -3243,7 +3243,7 @@ Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of 
 ## Item 34 — Threadbare Glove
 
 - **Type:** Passive/Equip · **Action Cost:** none, worn
-- **Effect:** self-initiated called shots (Ruleset §10) have their tightened tolerance eased back half a band instead of the full band.
+- **Effect:** self-initiated Precision Strikes (Ruleset §10) have their tightened tolerance eased back half a band instead of the full band.
 - **Consumable:** N.
 - **Insight Gate:** none. **Limb Requirement:** a working hand, worn on it.
 - **Acquisition:** found — general instance loot, uncommon.
@@ -3251,7 +3251,7 @@ Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of 
 ## Item 35 — Salt-Stained Ribbon
 
 - **Type:** Passive/Equip · **Action Cost:** none, worn
-- **Effect:** once per hub cycle, the next Rupture the wielder takes deals 25% less damage. Stacks additively with the Vigor 20 perk *Resist Rupture* if both are active — **combined reduction from any source caps at 50% total**, stated explicitly to prevent runaway stacking.
+- **Effect:** once per hub cycle, the next Bleeding application against the wielder is reduced by 25%, rounded down. Stacks additively with the Vigor 20 perk *Thick Blood* if both are active — **combined reduction from any source caps at 50% total**, stated explicitly to prevent runaway stacking.
 - **Consumable:** N.
 - **Insight Gate:** none. **Limb Requirement:** none, worn.
 - **Acquisition:** found — general instance loot, uncommon.
@@ -3286,14 +3286,14 @@ Found session 7, Choir Deep (vestry sub-locale) — hung apart from the rest of 
 - **Effect:** −1m movement, next turn only. **Duration:** 1 turn, expires automatically.
 - **Combos:** compounds tactically with a staggered leg or Discombobulation's movement scrambling.
 
-*Blood Loss and Rupture are fully defined in Ruleset §5 — not restated here. This section holds only effects the ruleset doesn't cover.*
+*Bleeding is fully defined in Ruleset §5 — not restated here. This section holds only effects the ruleset doesn't cover.*
 
 ## Status Effect Template (blank)
 
-**Type (Immediate/Track/Tick):** · **Affects:** · **Resisted on application:**
-**If Immediate:** effect · duration · cleared early?
+**Type (Tick/Track/Condition):** · **Affects:** · **Resisted on application:**
+**If Tick:** applied value · effect per stack · drains 1/turn · cap · clear condition
 **If Track:** stacks per application · effect per stack/turn · cap · overflow effect · clear condition
-**If Tick:** applied value · effect while active (counts down 1/turn automatically)
+**If Condition:** trigger · effect while held · clear condition
 **Interactions:** dangerous combos · countered by · sources
 
 ---

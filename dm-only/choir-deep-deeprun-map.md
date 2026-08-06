@@ -19,7 +19,7 @@ Do not pre-resolve, in play, any of the genuinely open mysteries this touches (N
 
 Five wings, ~19 rooms, two engineered shortcuts, five Instance Quest beats, one soft ongoing pressure mechanic (the Bell). Built for roughly 3-5 sessions of real play at normal pace, assuming the party doesn't rush a beeline.
 
-**Wake-in / anchor:** The Rotunda (A1) — matches session 3 canon, no reroll this dive.
+**Wake-in / clean chalice:** The Rotunda (A1) — matches session 3 canon, no reroll this dive.
 
 **Party never told room names as "rooms."** Describe environmentally in the moment; this map is bookkeeping, not read-aloud text.
 
@@ -27,9 +27,9 @@ Five wings, ~19 rooms, two engineered shortcuts, five Instance Quest beats, one 
 
 ## WING A — Nave & Rotunda *(established, session 3/6)*
 
-### A1 — The Rotunda *(anchor room)*
+### A1 — The Rotunda *(clean chalice room)*
 Already canon: where the Singer was first fought and killed (session 6). Open, high-domed, ring-shaped floor the congregation once filled.
-- **Anchor/chalice** lives here, tucked behind the shattered pulpit — already found in a past visit per existing canon, so it's simply present, not a new discovery beat.
+- **Clean chalice** lives here, tucked behind the shattered pulpit — already found in a past visit per existing canon, so it's simply present, not a new discovery beat.
 - **Singer rare-respawn check:** roll 1-in-4 any time the party returns to A1 after having exited the instance via the anchor and re-entered. If it hits, a **fresh, full-HP Singer** (Monster 8) is here, Penitent congregation reforms around it. If it doesn't hit, the room is just empty and quiet — let that silence carry weight, it earned it.
 - Exits: Nave (A2), Bronze Door (locked, → C1, opens permanently once C3's winch is fixed), Choir Loft one-way drop-in from D1 (arrives here, doesn't leave this way).
 
@@ -185,7 +185,7 @@ When this arc closes, add a line to the dev log: "Choir Deep deep-run map (dm-on
 
 **Session 8, opening:** Rare-respawn roll for A1 came up hit (1-in-4) — fresh, full-HP Singer + full 4-Penitent congregation present on arrival, matching the original session-6 defeat composition exactly (no invented count).
 
-- Singer HP: 868/900 (Maria opened with Purging Flame, no called shot on the Open Throat, standard body damage).
+- Singer HP: 868/900 (Maria opened with Purging Flame, no Precision Strike on the Open Throat, standard body damage).
 - Penitent #1: 268/300 (caught in Purging Flame radius). Penitent #2: 268/300 (same). Penitent #3, #4: 300/300, untouched, ring's far side.
 - Lloyd: not caught in the blast — stood back near the entry point, out of the 4m radius.
 - Influence: pending Choir Pulse resolution this round, both PCs likely to hit stack 2 (first-save threshold) immediately.
@@ -193,4 +193,4 @@ When this arc closes, add a line to the dev log: "Choir Deep deep-run map (dm-on
 
 **Correction, session 8 (Nave beat):** I wrongly narrated A3/A4/A5/B1/B2 as "already picked through" when the party retreated into A2 — conflating past-session canon (same recipe identity, fixed lore like Nell's rota) with this run's actual exploration state. Fixed above. Only A1 and A2 have actually been walked this run so far. Everything past A2 is genuinely fresh, first-visit territory for this dive.
 
-**Session 8, D1:** Marble Attendant ambushed — head, called shot + Powder Charge both landed (1.07s, inside 0.70-1.30). ~200 effective vs 180 threshold, outright sever. Room clear. 20 Salts to Purse, +1 Insight (first kill of this archetype).
+**Session 8, D1:** Marble Attendant ambushed — head, Precision Strike + Powder Charge both landed (1.07s, inside 0.70-1.30). ~200 effective vs 180 threshold, outright sever. Room clear. 20 Salts to Purse, +1 Insight (first kill of this archetype).

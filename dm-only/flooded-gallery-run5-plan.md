@@ -2,7 +2,7 @@
 
 **Status:** LIVE. Started session 11. Multi-session — instance has opened out beyond the wake-in structure.
 **Rolled parameters:** sub-locale = sunken laundry / service stair (seeded, first visit). Flavour tag = Puzzle. Rare in-run NPC = HIT (1-in-4).
-**Anchor:** NOT PLACED YET. Not found. See ANCHOR below.
+**Clean chalice:** NOT PLACED YET. Not found. See CLEAN CHALICE below.
 
 > **Provenance note.** Sessions of this run before this document existed were improvised without a plan (ruleset §18 previously only mandated plans for multi-session dives; widened session 11). Everything under MAP 1 is retro-documented from play, not pre-planned. MAPS 2–3 are properly planned forward.
 
@@ -68,14 +68,14 @@ Small. Do not build a continent. Six locations max.
 
 ---
 
-## ANCHOR
+## CLEAN CHALICE
 
 **Not yet placed — deliberate.** Two candidates:
 
 1. **The fourteenth bundle in the cellar.** Clean, thematically exact, ends the run at the source. Use if the run should close in 1 more session.
 2. **The village church.** Pushes the run to 2–3 more sessions and pays off the exterior properly.
 
-Decide based on Jake's appetite. He wedged the front door open specifically to keep the exit reachable — he expects the anchor to be findable *before* going outside. Candidate 1 satisfies that expectation; candidate 2 subverts it and needs to earn it.
+Decide based on Jake's appetite. He wedged the front door open specifically to keep the exit reachable — he expects the clean chalice to be findable *before* going outside. Candidate 1 satisfies that expectation; candidate 2 subverts it and needs to earn it.
 
 ---
 

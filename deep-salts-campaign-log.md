@@ -15,7 +15,7 @@ Session 6 opened at the hub — Lloyd spent an attribute point (Skill 17→18, h
 - Waited it out from cover. The Singer took four Overload Ruptures total and died at 0/900 — a full, permanent kill (no sever needed, satisfies its own stated kill condition). All four Penitents also died. **The Choir Deep's Singer is beaten** — landmark settles. Per the session 7 boss-spawn ruling, a defeated boss drops to a rare spawn (~1 reroll in 4) rather than never returning; a Singer that does reappear is a fresh, full-HP instance.
 - Rushed in to re-wrap the idol before leaving — picked up a 3rd Influence stack doing it, failed the resulting save (rolled 12 vs DC 17). Insanity ticked to 4. The compulsion won this time: **the Beckoner now knows Lloyd's name.** Consequences unknown, deliberately unresolved.
 - Recovered all forfeited gear: Metal Knuckles (back in his hands, armed again for the first time since session 3), the Charm, the Wooden Token, the clean source-water flask.
-- Banked clean via the anchor: **92 White Salts** (4× Chapel Penitent + The Singer). Vault 2 → 94.
+- Banked clean via the clean chalice: **92 White Salts** (4× Chapel Penitent + The Singer). Vault 2 → 94.
 - Showed the wrapped Beckoner to Maud at the hub. She wouldn't ID it or touch it twice — recognized it as deliberate, non-mundane craft, but drew a hard line at guessing further. Visibly placed it against something she already knows internally; didn't say what.
 
 Session 8 opened at the hub. Lloyd tempered with **Greta** (NPC 5, new — heavyset old woman permanently in one of the non-Salt open saunas, the fictional seat for the existing leveling mechanic), putting his fourth attribute point into Skill (18→19, 75 Vault Salts, Level 3→4). Entered the Choir Deep with Maria.
@@ -24,13 +24,13 @@ Rare Singer respawn rolled on arrival (1-in-4 hit) — full 900 HP Singer + full
 
 Explored deeper rather than re-engaging: Nave (23 Salts stash, two passive Penitents ignored), side chantry (10 Salts, Maria's first real personal comment — prefers small chapels, hinted her official reason for being at the Hydro "isn't the whole truth"), drained plunge-bath (Nell's name repeated in tile, Tier 5 read: personal record vs administrative, gap year not distinguished here), flooded chapel (2× Brine Spitters, first-archetype kill).
 
-Choir loft: **Marble Attendant** ambushed via called shot + Powder Charge — outright sever, 800 HP elite one-shot. Choir archive: **Nell's full rota book** — decades of service confirmed, one blank gap year, no explanation. Dead-end room.
+Choir loft: **Marble Attendant** ambushed via Precision Strike + Powder Charge — outright sever, 800 HP elite one-shot. Choir archive: **Nell's full rota book** — decades of service confirmed, one blank gap year, no explanation. Dead-end room.
 
 Robing gallery → hidden annex: **Bathhouse Flailer** (Tier 3 elite). Ambush chip hit (25 raw, no perception roll — prompted the new Ambush Perception ruling). Lloyd parried all three chain windows, then severed its head with a charged visceral follow-up. Second elite one-shot this session. Found the **Second Name** lore beat (note-keeper was a rotating role, handed down teacher to student, not one person) and **Censer Incense ×3** (opaque smoke, breaks LOS, 3 rounds per block — the choir's own protection from the Singer).
 
 Crypt alcove (hidden via rubble in the flooded chapel): a sealed niche with the name **"Brother Thomas"** carved into it. Possible connection to the reception clerk's dormant "brother" thread — unconfirmed. Lloyd mentioned finding a similar niche with a different name ("Maren") in a previous instance. Maria said more than she meant to about past choices.
 
-**Singer rematch.** Plan: Lloyd lights incense near the Singer, fights from inside the smoke cloud (safe from Pulse), stepping out to deliver self-initiated called shots to the Open Throat (×2.0 multiplier). Maria provides Imbue Weapon from within the cloud via touch, and carries the second incense block. Six consecutive throat hits landed (118 effective each, 130 with Imbue), two throat staggers triggered (new session 8 ruling: Open Throat gets a stagger threshold at 240, scaling proportionally with other limbs). Singer killed at 0 HP, three surviving Penitents left purposeless and ignored. **60 White Salts. Insight 10→14 across the session** (Marble Attendant +1, Brine Spitter +1, Flailer +1, Singer +1).
+**Singer rematch.** Plan: Lloyd lights incense near the Singer, fights from inside the smoke cloud (safe from Pulse), stepping out to deliver self-initiated Precision Strikes to the Open Throat (×2.0 multiplier). Maria provides Imbue Weapon from within the cloud via touch, and carries the second incense block. Six consecutive throat hits landed (118 effective each, 130 with Imbue), two throat staggers triggered (new session 8 ruling: Open Throat gets a stagger threshold at 240, scaling proportionally with other limbs). Singer killed at 0 HP, three surviving Penitents left purposeless and ignored. **60 White Salts. Insight 10→14 across the session** (Marble Attendant +1, Brine Spitter +1, Flailer +1, Singer +1).
 
 Banked at the chalice. **Vault: 56 + 137 = 193.** Hub return, full restoration. Insanity persists at 5 (was 7, −2 Camphor mid-run).
 
@@ -55,14 +55,14 @@ Banked at the chalice. **Vault: 56 + 137 = 193.** Hub return, full restoration. 
 
 ## Standing notes
 
-- Combat: numbers first, minimal padding on routine hits; more room for kills/called shots/narrative beats.
+- Combat: numbers first, minimal padding on routine hits; more room for kills/Precision Strikes/narrative beats.
 - Player uses a real phone stopwatch for timing checks.
 - Player is also the designer — expect rule-inconsistency catches mid-play; resolve with concrete numbers on the spot, flag gaps rather than patch silently.
 - **DM does not narrate the player character's own chosen actions or outcomes before the player states them.**
 - New weapons: build around a distinct identity, not by reskinning an existing entry's numbers.
 - Recipe rerolls: vary sub-locale, don't repeat same enemy archetype 3x running, tag dominant flavor, keep most discoveries low-stakes.
 - Cross-instance continuity discipline: instances unrelated by default.
-- **Anchors are found, not spawned-at.**
+- **Clean chalices are found, not spawned-at.**
 - Companion actions: Maria is player-directed loosely — Jake calls general intent, DM resolves rolls/timers.
 - **Visually describe every creature on first encounter** — Insight tier shapes the description. Assess delivers tactical data separately. (Session 8 ruling.)
 - **Hold/parry does NOT count as a qualifying attack for Rally purposes.** (Session 8 ruling.)
@@ -96,7 +96,7 @@ Found in the room: **Amber Forge-Salts ×2** (under the trough), the woman's inc
 
 **Chain Hoist Bay:** An Anvil-Bound Apprentice blocking the ground floor, a Fuse-Throated Crier perched on a raised platform 4m up. DM error: should have rolled Ambush Perception for the Crier's elevated position — flagged for future encounters. Lloyd sent Maria to bait the Crier with Judgment Spark. The Crier's Sputtered Call hit Lloyd (20 raw + 1 Burning — DM initially misidentified this as Influence, corrected mid-session). Lloyd parried the Apprentice's Anvil Drag-Swing and destroyed it with an imbued Powder Charge headshot (×2.25 visceral+head, ×1.3 accuracy = 187, head sever). Climbed the platform and severed the Crier's Fuse-Horn in one hit (59 × 2.0 × 1.5 = 177, implement destroyed + kill). **Insight 16→17, 17→18.**
 
-**Bellows Chamber (hidden, under hoist mechanism):** Found the **anchor** — dry stone quench trough with a brass chalice. Note found here in an older, shakier hand: *"The Marshal doesn't chase. It waits. It always waits."*
+**Bellows Chamber (hidden, under hoist mechanism):** Found the **clean chalice** — dry stone quench trough with a brass chalice. Note found here in an older, shakier hand: *"The Marshal doesn't chase. It waits. It always waits."*
 
 **Rail Spur Walkway:** Scouted. A Frost-Iron Smith (1600 HP, 90 raw + Burning) blocking a narrow 2m walkway with hot rails underfoot. Lloyd assessed it ("Sever a leg and the approach stops being a threat at all") and backed off — bad terrain, not worth the risk this run. Content beyond the Smith left unexplored.
 
@@ -109,7 +109,7 @@ Found in the room: **Amber Forge-Salts ×2** (under the trough), the woman's inc
 Fight summary:
 - Lloyd parried the first Marshal's Cross, hit the head with an imbued Powder Charge Heavy (176 damage, 4 short of head stagger). 
 - Second swing was a Reckoning — Lloyd landed two of three parry windows, missed the third by one hundredth of a second (1.57 on a 1.58 window edge). Took 40 raw + 1 Burning. Maria used Steadying Grace to recover 20 Rally HP.
-- Third swing: Cross. Lloyd parried, hit the head imbued — **1.53, four bands deep, ×1.5** — 240 damage, head stagger triggered (176 + 240 = well past 180 threshold, meter had been reset). Free called shot: bare Heavy to head, 89 more damage.
+- Third swing: Cross. Lloyd parried, hit the head imbued — **1.53, four bands deep, ×1.5** — 240 damage, head stagger triggered (176 + 240 = well past 180 threshold, meter had been reset). Free Precision Strike: bare Heavy to head, 89 more damage.
 - Fourth swing: Reckoning again. Lloyd landed all three windows (0.86/1.37/1.76). Tier 1 Open on the Furnace Door. Imbued Powder Charge Heavy to the Door — 200 damage but Door needs 300 raw to sever. Door held. **Marshal at 764 HP.**
 - Fifth swing: Cross. Lloyd parried, imbued head shot — **1.50 dead centre. ×3.0 critical.** 71 × 1.5 × 1.5 × 3.0 = **480.** Marshal had 435 HP. **Kill.**
 
@@ -151,7 +151,7 @@ Returned to the Bellows Chamber, touched the chalice. Clean exit. **224 White Sa
 
 ## Standing notes
 
-- Combat: numbers first, minimal padding on routine hits; more room for kills/called shots/narrative beats.
+- Combat: numbers first, minimal padding on routine hits; more room for kills/Precision Strikes/narrative beats.
 - Player uses a real phone stopwatch for timing checks.
 - Player is also the designer — expect rule-inconsistency catches mid-play; resolve with concrete numbers on the spot, flag gaps rather than patch silently.
 - **DM does not narrate the player character's own chosen actions or outcomes before the player states them.**
@@ -160,7 +160,7 @@ Returned to the Bellows Chamber, touched the chalice. Clean exit. **224 White Sa
 - New weapons: build around a distinct identity, not by reskinning an existing entry's numbers.
 - Recipe rerolls: vary sub-locale, don't repeat same enemy archetype 3x running, tag dominant flavor, keep most discoveries low-stakes.
 - Cross-instance continuity discipline: instances unrelated by default.
-- **Anchors are found, not spawned-at.**
+- **Clean chalices are found, not spawned-at.**
 - Companion actions: Maria is player-directed loosely — Jake calls general intent, DM resolves rolls/timers.
 - **Visually describe every creature on first encounter** — Insight tier shapes the description. Assess delivers tactical data separately. (Session 8 ruling.)
 - **Hold/parry does NOT count as a qualifying attack for Rally purposes.** (Session 8 ruling.)
@@ -235,9 +235,9 @@ The bell rope — Lloyd pulled it. The bell fell, split on impact. Inside: 25 Wh
 
 Sunken oval rehearsal space. Drowned Bellkeeper (280 HP) with bell on the upper tier, two Waterlogged Guests (200 HP each) wading below.
 
-Lloyd rushed the Bellkeeper, self-initiated called shot to the bell (implement — isolated HP pool, does not chip enemy HP). 1.51s (×1.5 accuracy). Bell destroyed in one hit. Bellkeeper rendered harmless. Cleanup: Lloyd and Maria took their time dispatching the now-toothless enemies. Maria practiced with the Sigil Lash on the Guests — found her rhythm with it.
+Lloyd rushed the Bellkeeper, self-initiated Precision Strike to the bell (implement — isolated HP pool, does not chip enemy HP). 1.51s (×1.5 accuracy). Bell destroyed in one hit. Bellkeeper rendered harmless. Cleanup: Lloyd and Maria took their time dispatching the now-toothless enemies. Maria practiced with the Sigil Lash on the Guests — found her rhythm with it.
 
-Found: **Choir Needle** (drain grate, wedged in the ironwork). Skill/D, same base as Metal Knuckles. Passive: self-initiated called shots eased one band. A precision sidearm.
+Found: **Choir Needle** (drain grate, wedged in the ironwork). Skill/D, same base as Metal Knuckles. Passive: self-initiated Precision Strikes eased one band. A precision sidearm.
 
 ### The Apse (R8, boss room — empty)
 

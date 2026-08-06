@@ -12,7 +12,7 @@ System-agnostic ruleset (d20 base) for solo play with an AI DM. You trade humani
 
 Salts dissolved in hot water at the mysterious Stillwell Hydro transport you to another plane. Fight through, gather loot/materials/knowledge. Each area has a "clean chalice" — drink to wake at Stillwell Hydro with everything from that run, banked. Near death, focus your mind to exit immediately, losing everything on your person; retrieve it by re-entering the same recipe and beating the enemy that has it.
 
-**Core loop:** brew a recipe → wake in that biome, blind → survive → return to the anchor and leave (or die, or bail) → bank at the hub → push deeper or brew elsewhere. No fast travel — the recipe is the travel (§18).
+**Core loop:** brew a recipe → wake in that biome, blind → survive → return to the clean chalice and leave (or die, or bail) → bank at the hub → push deeper or brew elsewhere. No fast travel — the recipe is the travel (§18).
 
 ---
 
@@ -625,9 +625,9 @@ Target time DM-set per opening (default ~1.50s, range 1.0–2.0s). Miss punishme
 
 Applies to the primary attack stopwatch only — Powder Charge and other secondary stopwatches stay binary hit/miss.
 
-**Self-initiated called shots** (no enemy tell — an unparryable grasp, a stationary target): tolerance tightens one band beyond the multiplier's own. A **miss ends the turn outright**, no repositioning; a **hit** lets remaining movement be used normally. **Limb multiplier only — no visceral ×1.5 stacking** (visceral is reserved for genuine parry/ambush openings).
+**Self-initiated Precision Strikes** (no enemy tell — an unparryable grasp, a stationary target): tolerance tightens one band beyond the multiplier's own. A **miss ends the turn outright**, no repositioning; a **hit** lets remaining movement be used normally. **Limb multiplier only — no visceral ×1.5 stacking** (visceral is reserved for genuine parry/ambush openings).
 
-**Ambush called shots** (genuine full unawareness — a real stealth approach): count as a Tier 1 parry-grade opening. Free, no stopwatch, AND stacks with visceral 1.5× (raw × visceral × limb multiplier compound).
+**Ambush Precision Strikes** (genuine full unawareness — a real stealth approach): count as a Tier 1 parry-grade opening. Free, no stopwatch, AND stacks with visceral 1.5× (raw × visceral × limb multiplier compound).
 
 **Ambush Perception** *(session 8 ruling).* Only fires when the DM has set up a genuine ambush — a concealed, motionless enemy positioned to strike an unaware player. Standard encounters are not ambushes. Roll **d20 + ⌊Insight÷2⌋** vs a DM-set **Ambush DC** (factors: concealment quality, lighting, clutter). Three outcomes:
 
@@ -891,7 +891,7 @@ Single window, same shape as a parry: a closing gate, a swinging fixture, a vent
 
 ### Mechanism/Ritual Sync Timing
 
-Multi-window, same shape as a boss's ballistic chain (§16): 2–3 sequential stopwatches for a puzzle or mechanism needing more than one correctly-timed input — aligning gears, matching a resonant beat, a multi-stage ward. **All windows hit →** the mechanism resolves clean. **Miss one →** that stage fails; DM decides in advance of the attempt whether a miss is a hard stop (redo the full sequence) or a partial/costly success (proceeds, but at a stated cost — a track stack, lost time, a changed sub-locale).
+Multi-window, same shape as a boss's ballistic chain (Bible §0): 2–3 sequential stopwatches for a puzzle or mechanism needing more than one correctly-timed input — aligning gears, matching a resonant beat, a multi-stage ward. **All windows hit →** the mechanism resolves clean. **Miss one →** that stage fails; DM decides in advance of the attempt whether a miss is a hard stop (redo the full sequence) or a partial/costly success (proceeds, but at a stated cost — a track stack, lost time, a changed sub-locale).
 
 ### Escape/Chase Sequence Timing
 

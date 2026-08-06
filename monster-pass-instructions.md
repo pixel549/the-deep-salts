@@ -134,7 +134,7 @@ Written in priority order — if two triggers fire in the same round, the first 
 
 ## Part 3 — Archetype coverage
 
-Ruleset §16 now runs to twenty archetypes. Nine humanoid, five non-humanoid, six atypical (Pack, Leech, Snare, Stalker, Rite, Passenger), plus Effigy.
+Bible §0 now runs to twenty archetypes. Nine humanoid, five non-humanoid, six atypical (Pack, Leech, Snare, Stalker, Rite, Passenger), plus Effigy.
 
 When adding monsters, check the spread before writing. The recurring failure mode is drifting back toward *a ruined person with one parryable heavy*, because that is the easiest thing to write and the least interesting thing to fight. Specific requirements:
 

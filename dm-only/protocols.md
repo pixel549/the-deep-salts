@@ -25,7 +25,7 @@ Established session 11.
 4. **Reuse is allowed; pure reuse is not.** Every instance carries at least one genuinely new component. **Inventing is encouraged** — particularly enemies, rooms, puzzles and challenges. New content is built properly and canonised, not improvised and forgotten.
 5. **Scope is the DM's call. Engagement is the player's.** The DM decides how large the instance is, how many spaces it holds, how deep it runs. The player decides how much of it they touch. Build more than will be used and never punish leaving things behind.
 6. **Length: half a session minimum, five sessions maximum.** Ballpark figures. A run pushing past five should be closing.
-7. **Build the plan in `dm-only/` before narrating the wake-in.** Rooms, encounters, loot, secrets, NPCs, instance quests, anchor. See §18 for multi-map and live-tracking requirements.
+7. **Build the plan in `dm-only/` before narrating the wake-in.** Rooms, encounters, loot, secrets, NPCs, instance quests, clean chalice. See §18 for multi-map and live-tracking requirements.
 8. Minimum content bar: 2–3 distinct beats, at least one instance quest.
 9. **Place loot deliberately, including salts.** A run that yields no economy is a failed run.
 10. Update the plan in place as the run proceeds.

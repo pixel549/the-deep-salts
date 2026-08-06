@@ -6,7 +6,7 @@
 - **Flavor tag:** Combat (establishing enemy palette + biome identity)
 - **Biome constant:** dry industrial heat, metal dust, amber light from cooling iron, no water anywhere. The forge went cold decades ago but the heat never fully left — it lives in the walls, the grating, the air itself. Everything is iron, brick, and soot.
 - **Insight tier (Lloyd, 14/T5):** he reads the forge's history in its surfaces — tool marks that tell you who worked here and how long ago, heat stains that map the forge's slow death, the difference between iron that cooled naturally and iron that was *made* to stop.
-- **Anchor flavor:** a stone quench trough, dry, with a chalice sitting in the basin where the water used to be.
+- **Clean chalice flavor:** a stone quench trough, dry, with a chalice sitting in the basin where the water used to be.
 - **Boss:** Foundry Marshal — guaranteed spawn (first run, never killed).
 
 ## Wake-In
@@ -58,7 +58,7 @@ Loot: Gauntlet + 5 White Salts.
 **B2 — Bellows Chamber (hidden)**
 Accessed via narrow gap under the hoist in A3. Low-ceilinged, the old bellows mechanism — massive leather lungs, cracked and still. Quiet. No enemies.
 
-This is where the anchor is. **A dry stone quench trough** against the far wall, a brass chalice sitting in the empty basin. The chalice is warm.
+This is where the clean chalice is. **A dry stone quench trough** against the far wall, a brass chalice sitting in the empty basin. The chalice is warm.
 
 Loot: 10 White Salts in a canvas sack hanging from a bellows handle. A note tucked into the sack, different hand from the wall inscription upstairs — older, shakier: *"The Marshal doesn't chase. It waits. It always waits."*
 
@@ -103,7 +103,7 @@ Loot: 8 White Salts in the desk drawer.
 
 ## Pacing Notes
 - First run = orientation. The woman's note said it. Let Lloyd find his feet.
-- The anchor (B2) is hidden but not brutally so — reward exploration.
+- The clean chalice (B2) is hidden but not brutally so — reward exploration.
 - The Marshal is the set piece but NOT mandatory this run if Lloyd wants to anchor out first and come back prepared.
 - The Frost-Iron Smith on the walkway is a genuine wall — 1600 HP, 90 raw hits, narrow space. Lloyd can skip it entirely (C1/C2 are optional). The Foundry Wedge behind it is a Strength weapon anyway.
 - Burning is the recipe's signature pressure — it compounds. Lloyd has Scour ×1 (hub kit) and can find Scour ×2 more in A3. Maria has no Burning management.

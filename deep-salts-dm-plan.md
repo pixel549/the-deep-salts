@@ -17,7 +17,7 @@
 
 **The mosaic inscription.** Lloyd knows there's something there he can't read anymore. This is the cost of the Vendor trade made tangible. If Insight climbs back above 10 (Tier 5), he can read it. That's a genuine carrot — but Insight is scarce and non-renewable from kills. The Vendor would cost more mutations. This tension is by design.
 
-**The Choir Needle.** Lloyd has it but hasn't used it. It's a precision sidearm — self-initiated called shots eased one band. This shines against stationary or staggered targets where he doesn't have a parry opening. Worth reminding him it exists when the situation fits.
+**The Choir Needle.** Lloyd has it but hasn't used it. It's a precision sidearm — self-initiated Precision Strikes eased one band. This shines against stationary or staggered targets where he doesn't have a parry opening. Worth reminding him it exists when the situation fits.
 
 ## Combat design notes for next session
 

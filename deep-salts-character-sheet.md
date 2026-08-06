@@ -29,9 +29,9 @@
 
 ### Weapons
 
-**Metal Knuckles (paired) — equipped, active.** Skill/D, one-handed, Base 22 (Light 32/Heavy 59 at ESV 20). **Powder Charge:** timed detonation, target 1.00s, effective tolerance **±0.30s** (0.15 base + 0.15 Insight + 0.02 Steady Hand − 0.02 Dulled Sight). Success = ×1.5 damage + 1 Discombobulation. Failure = 2 Blood Loss stacks, turn ends immediately.
+**Metal Knuckles (paired) — equipped, active.** Skill/D, one-handed, Base 22 (Light 32/Heavy 59 at ESV 20). **Powder Charge:** timed detonation, target 1.00s, effective tolerance **±0.30s** (0.15 base + 0.15 Insight + 0.02 Steady Hand − 0.02 Dulled Sight). Success = ×1.5 damage + 1 Discombobulation. Failure = 2 Bleeding stacks, turn ends immediately.
 
-**Choir Needle — carried, not equipped.** Skill/D, one-handed, Quick, Base 22 (Light 32/Heavy 59 at ESV 20). Passive: self-initiated called shots have tightened tolerance eased back one band. Found session 10, Choir Deep drain grate.
+**Choir Needle — carried, not equipped.** Skill/D, one-handed, Quick, Base 22 (Light 32/Heavy 59 at ESV 20). Passive: self-initiated Precision Strikes have tightened tolerance eased back one band. Found session 10, Choir Deep drain grate.
 
 **Coil-Spring Gauntlet — carried, not equipped.** Trick weapon. Compact: Skill/D, one-handed, Base 22. Extended: Strength/C, two-handed, Base 28 (Heavy 60 at ESV 4) — 1m knockback on leg-stagger. Extending is Fast Action. Insight Tier 2 gate (met). Found session 9, Cold Forge Tool Crib.
 
@@ -44,7 +44,7 @@
 ### Status Tracks
 | Track | Value |
 |---|---|
-| Blood Loss | 0 |
+| Bleeding | 0 |
 | Insanity | 1 |
 | Influence | 0 |
 | Discombobulation | — |
@@ -101,12 +101,12 @@
 
 ### Kit
 - **Purging Flame** — AOE, RES/D, Heavy (3m), ranged 8m, 4m radius. 32 dmg/enemy in radius — hits Lloyd too if in it.
-- **Judgment Spark** — single-target, RES/E, Light (1m), ranged. 27 dmg. No called shots.
+- **Judgment Spark** — single-target, RES/E, Light (1m), ranged. 27 dmg. No Precision Strikes.
 - **Imbue Weapon** — Full Action (2m), range 5m. +12 flat to Lloyd's next attack. One charge, doesn't stack with itself.
 - **Steadying Grace** — Full Action (2m), range 5m. Turn after Lloyd takes a hit without follow-up. Restores 50% of pending Rally HP (Thickened Sinew does NOT apply — session 10 ruling). Rest is lost.
 - **Steady Faith** *(passive)* — within 5m, −1 to Lloyd's Insanity/Influence save DC.
 - **Boot Knife** — Skill/E, Base 12, backup melee.
-- **Sigil Lash** — Resolve/D, Quick, one-handed, Base 20. On hit: target's Insanity/Influence resistance −1 for 1 round. No called shots (companion rule). Given to Maria session 10, Choir Deep apse. She recognised the Narrikon ward-marks on it.
+- **Sigil Lash** — Resolve/D, Quick, one-handed, Base 20. On hit: target's Insanity/Influence resistance −1 for 1 round. No Precision Strikes (companion rule). Given to Maria session 10, Choir Deep apse. She recognised the Narrikon ward-marks on it.
 
 One Action per turn. Jake calls general intent, DM resolves.
 
