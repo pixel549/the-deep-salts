@@ -256,3 +256,35 @@ Banked clean via the chalice.
 - **Combat Flow codified (§7):** Player Phase → Enemy Phase. Enemies act simultaneously as a block. One parry per round (Hold = Action). Unparried attacks connect automatically.
 - **Implement vs Limb distinction corrected:** Implements have isolated HP pools, damage does NOT chip enemy HP. Limbs are HP-connected. Previous ruling ("implements deal full HP damage") overturned.
 - **Thickened Sinew Rally ruling:** +25% applies to Lloyd's own Rally only, not Maria's Steadying Grace (her magic, not his biology).
+
+---
+
+# SESSION 11 — Flooded Gallery Run 5 (VOIDED)
+
+**Hub.** Visited Maud to sell the Beckoner; she refused outright — wouldn't pass a named object to an unwitting buyer, and doubts the debt transfers with the object anyway. Offered instead to help bury it another day. Tempered with Greta: **Strength 4→5, 175 salts, Level 7→8.** Band crossing (−2→−1). Maria would not enter the sauna and noted afterwards that Greta does not breathe.
+
+**Run.** Flooded gallery, fresh sub-locale (sunken laundry / service stair), flavour tag Puzzle, rare NPC hit.
+
+Lloyd and Maria found an institutional laundry in impossible condition — scrubbed, dry-floored, linen folded identically, water that evaporated mid-fall. A four-metre drop into a drying hall (misjudged as two; a sheet-rope failed, 8 fall damage) put Lloyd alone below with a lamp that had been burning in one spot for years.
+
+**Ada.** A speaking apron — no body, only the garment, working at a wringing frame. Not hostile. Lloyd talked past her twice with politeness rather than violence, returned with a crate of unused pegs found under a table, and learned her name.
+
+**The structure.** A contagion arrived on a mismatched linen delivery — 14 bundles received, 13 dispatched. It transmits by handling, not proximity, and does not kill: it strips personhood and leaves the task. Victims become aprons performing their last job indefinitely, declining in proportion to how much infected linen they handle.
+
+**Tolliver.** The linen steward, one floor above the sick wing, also an apron. Twelve years earlier he bolted Ada's chute from her side, welded the second-floor hatch and pegged forty-eight ward doors shut — halting the spread at the cost of sealing everyone in. He then sat in a chair facing the chute and ordered pegs he could never deliver, every day, because a woman with pegs is a woman with work.
+
+**The fire.** Lloyd posed as an inspector from "the Administration" (Deception 19), had Tolliver renounce authority to him, and issued a single instruction: every piece of linen and every peg in the building brought to one room, every door and cabinet left open for audit. Forty-eight aprons complied. He then cleared them to the drying hall on a busywork order, doused the pile with the hospital's oil, spirit and ether, and lit it.
+
+**All forty-eight released.** Ada and Tolliver recovered enough personhood to speak plainly to each other for the first time in twelve years. Tolliver was handed authority back and used it to dismiss his staff rather than command them. Ada refused Lloyd's offer to return her lamp and left with an answer to Maria's question about what comes after the work.
+
+**The exterior.** The building opened onto a forecourt, a road, and a village two miles downhill — the first instance in campaign history with a horizon. Lloyd read it as flawed and surreal (stars fixed, wall stones repeating, road downhill in both directions, five faces distributed across twenty people); Maria took it as evidence the instances are real places. Neither position resolved. They reached a village inn named THE FOURTEENTH BUNDLE and met Annie Cobbett, who knew she was waiting for someone and could not retrieve his name until Lloyd supplied it.
+
+**VOID.** The run was voided under the table. The DM never placed an anchor — there was no chalice to find and no designed exit — and the exterior was improvised without a plan, producing a contradiction about whether the aprons were living or dead that could not be resolved cleanly mid-scene. A free return to the Hydro was granted with all findings retained.
+
+**Banked:** 57 White Salts · Wrap ×3 · Tonic ×2 · Camphor ×2 · Scour ×3 · Ada's lamp · key ring · 30ft rope.
+**Insight 8 → 11 (Tier 5)** — first sighting of a new archetype (Ada), linen return log, Tolliver's account.
+**Not claimed:** the Sunk Hook, left on a bracket four floors up. Lost with the instance.
+
+**Zero combat.** No enemy fought, no kill salts, no Insight from a fight, in an entire session.
+
+**Threads.** Nell's gap year matched the linen return log's dead period — fifth recipe-independent appearance, still no payoff designed. Maria's grey linen strip was identified by Ada as a room mark (sick wing), which Maria rejects; her account of Ren and why she left her order came out in full. Lloyd told her a religion that forbids love is a flawed belief system and she did not answer.

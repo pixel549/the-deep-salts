@@ -7,29 +7,32 @@
 
 **Concept:** Young, athletic Skill-build fighter. Self-made twin knuckledusters rigged with detonating powder capsules — recovered session 6, back in active use.
 
-**Level:** 7 (next attribute point costs 25 × 7 = **175**) · **Insight:** 8 (Tier 4 — dropped from 18 via Memory Vendor, session 10: 5 spent on Thickened Sinew arm mutation, 5 spent on Dulled Sight eye mutation.)
+**Level:** 8 (next attribute point costs 25 × 8 = **200**) · **Insight:** 11 (Tier 5 — dropped from 18 via Memory Vendor session 10; +3 session 11 from first-sighting and lore reads.)
+
+> **⚠ NOT YET SYNCED TO RULESET v9.4.** The derived numbers below are v9.3-era and the v9.4 precision/status rework changes several of them. Flagged for the player — do not treat the marked lines as authoritative.
 
 ### Attributes
 | VIG | END | STR | SKI | RES |
 |---|---|---|---|---|
-| 10 | 10 | 4 | 20 | 3 |
+| 10 | 10 | 5 | 20 | 3 |
 
 *Session 9, hub: tempered with Greta — Skill 19→20, unlocked Steady Hand perk (+0.02s all precision windows).*
 *Session 10, hub: tempered with Greta — Vigour 8→10, two points, 275 Vault Salts. Modifier −1→+0.*
+*Session 11, hub: tempered with Greta — Strength 4→5, 175 Vault Salts. Band crossing: modifier −2→−1.*
 
 ### Derived Stats
 - **Max HP:** 120/120 (full restoration at hub)
 - **Movement:** 8m
-- **Attribute Modifier:** Skill +0 (10–19 band; ESV is 20, modifier band and ESV are separate) · Vigour +0 · Strength −2 · Resolve −2
-- **Insanity/Influence save:** d20 ≥ 10 + track − ⌊Res÷10⌋(+0) + ⌊Insight÷2⌋(+4) − Dulled Sight(−3) = **11 + track.** With Maria's Steady Faith (−1): **10 + track.** Track 1 = 50%/55%, track 5 = 25%/30%.
-- **Insight window bonus:** +0.15s (Tier 4)
+- **Attribute Modifier:** Skill +0 (10–19 band; ESV is 20, modifier band and ESV are separate) · Vigour +0 · Strength −1 · Resolve −2
+- **Insanity/Influence save:** d20 ≥ 10 + track − ⌊Res÷10⌋(+0) + ⌊Insight÷2⌋(+5) − Dulled Sight(−3) = **12 + track.** With Maria's Steady Faith (−1): **11 + track.**
+- **Insight window bonus:** ⚠ **UNRESOLVED.** v9.3 gave Tier 5 = +0.20s; v9.4 §11 gives Tier 5 = **+0.10s**. Every downstream tolerance below depends on this. Needs the player's call.
 - **Perk — Steady Hand (Skill 20):** +0.02s flat, **exactly negated by Dulled Sight mutation (−0.02s).** Net precision window bonus = Insight tier only (+0.15s).
 - **Arm mutation — Thickened Sinew:** parry windows −0.03s flat. Rally recovery +25% (Lloyd's own Rally only; does not affect Maria's Steadying Grace — session 10 ruling).
 - Standard enemies cannot parry/visceral Lloyd — boss/elite-tier only.
 
 ### Weapons
 
-**Metal Knuckles (paired) — equipped, active.** Skill/D, one-handed, Base 22 (Light 32/Heavy 59 at ESV 20). **Powder Charge:** timed detonation, target 1.00s, effective tolerance **±0.30s** (0.15 base + 0.15 Insight + 0.02 Steady Hand − 0.02 Dulled Sight). Success = ×1.5 damage + 1 Discombobulation. Failure = 2 Bleeding stacks, turn ends immediately.
+**Metal Knuckles (paired) — equipped, active.** Skill/D, one-handed, Base 22 (Light 32/Heavy 59 at ESV 20). **Powder Charge:** timed detonation, target 1.00s, effective tolerance ⚠ **UNRESOLVED** — 0.15 base + Insight bonus (see above) + 0.02 Steady Hand − 0.02 Dulled Sight. Was ±0.30s at Tier 4/v9.3; ±0.25s if v9.4's Tier 5 = +0.10s. Success = ×1.5 damage + 1 Discombobulation. Failure = 2 Bleeding stacks, turn ends immediately.
 
 **Choir Needle — carried, not equipped.** Skill/D, one-handed, Quick, Base 22 (Light 32/Heavy 59 at ESV 20). Passive: self-initiated Precision Strikes have tightened tolerance eased back one band. Found session 10, Choir Deep drain grate.
 
@@ -58,12 +61,12 @@
 - **Eyes:** mutated (Dulled Sight).
 
 ### White Salts
-- Purse: 0 · **Vault: 181** (42 prior + 139 banked session 10 Choir Deep run 4)
+- Purse: 0 · **Vault: 63** (181 − 175 spent on Strength = 6, + 57 banked session 11)
 
 ### Inventory
 - Powder capsules — 4/4 (Hub Kit refill)
-- Wrap ×2 · Tonic ×2 · Camphor ×0 · Scour ×1 (Hub Kit refill)
-- **Bent Tuning Key** — passive equip. Precision Strike windows treated as one Insight tier higher than actual (Tier 4→5 for window calc). Doesn't affect parry or Powder Charge. Found session 10, Choir Deep reliquary.
+- Wrap ×5 · Tonic ×4 · Camphor ×2 · Scour ×4 (Hub Kit refill applied; session 11 finds folded in, capped where relevant)
+- **Bent Tuning Key** — passive equip. Precision Strike windows treated as one Insight tier higher than actual (Tier 5→6 for window calc — ⚠ v9.4's tier table tops out at 5; effect of this item at max tier is now undefined). Doesn't affect parry or Powder Charge. Found session 10, Choir Deep reliquary.
 - **Widow's Veil** — single use, Fast Action. Removes wearer from Influence Overload redirect pool for rest of encounter. Found session 10, Choir Deep chancel.
 - **Censer Incense ×2** — consumable, Light Action. ~4m radius opaque smoke, 3 rounds, breaks LOS both ways.
 - **Amber Forge-Salts ×1** — enough for one Cold Forge brew.
@@ -74,6 +77,8 @@
 - **The Token That Isn't Yours** *(brass)* — from the reception clerk.
 - **Clean source-water flask** — 75% heal, no Influence stack. Uses: 1.
 - **The Note-Keeper's Robe** — worn. Stitched vow readable at Tier 4+. No mechanical effect.
+- **Ada's brass lamp** — oil lamp, slide shutter, ~2/3 full. Gifted session 11. No mechanical effect established.
+- **Rope, 30ft hemp** — recovered session 11. Ordinary, sound.
 - **Unknown woman's run notes** — two notes found in Cold Forge. Third line blank. She never came back.
 - **Grey linen strip** — Stillwell-issue cloth with inked mark. Maria wears it around her wrist.
 - **Torn register page** — "Sr. M——, seconded to Stillwell" with date in Nell's gap year range. Found session 10, Choir Deep bell tower. Maria saw it; did not comment.
@@ -85,7 +90,7 @@
 ### Known Recipes
 - **The Cold Forge** — Marshal defeated (rare spawn ~1 in 4). Frost-Iron Smith scouted, not fought.
 - **The Choir Deep** — Singer defeated twice (rare spawn ~1 in 4). Run 4 completed session 10 (no Singer spawn).
-- **First recipe ("flooded gallery")** — 4 visits. Not visited since session 5.
+- **First recipe ("flooded gallery")** — 5 visits. Run 5 (session 11) **voided UTT**: DM never placed an anchor. Free exit granted, findings retained.
 
 ### Mutations
 1. **Thickened Sinew (arm)** — Rally recovery +25%. Parry windows −0.03s. Acquired session 10, Memory Vendor (5 Insight).
@@ -114,4 +119,4 @@ One Action per turn. Jake calls general intent, DM resolves.
 All tracks zero. Full restoration at hub. Four joint runs completed. Session 10: recognised choir attendance ledger format ("We kept ours the same way"), defended the Church when Lloyd questioned it, received Sigil Lash, prayed in the Apse. Wears the grey linen strip. Saw the torn register page without comment.
 
 ---
-*Last updated: end of session 10. Choir Deep run 4 complete. Party of two, fully restored at hub.*
+*Last updated: end of session 11. Flooded gallery run 5 voided. Party of two, fully restored at hub. **Derived stats not yet synced to ruleset v9.4** — see warning at top.*

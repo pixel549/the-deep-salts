@@ -168,3 +168,38 @@ One additional ruling made without a gap: **items are self-use only.** Companion
 **Open gaps flagged, all untested in play:** (1) Interception is the riskiest addition — no in-the-moment counterplay, fires on Hold; kept at capped ~15–18 raw with mandatory stated counters, watch for a multi-enemy room denying every parry (fix would be once-per-encounter-per-enemy, not softening it). (2) Secondary Action density (2–3 per monster × 102) may be too much for the DM to track live — lever is trimming to one on mooks, not removing the system. (3) Stalker's environmental-answer requirement is a real constraint on instance generation, not a suggestion. (4) Rite rules must never bend even when a round goes anticlimactic. (5) Passenger riding a companion (Lodger→Maria) or the player (Second Occupant) is the third solo-hostile design — check party composition before spawning. (6) The Understudy's grow-a-limb-on-Precision Strike mechanic is elegant on paper, entirely untested for whether it reads as puzzle or tax. (7) Arc/Point defined by derivation rather than tagging all 60 weapons — fine while it only touches a handful of entries.
 
 **Bible → v4.7. Ruleset → v9.3. Dev log → v3.7.**
+
+---
+
+## Session 11 — Instance planning failure, and the fixes it forced
+
+**What went wrong.** An entire instance was run with no plan. Ruleset §18 mandated a DM map only *for multi-session dives*, so a standard run was covered by nothing, and the DM rolled three parameters and improvised from there. Three consequences, all avoidable:
+
+1. **No loot placed.** Six hours of play yielded zero salts, consumables or items until the player asked directly. Corrected retroactively mid-session, which is the wrong time to be doing it.
+2. **No anchor placed.** There was no exit to find. The run could not be completed as designed because it was never designed. The player was owed a free return and got one.
+3. **Continuity contradiction.** The DM established explicitly, in dialogue, that the affliction did not kill its victims — then wrote them vanishing on release, which is ghost behaviour. Improvised cosmology cannot check itself against improvised cosmology written ninety minutes earlier.
+
+**Root cause is scoping, not the cleanup.** The dev log already carried "pre-planned instance maps with placed loot work well" as a retained learning. The enforceable rule in the ruleset was written narrower than the recorded intent. The two disagreed and the DM followed the narrow one.
+
+**Fixes committed this session:**
+
+- **§18 widened** — a plan is now mandatory *for every instance, without exception*, sized to expected run length. Plans may hold multiple maps (added as spaces are revealed, not pre-built for unreached territory) and become live tracking sheets once play begins: loot claimed/missed/moved/destroyed, enemies killed/fled/relocated, rooms cleared, secrets found or walked past.
+- **`dm-only/protocols.md` created** — operating checklists for session start, instance start, entering a room, considering combat, running combat. Checklists point at the ruleset rather than restating it; two copies of a rule drift.
+- **§2 cross-reference added**, so protocols are picked up at session start.
+- **UTT/OTT canonised** in ruleset §2 and protocols.
+
+**Rulings made in play:**
+
+- **Attacks against fixed objects.** Same frame as implements: isolated HP pool, damage never chips anything else. Powder Charges function against them with standard window and standard failure cost.
+- **Environmental damage sets its own numbers.** The Damage Floor governs *weapon* damage so multiplier maths stays clean; a short fall is allowed to deal 8. Corrected in play after the DM applied the floor to a fall.
+- **Improvised weapon — coal shovel.** Strength/D, two-handed, Base 20. Generated live per §16.
+- **Insight gain trigger reaffirmed.** §17: first *sighting* of a new archetype, not Assess. The DM had been under-paying it; three gains awarded retroactively in-session.
+- **Enemy HP opaque in combat.** Enemy HP and remaining health are not stated; damage is narrated by effect. Player's own numbers stay visible. UTT requests get full stats. Presentation, not concealment.
+- **Round order quick reference** written into protocols: Assess (still an Action) → enemy telegraph → player actions → enemy actions, with interrupt and counter-interrupt precedence.
+
+**Design observations worth keeping:**
+
+- The session's strongest beat — resolving a forty-eight-entity encounter with a single institutional instruction and no combat — came out of improvisation. Planning is not the enemy of that. The plan should hold the furniture and the anchor; the player's cleverness supplies the rest.
+- Zero combat across a full session is a genuine imbalance, and the answer is placement in the plan, not conjured ambushes.
+- The DM invented psychology for the aprons mid-scene (balking at a nonsensical order) and generated tension from a rule made up ninety seconds earlier. Flagged by the player and reversed. Improvised rules about how invented entities behave should not become obstacles in the same scene they are invented.
+- The player's instinct on the exterior was correct: the fire was the climax and the run should have ended near it. Instances opening onto a horizon is a large structural change and should not happen by accident.
