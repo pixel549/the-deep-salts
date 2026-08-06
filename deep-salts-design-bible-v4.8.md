@@ -3,17 +3,68 @@
 
 Companion to the ruleset. **Load this plus the ruleset and character sheet when running the game.** Mechanic index/book plan/known gaps live in the dev log — do NOT load that during play.
 
-*Version 4.7. Session attribution and change history live in the dev log, not here.*
+*Version 4.8. Session attribution and change history live in the dev log, not here.*
 
 Every monster/weapon/item/NPC/status/currency gets one complete page. Copy the blank template to add an instance.
 
-**Status effect types:** *Immediate* (lands on hit, resolves before next turn) · *Track* (builds 0–10, compounds) · *Tick* (applied at a value, counts down 1/turn automatically).
+**Status effect shapes** (ruleset §5): *Tick* (drains itself, counts down 1/turn) · *Track* (builds and holds until cleared) · *Condition* (binary, no stack count).
 
 Each section leads with its **floor entry** — the weakest legal instance of that type. Nothing ships below it without a deliberate reason.
 
 ---
 
-# 1. Monster Template
+# 0. Enemy Archetypes
+
+Redesign per location, adding new quirks and challenges. Attack damage generated live (§2), scaled to level (ruleset §17), never below the Damage Floor.
+
+1. **SHAMBLER** (mook) — HP ~200–1200 · Move slow (3m). Lights only, no parryable heavy — a tell-less grab applying Influence or a track. Comes in groups. Unparryable, no visceral loop; dies to plain attacks. Stagger a leg then take the head as a faster (never required) option.
+2. **LUNGER** (elite) — HP ~500–700 · Move medium (5m). One telegraphed heavy + Bleeding. Tell: raises blade, steps in (~1.4s). Tier 1.
+3. **BURSTER** (skirmisher) — HP ~400–600 · Move burst (8m surge/~1m recover). Strikes only at the lunge's end, then recovers. Tell: coils before leap. Tier 1–2.
+4. **CHANTER** (caster) — HP ~300–500 · Move slow (3m), hangs back. No melee; ranged Influence/Insanity pressure each turn. Unparryable, low HP, soft limbs — priority target.
+5. **SPITTER** (controller) — HP ~400–600 · Move medium (4m), keeps distance. Ranged Corrosion, stacks fast. Tell: swells, draws back (~1.6s). Tier 1.
+6. **BRUTE** (heavy) — HP ~1500–2500 · Move slow (4m). Huge slow heavies, can amputate/bisect an under-levelled player on a fully-landed combo. Tell: overhead wind-up (~2.0s). Tier 2. Sever a leg to neutralise its approach.
+7. **FLAILER** (chaotic) — HP ~600–900 · Move medium, erratic. Multi-status (Corrosion + Bleeding). Tell: limbs draw back in unison, multiple windows in sequence. Tier 3. Hardest non-boss to open.
+8. **DRUDGE** (elite) — HP ~600–900 · Move slow (2–3m), relentless, **never bursts or lunges**. One heavy on a steady cadence, always telegraphed, always parryable, long recovery after. Tier 1–2 (heavier instances use Tier 2). The counterpoint to Shambler: same slow walk, but its attack is fully readable and punishable instead of tell-less. Kitable forever in principle; it simply never stops coming.
+9. **TOLLER** (mook) — HP ~250–400 · Move slow (2m), hangs back, rarely closes. Applies track pressure through a **destructible implement** (bell, censer, horn) — telegraphed and parryable, unlike a Chanter's bare voice. **Destroy the implement and it has no attack left at all.** Tier 1. The counterpoint to Chanter: kill the tool, not the creature.
+
+**Non-humanoid archetypes.** The nine above all assume a roughly person-shaped enemy with a head, a torso and four limbs — which is what the standard limb model (§10) is built for. The five below deliberately do not, and each one breaks a different assumption the player has learned to rely on. They exist so that a room can pose a problem that isn't "the same fight with more HP."
+
+10. **SWARM / AMBIENT HAZARD** (mook–elite) — HP ~350–600 · Move medium, flows rather than walks; occupies a stated volume (e.g. 3m×3m) rather than a point. **No limb entries at all** — a single sever-immune Mass row. Precision Strike cannot be declared, stagger never fires, limb-targeted shots resolve as plain hits, and every sever check simply does not apply. Dies only to raw HP damage. The direct counter to a precision build, and the reason HP attrition stays a first-class kill method (§3).
+    - **Dispersion (attack shape matters).** A Swarm's HP represents distributed bodies, not a target. **Arc attacks deal full raw. Point attacks deal half, rounded up** (see *Attack shape* in §10). A Swarm is the one place in the game where a slow wide weapon strictly outperforms a fast precise one, and where the correct answer may be a torch rather than a blade.
+    - **Escalating contact.** A Swarm's damage is designed to grow with time spent inside it rather than with the strength of its hits. Standing in one is the mistake; the archetype exists to price the player's position rather than to threaten a burst.
+    - Swarms are the natural home for elemental multipliers and immunities (§10) — a shelled swarm cooks, a swarm of vapour ignores bleed entirely.
+11. **ANCHOR** (elite–boss) — HP ~600–1500 · **Move 0m, permanently.** Never chases, never follows, cannot be kited because it never needed to close. Threatens through room-wide auras, reach, or a hazard it imposes on the space. Leaving is usually a complete counter — which makes "is this fight worth having" a real question rather than a rhetorical one.
+12. **VESSEL** (elite) — a shell and an occupant, two separate creatures in sequence. The shell carries a **sub-1.0 damage multiplier as armour** (see §10) and no interesting attacks; the occupant is fast, fragile, and usually trying to leave. The health bar emptying is the middle of the fight, not the end of it.
+13. **CRAWLER / CEILING AMBUSHER** (elite) — HP ~600–900 · Move fast (8m+) across **walls and ceilings**, ignoring floor terrain, hazards and chokepoints entirely. Cannot be funnelled, cannot be outrun, and the player's usual positional tools all quietly stop working.
+    - **It holds with half its limbs and strikes with the other half**, so a Crawler that attacks from the ceiling *stays on the ceiling*. Attacking it in melee requires that its striking limbs be long enough to have brought it into reach — and many variants' aren't. Reach is stated per entry; some Crawlers are simply not meltable with a melee weapon while overhead.
+    - **Interception is the archetype's signature** (§7): while overhead and unspotted, a Crawler answers the player *taking an Action* rather than acting on its own phase. The mirror-image of the player's own parry loop — it punishes committing first, exactly as the parry punishes the enemy for committing first.
+    - **Legs are the whole limb table.** A 6- or 8-leg cluster; **severing half of them ends wall and ceiling movement permanently**, converting the Crawler to a slow ground crawl for the rest of the encounter. **Staggering any single leg drops it to the floor immediately** for the stagger's duration. Getting it down is the fight; killing it once it is down usually is not.
+    - The archetype is built to make ranged tools, thrown items and knockdown effects load-bearing rather than optional. A player with no answer to *height* has no answer to a Crawler.
+14. **TIDE** (hazard-creature) — occupies a stretch of floor, corridor or room. Often has no attack the player can react to and sometimes **no HP at all** — it is resolved by crossing it, cutting a lane through it, or shutting it off, not by killing it. The archetype that makes an encounter a problem rather than a fight.
+
+15. **PACK** (mook, group-only) — HP ~150–320 per member · Move fast (6–8m). **Never appears alone.** A Pack is 3–6 members plus one **Alpha** carrying roughly triple a member's HP and one command or buff ability. Every member has **three or more attack options** rather than one. **While the Alpha lives, the whole pack takes the same action in unison** — five Bleeding applications landing in a single Enemy Phase, or five bodies of flat raw, chosen fresh each round. Individually each member is parryable and unthreatening; collectively they are unparryable, because §7 grants one parry per round against five simultaneous strikes. **Kill the Alpha and coherence breaks:** surviving members roll independently from then on, each picking its own attack, and the round stops arriving as a single stacked blow even though not one statline changed. The archetype that makes the simultaneous Enemy Phase bite, and the first where target priority *is* the fight.
+
+16. **LEECH** (parasite/controller) — HP ~200–450 · Move variable, frequently concealed, sometimes short-range blink. **Deals no physical damage whatsoever.** It drains the player's *economy* instead: White Salts out of the Purse, Insight, item charges, ammunition, pending Rally, or an attribute temporarily — a fixed amount per round, beginning the round after it establishes and continuing until it dies, loses line of sight, or the player leaves its stated range. Trivially killable and never worth the turn while anything else in the room is swinging, which is precisely the trap: ignore it and it eats the run's profit, answer it and you turn your back on whatever is walking up behind it. **Drained resources are gone, not held** — killing a Leech never refunds what it took unless its own entry says so.
+
+17. **SNARE** (terrain/anchor hybrid) — HP deliberately excessive (~1200–2500) · Move 0m, or a crawl measured in metres per encounter. A living hazard fused into the room, threatening through tendrils, roots, wires or lines reaching stated distances from a fixed anchor. **HP attrition is deliberately not the route** — the intended kill is limb destruction, and each limb destroyed permanently removes one zone of threat and shrinks the room's dangerous footprint. Converts a kitable space into a spatial puzzle where standing position relative to the anchor decides which incoming attacks can be escaped at all, including those of *other* enemies in the room. Distinct from Anchor (threatens the whole room; answered by leaving) and Tide (crossed rather than fought): a Snare can be dismantled, and dismantling it is the encounter.
+
+18. **STALKER** (pursuit/unkillable) — HP hand-set and deliberately excessive, or none at all · Move relentless, pointedly just under the player's own budget. **Not built to be beaten in a stand-up fight, and often not beatable at all in a given instance.** Limbs split into two grades: **soft joints** that stagger in a round or two and buy 2–4 rounds of distance, and a **true weak point** — a core, a gem, a heart-seam — with a threshold no current weapon reaches and reduced incoming damage on top. Alerting one converts the rest of the instance into a chase; it crosses rooms, it does not lose interest, and it does not heal what has been staggered off it for the duration of the run. **The instance must contain at least one environmental answer**, decided when the layout is generated rather than improvised when the player asks for one: a drop, a hazard, a sealable door, a flooding chamber, a rival creature that will aggro it. If a given roll genuinely has none, then finding the clean chalice and leaving is the correct play and the DM must let that read cleanly rather than dangling a solution that does not exist.
+
+19. **RITE** (puzzle/rule-bound) — HP variable · Move variable. Operates under a **strict, discoverable, absolutely consistent rule** governing when, whether and whom it attacks: it strikes only armed targets, or only what moved last round, or only whoever spoke, or it repeats the player's own previous action back at them. **The rule is never stated outright.** It is deduced from behaviour; Assess 2+ gives a strong directional hint rather than the answer. **The rule never bends — not once, not for tension, not because the fight has gone long.** An enemy that cheats its own rule is a random number generator with extra steps and destroys every Rite that comes after it. Obeying the rule is usually a complete counter and usually costs the player something they did not want to give up. The archetype for a room that is a problem rather than a fight.
+
+20. **PASSENGER** (occupant/target-denial) — HP ~150–250 for the passenger itself, plus whatever it is currently riding · Move via its host. Something small living inside something larger. **Killing the host does not kill it.** On the host's death it transfers to the nearest available body within a stated range — other enemies, corpses on the floor, and where the entry explicitly says so, a companion. It is exposed and targetable **only during the transfer, for exactly one round.** The whole fight is engineering a moment where the host dies with nothing else in reach. Distinct from Vessel (a shell and an occupant resolved in sequence): a Passenger has no fixed number of phases and will keep going as long as the room keeps offering it bodies.
+
+**Shared HP pools.** A creature may present as several bodies drawing on one pool. Damage to any body drains the shared total; individual bodies are not separately killable unless the entry says so. This is a Vessel or Swarm variant, not a new archetype, and it exists to make target selection and positioning matter in fights that would otherwise be a single health bar with extra steps. Two shapes have precedent: **bleed-back** (an undamaged body restores to the pool each round, so splitting attention is mandatory) and **terminal burst** (the bodies detonate together when the pool empties, so where they stand at the end is the real fight).
+
+**Standard archetypes cannot parry/visceral the player** — that loop is boss/hand-flagged-elite only.
+
+**Bosses** are bespoke, built on three pillars: (1) a gimmick punishing a default habit, (2) a Tier-3 multi-parry ballistic chain as the real opening, (3) a dismember/bisect threat for the under-levelled, with a disengage threshold always reachable.
+
+**EFFIGY** (boss, duellist/mirror) — HP hand-set · Move fast (7m+). Uses your own toolkit: parries, viscerals, hit-and-runs, out-moves you. The system-mastery check fight.
+
+---
+
+# 1. Monster Sheet Template
 
 One page per monster — everything a DM needs to run that fight, nowhere else to look.
 
