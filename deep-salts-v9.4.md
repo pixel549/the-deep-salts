@@ -668,7 +668,7 @@ Separate "currency" that runs alongside White Salts, earned through discovery (l
 |2|4–5|All Attacks cost -1m movement. Character has +10% chance of finding items while exploring. See warp-thresholds. Parry window +0.04s.|
 |3|6–7|Hold cost halved. Full mutation stat-lines. "Charm" items usable. Damage taken +5%.|
 |4|8–9|Parry window +0.06s. Untranslatable lore becomes comprehensible — written text **and monster vocalization/behaviour** (Insight Perception, below). Player can Identify their own loot without Maud's support.|
-|5|10|Full sight. Deepest instance content unlocked. Player character can now see through illusory walls (a potential POI placed into instances). Parry window +0.10s. Damage taken +10%. Some Secondary Actions are foreshadowed by the DM - not explicitly revealed.|
+|5|10+|Full sight. Deepest instance content unlocked. Player character can now see through illusory walls (a potential POI placed into instances). Parry window +0.10s. Damage taken +10%. Some Secondary Actions are foreshadowed by the DM - not explicitly revealed.|
 
 **Memory Vendor access** — separate from the tier table. The Vendor (Bible NPC 2) appears in the hub at **Insight 10+**. No threshold gate — if Insight drops below 10 from spending, she vanishes immediately. Trades Insight for voluntary mutations, mutation removal, and Scar removal — never accepts Salts, never allows a clean Insight dump (see design bible for full pricing and constraints).
 

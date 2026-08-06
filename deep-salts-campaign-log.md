@@ -282,9 +282,11 @@ Lloyd and Maria found an institutional laundry in impossible condition — scrub
 **VOID.** The run was voided under the table. The DM never placed an anchor — there was no chalice to find and no designed exit — and the exterior was improvised without a plan, producing a contradiction about whether the aprons were living or dead that could not be resolved cleanly mid-scene. A free return to the Hydro was granted with all findings retained.
 
 **Banked:** 57 White Salts · Wrap ×3 · Tonic ×2 · Camphor ×2 · Scour ×3 · Ada's lamp · key ring · 30ft rope.
-**Insight 8 → 11 (Tier 5)** — first sighting of a new archetype (Ada), linen return log, Tolliver's account.
+**Insight 8 → 11 (Tier 5)** — first sighting of a new archetype (Ada), linen return log, Tolliver's account. Tier 5 brings the +10% damage-taken cost, illusory-wall sight, and DM foreshadowing of some Secondary Actions.
 **Not claimed:** the Sunk Hook, left on a bracket four floors up. Lost with the instance.
 
 **Zero combat.** No enemy fought, no kill salts, no Insight from a fight, in an entire session.
+
+**Ruleset note.** The session was run against v9.3 and rebased onto **v9.4** (status rebuild, action economy, precision rework) pushed in parallel. Two in-session numbers were superseded: the Insight window bonus at Tier 5 is +0.10s, not +0.20s, so the Powder Charge tolerance used on the cellar hatch was ±0.25s rather than ±0.35s — the roll of 0.86s clears either way, so no outcome changed. Character sheet now fully synced to v9.4; Insight tier 5 corrected to read **10+** so the band stays open above 10.
 
 **Threads.** Nell's gap year matched the linen return log's dead period — fifth recipe-independent appearance, still no payoff designed. Maria's grey linen strip was identified by Ada as a room mark (sick wing), which Maria rejects; her account of Ren and why she left her order came out in full. Lloyd told her a religion that forbids love is a flawed belief system and she did not answer.

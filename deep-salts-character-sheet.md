@@ -9,7 +9,7 @@
 
 **Level:** 8 (next attribute point costs 25 × 8 = **200**) · **Insight:** 11 (Tier 5 — dropped from 18 via Memory Vendor session 10; +3 session 11 from first-sighting and lore reads.)
 
-> **⚠ NOT YET SYNCED TO RULESET v9.4.** The derived numbers below are v9.3-era and the v9.4 precision/status rework changes several of them. Flagged for the player — do not treat the marked lines as authoritative.
+*Synced to ruleset v9.4 (session 11).*
 
 ### Attributes
 | VIG | END | STR | SKI | RES |
@@ -25,14 +25,15 @@
 - **Movement:** 8m
 - **Attribute Modifier:** Skill +0 (10–19 band; ESV is 20, modifier band and ESV are separate) · Vigour +0 · Strength −1 · Resolve −2
 - **Insanity/Influence save:** d20 ≥ 10 + track − ⌊Res÷10⌋(+0) + ⌊Insight÷2⌋(+5) − Dulled Sight(−3) = **12 + track.** With Maria's Steady Faith (−1): **11 + track.**
-- **Insight window bonus:** ⚠ **UNRESOLVED.** v9.3 gave Tier 5 = +0.20s; v9.4 §11 gives Tier 5 = **+0.10s**. Every downstream tolerance below depends on this. Needs the player's call.
-- **Perk — Steady Hand (Skill 20):** +0.02s flat, **exactly negated by Dulled Sight mutation (−0.02s).** Net precision window bonus = Insight tier only (+0.15s).
+- **Insight window bonus:** **+0.10s** (Tier 5, v9.4 §11). Flat total, not additive across tiers crossed.
+- **Tier 5 passives:** damage taken **+10%** · sees through illusory walls · some enemy Secondary Actions foreshadowed by the DM · full mutation stat-lines · Charm items usable · Hold cost halved (Tier 3) · all attacks cost −1m movement (Tier 2) · +10% item-find while exploring (Tier 2) · parries inflict 3 Bleeding (Tier 1) · self-Identify loot without Maud (Tier 4).
+- **Perk — Steady Hand (Skill 20):** +0.02s flat, **exactly negated by Dulled Sight mutation (−0.02s).** Net precision window bonus = Insight tier only (**+0.10s**).
 - **Arm mutation — Thickened Sinew:** parry windows −0.03s flat. Rally recovery +25% (Lloyd's own Rally only; does not affect Maria's Steadying Grace — session 10 ruling).
 - Standard enemies cannot parry/visceral Lloyd — boss/elite-tier only.
 
 ### Weapons
 
-**Metal Knuckles (paired) — equipped, active.** Skill/D, one-handed, Base 22 (Light 32/Heavy 59 at ESV 20). **Powder Charge:** timed detonation, target 1.00s, effective tolerance ⚠ **UNRESOLVED** — 0.15 base + Insight bonus (see above) + 0.02 Steady Hand − 0.02 Dulled Sight. Was ±0.30s at Tier 4/v9.3; ±0.25s if v9.4's Tier 5 = +0.10s. Success = ×1.5 damage + 1 Discombobulation. Failure = 2 Bleeding stacks, turn ends immediately.
+**Metal Knuckles (paired) — equipped, active.** Skill/D, one-handed, Base 22 (Light 32/Heavy 59 at ESV 20). **Powder Charge:** timed detonation, target 1.00s, effective tolerance **±0.25s** (0.15 base + 0.10 Insight + 0.02 Steady Hand − 0.02 Dulled Sight). Success = ×1.5 damage + 1 Discombobulation. Failure = 2 Bleeding stacks, turn ends immediately.
 
 **Choir Needle — carried, not equipped.** Skill/D, one-handed, Quick, Base 22 (Light 32/Heavy 59 at ESV 20). Passive: self-initiated Precision Strikes have tightened tolerance eased back one band. Found session 10, Choir Deep drain grate.
 
@@ -47,13 +48,17 @@
 ### Status Tracks
 | Track | Value |
 |---|---|
-| Bleeding | 0 |
-| Insanity | 1 |
-| Influence | 0 |
-| Discombobulation | — |
-| Corrosion | 0 |
-| Burning | — |
-| Fugue | N/A |
+| Bleeding *(Tick)* | 0 |
+| Burning *(Tick)* | 0 |
+| Discombobulation *(Tick, cap 3)* | 0 |
+| Stone Skin *(Tick, cap 3)* | 0 |
+| Frenzy *(Tick)* | 0 |
+| Insanity *(Track, cap 10)* | 1 |
+| Influence *(Track, uncapped)* | 0 |
+| Corrosion *(Track, cap 10)* | 0 |
+| Crust *(Track, cap 4)* | 0 |
+| Fervour *(Track, cap 10)* | 0 |
+| Fugue *(Condition)* | Not applied |
 
 ### Limbs
 - **Arms:** one mutated (Thickened Sinew), one standard. No left/right distinction — penalty applies as flat modifier.
@@ -66,7 +71,7 @@
 ### Inventory
 - Powder capsules — 4/4 (Hub Kit refill)
 - Wrap ×5 · Tonic ×4 · Camphor ×2 · Scour ×4 (Hub Kit refill applied; session 11 finds folded in, capped where relevant)
-- **Bent Tuning Key** — passive equip. Precision Strike windows treated as one Insight tier higher than actual (Tier 5→6 for window calc — ⚠ v9.4's tier table tops out at 5; effect of this item at max tier is now undefined). Doesn't affect parry or Powder Charge. Found session 10, Choir Deep reliquary.
+- **Bent Tuning Key** — passive equip. Precision Strike windows treated as one Insight tier higher than actual (⚠ **inert at Tier 5** — 5 is the top band in v9.4 §11, so there is no higher tier to borrow. Dormant until the tier table extends.). Doesn't affect parry or Powder Charge. Found session 10, Choir Deep reliquary.
 - **Widow's Veil** — single use, Fast Action. Removes wearer from Influence Overload redirect pool for rest of encounter. Found session 10, Choir Deep chancel.
 - **Censer Incense ×2** — consumable, Light Action. ~4m radius opaque smoke, 3 rounds, breaks LOS both ways.
 - **Amber Forge-Salts ×1** — enough for one Cold Forge brew.
@@ -119,4 +124,4 @@ One Action per turn. Jake calls general intent, DM resolves.
 All tracks zero. Full restoration at hub. Four joint runs completed. Session 10: recognised choir attendance ledger format ("We kept ours the same way"), defended the Church when Lloyd questioned it, received Sigil Lash, prayed in the Apse. Wears the grey linen strip. Saw the torn register page without comment.
 
 ---
-*Last updated: end of session 11. Flooded gallery run 5 voided. Party of two, fully restored at hub. **Derived stats not yet synced to ruleset v9.4** — see warning at top.*
+*Last updated: end of session 11. Flooded gallery run 5 voided. Party of two, fully restored at hub. Synced to ruleset v9.4 / bible v4.8.*

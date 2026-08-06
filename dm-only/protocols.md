@@ -63,7 +63,7 @@ Established session 11.
 
 ### Round order — quick reference
 
-1. **Player may Assess.** (Assess is an Action per §7 — a player who Assesses cannot also Hold this round.)
+1. **Player may Assess.** (Assess is a **Fast Action**, 1m — it does not consume the Action, so a player may Assess *and* Hold in the same round.)
 2. **Enemy telegraphs for the turn**, where one is available.
 3. **Player actions.**
    - 3a. If an enemy action was to interrupt the player's action → the player's action is interrupted and the enemy acts.
