@@ -2143,6 +2143,24 @@ One page per monster — everything a DM needs to run that fight, nowhere else t
 - **White Salts drop:** 26, plus the host's own drop. **Insight:** +1/+0.
 - **Boss Gimmick:** N/A. **Habit punished:** walking in alone. **Dismember threat:** as the host. **Retreat always reachable:** Y, unless it is riding you.
 
+## Monster 103 — The Regulator
+
+- **Archetype:** Rite (elite) · **Level Range:** 8–22 · **HP:** 620 · **Move:** 3m, an unhurried walk that never breaks into anything else · **Scale Band:** 1–20 (×1.0)
+- **Flavour:** Somebody's heat-regulator, and somebody, fused into one object at the point where the damper handle met the hand. A brass plate stands proud of its chest with a needle behind glass, and the needle moves before the creature does. It walks the room like a man checking a gauge on his rounds, and it is checking a gauge — everyone's.
+- **The Rule (never stated outright):** **it attacks only the hottest thing in the room, and only if something is burning.** Concretely: at the start of its action it takes the creature within 10m carrying the most Burning stacks (ties broken by whoever gained a stack most recently) and attacks that creature. **If no creature in the room carries a Burning stack, it does not attack at all** — it walks, it adjusts a damper, it reads its own gauge, and it ends its turn. It has no other trigger. It will cross a room past an unburned target standing in arm's reach to reach a burning one, and it will not retaliate against damage from a cold attacker. The rule is absolute and is never bent for tension.
+- **Limbs:** custom. **Head: stagger 180, ×1.5** — standard, unguarded, and it is genuinely not defending it. **Gauge Plate (chest): implement, isolated HP pool, stagger 120, no sever** — the brass housing over the needle. Destroying the plate does **not** disable anything; it exposes the needle, and an exposed needle means Assess 2+ information becomes readable without an Assess. A deliberate trap-flavoured target: useful, but never the kill. **Arms: stagger 140, ×1.1.** Sever the **handle arm** (the fused one) → Equalise permanently disabled. Sever the free arm → nothing; it never used it. **Legs: stagger 260, ×0.85** — braced heavy, it stands at dampers all day. Sever → Move 0m, and the rule stops being able to reach anyone more than 2m away.
+
+| Attack | Type | Tell | Window | Tier | Hit Effect | Retaliation | Miss Punish |
+|---|---|---|---|---|---|---|---|
+| Vent | Heavy | "It sets its feet square on and the plate on its chest hinges open toward you." | Target 1.60s, ±0.20s | 2 | 50 raw + **1 Burning per Burning stack the target already carries** (so 0 extra on a cold target it was never going to strike anyway, and brutal on a target at 4) | Standard | Plate hangs open, long recovery closing it |
+
+- **Secondary Actions:**
+  - **Equalise** — *Trigger:* two or more creatures within 10m carry Burning stacks. *Cooldown:* 2 rounds. No attack. It works the damper handle and **redistributes Burning evenly across every burning creature in the room, rounding remainders onto itself.** No stacks are created or destroyed. It is not helping anyone; it is levelling a reading. This can hand the player's fire back to the player's companion and frequently does.
+  - **Bank the Room** — *Trigger:* it has been parried. *Cooldown:* 1 round. **No attack, and this is the punish for the parry loop.** The plate is already open from the parried swing, so it simply leaves it open: **every creature in the room, including the Regulator, gains 1 Burning at the start of the next round.** Under its own rule, that means a previously cold player has just become a legal target. Parrying it is not free, and Assess 2+ says so.
+- **Kitable:** Y, trivially — by not being on fire. **Assess 0–1:** "It walked past you. It didn't look at you. It looked at her." · **Assess 2+:** "It isn't hunting, it's regulating — it goes for whatever's hottest in the room and nothing else. Put the fire away and it has no target and no reason to swing. Parry it and it will make you one."
+- **White Salts drop:** 24. **Insight:** +1/+0. **Habit punished:** opening every encounter with a companion AOE, and parrying on reflex. **Dismember threat:** Low. **Retreat always reachable:** Y.
+- **Design note:** the first Rite built. Its rule is deliberately legible within two rounds of observation and its counter is deliberately expensive — a Resolve-build companion whose primary output is a 4m fire AOE cannot participate in the clean solution. First appearance: Cold Forge, Draught Works (run 2).
+
 ## Monster Template (blank)
 
 - **Archetype:** · **Level Range:** · **HP:** · **Move Budget/Pattern:** · **Scale Band:** · **Flavour:**
