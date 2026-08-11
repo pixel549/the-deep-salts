@@ -709,7 +709,7 @@ Spending drops your current score immediately — drop a tier, lose its benefits
 * Force a gated door/path where the location calls for a spend.
 * Insight-priced weapons/equipment.
 * Summon a support ally — default cost 1, for the current encounter only. Temporary, unreliable.
-* Memory Vendor trades — voluntary mutations (5 Insight), mutation removal (5 Insight), or Scar removal (6/10/escalating). Insight only, hub-accessible at Insight 15+. No clean Insight dumps — must buy a mutation or have an existing mutation/Scar to remove (design bible NPC 2).
+* Memory Vendor trades — voluntary mutations (5 Insight), mutation removal (5 Insight), or Scar removal (6/10/escalating). Insight only, hub-accessible at Insight 10+. No clean Insight dumps — must buy a mutation or have an existing mutation/Scar to remove (design bible NPC 2).
 
 ---
 

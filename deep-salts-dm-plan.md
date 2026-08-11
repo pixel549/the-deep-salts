@@ -23,7 +23,7 @@ Flooded gallery run 5 voided. No anchor was placed; free exit granted. **That in
 
 - Nell: 0 (fifth appearance, still no payoff designed — do not force one)
 - Maria's linen strip / Ren: 0 (opened fully; do not resolve)
-- Maud's ring connection: 2 · Memory Vendor: 1 (needs Insight 15, currently 11)
+- Maud's ring connection: 2 · Memory Vendor: 1 (Insight 10+ — accessible now at 11)
 - Reception clerk "brother": 3 · Old man by the fire: 4
 - Lost gear / Singer rematch: 1 · Greta: 0
 
