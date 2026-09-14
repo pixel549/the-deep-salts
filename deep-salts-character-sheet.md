@@ -110,7 +110,7 @@
 **RES:** 24 (ESV 23) · **Insight:** 0 · **Max HP:** 55/55 · **Move:** 8m
 
 ### Kit
-- **Purging Flame** — AOE, RES/D, Heavy (3m), ranged 8m, 4m radius. 32 dmg/enemy in radius — hits Lloyd too if in it.
+- **Purging Flame** — AOE, RES/D, Heavy (3m to cast). **No fixed range (session 12 rework)** — a straight-line bolt along a declared line of fire, travelling until it hits the first solid thing in its path (wall, floor, enemy, or ally — no discrimination), then detonates: 4m radius, 32 dmg/enemy in radius. Hits Lloyd too if he's in the blast, or if he's standing in the line before the intended target — friendly fire by geometry. If nothing obstructs it, it never detonates; cast wasted, no refund.
 - **Judgment Spark** — single-target, RES/E, Light (1m), ranged. 27 dmg. No Precision Strikes.
 - **Imbue Weapon** — Full Action (2m), range 5m. +12 flat to Lloyd's next attack. One charge, doesn't stack with itself.
 - **Steadying Grace** — Full Action (2m), range 5m. Turn after Lloyd takes a hit without follow-up. Restores 50% of pending Rally HP (Thickened Sinew does NOT apply — session 10 ruling). Rest is lost.
