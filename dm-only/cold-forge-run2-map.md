@@ -115,7 +115,7 @@ A steep cold chute of firebrick, descending. At its foot, an **iron door seized 
 Beyond: **R7.**
 
 - **Loot:** none in the chute itself.
-- **State:** unvisited. Door seized. Draught: cold.
+- **State:** VISITED. Door seized. Draught: cold. Lloyd at the door, has not yet attempted to force it.
 
 ### R7 — The Regulator's Rest *(the instance quest payoff)* — **INSTANCE QUEST**
 A small brick chamber behind the seized door, cold, airtight, undisturbed since it was sealed. This is the run's quiet room and its narrative point.
