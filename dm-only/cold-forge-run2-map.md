@@ -43,7 +43,7 @@ Second-order use, and the good one — **the heat is a weapon and a key**:
 
 **DM discipline:** do not pre-solve. Describe warm brick, moving air, chain runs, and a needle gauge. Hazards named only once he identifies them (protocols §3.5). If he never engages the circuit, the run still works — every route has a fight-through option, it just costs Burning and Scour.
 
-**Live damper state:** *(update as he works it)* — D1 open · D2 open · D3 shut · D4 shut.
+**Live damper state:** *(update as he works it)* — D1 SHUT (closed by Lloyd at the R2 mouth) · D2 open · D3 shut · D4 shut. Route A (R2→R3→R5) now cold throughout. Route C (R3→R8) still live — R3 keeps one warm mouth.
 
 ---
 
