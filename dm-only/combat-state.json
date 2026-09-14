@@ -1,17 +1,17 @@
 {
   "encounter": "Cold Forge Run 2 — R8 The Long Return: Frost-Iron Smith (solo, Maria out of range at R3)",
-  "round": 3,
+  "round": 4,
   "combatants": {
     "lloyd": {
       "id": "lloyd",
       "name": "Lloyd",
       "side": "player",
       "max_hp": 120,
-      "hp": 115,
+      "hp": 25,
       "alive": true,
       "status": {
         "bleeding": 0,
-        "burning": 1,
+        "burning": 2,
         "discombobulation": 0,
         "stone_skin": 0,
         "frenzy": 0,
@@ -29,7 +29,7 @@
       "name": "Frost-Iron Smith",
       "side": "enemy",
       "max_hp": 1600,
-      "hp": 1600,
+      "hp": 1499,
       "alive": true,
       "status": {
         "bleeding": 0,
@@ -55,7 +55,7 @@
         "head": {
           "multiplier": 1.5,
           "threshold": 300,
-          "accumulated": 0,
+          "accumulated": 101,
           "severed": false,
           "staggered": false
         },
