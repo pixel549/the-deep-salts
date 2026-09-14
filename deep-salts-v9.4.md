@@ -717,9 +717,11 @@ Spending drops your current score immediately — drop a tier, lose its benefits
 
 ## 12. Retreat & Death — the Fail-States
 
-**ABANDON-ALL.** Instant, free, mid-combat — between any two actions. Spoken/thought only. Keep character/levels/limbs; **forfeit everything carried — Purse and gear both.** Left-behind gear settles on a guaranteed enemy of that instance's archetype, recoverable in a future instance of the same biome — no expiry, doesn't compound. Countered only by rare boss-tier voice-severing/silence.
+**Three ways out of an instance, no more** *(session 12 ruling — Abandon-All removed outright, not merely deprecated; strike it from play entirely)*:
 
-**RETREAT.** A few minutes of deliberate meditation — **cannot be used in active combat.** Keep character/levels/limbs/**all gear**; forfeit only the Purse.
+**RETREAT.** A few minutes of deliberate meditation, only usable once genuinely safe — **cannot be used in active combat.** Keep character/levels/limbs/**all gear**; forfeit only the Purse.
+
+**CLEAN EXIT.** Reach the instance's clean chalice and leave through it. Keeps everything, banks the Purse (§18).
 
 **DEATH. Player Character health reaches zero and they die in the Salts Instance.** Character wakes up in the salt room they entered from, forming a new Scar and/or mutations if limbs were severed. Keep levels and prior mutations unless overwritten by new ones. Gear and Salts all left in the instance the player died in, located on or near a variation of enemy they were killed by.
 
