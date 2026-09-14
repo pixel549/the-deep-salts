@@ -105,7 +105,7 @@ The long return flue, carrying live draught at wake-in. **The Draught (Monster 6
 If he fights it: it eats Burning, so Maria's Purging Flame is again the wrong tool, and the Choir Needle is exactly the right one. Double-mouth sever kills it outright regardless of HP.
 
 - **Loot:** 18 White Salts in a soot-caked canvas bag pinned under a fallen damper plate.
-- **State:** unvisited. Draught present, live route.
+- **State:** VISITED. Draught RELOCATED — Route A went cold when Lloyd shut D1 back at R2, and per its own rule (drawn to heat, not fought) it left in search of it rather than dying or being weakened. Not present. Room shows old scorch marks/wear from where it stood; no monster here now. Fight avoided by environmental solve, not combat — log per protocols §4.3.
 
 ### R6 — The Slag Chute *(cold at wake-in — the seized door)*
 A steep cold chute of firebrick, descending. At its foot, an **iron door seized solid in its frame** — decades of expansion and contraction have welded it shut. Strength check to force is DC 22 (Extreme; Lloyd at −1 is not doing this, and he should be allowed to try and fail cheaply).
