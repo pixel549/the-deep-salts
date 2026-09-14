@@ -1,0 +1,89 @@
+{
+  "encounter": "EXAMPLE — schema demonstration only, not a real fight",
+  "round": 1,
+  "combatants": {
+    "lloyd": {
+      "id": "lloyd",
+      "name": "Prettyboy Lloyd",
+      "side": "player",
+      "max_hp": 120,
+      "hp": 120,
+      "alive": true,
+      "status": {
+        "bleeding": 0,
+        "burning": 0,
+        "discombobulation": 0,
+        "stone_skin": 0,
+        "frenzy": 0,
+        "insanity": 0,
+        "influence": 0,
+        "corrosion": 0,
+        "crust": 0,
+        "fervour": 0,
+        "fugue": false
+      },
+      "limbs": {}
+    },
+    "maria": {
+      "id": "maria",
+      "name": "Maria",
+      "side": "companion",
+      "max_hp": 55,
+      "hp": 55,
+      "alive": true,
+      "status": {
+        "bleeding": 0,
+        "burning": 0,
+        "discombobulation": 0,
+        "stone_skin": 0,
+        "frenzy": 0,
+        "insanity": 0,
+        "influence": 0,
+        "corrosion": 0,
+        "crust": 0,
+        "fervour": 0,
+        "fugue": false
+      },
+      "limbs": {}
+    },
+    "example_enemy": {
+      "id": "example_enemy",
+      "name": "EXAMPLE ENEMY - replace with the real Monster Template before use",
+      "side": "enemy",
+      "max_hp": 650,
+      "hp": 650,
+      "alive": true,
+      "status": {
+        "bleeding": 0,
+        "burning": 0,
+        "discombobulation": 0,
+        "stone_skin": 0,
+        "frenzy": 0,
+        "insanity": 0,
+        "influence": 0,
+        "corrosion": 0,
+        "crust": 0,
+        "fervour": 0,
+        "fugue": false
+      },
+      "limbs": {
+        "head": {
+          "multiplier": 1.5,
+          "threshold": 180
+        },
+        "torso": {
+          "multiplier": 1.0,
+          "threshold": 800
+        },
+        "arm": {
+          "multiplier": 0.65,
+          "threshold": 200
+        },
+        "leg": {
+          "multiplier": 0.75,
+          "threshold": 300
+        }
+      }
+    }
+  }
+}
