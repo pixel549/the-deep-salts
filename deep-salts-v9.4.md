@@ -353,7 +353,7 @@ Each round has up to four phases, always in this order:
 
 1. (Optional) Player can Assess (a Fast Action) enemies before any actions are taken. This 
 
-2. (Optional) If the player has identified enemy telegraphs for their turn, the DM narrates those telegraphs. Enemy actions are committed to here. 
+2. (Optional) If the player has identified enemy telegraphs for their turn, the DM narrates those telegraphs. Enemy actions are committed to here. **"Identified" means Assessed this round (§9) — without it, this phase does nothing and there is no telegraph to Hold against.**
 
 **3. Player actions**
 
@@ -495,6 +495,8 @@ Specific weapons/actions may price differently; perks may refund/grant/zero cost
 Needs a stopwatch.
 
 **Assess** (1m): reveals an enemy's tell and rough timing of its next heavy, clarity scaling with Insight. You can then Hold to parry on its turn.
+
+**The pipeline is Assess → telegraph → Hold → Parry, in that order, and it does not skip steps** *(session 12 ruling, resolving an ambiguity between this section and §7's round structure)*. Assess is what places the telegraph before the player's turn at all — §7 phase 2 ("the DM narrates those telegraphs") only fires off a prior Assess. **No Assess this round → no telegraph → Hold is not an available option that round.** The enemy's action simply resolves in the Enemy Phase and connects by default (§7). This is true even though the enemy's tell is, in-fiction, a real physical cue anyone could theoretically see — mechanically, the player only gets to react to it if they spent the Fast Action to be watching for it. A player who wants the option to parry has to Assess first, every time; skipping it trades that option away for a free Fast Action elsewhere.
 
 **The parry:**
 
