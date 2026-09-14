@@ -57,7 +57,7 @@ No enemies. Orientation beat. Let him look. Maria: the heat doesn't bother her t
 **Buried find:** something is half-buried in the ash against the far wall, only the corner showing and it reads as brick until touched — **a japanned tin lunch pail**, cold, sealed. Inside: 14 White Salts, a Scour, and a folded paper that is *not* the third note (it's a shift roster fragment, no names legible). Deliberately a near-miss on the woman's thread — establishes the object type without paying it out.
 
 - **Loot:** 14 salts, Scour ×1, roster fragment (flavour).
-- **State:** unvisited.
+- **State:** VISITED (wake-in). Tin pail not yet found.
 
 ### R2 — The Feed Flue *(live draught at wake-in)*
 A walkable brick flue, 2m wide, running uphill. Currently carrying draught: **1 Burning per round inside.** ~4 rounds to cross at walking pace, or he can shut **D1** at the mouth (visible, hand-worked, 1 Full Action) and walk it cold. First real statement of the mechanic; make the wrong-way version survivable, not punishing.
