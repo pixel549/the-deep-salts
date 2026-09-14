@@ -54,6 +54,7 @@ Established session 11.
 4. **Escalation must be narratively earned.** A befriended dog does not turn. An appeased temperamental ghost can absolutely be enraged by the next thing the player does. The trigger comes from the fiction, never from the DM's appetite for a fight.
 5. Check the run's combat balance — but the fix is placement in the plan, not conjuring an ambush.
 6. Pull the actual statblock. If the enemy does not exist in the repo, build it properly and say so.
+6a. **Build `dm-only/combat-state.json` from that statblock before the first action** — HP, limb multipliers/thresholds, starting status (`tools/combat_state/`, see its README). Never seed limb values from the tool's generic fallback table; pull them from the specific Monster Template.
 7. **+1 Insight on first sighting of a new archetype** (§17). Sighting, not Assess.
 8. State the setup before the first roll: enemy count, positions, distances, terrain, companion range status.
 
@@ -74,17 +75,30 @@ Established session 11.
 ### Running it
 
 1. **Enemies act simultaneously on the Enemy Phase, not in a queue** (§7). One parry per round. Unparried attacks connect automatically. This must not drift back to sequential resolution.
-2. **State every number before the roll or the watch** — target, tolerance, DC, damage maths, object pools. Nothing moves after the fact.
+2. **State every number before the roll or the watch** — target, tolerance, DC, damage maths, object pools. Nothing moves after the fact. **Compute damage, limb stagger/sever, Accuracy Tier multipliers and save DCs with `tools/resolver/resolver.py` — do not hand-derive them.** Regression cases live in its test suite; if a result looks wrong, that's a bug report against the tool, not licence to eyeball the next one instead.
 3. **Accuracy Tiers on all stopwatch results.** Never binary pass/fail.
 4. **Parry payoff is bounded:** exactly one skipped enemy turn. The post-parry visceral follow-up is an eased stopwatch check (±0.25s flat), not automatic. A miss is a plain torso hit with no additional penalty.
-5. **Enemy HP and remaining health are not stated in combat.** Damage dealt is narrated by effect, not by number. The player's own numbers remain fully visible. **If the player asks UTT, share the stats freely** — this is presentation, not concealment.
+5. **Enemy HP and remaining health are not stated in combat.** Damage dealt is narrated by effect, not by number. The player's own numbers remain fully visible. **If the player asks UTT, share the stats freely** — this is presentation, not concealment. (Not-stated means not narrated OTT — `dm-only/combat-state.json` still tracks the real number underneath.)
 6. **Use the enemy's full Secondary Action list** (§7). A Secondary *replaces* the primary — an enemy still acts exactly once per round — so the variety is in which action, never in how many.
 7. **Do not settle into a rhythm.** If the player has optimised the encounter, change its shape: reposition, escalate, alter the problem. That is what Secondaries exist for.
-8. Track all five status tracks each round. Rally per §6.
+8. Track all five status tracks each round in `dm-only/combat-state.json` (`tools/combat_state/`), not in prose across messages. Rally per §6 — Rally itself is a DM judgment call (which recovery band applies), not something the tool decides.
 9. Companion: the player calls intent, the DM rolls and resolves.
 10. **Sever is optional.** HP attrition is a full and valid primary route.
 11. **Flag gaps explicitly, then rule with a concrete number immediately.** Never defer, never silently invent.
 12. Bodies stay. Boss kills leave something to examine. No automatic drop summaries.
+13. **When the fight ends**, fold `dm-only/combat-state.json`'s final HP/status back into `deep-salts-character-sheet.md`, then discard it — it's ephemeral per fight, same as `dm-plan.md` is per session.
+
+---
+
+## 6 — SESSION END
+
+*Newly written down here — this codifies what every session-end commit has actually done since session 7 or so (see campaign log / dev log), not a new rule.*
+
+1. Update `deep-salts-campaign-log.md` with the session's events.
+2. Rewrite `deep-salts-character-sheet.md` to the current true state — HP, tracks, charges, limbs, Insight, inventory, Salts.
+3. Wipe and rewrite `deep-salts-dm-plan.md` — direction and pacing for next time only, not history.
+4. Confirm no `dm-only/combat-state.json` is left over from an unfinished fight; if one exists, resolve §5.13 first.
+5. Note any file version drift (ruleset/bible) for next session's §1.5.
 
 ---
 
