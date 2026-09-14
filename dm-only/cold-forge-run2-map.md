@@ -115,7 +115,7 @@ A steep cold chute of firebrick, descending. At its foot, an **iron door seized 
 Beyond: **R7.**
 
 - **Loot:** none in the chute itself.
-- **State:** VISITED. Door seized. Draught: cold. Lloyd at the door, has not yet attempted to force it.
+- **State:** VISITED. Door forced open — Maria hand-heated it directly (ruling: controlled small-scale application of Purging Flame, no radius, ~2 rounds sustained contact instead of one burst) rather than routing draught; weld cracked, Lloyd punched it the rest of the way. Puzzle circuit never engaged for this route.
 
 ### R7 — The Regulator's Rest *(the instance quest payoff)* — **INSTANCE QUEST**
 A small brick chamber behind the seized door, cold, airtight, undisturbed since it was sealed. This is the run's quiet room and its narrative point.
@@ -133,7 +133,7 @@ She is not an enemy. She does not move. **Do not animate her, do not have her sp
 **Do not summarise this room as loot.** Describe a sealed cold room with a woman in it and let him search.
 
 - **Loot:** third note (quest), Forge-Ledger Key (persistent), Amber Forge-Salts ×2, 40 salts, Foundry Wedge.
-- **State:** unvisited, sealed.
+- **State:** VISITED (door just forced). Not yet searched — nothing found or taken.
 
 ### R8 — The Long Return *(the skipped wall — optional)*
 A straight 30m flue on Route C, live draught at wake-in. **The Frost-Iron Smith (Monster 30, 1600 HP)** stands in it, exactly the fight he walked away from on run 1. Deliberate callback; he has since gained a level, a band of Strength, Tier 5, and a precision sidearm.
