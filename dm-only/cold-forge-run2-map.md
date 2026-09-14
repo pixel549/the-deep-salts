@@ -80,7 +80,7 @@ Wing sever (200) is well inside his numbers — Heavy at ESV 20 is 59 base, ×1.
 
 - **Loot:** 11 White Salts scattered in the ash under the catwalk gap (where someone fell). On the catwalk itself, wedged where the section broke: **Censer Incense ×1**.
 - **Insight:** +1 (Kiln-Moth first sighting) — AWARDED, Lloyd 11→12.
-- **State:** VISITED. Entered cold, via the now-shut R2 mouth — has not triggered aggro. Moths alive: 2, circling the still-live Route C mouth. Loot (11 salts under catwalk gap, Censer Incense ×1 wedged in broken ironwork) not yet found.
+- **State:** VISITED. Entered cold, via the now-shut R2 mouth — has not triggered aggro. Moths alive: 2, circling the still-live Route C mouth, unresponsive to noise/movement (confirmed heat-only orientation, told to player straight). Lloyd climbed the sagging broken catwalk section, retrieved Censer Incense ×1 (now carrying 3 total). 11 salts under the gap still unclaimed.
 
 ### R4 — The Damper Loft *(the puzzle room)*
 Up the rungs off R3, a low timber-and-iron loft over the crossing. Four chain runs come up through the floor to a control frame — four levers, each with a brass tag, and a **gauge with a needle** on the wall above showing total draught pressure. Two levers sit forward, two back.
