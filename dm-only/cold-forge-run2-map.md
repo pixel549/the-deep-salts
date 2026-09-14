@@ -65,7 +65,7 @@ A walkable brick flue, 2m wide, running uphill. Currently carrying draught: **1 
 Walls are lined with soot except for a chest-height band where decades of hands have worn it clean — people walked this every day.
 
 - **Loot:** none. This room is tuition.
-- **State:** unvisited.
+- **State:** VISITED. D1 status: not yet touched, still open (live draught).
 
 ### R3 — The Crossing Chamber *(hub room — Kiln-Moths)*
 Where all four flues meet. A brick vault, 12m across, four dark mouths at the compass points, iron catwalk ringing it 3m up with a gap where a section has fallen. **Ceiling height is the fight.**
