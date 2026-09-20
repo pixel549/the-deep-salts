@@ -166,8 +166,11 @@ Past the Smith, the flue opens into a brick drum 15m across with a domed roof. *
 
 **Do not burn it** (Bank, +15 raw per stack cumulative). Maria's Purging Flame is wrong here for the third time this instance, and by now that should be a pattern he has noticed rather than a gotcha.
 
-- **Loot:** 42 salts (Root). In the drum's lip, above the scorch line where nothing has ever reached: **a coil of brass chain and a damper tag stamped with a number that matches nothing in the Works.** Flavour, unresolved, no payout — do not invent one.
-- **State:** unvisited. Root alive, breathing.
+- **Loot:** 42 salts (Root). In the drum's lip, above the scorch line where nothing has ever reached: **a coil of brass chain and a damper tag stamped with a number that matches nothing in the Works.** — CLAIMED, Maria retrieved it. Flavour, unresolved, no payout, none invented.
+- **State:** VISITED, room entered. Lloyd Assessed the Root out of combat (first sighting, +1 Insight, 13→14 — see character sheet). Root not yet aggro'd. All 4 arms currently intact. Combat now starting as Lloyd closes in on the nearest arm.
+- **Tool limitation flagged:** `resolver.limb_hit` only supports one threshold doing double duty for stagger AND sever. This monster has split values (arms: stagger 150 / sever 210; throat: stagger 200 / sever 280). Worked around in `combat-state.json` by storing the stagger value in the tool's `threshold` field and checking sever by hand against the real sever number each hit — not a resolver bug, genuinely outside its single-threshold signature.
+- **Ruling (player-called, codified in ruleset §9): Assess unlocks parry for an attack for the rest of the encounter, not just the round it's cast in.** Lloyd's pre-combat Assess of Blast counts going forward without re-Assessing. A genuinely new attack (Draw Air, or anything else) still needs its own Assess first.
+- **Positioning ruling:** each Bellows Arm's Blast only reaches its own 5m quadrant — standing in one wedge means only that wedge's arm can land a hit, even though all four visibly "come up" simultaneously on the tell. Lloyd approaching along one line is only threatened by the one arm covering it.
 
 ---
 
