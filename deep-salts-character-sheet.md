@@ -7,7 +7,7 @@
 
 **Concept:** Young, athletic Skill-build fighter. Self-made twin knuckledusters rigged with detonating powder capsules — recovered session 6, back in active use.
 
-**Level:** 8 (next attribute point costs 25 × 8 = **200**) · **Insight:** 11 (Tier 5 — dropped from 18 via Memory Vendor session 10; +3 session 11 from first-sighting and lore reads.)
+**Level:** 8 (next attribute point costs 25 × 8 = **200**) · **Insight:** 13 (Tier 5 — dropped from 18 via Memory Vendor session 10; +3 session 11 from first-sighting and lore reads; +1 session 12 Kiln-Moth first sighting, +1 session 12 Frost-Iron Smith kill.)
 
 *Synced to ruleset v9.4 (session 11).*
 
@@ -21,7 +21,7 @@
 *Session 11, hub: tempered with Greta — Strength 4→5, 175 Vault Salts. Band crossing: modifier −2→−1.*
 
 ### Derived Stats
-- **Max HP:** 120/120 (full restoration at hub)
+- **Max HP:** 120 max, **currently 105/120** (mid-run, Cold Forge run 2 — took a full unparried Cold Hammer from a Frost-Iron Smith, healed via clean source-water flask, now spent)
 - **Movement:** 8m
 - **Attribute Modifier:** Skill +0 (10–19 band; ESV is 20, modifier band and ESV are separate) · Vigour +0 · Strength −1 · Resolve −2
 - **Insanity/Influence save:** d20 ≥ 10 + track − ⌊Res÷10⌋(+0) + ⌊Insight÷2⌋(+5) − Dulled Sight(−3) = **12 + track.** With Maria's Steady Faith (−1): **11 + track.**
