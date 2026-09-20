@@ -29,7 +29,7 @@
       "name": "The Bellows Root",
       "side": "enemy",
       "max_hp": 1800,
-      "hp": 518,
+      "hp": 374,
       "alive": true,
       "status": {
         "bleeding": 0,
@@ -57,7 +57,7 @@
         "arm_1": {
           "multiplier": 1.1,
           "threshold": 150,
-          "accumulated": 0,
+          "accumulated": 117,
           "severed": false,
           "staggered": false,
           "stagger_threshold": 150,
