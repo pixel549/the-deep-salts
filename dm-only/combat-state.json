@@ -57,9 +57,9 @@
         "arm_1": {
           "multiplier": 1.1,
           "threshold": 150,
-          "accumulated": 374,
+          "accumulated": 0,
           "severed": false,
-          "staggered": true,
+          "staggered": false,
           "stagger_threshold": 150,
           "real_sever_threshold": 210
         },
