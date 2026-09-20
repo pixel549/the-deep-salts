@@ -202,6 +202,8 @@ The woman's third note (R7) says the chalice is closer to the entrance than anyo
 
 **Anchor status: PLACED. Verified before wake-in.** Do not narrate the wake-in without this line being true. (Run 5 failure, session 11.)
 
+**USED. Clean exit taken.** Purse 160 banked. Run complete.
+
 **FOUND.** Lloyd went looking specifically off the note's line about the chalice being closer than anyone thinks, checked the walls back at R1, found the niche behind the rungs — exactly where the plan put it, no check needed. Not yet banked.
 
 ---
