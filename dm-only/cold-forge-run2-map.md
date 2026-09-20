@@ -57,7 +57,7 @@ No enemies. Orientation beat. Let him look. Maria: the heat doesn't bother her t
 **Buried find:** something is half-buried in the ash against the far wall, only the corner showing and it reads as brick until touched — **a japanned tin lunch pail**, cold, sealed. Inside: 14 White Salts, a Scour, and a folded paper that is *not* the third note (it's a shift roster fragment, no names legible). Deliberately a near-miss on the woman's thread — establishes the object type without paying it out.
 
 - **Loot:** 14 salts, Scour ×1, roster fragment (flavour).
-- **State:** VISITED (wake-in). Tin pail not yet found.
+- **State:** CLAIMED on the way back through, after the Root's death. 14 salts, Scour ×1, roster fragment all taken.
 
 ### R2 — The Feed Flue *(live draught at wake-in)*
 A walkable brick flue, 2m wide, running uphill. Currently carrying draught: **1 Burning per round inside.** ~4 rounds to cross at walking pace, or he can shut **D1** at the mouth (visible, hand-worked, 1 Full Action) and walk it cold. First real statement of the mechanic; make the wrong-way version survivable, not punishing.
@@ -188,7 +188,7 @@ Past the Smith, the flue opens into a brick drum 15m across with a domed roof. *
 - **KILL.** Maria's Judgment Spark (27 vs 25 HP) finishes it. **The Bellows Root is dead.** Lloyd never took a single hit this entire fight — every Blast telegraph he Held against landed inside tolerance (1.60, 1.62, 1.52, 1.45, 1.45). Folded per §5.13: Lloyd unchanged at 105/120 HP, 0 Burning, Insanity 1. `combat-state.json` discarded.
 - **Rewards:** 42 White Salts (Root drop, not yet collected), +1 Insight (kill, on top of the earlier +1 first-sighting — Lloyd 13→14→15, folded into character sheet).
 - **THE REVEAL (per plan, do not spoil further than this in play — payoff already earned by killing it):** the draught stops. Every flue in the Works starts going cold. Somewhere back in R3, the Kiln-Moths — nothing left to orient on — will scatter and lose interest in everything. If the party ever reaches the Damper Loft (R4, unvisited this run), the Regulator would simply have nothing left to regulate and stop entirely. The building was breathing because the Root was; it isn't anymore.
-- **R9 state: CLEARED.** Only the coil of chain/tag (already claimed) and 42 salts (on the body) remain to collect.****
+- **R9 state: CLEARED and LOOTED.** 42 salts collected.****
 
 ---
 
