@@ -7,7 +7,7 @@
 
 **Concept:** Young, athletic Skill-build fighter. Self-made twin knuckledusters rigged with detonating powder capsules — recovered session 6, back in active use.
 
-**Level:** 8 (next attribute point costs 25 × 8 = **200**) · **Insight:** 13 (Tier 5 — dropped from 18 via Memory Vendor session 10; +3 session 11 from first-sighting and lore reads; +1 session 12 Kiln-Moth first sighting, +1 session 12 Frost-Iron Smith kill.)
+**Level:** 8 (next attribute point costs 25 × 8 = **200**) · **Insight:** 15 (Tier 5 — dropped from 18 via Memory Vendor session 10; +3 session 11 from first-sighting and lore reads; +1 session 12 Kiln-Moth first sighting, +1 session 12 Frost-Iron Smith kill, +1 session 12 Bellows Root first sighting, +1 session 12 Bellows Root kill.)
 
 *Synced to ruleset v9.4 (session 11).*
 
